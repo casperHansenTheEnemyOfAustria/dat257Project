@@ -12,7 +12,6 @@ export class County {
         this.emissions = new Map<number, number[]>(); // TODO fetch from db
     }
 
-  
     // returns the info map of the county
     getInfo(): Map<string, string> {
         return this.info;
