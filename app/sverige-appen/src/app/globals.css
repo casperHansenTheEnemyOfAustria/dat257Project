@@ -32,7 +32,7 @@ body {
   }
   
 select {
-  appearance: none;
+  appearance: auto;
   width: 90%;
   height: 90%;
   font-size: 1.15rem;
@@ -42,6 +42,15 @@ select {
   border-radius: 0.25rem;
   color: #ffffff;
   cursor: pointer;
+}
+
+
+.testHeader {
+  width: 600px;
+  height: 500px;
+  background-image: url("./frontend/public/header.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 }
