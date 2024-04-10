@@ -82,4 +82,15 @@ export class dbConnection {
 
        return output;
     }
+
+    public getAllCountyNames(){
+        this.db = new Database('database.db');
+        var query = `SELECT * Län FROM emissions`;
+        var rv: any[] = [];
+        this.runAll(query).then((value) => {
+            rv = value;
+        });
+        this.db.close();
+        return rv;
+    }
 }
