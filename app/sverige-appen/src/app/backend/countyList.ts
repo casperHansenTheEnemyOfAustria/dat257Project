@@ -4,9 +4,11 @@
 // importing County
 
 import { County } from "./county";
+import { dbConnection } from "./dbConnection";
 
 export class CountyList {
     private counties: string[];
+    private db = dbConnection.getInstance();
     constructor() {
         this.counties = []; //fetch from db
     }
@@ -16,7 +18,15 @@ export class CountyList {
         let output: County[] = [];
         for (var i = 0; i < this.counties.length; i++) {
             var countyName = this.counties[i];
-            var county = new County(countyName);
+            var dbcounty = this.db.getCountyByName(countyName);
+            // removing the promise from dbocunty
+            var county = new County(countyName, new Map<number, number[]>());
+            //fetching the emissions for the county
+            dbcounty.then((value) => {
+                county = value;
+            });
+           
+
             var emissions = county.getCountyEmissionsByYearAndGas(year, index);
             //insert into output in order
             //Bubbel sort for the win
