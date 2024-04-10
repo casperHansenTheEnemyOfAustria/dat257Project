@@ -5,8 +5,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Dropdown from './frontend/dropdown';
-import LnNamn_Dropdown from './frontend/lnNamn_dropdown';
+import LnNamn_Dropdown from './frontend/dropdown_ln';
 import Resultbox from './frontend/result';
+import Dropdown_Ln from "./frontend/dropdown_ln";
+import Dropdown_Year from './frontend/dropdown_year';
+import Dropdown_Emission from './frontend/dropdown_emission';
 
 
 
@@ -35,11 +38,12 @@ export default function Home() {
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         
-          <LnNamn_Dropdown />
+          
+          <Dropdown_Year />
 
-          <Dropdown />
+          <Dropdown_Ln />
 
-          <Dropdown />
+          <Dropdown_Emission />
 
         <a
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
