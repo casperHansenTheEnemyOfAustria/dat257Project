@@ -1,4 +1,4 @@
-import { Database } from 'sqlite3';
+import { Database, OPEN_READONLY } from 'sqlite3';
 import { County } from './county';
 
 
@@ -8,7 +8,7 @@ export class dbConnection {
 
 
     private constructor() {
-        this.db = new Database('database.db');
+        this.db = new Database('database.db', OPEN_READONLY);
     }
 
     public static getInstance(): dbConnection {
@@ -19,27 +19,12 @@ export class dbConnection {
         return dbConnection.instance;
     }
 
-    public runGet(query: string): any {
-        this.db = new Database('database.db');
-        this.db.serialize(() => {
-            this.db.get(query, (err, row) => {
-                if (err) {
-                    throw err;
-                }
-                return row;
-            });
-        });
-        this.db.close();
-    }
-
-    private async runAll(query: string): Promise<any> {
+    private async runGet(query: string): Promise<any> {
         this.db = new Database('database.db');
      
         var rv: any;
   
-        
-        
-        rv = await this.db.all(query, (err, rows) => {
+        rv = await this.db.get(query, (err, rows) => {
             if (err) {
                 throw err;
             }
@@ -50,21 +35,86 @@ export class dbConnection {
         
         this.db.close();
         return rv;
-        
-
     }
 
-    public getCountyByName(name: string): County {
-        var query = `SELECT * FROM emissions WHERE Län = ${name}`;
-        var output = new County(name);
-        var row = this.runAll(query);
-        // dereferencing promises from async function
-        // while (output === undefined) {
-        row.then((value) => {
-            output = new County (value.name);
+    private runAll(query: string): Promise<any> {
+        
+        //Open a connection to the database
+        this.db = new Database('database.db');
+  
+        //Return a promise that resolves to the rows of the query
+        return new Promise((resolve, reject) => {
+         this.db.all(query, (err, rows) => {
+            if (err) {
+                reject(err);
+            } else {
+                resolve(rows);
+            }
+            });
+        })
+        //Close the connection to the database
+        .finally(() => {
+            this.db.close();
         });
-        // }
+    }
+
+
+    public async getCountyEmissions(name: string): Promise<County> {
+        //Query to get all the emissions for a county, TODO: turn into parameterized query for security reasons
+        var query = `SELECT * FROM emissions WHERE Län = ${name}`;
+
+        //Creates a default County object if the query returns no rows
+        let output = new County(name, new Map<number, number[]>());
+        //Run the query, runAll() returns a promise so have to be awaited, also because the querys are async
+        var rows = await this.runAll(query);
+        //Emissions is a map of years and lists of emissions that year
+        var emissions = new Map<number, number[]>();
+        //Iterate over the rows of the query and append each emissions to it's year.
+        rows.forEach((row: any) => {
+            if (emissions.has(row.År)) {
+                emissions.get(row.År)?.push(row.Value);
+            }
+            else {                
+                emissions.set(row.År, [row.Value]);
+            }
+        });
+        output = new County(name, emissions=emissions);
 
        return output;
     }
+
+
+    public async getAllCounties(): Promise<string[]> {
+        //Query to get all the emissions for a county, TODO: turn into parameterized query for security reasons
+        var query = `SELECT DISTINCT Län FROM emissions`;
+
+        //Run the query, runAll() returns a promise so have to be awaited, also because the querys are async
+        var rows = await this.runAll(query);
+        console.log(rows);
+        //Create an array of County objects
+        var counties: string[] = [];
+        //Iterate over the rows of the query and append each county to the array
+        rows.forEach((row: any) => {
+            counties.push(row.Län);
+        });
+        console.log(counties);
+        return counties;
+    }
+
+    public async getMunicipalities(): Promise<string[]> {
+        //Query to get all the emissions for a county, TODO: turn into parameterized query for security reasons
+        var query = `SELECT DISTINCT Kommun FROM emissions`;
+
+        //Run the query, runAll() returns a promise so have to be awaited, also because the querys are async
+        var rows = await this.runAll(query);
+        //Create an array of County objects
+        var municipalities: string[] = [];
+        //Iterate over the rows of the query and append each county to the array
+        rows.forEach((row: any) => {
+            municipalities.push(row.Kommun);
+        });
+        return municipalities;
+    }
+
+
 }

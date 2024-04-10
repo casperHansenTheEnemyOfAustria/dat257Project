@@ -15,7 +15,9 @@ import Dropdown_Emission from './frontend/dropdown_emission';
 
 export default function Home() {
   const db = dbConnection.getInstance();
-   console.log(db.getCountyByName("('Alla')"));
+  console.log(db.getCountyEmissions("('Alla')").then);
+  console.log(db.getAllCounties().then);
+  console.log(db.getMunicipalities().then);
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
