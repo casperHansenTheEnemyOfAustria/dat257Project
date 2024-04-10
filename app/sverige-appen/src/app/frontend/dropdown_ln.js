@@ -2,7 +2,10 @@ import React from 'react';
 import { CountyList } from '../backend/countyList';
 
 export default function Dropdown_Ln() {
-    const arr = ["Blekinge", "Dalarna", "Gotland", "Gävleborg", "Halland", "Jämtland", "Jönköping", "Kalmar", "Kronoberg", "Norrbotten", "Skåne", "Stockholm", "Södermanland", "Uppsala", "Värmland", "Västerbotten", "Västernorrland", "Västmanland"];
+    var countyList = new CountyList();
+    var arr = countyList.getCountyNames();
+    console.log("loook")
+    console.log(arr);
     // CountyList;
 
     return (
