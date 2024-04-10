@@ -30,4 +30,18 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  
+select {
+  appearance: none;
+  width: 90%;
+  height: 90%;
+  font-size: 1.15rem;
+  padding: 0.675em 6em 0.675em 1em;
+  background-color: #3f3150;
+  border: 1px solid #caced1;
+  border-radius: 0.25rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 }
