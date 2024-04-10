@@ -10,6 +10,7 @@ export class CountyList {
     private counties: string[];
     private db = dbConnection.getInstance();
     constructor() {
+        this.counties = [];
         this.db.getAllCounties().then((value) => {
             this.counties = value;
         });
