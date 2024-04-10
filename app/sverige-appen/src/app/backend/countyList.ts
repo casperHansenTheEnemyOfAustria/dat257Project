@@ -10,7 +10,10 @@ export class CountyList {
     private counties: string[];
     private db = dbConnection.getInstance();
     constructor() {
-        this.counties = []; //fetch from db
+        this.counties = [];
+        this.db.getAllCounties().then((value) => {
+            this.counties = value;
+        });
     }
 
    // should reaturn a list of countys sorted on the chosen emissions
@@ -39,5 +42,9 @@ export class CountyList {
             
         }
         return output;
+    }
+
+    public getCountyNames(): string[] {
+        return this.counties;
     }
 }
