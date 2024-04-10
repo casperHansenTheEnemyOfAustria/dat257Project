@@ -1,5 +1,7 @@
 import Image from "next/image";
 import {dbConnection} from "./backend/dbConnection";
+import type { InferGetServerSidePropsType, GetServerSideProps } from 'next'
+import '/backend/server.ts'
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -12,8 +14,18 @@ import Dropdown_Year from './frontend/dropdown_year';
 import Dropdown_Emission from './frontend/dropdown_emission';
 
 
+export default function Page({
+  repo,
+}: InferGetServerSidePropsType<typeof getServerSideProps>) {
+  return (
+    <main>
+      <p>{repo.stargazers_count}</p>
+    </main>
+  )
+}
 
-export default function Home() {
+
+export default function Home()  {
   const db = dbConnection.getInstance();
   //db.getAllCounties().then((value) => { console.log(value) });
   //db.getCounty("Blekinge län").then((value) => { console.log(value) });
