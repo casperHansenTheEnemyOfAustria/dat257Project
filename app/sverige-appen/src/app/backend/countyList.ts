@@ -18,7 +18,7 @@ export class CountyList {
         let output: County[] = [];
         for (var i = 0; i < this.counties.length; i++) {
             var countyName = this.counties[i];
-            var dbcounty = this.db.getCountyByName(countyName);
+            var dbcounty = this.db.getCountyEmissions(countyName);
             // removing the promise from dbocunty
             var county = new County(countyName, new Map<number, number[]>());
             //fetching the emissions for the county

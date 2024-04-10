@@ -59,7 +59,7 @@ export class dbConnection {
     }
 
 
-    public async getCountyByName(name: string): Promise<County> {
+    public async getCountyEmissions(name: string): Promise<County> {
         //Query to get all the emissions for a county, TODO: turn into parameterized query for security reasons
         var query = `SELECT * FROM emissions WHERE Län = ${name}`;
 
@@ -82,4 +82,39 @@ export class dbConnection {
 
        return output;
     }
+
+
+    public async getAllCounties(): Promise<string[]> {
+        //Query to get all the emissions for a county, TODO: turn into parameterized query for security reasons
+        var query = `SELECT DISTINCT Län FROM emissions`;
+
+        //Run the query, runAll() returns a promise so have to be awaited, also because the querys are async
+        var rows = await this.runAll(query);
+        console.log(rows);
+        //Create an array of County objects
+        var counties: string[] = [];
+        //Iterate over the rows of the query and append each county to the array
+        rows.forEach((row: any) => {
+            counties.push(row.Län);
+        });
+        console.log(counties);
+        return counties;
+    }
+
+    public async getMunicipalities(): Promise<string[]> {
+        //Query to get all the emissions for a county, TODO: turn into parameterized query for security reasons
+        var query = `SELECT DISTINCT Kommun FROM emissions`;
+
+        //Run the query, runAll() returns a promise so have to be awaited, also because the querys are async
+        var rows = await this.runAll(query);
+        //Create an array of County objects
+        var municipalities: string[] = [];
+        //Iterate over the rows of the query and append each county to the array
+        rows.forEach((row: any) => {
+            municipalities.push(row.Kommun);
+        });
+        return municipalities;
+    }
+
+
 }
