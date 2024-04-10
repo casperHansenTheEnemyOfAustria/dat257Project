@@ -29,4 +29,9 @@ export class County {
         return output;
 
     }
+
+    // returns the name of the county
+    getName(): string {
+        return this.name;
+    }
 }
