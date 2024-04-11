@@ -20,22 +20,6 @@ import { Header } from './frontend/header';
 
 
 
-
-
-export default function Home() {
-
-
-import {CountyList} from '@/app/backend/countyList'
-import {County} from '@/app/backend/county'
-import {dbConnection} from '@/app/backend/dbConnection'
-
-type Cobj = {
-  name: string,
-  emissions: Map<number, number[]>,
-  info: Map<string, string>
-}
-
-
 type Repo = {
   counties: any []
 }
@@ -92,7 +76,8 @@ export default function Home({
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         
           
-          <Dropdown_Year />
+          <Dropdown_Year
+          counties={{repo:repo}} />
 
 
           <Dropdown_Ln 

@@ -72,14 +72,23 @@ export class dbConnection {
         var emissions = new Map<number, number[]>();
         //Iterate over the rows of the query and append each emissions to it's year.
         // {År: {Emission type: Value}}
+        var prev: string = ""
         rows.forEach((row: any) => {
             //console.log("heyhey")
             if (emissions.has(row.År)) {
-                
-                var list: any[] = []
-                list = list.concat(emissions.get(row.År) as any[])
-                list.push(row.Value)
-                emissions.set(row.År, list);
+               
+                    
+                    var list: any[] = []
+                    list = list.concat(emissions.get(row.År) as any[])
+                    if(row["Kommun"] == "Alla"){
+                        list.push(row.Value)
+                        emissions.set(row.År, list);
+                    }else{
+                        
+                    }
+                    
+                    
+         
 
 
             }
@@ -89,6 +98,7 @@ export class dbConnection {
         });
         
         let output = new County(name, emissions);
+        console.log(output);
     
 
         return output;
