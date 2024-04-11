@@ -43,6 +43,7 @@ export class County {
                 obj[key] = value;
                 return obj;
             }, {} as { [key: number]: number[] }),
+            years: Array.from(this.emissions.keys())
         };
     }
 }
