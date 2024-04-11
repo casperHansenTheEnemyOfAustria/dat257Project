@@ -3,7 +3,7 @@ import React from 'react';
 
 
 export default function Dropdown_Ln({counties}) {
-    const arr = ["All"]
+    const arr = []
 
     for (let i = 0; i < counties.counties.counties.length; i++) {
 

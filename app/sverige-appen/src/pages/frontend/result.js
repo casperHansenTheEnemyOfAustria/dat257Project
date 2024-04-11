@@ -29,7 +29,7 @@ export function updateResult(repo, ln, year, emission) {
 
 
     var element = document.getElementById("result-text"); 
-    element.innerText = info
+    element.innerText = info +" tons"
 
 }
 
