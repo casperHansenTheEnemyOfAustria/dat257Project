@@ -2,9 +2,9 @@
 
 
 export class County {
-    private name: string;
-    private info: Map<string, string>;
-    private emissions: Map<number, number[]>;
+    name: string;
+    info: Map<string, string>;
+    emissions: Map<number, number[]>;
 
 
     constructor(name: string, emissions: Map<number, number[]>){
@@ -28,5 +28,22 @@ export class County {
         }
         return output;
 
+    }
+
+    // returns the name of the county
+    getName(): string {
+        return this.name;
+    }
+    
+    toJSON() {
+        return {
+            name: this.name,
+            info: Array.from(this.info.entries()),
+            emissions: Array.from(this.emissions.entries()).reduce((obj, [key, value]) => {
+                obj[key] = value;
+                return obj;
+            }, {} as { [key: number]: number[] }),
+            years: Array.from(this.emissions.keys())
+        };
     }
 }

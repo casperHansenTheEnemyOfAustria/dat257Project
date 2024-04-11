@@ -32,7 +32,9 @@ body {
   }
   
 select {
+
   appearance: auto;
+
   width: 90%;
   height: 90%;
   font-size: 1.15rem;
@@ -43,6 +45,7 @@ select {
   color: #ffffff;
   cursor: pointer;
 }
+
 
 
 .testHeader {
