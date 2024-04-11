@@ -17,18 +17,18 @@ import {CountyList} from '@/app/backend/countyList'
 import {County} from '@/app/backend/county'
 import {dbConnection} from '@/app/backend/dbConnection'
 type Repo = {
-  counties: County[]
+  counties: string[]
 }
  
 export const getServerSideProps = (async () => {
   // Fetch data from external API
     const db = dbConnection.getInstance()
     const countyNames = await  db.getAllCounties()
-    const counties: County[] = []
+    const counties: string[] = []
     for (var i = 0; i < countyNames.length; i++) {
         var county = await db.getCounty(countyNames[i])
         
-        counties.push(county)
+        counties.push(JSON.stringify(county))
     }
     console.log("hi")
 
