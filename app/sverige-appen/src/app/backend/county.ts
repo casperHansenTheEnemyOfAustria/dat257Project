@@ -34,4 +34,15 @@ export class County {
     getName(): string {
         return this.name;
     }
+    
+    toJSON() {
+        return {
+            name: this.name,
+            info: Array.from(this.info.entries()),
+            emissions: Array.from(this.emissions.entries()).reduce((obj, [key, value]) => {
+                obj[key] = value;
+                return obj;
+            }, {} as { [key: number]: number[] }),
+        };
+    }
 }
