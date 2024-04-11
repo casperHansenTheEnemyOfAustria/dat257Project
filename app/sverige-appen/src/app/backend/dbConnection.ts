@@ -98,7 +98,7 @@ export class dbConnection {
         });
         
         let output = new County(name, emissions);
-        console.log(output);
+     
     
 
         return output;

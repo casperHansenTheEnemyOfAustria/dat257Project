@@ -8,6 +8,7 @@ export default function Dropdown_Emission() {
         <div class='custom-select'>
             <select 
             id="arrayDropdown" 
+            className= "emissionDropdown"
             >
                 {arr.map((op, i) => (
                     <option key={i} value={op}>{op}</option>

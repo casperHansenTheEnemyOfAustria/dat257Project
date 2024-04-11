@@ -15,6 +15,7 @@ export default function Dropdown_Ln({counties}) {
         <div class='custom-select'>
             <select 
             id="arrayDropdown" 
+            className= "countyDropdown"
             >
                 {arr.map((op, i) => (
                     <option key={i} value={op}>{op}</option>

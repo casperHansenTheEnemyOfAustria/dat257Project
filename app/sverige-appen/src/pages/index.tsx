@@ -17,6 +17,7 @@ import Dropdown_Year from './frontend/dropdown_year';
 import Dropdown_Emission from './frontend/dropdown_emission';
 
 import { Header } from './frontend/header';
+import { updateResult } from './frontend/result';
 
 
 
@@ -91,6 +92,7 @@ export default function Home({
           target="_blank"
           rel="noopener noreferrer"
         >
+          <button onClick={() => clickedSearch(repo)}>
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Search{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -100,6 +102,7 @@ export default function Home({
           <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
             Chose a county to see the emission status
           </p>
+          </button>
         </a>
       </div>
 
@@ -107,9 +110,33 @@ export default function Home({
         id="result"
         >
           <div>
-            <Resultbox/>
+            <Resultbox
+            counties = {{counties: repo}}/>
           </div>
         </a>
     </main>
   );
+}
+
+function clickedSearch(repo: Repo) {
+  var query = document.getElementById("result")
+  query?.scrollIntoView({behavior: "smooth"})
+  const result_year = document.getElementsByClassName("yearDropdown")[0]
+  
+  const result_ln = document.getElementsByClassName("countyDropdown")[0]
+  const result_emission = document.getElementsByClassName("emissionDropdown")[0]
+  
+ console.log()
+ console.log("heehee")
+  var year= result_year.value
+  var ln = result_ln.value
+  var emission = result_emission.value
+  if (emission == "NO2"){
+    emission = 1
+  }else{
+    emission = 0
+  }
+
+  updateResult(repo, ln,year, emission) 
+
 }
