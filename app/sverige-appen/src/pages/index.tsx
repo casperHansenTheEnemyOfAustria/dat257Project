@@ -16,25 +16,36 @@ import Dropdown_Emission from './frontend/dropdown_emission';
 import {CountyList} from '@/app/backend/countyList'
 import {County} from '@/app/backend/county'
 import {dbConnection} from '@/app/backend/dbConnection'
+
+type Cobj = {
+  name: string,
+  emissions: Map<number, number[]>,
+  info: Map<string, string>
+}
+
+
 type Repo = {
-  counties: string[]
+  counties: County[]
 }
  
 export const getServerSideProps = (async () => {
   // Fetch data from external API
     const db = dbConnection.getInstance()
     const countyNames = await  db.getAllCounties()
-    const counties: string[] = []
+    var counties: County[] = []
     for (var i = 0; i < countyNames.length; i++) {
         var county = await db.getCounty(countyNames[i])
+  
         
-        counties.push(JSON.stringify(county))
+        counties.push(county)
     }
-    console.log("hi")
+
+ 
 
     const repo: Repo ={
         counties : counties
     } 
+    console.log(repo)
 
   // Pass data to the page via props
   return { props: { repo } }
@@ -50,7 +61,7 @@ export default function Home({
   //db.getMunicipalities().then((value) => { console.log(value) });
   //db.getMunicipalitiesInCounty("Blekinge län").then((value) => { console.log(value) });
   //db.getMunicipalityEmissions("Göteborg").then((value) => { console.log(value) });
-  console.log(repo);
+  
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">

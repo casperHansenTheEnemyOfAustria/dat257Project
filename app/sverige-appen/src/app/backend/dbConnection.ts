@@ -73,17 +73,23 @@ export class dbConnection {
         //Iterate over the rows of the query and append each emissions to it's year.
         // {År: {Emission type: Value}}
         rows.forEach((row: any) => {
-            console.log("heyhey")
+            //console.log("heyhey")
             if (emissions.has(row.År)) {
-                console.log(row.Value);
-                emissions.get(row.År)?.push(row.Value);
+                
+                var list: any[] = []
+                list = list.concat(emissions.get(row.År) as any[])
+                list.push(row.Value)
+                emissions.set(row.År, list);
+
+
             }
             else {                
-                emissions.set(row.År, (row.Value, row["Emission type"]));
+                emissions.set(row.År, (row.Value));
             }
         });
-
-        let output = new County(name, emissions=emissions);
+        
+        let output = new County(name, emissions);
+    
 
         return output;
     }
