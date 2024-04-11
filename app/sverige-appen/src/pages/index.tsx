@@ -1,8 +1,7 @@
 import Image from "next/image";
-import {dbConnection} from "./backend/dbConnection";
-import type { InferGetServerSidePropsType, GetServerSideProps } from 'next'
-import '/backend/server.ts'
+import type {InferGetStaticPropsType, InferGetServerSidePropsType, GetServerSideProps, GetStaticProps } from 'next'
 
+import "./globals.css";
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -14,26 +13,44 @@ import Dropdown_Year from './frontend/dropdown_year';
 import Dropdown_Emission from './frontend/dropdown_emission';
 
 
-export default function Page({
-  repo,
-}: InferGetServerSidePropsType<typeof getServerSideProps>) {
-  return (
-    <main>
-      <p>{repo.stargazers_count}</p>
-    </main>
-  )
+import {CountyList} from '@/app/backend/countyList'
+import {County} from '@/app/backend/county'
+import {dbConnection} from '@/app/backend/dbConnection'
+type Repo = {
+  counties: County[]
 }
+ 
+export const getServerSideProps = (async () => {
+  // Fetch data from external API
+    const db = dbConnection.getInstance()
+    const countyNames = await  db.getAllCounties()
+    const counties: County[] = []
+    for (var i = 0; i < countyNames.length; i++) {
+        var county = await db.getCounty(countyNames[i])
+        
+        counties.push(county)
+    }
+    console.log("hi")
+
+    const repo: Repo ={
+        counties : counties
+    } 
+
+  // Pass data to the page via props
+  return { props: { repo } }
+}) satisfies GetServerSideProps<{ repo: Repo }>
 
 
-export default function Home()  {
-  const db = dbConnection.getInstance();
+export default function Home({
+  repo,
+}: InferGetServerSidePropsType<typeof getServerSideProps>)  {
+
   //db.getAllCounties().then((value) => { console.log(value) });
   //db.getCounty("Blekinge län").then((value) => { console.log(value) });
   //db.getMunicipalities().then((value) => { console.log(value) });
   //db.getMunicipalitiesInCounty("Blekinge län").then((value) => { console.log(value) });
   //db.getMunicipalityEmissions("Göteborg").then((value) => { console.log(value) });
-  db.getEnumeratedEmissions().then((value) => { console.log(value) });
-
+  console.log(repo);
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
@@ -56,7 +73,8 @@ export default function Home()  {
           
           <Dropdown_Year />
 
-          <Dropdown_Ln />
+          <Dropdown_Ln 
+            counties={{counties:repo}} />,
 
           <Dropdown_Emission />
 

@@ -63,7 +63,7 @@ export class dbConnection {
      */
     public async getCounty(name: string): Promise<County> {
         //Query to get all the emissions for a county, TODO: turn into parameterized query for security reasons
-        var query = `SELECT * FROM emissions WHERE Län = ${name}`;
+        var query = `SELECT * FROM emissions WHERE Län = ${"'("+name+")'"}`;
 
         //Run the query, runAll() returns a promise so have to be awaited, also because the querys are async
         var rows = await this.runAll(query);
