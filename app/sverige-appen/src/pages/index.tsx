@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {dbConnection} from "./backend/dbConnection";
+import {dbConnection} from "@/app/backend/dbConnection";
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -11,14 +11,13 @@ import Dropdown_Ln from "./frontend/dropdown_ln";
 import Dropdown_Year from './frontend/dropdown_year';
 import Dropdown_Emission from './frontend/dropdown_emission';
 import { Header } from './frontend/header';
+import "./globals.css";
+
 
 
 
 export default function Home() {
-  const db = dbConnection.getInstance();
-  console.log(db.getCountyEmissions("('Alla')").then);
-  console.log(db.getAllCounties().then);
-  console.log(db.getMunicipalities().then);
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">

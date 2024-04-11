@@ -1,4 +1,6 @@
-import '/src/app/globals.css';
+import React from 'react';
+//importing globals
+import '../globals.css';
 
 export const Header = () => {
    return (
