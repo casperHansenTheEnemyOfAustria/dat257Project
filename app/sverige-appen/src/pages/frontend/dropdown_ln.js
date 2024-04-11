@@ -1,11 +1,8 @@
 import React from 'react';
-import { CountyList } from '../backend/countyList';
 
 export default function Dropdown_Ln() {
-    var countyList = new CountyList();
-    var arr = countyList.getCountyNames();
-    console.log("loook")
-    console.log(arr);
+    
+    var arr =[1]
     // CountyList;
 
     return (
