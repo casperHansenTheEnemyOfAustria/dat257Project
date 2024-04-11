@@ -2,9 +2,9 @@
 
 
 export class County {
-    private name: string;
-    private info: Map<string, string>;
-    private emissions: Map<number, number[]>;
+    name: string;
+    info: Map<string, string>;
+    emissions: Map<number, number[]>;
 
 
     constructor(name: string, emissions: Map<number, number[]>){
