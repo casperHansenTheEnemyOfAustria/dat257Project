@@ -16,6 +16,15 @@
   }
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 3rem; 
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -32,28 +41,84 @@ body {
   }
   
 select {
-
   appearance: auto;
-
   width: 90%;
   height: 90%;
   font-size: 1.15rem;
   padding: 0.675em 6em 0.675em 1em;
-  background-color: #3f3150;
-  border: 1px solid #caced1;
+  border: 1px solid;
   border-radius: 0.25rem;
-  color: #ffffff;
   cursor: pointer;
 }
 
+h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01562em;
+}
 
+h2 { /* Search bar */
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.01562em;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+
+}
+
+.gradient { 
+  @apply fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none
+}
 
 .testHeader {
   width: 600px;
   height: 500px;
-  background-image: url("./frontend/public/header.png");
+  background-image: url("./frontend/public/header_light.png");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.buttons {
+  margin-bottom: 8rem;
+  display: grid;
+  text-align: center;
+  max-width: 80rem;
+  margin-bottom: 0.5rem;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.searchButton {
+  border: 1px solid transparent;
+  padding: 1.25rem 1.25rem; /* Assuming 1rem = 16px */
+  transition-property: border-color, background-color;
+  transition-duration: 0.2s;
+}
+
+.searchButton:hover {
+  border-color: #D1D5DB; /* Gray 300 */
+  background-color: #F3F4F6; /* Gray 100 */
+
+}
+
+.searchArrow {
+  @apply inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none
+}
+
+.resultBox {
+  border: border-transparent;
+  text-align-last: center;
+  font-size: 2rem;
+  padding: 1em 1em 1em 1em; 
+  
+  
 }
 
 }

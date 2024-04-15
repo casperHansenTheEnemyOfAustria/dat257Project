@@ -1,17 +1,19 @@
 import React from 'react';
+import '../globals.css';
 
 export default function Resultbox({counties}) {
         {
         return (
-            <div className="resultbox group rounded-lg border border-transparent px-5 py-4 transition-colors">
-                <h1 style={{ fontSize: "40px", fontWeight: "bold", color: "white" }}>Result:</h1>
-                <p id="result-text" style={{fontSize: "25px"}}>
+            <div className="resultBox">
+                <h1>Result:</h1>
+                <p id="result-text">
                     This is the result of the search
                 </p>
             </div>
         );
     };
     };
+
 
 export function updateResult(repo, ln, year, emission) {
     var info= ""
