@@ -1,6 +1,7 @@
 import { Database, OPEN_READONLY } from 'sqlite3';
 import { County } from './county';
 import { promises } from 'dns';
+import { Municipality } from './minicipality';
 
 
 export class dbConnection {
@@ -100,6 +101,23 @@ export class dbConnection {
         return output;
     }
 
+    async getMunicipality(name: string): Promise<Municipality> {
+        var query = `SELECT * FROM emissions WHERE Kommun = ${"'"+name+"'"}`;
+        var rows = await this.runAll(query);
+        var emissions = new Map<number, number[]>();
+        rows.forEach((row: any) => {
+            if (emissions.has(row.År)) {
+                emissions.get(row.År)?.push(row.Value);
+            }
+            else {                
+                emissions.set(row.År, [row.Value]);
+            }
+        });
+        let output = new Municipality(name, emissions);
+        return output;
+    }
+
+
     /**
      * 
      *
@@ -119,6 +137,8 @@ export class dbConnection {
         });
         return counties;
     }
+
+    
 
     /**
      * 
@@ -149,7 +169,7 @@ export class dbConnection {
     public async getMunicipalitiesInCounty(county: string): Promise<string[]> {
         var query = `SELECT DISTINCT Kommun FROM emissions WHERE Län = '${county}'`;
         var rows = await this.runAll(query);
-        console.log(rows);
+      
         var municipalities: string[] = [];
         rows.forEach((row: any) => {
             municipalities.push(row.Kommun);

@@ -1,5 +1,6 @@
 // a class that represents a county that has a name, a map of strings for info and a map of integers and lists of floats for emissions
 
+import { get } from "http";
 import { dbConnection } from "./dbConnection";
 import { Municipality } from "./minicipality";
 
@@ -18,6 +19,7 @@ export class County {
         this.info = new Map<string, string>(); // TODO fetch from db
         this.emissions = emissions; // TODO fetch from db
         this.municipalities = this.db.getMunicipalitiesInCounty(name);
+  
     }
 
     // returns the info map of the county
@@ -27,6 +29,7 @@ export class County {
 
     // returns the emissions map of the county
     async getMunicipalityNames(): Promise<string[]> {
+
         return await this.municipalities;
     }
 
@@ -41,13 +44,14 @@ export class County {
         return output;
 
     }
-
+ 
     // returns the name of the county
     getName(): string {
         return this.name;
     }
+
     
-    toJSON() {
+    async toJSON() {
         return {
             name: this.name,
             info: Array.from(this.info.entries()),
@@ -55,7 +59,8 @@ export class County {
                 obj[key] = value;
                 return obj;
             }, {} as { [key: number]: number[] }),
-            years: Array.from(this.emissions.keys())
+            years: Array.from(this.emissions.keys()),
+            municipalities: await this.municipalities
         };
     }
 }
