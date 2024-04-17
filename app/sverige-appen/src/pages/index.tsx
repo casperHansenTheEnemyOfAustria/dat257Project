@@ -24,7 +24,7 @@ import { Municipality } from "@/app/backend/minicipality";
 
 type Repo = {
   counties: any []
-  municipalities: any []
+  municipalities: any 
 }
  
 export const getServerSideProps = (async () => {
