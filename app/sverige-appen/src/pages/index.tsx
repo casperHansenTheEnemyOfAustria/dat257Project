@@ -38,27 +38,16 @@ export const getServerSideProps = (async () => {
     var tmpMap = new Map<string, any[]>()
     for (var i = 0; i < countyNames.length; i++) {
         var county = await db.getCounty(countyNames[i])
-          counties.push(county.toJSON())
-    }
         counties.push(await county.toJSON())
         var cnames = await county.getMunicipalityNames()
-
         //json serializeable way of repping the municipalities
         var temp: { name: string; info: [string, string][]; emissions: { [key: number]: number[]; }; years: number[]; }[] = []
-        
         cnames.forEach(async (municipality) => {
           //a temp map with county name and municipalities
           temp.push(((await db.getMunicipality(municipality)).toJSON()))
-          
-          
         
         })
-
         tmpMap.set(countyNames[i], temp)
-
-        
-
-
     }
 
     // this makes muicipalities a json serializable object
@@ -66,6 +55,8 @@ export const getServerSideProps = (async () => {
       obj[key] = value;
       return obj;
   }, {} as { [key: string]: any[] })
+
+  console.log(counties)
 
     const repo: Repo ={
         counties : counties,
