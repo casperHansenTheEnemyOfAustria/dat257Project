@@ -5,7 +5,10 @@ export default function Resultbox({counties}) {
         {
         return (
             <div className="resultBox">
-                <h1>Result:</h1>
+                <h1 id="location">Plats</h1>
+                <p id="location-text">
+                    Info info info </p>
+                <h2>Emission Results</h2>
                 <p id="result-text">
                     This is the result of the search
                 </p>
