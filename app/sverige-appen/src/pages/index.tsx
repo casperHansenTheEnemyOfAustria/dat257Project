@@ -14,6 +14,7 @@ import LnNamn_Dropdown from './frontend/dropdown_ln';
 import Resultbox from './frontend/result';
 import Dropdown_Ln from "./frontend/dropdown_ln";
 import Dropdown_Year from './frontend/dropdown_year';
+import Dropdown_Mun from './frontend/dropdown_mun';
 import Dropdown_Emission from './frontend/dropdown_emission';
 
 import { Header } from './frontend/header';
@@ -58,14 +59,14 @@ export default function Home({
 
       <div className="buttons">
         
-          
           <Dropdown_Year
           counties={{repo:repo}} />
 
-
           <Dropdown_Ln 
-            counties={{counties:repo}} />,
+            counties={{counties:repo}} />
 
+          <Dropdown_Mun 
+            counties={{counties:repo}} />
 
           <Dropdown_Emission />
 
