@@ -3,7 +3,21 @@ import { County } from './county';
 
 import { Municipality } from './minicipality';
 
-
+/**
+ * A class representing a connection to the database
+ * @class
+ * @classdesc A class representing a connection to the database SINGLETON
+ * @property {Database} db - A connection to the database
+ * @method getInstance - A method that returns the instance of the database connection
+ * @method getCounty - A method that returns a county object with the name of the county and a map of emissions for each year
+ * @method getAllCounties - A method that returns a list of all counties in the database
+ * @method getMunicipalities - A method that returns a list of all municipalities in the database
+ * @method getMunicipalitiesInCounty - A method that returns a list of all municipalities in the county
+ * @method getMunicipalityEmissions - A method that returns a map of years and emissions for the municipality
+ * @method getEnumeratedEmissions - A method that returns a map of emissions and what their index is in the database/application wide
+ * 
+ * 
+ */
 export class dbConnection {
     private static instance: dbConnection;
     private db: Database;
@@ -13,6 +27,10 @@ export class dbConnection {
         this.db = new Database('database.db', OPEN_READONLY);
     }
 
+    /**
+     * singleton pattern
+     * @returns the instance of the database connection
+     */
     public static getInstance(): dbConnection {
         
         if (!dbConnection.instance) {
@@ -21,6 +39,11 @@ export class dbConnection {
         return dbConnection.instance;
     }
 
+    /**
+     * 
+     * @param query a query to be run on the database
+     * @returns a promise that resolves to the rows of the query (single object)
+     */
     private async runGet(query: string): Promise<any> {
         this.db = new Database('database.db');
      
@@ -39,6 +62,11 @@ export class dbConnection {
         return rv;
     }
 
+    /**
+     * 
+     * @param query a query to be run on the database
+     * @returns a promise that resolves to the rows of the query (all objects)
+     */
     private runAll(query: string): Promise<any> {
         
         //Open a connection to the database
@@ -101,6 +129,12 @@ export class dbConnection {
         return output;
     }
 
+    /**
+     * 
+     * @param name name of the municipality
+     * @returns a municipality object with the name of the municipality and a map of emissions for each year
+     * @todo: Add info
+     */
     async getMunicipality(name: string): Promise<Municipality> {
         var query = `SELECT * FROM emissions WHERE Kommun = ${"'"+name+"'"}`;
         var rows = await this.runAll(query);
