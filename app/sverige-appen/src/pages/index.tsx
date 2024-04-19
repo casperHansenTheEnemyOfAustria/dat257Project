@@ -27,6 +27,10 @@ type Repo = {
   counties: any[]
   municipalities: { [key: string]: municipalityJSONlist }
 }
+
+ 
+
+
 type municipalityJSONlist = {
   name: string;
   info: [string, string][];
@@ -37,6 +41,10 @@ type municipalityJSONlist = {
 }[];
 
 /* ---  fetching from the backend --- */
+/**
+ * the getServerSideProps function that fetches the data from the database and returns it as props
+ * @returns a repo with counties: a list of county objects, municipalities: a map of county names and lists of municipality objects
+ */
 export const getServerSideProps = (async () => {
 
   // Fetch data from external API

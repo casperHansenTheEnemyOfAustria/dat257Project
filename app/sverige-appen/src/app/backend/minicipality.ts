@@ -1,3 +1,13 @@
+/**
+ * Class representing a municipality
+ * @class
+ * @classdesc A class representing a municipality
+ * @property {string} name - The name of the municipality
+ * @property {Map<string, string>} info - A map of strings for info
+ * @property {Map<number, number[]>} emissions - A map of integers and lists of floats for emissions
+ * @method toJSON - A method that returns a json serializable representation of the municipality
+ * 
+ */
 export class Municipality {
     private name: string;
     private info: Map<string, string>;
@@ -10,7 +20,10 @@ export class Municipality {
     }
 
 
-
+    /**
+     * 
+     * @returns a json serializable representation of the municipality including all its elements
+     */
     toJSON() {
         return {
             name: this.name,
