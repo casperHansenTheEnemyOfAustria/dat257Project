@@ -21,24 +21,6 @@ export class dbConnection {
         return dbConnection.instance;
     }
 
-    private async runGet(query: string): Promise<any> {
-        this.db = new Database('database.db');
-     
-        var rv: any;
-  
-        rv = await this.db.get(query, (err, rows) => {
-            if (err) {
-                throw err;
-            }
-            rv = rows;
-            
-        });
-    
-        
-        this.db.close();
-        return rv;
-    }
-
     private runAll(query: string): Promise<any> {
         
         //Open a connection to the database
