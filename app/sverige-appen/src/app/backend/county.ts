@@ -6,11 +6,11 @@ import { Municipality } from "./minicipality";
 
 
 export class County {
-    name: string;
-    info: Map<string, string>;
-    emissions: Map<number, number[]>;
-    municipalities: Promise<string[]>;
-    db: dbConnection;
+    private name: string;
+    private info: Map<string, string>;
+    private emissions: Map<number, number[]>;
+    private municipalities: Promise<string[]>;
+    private db: dbConnection;
 
 
     constructor(name: string, emissions: Map<number, number[]>){

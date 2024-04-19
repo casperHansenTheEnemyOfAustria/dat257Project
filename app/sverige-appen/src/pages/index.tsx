@@ -56,7 +56,7 @@ export const getServerSideProps = (async () => {
       return obj;
   }, {} as { [key: string]: any[] })
 
-  console.log(counties)
+
 
     const repo: Repo ={
         counties : counties,
