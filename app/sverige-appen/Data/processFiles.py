@@ -22,12 +22,14 @@ def open_files():
         file_path = os.path.join(path, filename)
         with open(file_path, "rb") as file:
             sheet_name = load_workbook(file).sheetnames[0].strip()
-            print("sheetname is " + sheet_name)
             data = pd.read_excel(file, sheet_name=sheet_name)
             frames.append(process_file(data, sheet_name))
+         
 
-    with open("./data.csv", "w") as file:
-        pd.concat(frames).to_csv(file, index=False)
+    with open("./data.csv", "w", encoding="utf-8") as file:
+        df = pd.concat(frames)
+
+        df.to_csv(file, lineterminator='\n', index=False, encoding='utf-8')
  
 
 def process_file(data, sheet_name):
