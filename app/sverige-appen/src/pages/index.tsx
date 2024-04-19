@@ -28,6 +28,10 @@ type Repo = {
   municipalities: any 
 }
  
+/**
+ * the getServerSideProps function that fetches the data from the database and returns it as props
+ * @returns a repo with counties: a list of county objects, municipalities: a map of county names and lists of municipality objects
+ */
 export const getServerSideProps = (async () => {
   // Fetch data from external API
     const db = dbConnection.getInstance()
