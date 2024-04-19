@@ -9,6 +9,7 @@ import "./globals.css";
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Checkbox_Emission from './frontend/checkbox_emission';
 import Dropdown from './frontend/dropdown';
 import LnNamn_Dropdown from './frontend/dropdown_ln';
 import Resultbox from './frontend/result';
@@ -91,7 +92,7 @@ export default function Home({
           <Dropdown_Mun 
             counties={{counties:repo}} />
 
-          <Dropdown_Emission />
+          <Checkbox_Emission />
 
         <a
         className="searchButton"
@@ -127,26 +128,19 @@ function clickedSearch(repo: Repo) {
   query?.scrollIntoView({behavior: "smooth"})
   const result_year = document.getElementsByClassName("yearDropdown")[0]
   const result_ln = document.getElementsByClassName("countyDropdown")[0]
-  const result_emission = document.getElementsByClassName("emissionDropdown")[0] 
+  //const result_emission = document.getElementsByClassName("emissionCheckbox")[0] 
   
   console.log()
   console.log("heehee")
     var year= result_year.value
     var ln = result_ln.value
-    var emission = result_emission.value
-    if (emission == "NO2"){
-      emission = 1
-    }else{
-      emission = 0 
-    }
+    //var emission = result_emission.value
+    var emission_NO2 = 1
  
   var year= result_year.value
   var ln = result_ln.value
-  var emission = result_emission.value
-  if (emission == "NO2"){
-    emission = 1
-  }else{
-    emission = 0
-  }
-  updateResult(repo, ln,year, emission) 
+  //var emission = result_emission.value
+  var emission_CO2 = 0
+  
+  updateResult(repo, ln,year, emission_NO2, emission_CO2) 
 }
