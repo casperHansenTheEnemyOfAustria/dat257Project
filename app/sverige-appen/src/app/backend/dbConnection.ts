@@ -1,6 +1,6 @@
 import { Database, OPEN_READONLY } from 'sqlite3';
 import { County } from './county';
-import { promises } from 'dns';
+
 import { Municipality } from './minicipality';
 
 

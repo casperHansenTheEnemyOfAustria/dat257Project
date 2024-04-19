@@ -6,11 +6,11 @@ import { Municipality } from "./minicipality";
 
 
 export class County {
-    name: string;
-    info: Map<string, string>;
-    emissions: Map<number, number[]>;
-    municipalities: Promise<string[]>;
-    db: dbConnection;
+    private name: string;
+    private info: Map<string, string>;
+    private emissions: Map<number, number[]>;
+    private municipalities: Promise<string[]>;
+    private db: dbConnection;
 
 
     constructor(name: string, emissions: Map<number, number[]>){
@@ -22,10 +22,6 @@ export class County {
   
     }
 
-    // returns the info map of the county
-    getInfo(): Map<string, string> {
-        return this.info;
-    }
 
     // returns the emissions map of the county
     async getMunicipalityNames(): Promise<string[]> {
@@ -33,24 +29,8 @@ export class County {
         return await this.municipalities;
     }
 
-    getCountyEmissionsByYear(n: number): number[] {
-        return this.emissions.get(n) as number[];
-    }
-    getCountyEmissionsByYearAndGas(year: number, gas: number): number {
-        var output = this.emissions.get(year)?.[gas];
-        if (output == undefined) {
-            return 0;
-        }
-        return output;
-
-    }
  
-    // returns the name of the county
-    getName(): string {
-        return this.name;
-    }
 
-    
     async toJSON() {
         return {
             name: this.name,
