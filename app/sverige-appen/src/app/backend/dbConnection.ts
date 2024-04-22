@@ -211,26 +211,8 @@ export class dbConnection {
         return municipalities;
     }
 
-    /**
-     * 
-     * @param municipality name of the municipality
-     * @returns a map of years and emissions for the municipality
-     */
 
-    public async getMunicipalityEmissions(municipality: string): Promise<Map<number, number[]>> {
-        var query = `SELECT År, Value FROM emissions WHERE Kommun = '${municipality}'`;
-        var rows = await this.runAll(query);
-        var emissions = new Map<number, number[]>();
-        rows.forEach((row: any) => {
-            if (emissions.has(row.År)) {
-                emissions.get(row.År)?.push(row.Value);
-            }
-            else {                
-                emissions.set(row.År, [row.Value]);
-            }
-        });
-        return emissions;
-    }
+
 
     /**
      * 
@@ -245,6 +227,21 @@ export class dbConnection {
         rows.forEach((row: any) => {
             emissions.set(row["Emission type"], index);
             index++;
+        });
+        return emissions;
+    }
+
+    /**
+     * 
+     * @returns a list of all emission types in the database this is for iterating through them
+     * 
+     */    
+    public async getEmissionTypes(): Promise<string[]> {
+        var query = `SELECT DISTINCT "Emission type" FROM emissions`;
+        var rows = await this.runAll(query);
+        var emissions: string[] = [];
+        rows.forEach((row: any) => {
+            emissions.push(row["Emission type"]);
         });
         return emissions;
     }

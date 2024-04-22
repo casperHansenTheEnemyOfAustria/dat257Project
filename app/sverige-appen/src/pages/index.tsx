@@ -26,6 +26,7 @@ import { Municipality } from "@/app/backend/minicipality";
 type Repo = {
   counties: any[]
   municipalities: { [key: string]: municipalityJSONlist }
+  emissionTypes: string[]
 }
 
  
@@ -73,7 +74,9 @@ export const getServerSideProps = (async () => {
 
   const repo: Repo = {
     counties: counties,
-    municipalities: municipalitiesJSONformatted
+    municipalities: municipalitiesJSONformatted,
+    emissionTypes: await db.getEmissionTypes()
+
   }
 
   // Pass data to the page via props
