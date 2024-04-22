@@ -119,7 +119,8 @@ export default function Home({
         <Dropdown_Mun
           counties={{ counties: repo }} />
 
-        <Dropdown_Emission />
+        <Dropdown_Emission
+        repo = {{repo: repo}} />
 
         <a
           className="searchButton"
@@ -171,10 +172,6 @@ function clickedSearch(repo: Repo) {
   var year = result_year.value
   var ln = result_ln.value
   var emission = result_emission.value
-  if (emission == "NO2") {
-    emission = 1
-  } else {
-    emission = 0
-  }
+  
   updateResult(repo, ln, year, emission)
 }

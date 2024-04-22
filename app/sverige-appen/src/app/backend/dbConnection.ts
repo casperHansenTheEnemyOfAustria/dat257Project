@@ -243,6 +243,7 @@ export class dbConnection {
         rows.forEach((row: any) => {
             emissions.push(row["Emission type"]);
         });
+
         return emissions;
     }
 }

@@ -20,8 +20,9 @@ export default function Resultbox({counties}) {
 
 export function updateResult(repo, ln, year, emission) {
     var info= ""
+    var emission = repo.emissionTypes.indexOf(emission)
     repo.counties.forEach((county) => {
-        console.log(year)
+       
         
       if (county.name == ln) {
         console.log(county.emissions[year])
