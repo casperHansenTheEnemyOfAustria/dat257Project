@@ -7,7 +7,7 @@ import '../globals.css';
 
 
 //importing components
-const Map = dynamic(() => import('./map'), { ssr: false })
+const Map = dynamic(() => import('./map.jsx'), { ssr: false })
 export const Header = () => {
 
    return (
