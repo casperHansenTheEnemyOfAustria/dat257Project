@@ -12,7 +12,7 @@ export const Header = () => {
 
    return (
     <div>
-    <div>
+    <div style={{position: 'relative', zIndex: 2000}}>
         <div className="testHeader"> </div>
          <Map />
       </div>

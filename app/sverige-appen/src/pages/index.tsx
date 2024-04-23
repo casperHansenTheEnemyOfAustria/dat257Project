@@ -80,7 +80,7 @@ export default function Home({
       
       <div className="gradient"></div>
 
-      <Header/>
+      <Header  />
 
       <div className="buttons">
         
