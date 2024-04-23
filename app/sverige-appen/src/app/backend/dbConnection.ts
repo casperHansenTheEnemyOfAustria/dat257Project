@@ -121,6 +121,7 @@ export class dbConnection {
                 emissions.set(row.År, (row.Value));
             }
         });
+        console.log(emissions)
         
         let output = new County(name, emissions);
      

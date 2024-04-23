@@ -31,6 +31,7 @@ export class County {
         this.name = name;
         this.info = new Map<string, string>(); // TODO fetch from db
         this.emissions = emissions; // TODO fetch from db
+        
         this.municipalities = this.db.getMunicipalitiesInCounty(name);
   
     }
