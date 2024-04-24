@@ -19,7 +19,7 @@ class Map extends React.Component {
   render() {
   return (
 
-       <MapContainer center={[62.0, 15.0]} zoom={5}  style={{ height: "50vh", width: "100vw" }}  >
+       <MapContainer center={[62.0, 15.0]} scrollWheelZoom={false} zoom={5}  style={{ height: "90vh", width: "100vw" }} >
             <GeoJSON data={counties.features} onEachFeature={this.onEachFeature} />
           </MapContainer>
 
