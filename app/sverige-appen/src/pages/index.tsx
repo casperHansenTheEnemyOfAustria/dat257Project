@@ -20,9 +20,13 @@ import Dropdown_Emission from './frontend/dropdown_emission';
 import { Header } from './frontend/header';
 import { updateResult } from './frontend/result';
 import { Municipality } from "@/app/backend/minicipality";
+import { Container } from "postcss";
+import dynamic from "next/dynamic";
+import { Rectangle } from "react-leaflet/Rectangle";
 
 
 
+const SwedishMap = dynamic(() => import('./frontend/map.jsx'), { ssr: false })
 
 
 type Repo = {
@@ -34,6 +38,7 @@ export const getServerSideProps = (async () => {
   // Fetch data from external API
     const db = dbConnection.getInstance()
     const countyNames = await  db.getAllCounties()
+
 
     var counties: any[] = []
 
@@ -79,9 +84,11 @@ export default function Home({
     <main>
       
       <div className="gradient"></div>
-
-      <Header  />
-
+      
+      <Header/>
+      
+          <SwedishMap/>
+        
       <div className="buttons">
         
           <Dropdown_Year
@@ -93,7 +100,7 @@ export default function Home({
           <Dropdown_Mun 
             counties={{counties:repo}} />
 
-          <Dropdown_Emission />
+          <Dropdown_Emission/>
 
         <a
         className="searchButton"

@@ -77,12 +77,17 @@ p {
   @apply fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none
 }
 
-.testHeader {
-  width: 600px;
-  height: 500px;
+.header {
+  width: 200px;
+  height: 150px;
   background-image: url("./frontend/public/header_light.png");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.map {
+  background-color: turquoise;
+  overflow: contain;
 }
 
 .buttons {

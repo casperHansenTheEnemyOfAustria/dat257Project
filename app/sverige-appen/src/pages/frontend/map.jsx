@@ -1,8 +1,10 @@
 'use client'
-import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
+import { MapContainer, TileLayer, GeoJSON, AttributionControl, Rectangle } from "react-leaflet";
 import React from "react";
 import counties from "./public/geography/counties.json";
 import { useMapEvents } from 'react-leaflet/hooks'
+import '../globals.css';
+
 
 class Map extends React.Component {
     onEachFeature(feature, layer) {
@@ -19,16 +21,13 @@ class Map extends React.Component {
   render() {
   return (
 
-       <MapContainer center={[62.0, 15.0]} scrollWheelZoom={false} zoom={5}  style={{ height: "90vh", width: "100vw" }} >
-            <GeoJSON data={counties.features} onEachFeature={this.onEachFeature} />
-          </MapContainer>
-
+        <div className = "map">
+            <MapContainer center={[62.0, 15.0]} scrollWheelZoom={false} zoom={5}  style={{ height: "90vh", width: "100vw" }} attributionControl={false}>
+                <GeoJSON data={counties.features} onEachFeature={this.onEachFeature} />
+            </MapContainer>
+        </div>
   );
   }
 }
-
-
-
-
 
 export default Map;
