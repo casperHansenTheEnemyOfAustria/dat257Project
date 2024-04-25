@@ -20,6 +20,11 @@ import Dropdown_Emission from './frontend/dropdown_emission';
 import { Header } from './frontend/header';
 import { updateResult } from './frontend/result';
 import { Municipality } from "@/app/backend/minicipality";
+import { Container } from "postcss";
+import dynamic from "next/dynamic";
+import { Rectangle } from "react-leaflet/Rectangle";
+
+const SwedishMap = dynamic(() => import('./frontend/map.jsx'), { ssr: false })
 
 
 /*-- Types --*/
@@ -49,25 +54,32 @@ type municipalityJSONlist = {
 export const getServerSideProps = (async () => {
 
   // Fetch data from external API
-  const db = dbConnection.getInstance()
-  const countyNames = await db.getAllCounties() // get all county names
-  var counties: any[] = [] // list of counties
-  var countyMunicipalityMap = new Map<string, any[]>() // map of county names to list of municipalities
-  var municipalitiesJSONformatted: { [key: string]: municipalityJSONlist } = {} // map of municipalities but json
+    const db = dbConnection.getInstance()
+    const countyNames = await  db.getAllCounties()
 
 
-  for (var i = 0; i < countyNames.length; i++) {
-    var county = await db.getCounty(countyNames[i])
-    counties.push(await county.toJSON())
-    var municipalityNames = await county.getMunicipalityNames()
-    var municipalitiesPerCounty: municipalityJSONlist = getMunicipalitiesPerCounty();
-    countyMunicipalityMap.set(countyNames[i], municipalitiesPerCounty)
-  }
+    var counties: any[] = []
 
-  // this makes muicipalities a json serializable object my changing all map entries to arrays
-  municipalitiesJSONformatted = Array.from(countyMunicipalityMap.entries()).reduce((obj, [key, value]) => {
-    obj[key] = value;
-    return obj;
+    var tmpMap = new Map<string, any[]>()
+    for (var i = 0; i < countyNames.length; i++) {
+        var county = await db.getCounty(countyNames[i])
+        counties.push(await county.toJSON())
+        var cnames = await county.getMunicipalityNames()
+        //json serializeable way of repping the municipalities
+        var temp: { name: string; info: [string, string][]; emissions: { [key: number]: number[]; }; years: number[]; }[] = []
+        cnames.forEach(async (municipality) => {
+          //a temp map with county name and municipalities
+          temp.push(((await db.getMunicipality(municipality)).toJSON()))
+        
+        })
+        tmpMap.set(countyNames[i], temp)
+    }
+
+    // this makes muicipalities a json serializable object
+    var municipalities = Array.from(tmpMap.entries()).reduce((obj, [key, value]) => {
+      obj[key] = value;
+      return obj;
+
   }, {} as { [key: string]: any[] })
 
 
@@ -106,8 +118,11 @@ export default function Home({
     <main>
 
       <div className="gradient"></div>
-
-      <Header />
+      
+      <Header/>
+      
+        <SwedishMap/>
+        
 
       <div className="buttons">
 
@@ -116,6 +131,7 @@ export default function Home({
 
         <Dropdown_Ln
           counties={{ counties: repo }} />
+
 
         <Dropdown_Mun
           counties={{ counties: repo }} />
