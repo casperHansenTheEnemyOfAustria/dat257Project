@@ -13,7 +13,7 @@ class Map extends React.Component {
     }
 
     forceUpdateMap = () => {
-        alert('force update');
+        //alert('force update');
         this.setState({ mapKey: Math.random() });
     }
 
@@ -32,6 +32,7 @@ class Map extends React.Component {
     getStyle(feature) {
         var result_ln = document.getElementsByClassName("countyDropdown")[0].value;
         var new_result_ln = result_ln.replace('s län', '');
+        var new_result_ln = new_result_ln.replace(' län', '');
 
         if (feature.properties.name === new_result_ln) {
             return { color: '#ff0000' }; // Change this to the color you want
