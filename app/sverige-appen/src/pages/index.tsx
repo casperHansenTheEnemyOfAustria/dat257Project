@@ -121,7 +121,7 @@ export default function Home({
       
       <Header/>
       
-        <SwedishMap/>
+          <SwedishMap/>
         
 
       <div className="buttons">
