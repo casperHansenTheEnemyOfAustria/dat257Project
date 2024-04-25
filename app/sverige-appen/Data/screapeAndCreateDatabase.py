@@ -17,11 +17,3 @@ if __name__ == "__main__":
     dl.download_files(emission_types)
     pf.open_files()
     db.main()
-    # delete all the unnecessary files
-    dir = './Nationella-emmisions-databasen'
-    for f in os.listdir(dir):
-        os.remove(os.path.join(dir, f))
-
-    dir = "./"
-    os.remove(os.path.join(dir, "data.csv"))
-
