@@ -7,6 +7,7 @@ export default function Dropdown_Emission({repo}) {
 
     return (
         <div class='custom-select'>
+            <label htmlFor="arrayDropdown" className="selectLabel">Emission type</label>
             <select 
             id="arrayDropdown" 
             className= "emissionDropdown"

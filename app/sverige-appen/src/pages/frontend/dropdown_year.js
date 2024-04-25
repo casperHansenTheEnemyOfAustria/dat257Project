@@ -8,13 +8,16 @@ export default function Dropdown_year({counties}) {
 
     return (
         <div class='custom-select'>
+            <label htmlFor="arrayDropdown" className="selectLabel">Year</label>
             <select 
             id="arrayDropdown" 
             className= "yearDropdown"
+            defaultValue="Year"
             >
                 {arr.map((op, i) => (
                     <option key={i} value={op}>{op}</option>
                 ))}
+            
             </select>
         </div>
     );
