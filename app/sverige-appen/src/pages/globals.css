@@ -20,7 +20,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   min-height: 100vh;
   padding: 3rem; 
 }
@@ -74,9 +74,7 @@ p {
 }
 
 .gradient { 
-  @apply fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none;
-  position: fixed;
-  z-index: 0;
+  @apply fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none
 }
 
 .header {
@@ -85,17 +83,12 @@ p {
   background-image: url("./frontend/public/header_light.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  position: relative;
 }
 
 .map {
-  /* background-color: turquoise; */
-  /* overflow: contain; */
-  height: 70vh;
-  position: relative;
-  width: 100%;
+  background-color: turquoise;
+  overflow: contain;
 }
-
 
 .buttons {
   margin-bottom: 8rem;
@@ -105,7 +98,6 @@ p {
   margin-bottom: 0.5rem;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 1rem;
-  position: relative;
 }
 
 .searchButton {
@@ -130,8 +122,8 @@ p {
   text-align-last: center;
   font-size: 2rem;
   padding: 1em 1em 1em 1em; 
-  position: relative;
-
+  
+  
 }
 
 }

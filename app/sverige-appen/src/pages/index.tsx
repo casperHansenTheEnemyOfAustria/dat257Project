@@ -36,6 +36,7 @@ type Repo = {
  
 export const getServerSideProps = (async () => {
   // Fetch data from external API
+
     const db = dbConnection.getInstance()
     const countyNames = await  db.getAllCounties()
 
@@ -72,6 +73,7 @@ export const getServerSideProps = (async () => {
 
 // Pass data to the page via props
   return { props: { repo } }
+
 }) satisfies GetServerSideProps<{ repo: Repo }>
 
 /* --- Visuals --- */ 
@@ -87,7 +89,7 @@ export default function Home({
       
       <Header/>
       
-        <SwedishMap/>
+          <SwedishMap/>
         
       <div className="buttons">
         
@@ -158,4 +160,5 @@ function clickedSearch(repo: Repo) {
     emission = 0
   }
   updateResult(repo, ln,year, emission) 
+
 }
