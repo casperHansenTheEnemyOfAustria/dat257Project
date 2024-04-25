@@ -23,16 +23,18 @@ import { Municipality } from "@/app/backend/minicipality";
 import { Container } from "postcss";
 import dynamic from "next/dynamic";
 import { Rectangle } from "react-leaflet/Rectangle";
+import {updateMap} from './frontend/resultRouter'
 
 
 
-const SwedishMap = dynamic(() => import('./frontend/map.jsx'), { ssr: false })
+var SwedishMap = dynamic(() => import('./frontend/map.jsx'), { ssr: false }, )
 
 
 type Repo = {
   counties: any []
   municipalities: any
   emissionTypes: any 
+  currentSearch: any
 }
  
 type municipalityJSONlist = {
@@ -70,7 +72,8 @@ export const getServerSideProps = (async () => {
   const repo: Repo = {
     counties: counties,
     municipalities: municipalitiesJSONformatted,
-    emissionTypes: await db.getEmissionTypes()
+    emissionTypes: await db.getEmissionTypes(),
+    currentSearch: {}
 
   }
 
@@ -94,6 +97,7 @@ export default function Home({
   repo,
 }: InferGetServerSidePropsType<typeof getServerSideProps>)  {
 
+
   return (
     <main>
       
@@ -101,7 +105,9 @@ export default function Home({
       
       <Header/>
       
-        <SwedishMap/>
+        <SwedishMap 
+        repo = {{repo: repo}}/>
+
         
       <div className="buttons">
         
@@ -169,5 +175,6 @@ function clickedSearch(repo: Repo) {
   var emission = result_emission.value
   
   updateResult(repo, ln,year, emission) 
+  repo.currentSearch = {year: year, ln: ln, emission: emission}
 
 }
