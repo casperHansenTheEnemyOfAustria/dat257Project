@@ -12,7 +12,7 @@ export default function Dropdown_Mun({counties}) {
 
 
     return (
-        <div class='custom-select'>
+        <div class='custom-select' >
             <select 
             id="arrayDropdown" 
             className= "countyDropdown"
