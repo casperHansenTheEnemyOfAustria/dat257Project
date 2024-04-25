@@ -105,8 +105,11 @@ export default function Home({
         
       <div className="buttons">
         
-          <Dropdown_Year
-          counties={{repo:repo}} />
+          <Dropdown
+            data={{repo:repo.counties[0].years}}
+            text="Year"
+            className="yearDropdown"
+            />
 
           <Dropdown_Ln 
             counties={{counties:repo}} />
