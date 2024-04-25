@@ -4,26 +4,13 @@ import { get } from "http";
 import { dbConnection } from "./dbConnection";
 import { Municipality } from "./minicipality";
 
-/**
- * A class that represents a county that has a name,
- *  a map of strings for info and a map of integers and lists of floats for emissions
- * @class
- * @classdesc A class representing a county
- * @property {string} name - The name of the county
- * @property {Map<string, string>} info - A map of strings for info
- * @property {Map<number, number[]>} emissions - A map of integers and lists of floats for emissions
- * @property {Promise<string[]>} municipalities - A promise of a list of the names of the municipalities in the county
- * @property {dbConnection} db - A connection to the database
- * @method getMunicipalityNames - A method that returns a list of the names of the municipalities in the county
- * @method toJSON - A method that returns a json serializable representation of the county
- * 
- */
+
 export class County {
-    private name: string;
-    private info: Map<string, string>;
-    private emissions: Map<number, number[]>;
-    private municipalities: Promise<string[]>;
-    private db: dbConnection;
+    name: string;
+    info: Map<string, string>;
+    emissions: Map<number, number[]>;
+    municipalities: Promise<string[]>;
+    db: dbConnection;
 
 
     constructor(name: string, emissions: Map<number, number[]>){
@@ -31,26 +18,39 @@ export class County {
         this.name = name;
         this.info = new Map<string, string>(); // TODO fetch from db
         this.emissions = emissions; // TODO fetch from db
-        
         this.municipalities = this.db.getMunicipalitiesInCounty(name);
   
     }
 
+    // returns the info map of the county
+    getInfo(): Map<string, string> {
+        return this.info;
+    }
 
-    /**
-     * 
-     * @returns a list of the names of the municipalities in the county
-     */
+    // returns the emissions map of the county
     async getMunicipalityNames(): Promise<string[]> {
 
         return await this.municipalities;
     }
 
+    getCountyEmissionsByYear(n: number): number[] {
+        return this.emissions.get(n) as number[];
+    }
+    getCountyEmissionsByYearAndGas(year: number, gas: number): number {
+        var output = this.emissions.get(year)?.[gas];
+        if (output == undefined) {
+            return 0;
+        }
+        return output;
+
+    }
  
-    /**
-     * 
-     * @returns a json serializable representation of the county including all its elements
-     */
+    // returns the name of the county
+    getName(): string {
+        return this.name;
+    }
+
+    
     async toJSON() {
         return {
             name: this.name,
