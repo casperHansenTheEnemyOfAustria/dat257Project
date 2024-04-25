@@ -31,51 +31,63 @@ const SwedishMap = dynamic(() => import('./frontend/map.jsx'), { ssr: false })
 
 type Repo = {
   counties: any []
-  municipalities: any 
+  municipalities: any
+  emissionTypes: any 
 }
  
+type municipalityJSONlist = {
+  name: string;
+  info: [string, string][];
+  emissions: {
+    [key: number]: number[];
+  };
+  years: number[];
+}[];
+/* ---  fetching from the backend --- */
+/**
+ * the getServerSideProps function that fetches the data from the database and returns it as props
+ * @returns a repo with counties: a list of county objects, municipalities: a map of county names and lists of municipality objects
+ */
 export const getServerSideProps = (async () => {
   // Fetch data from external API
-
-    const db = dbConnection.getInstance()
-    const countyNames = await  db.getAllCounties()
-
-
-    var counties: any[] = []
-
-    var tmpMap = new Map<string, any[]>()
-    for (var i = 0; i < countyNames.length; i++) {
-        var county = await db.getCounty(countyNames[i])
-        counties.push(await county.toJSON())
-        var cnames = await county.getMunicipalityNames()
-        //json serializeable way of repping the municipalities
-        var temp: { name: string; info: [string, string][]; emissions: { [key: number]: number[]; }; years: number[]; }[] = []
-        cnames.forEach(async (municipality) => {
-          //a temp map with county name and municipalities
-          temp.push(((await db.getMunicipality(municipality)).toJSON()))
-        
-        })
-        tmpMap.set(countyNames[i], temp)
-    }
-
-    // this makes muicipalities a json serializable object
-    var municipalities = Array.from(tmpMap.entries()).reduce((obj, [key, value]) => {
-      obj[key] = value;
-      return obj;
+  const db = dbConnection.getInstance()
+  const countyNames = await db.getAllCounties() // get all county names
+  var counties: any[] = [] // list of counties
+  var countyMunicipalityMap = new Map<string, any[]>() // map of county names to list of municipalities
+  var municipalitiesJSONformatted: { [key: string]: municipalityJSONlist } = {} // map of municipalities but json
+  for (var i = 0; i < countyNames.length; i++) {
+    var county = await db.getCounty(countyNames[i])
+    counties.push(await county.toJSON())
+    var municipalityNames = await county.getMunicipalityNames()
+    var municipalitiesPerCounty: municipalityJSONlist = getMunicipalitiesPerCounty();
+    countyMunicipalityMap.set(countyNames[i], municipalitiesPerCounty)
+  }
+  // this makes muicipalities a json serializable object my changing all map entries to arrays
+  municipalitiesJSONformatted = Array.from(countyMunicipalityMap.entries()).reduce((obj, [key, value]) => {
+    obj[key] = value;
+    return obj;
   }, {} as { [key: string]: any[] })
+  const repo: Repo = {
+    counties: counties,
+    municipalities: municipalitiesJSONformatted,
+    emissionTypes: await db.getEmissionTypes()
 
-  console.log(counties)
+  }
 
-    const repo: Repo ={
-        counties : counties,
-        municipalities: municipalities
-    } 
 
-// Pass data to the page via props
+  // Pass data to the page via props
   return { props: { repo } }
 
+  /* --- Helper functions --- */
+  function getMunicipalitiesPerCounty(): municipalityJSONlist {
+    var municipalitiesPerCounty: municipalityJSONlist = [];
+    municipalityNames.forEach(async (municipality) => {
+      municipalitiesPerCounty.push(((await db.getMunicipality(municipality)).toJSON()));
+    });
+    return municipalitiesPerCounty;
+  }
+  
 }) satisfies GetServerSideProps<{ repo: Repo }>
-
 /* --- Visuals --- */ 
 
 export default function Home({
@@ -102,8 +114,9 @@ export default function Home({
           <Dropdown_Mun 
             counties={{counties:repo}} />
 
-          <Dropdown_Emission/>
-
+          <Dropdown_Emission
+           repo = {{repo: repo}} />
+             
         <a
         className="searchButton"
         target="_blank"
@@ -154,11 +167,7 @@ function clickedSearch(repo: Repo) {
   var year= result_year.value
   var ln = result_ln.value
   var emission = result_emission.value
-  if (emission == "NO2"){
-    emission = 1
-  }else{
-    emission = 0
-  }
+  
   updateResult(repo, ln,year, emission) 
 
 }
