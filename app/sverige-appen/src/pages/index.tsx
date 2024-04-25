@@ -114,8 +114,9 @@ export default function Home({
           <Dropdown_Mun 
             counties={{counties:repo}} />
 
-          <Dropdown_Emission/>
-
+          <Dropdown_Emission
+           repo = {{repo: repo}} />
+             
         <a
         className="searchButton"
         target="_blank"
