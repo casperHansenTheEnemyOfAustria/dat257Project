@@ -4,6 +4,7 @@ import React from "react";
 import counties from "./public/geography/counties.json";
 import { useMapEvents } from 'react-leaflet/hooks'
 import '../globals.css';
+import "leaflet/dist/leaflet.css";
 
 
 class Map extends React.Component {
@@ -21,11 +22,11 @@ class Map extends React.Component {
   render() {
   return (
 
-        <div className = "map">
-            <MapContainer center={[62.0, 15.0]} scrollWheelZoom={false} zoom={5}  style={{ height: "90vh", width: "100vw" }} attributionControl={false}>
+   
+            <MapContainer center={[62.0, 15.0]} scrollWheelZoom={false} zoom={5}   attributionControl={false} className={'map'}>
                 <GeoJSON data={counties.features} onEachFeature={this.onEachFeature} />
             </MapContainer>
-        </div>
+        
   );
   }
 }
