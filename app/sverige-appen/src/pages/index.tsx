@@ -174,5 +174,5 @@ function clickedSearch(repo: Repo) {
   var emission = result_emission.value
   
   updateResult(repo, ln, year, emission)
-  update 
+
 }
