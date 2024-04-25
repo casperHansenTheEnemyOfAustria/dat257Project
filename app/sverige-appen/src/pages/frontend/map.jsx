@@ -9,24 +9,20 @@ import "leaflet/dist/leaflet.css";
 import {useEffect, useState} from 'react';
 import { Geo } from "next/font/google";
 import { on } from "events";
+import {useRouter} from 'next/router';
 
 
 function onEachFeature(feature, layer) {
     //bind click
     console.log("hi")
-    layer.on({
-        click: function (e) {
-            
-        
-
-    });
+    
     layer.bindPopup(feature.properties.name);
 }
 
 
 
 function Map({repo}){
-
+    var router = useRouter();
     useState(() => {
         const fetchData = async () => {
             const data = await repo
@@ -36,7 +32,7 @@ function Map({repo}){
     }, []);
     useEffect(() => {
         const interval = setInterval(() => {
-
+         
         }, 5000);
         return () => clearInterval(interval);
     }, [repo]);
