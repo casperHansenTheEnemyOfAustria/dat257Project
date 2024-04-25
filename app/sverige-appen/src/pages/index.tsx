@@ -154,7 +154,7 @@ function clickedSearch(repo: Repo) {
   var year= result_year.value
   var ln = result_ln.value
   var emission = result_emission.value
-  if (emission == "NO2"){
+  if (emission == "All CO2 ekv"){
     emission = 1
   }else{
     emission = 0
