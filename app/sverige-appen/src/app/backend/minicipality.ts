@@ -1,7 +1,17 @@
+/**
+ * Class representing a municipality
+ * @class
+ * @classdesc A class representing a municipality
+ * @property {string} name - The name of the municipality
+ * @property {Map<string, string>} info - A map of strings for info
+ * @property {Map<number, number[]>} emissions - A map of integers and lists of floats for emissions
+ * @method toJSON - A method that returns a json serializable representation of the municipality
+ * 
+ */
 export class Municipality {
-    name: string;
-    info: Map<string, string>;
-    emissions: Map<number, number[]>;
+    private name: string;
+    private info: Map<string, string>;
+    private emissions: Map<number, number[]>;
 
     constructor(name: string, emissions: Map<number, number[]>){
         this.name = name;
@@ -10,35 +20,10 @@ export class Municipality {
     }
 
 
-    // returns the info map of the county
-    getInfo(): Map<string, string> {
-        return this.info;
-    }
-
-    // returns the emissions map of the county
-    getEmissions(): Map<number, number[]> {
-        return this.emissions;
-    }
-
-    getEmissionsByYear(n: number): number[] {
-        return this.emissions.get(n) as number[];
-    }
-
-    getEmissionsByYearAndGas(year: number, gas: number): number {
-        var output = this.emissions.get(year)?.[gas];
-        if (output == undefined) {
-            return 0;
-        }
-        return output;
-
-    }
-
-    // returns the name of the county
-
-    getName(): string {
-        return this.name;
-    }
-
+    /**
+     * 
+     * @returns a json serializable representation of the municipality including all its elements
+     */
     toJSON() {
         return {
             name: this.name,

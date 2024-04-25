@@ -14,18 +14,23 @@ import os
 # READ File
 
 def open_files():
-    path = "Data/Nationella-emmisions-databasen"
+    path = "./Nationella-emmisions-databasen"
 
     frames = []
     for filename in os.listdir(path):
+        print("reading" + filename)
         file_path = os.path.join(path, filename)
         with open(file_path, "rb") as file:
-            sheet_name = load_workbook(file).sheetnames[0]
+            sheet_name = load_workbook(file).sheetnames[0].strip()
             data = pd.read_excel(file, sheet_name=sheet_name)
             frames.append(process_file(data, sheet_name))
-    
-    return pd.concat(frames)
+         
 
+    with open("./data.csv", "w", encoding="utf-8") as file:
+        df = pd.concat(frames)
+
+        df.to_csv(file, lineterminator='\n', index=False, encoding='utf-8')
+ 
 
 def process_file(data, sheet_name):
     destination_row = data[data.iloc[:, 0] == "Huvudsektor"].index[0]
@@ -46,6 +51,5 @@ def process_file(data, sheet_name):
     return melted
 
 if __name__ == "__main__":
-    data = open_files()
-    with open("Data/data.csv", "w") as file:
-        data.to_csv(file, index=False)
+    open_files()
+  
