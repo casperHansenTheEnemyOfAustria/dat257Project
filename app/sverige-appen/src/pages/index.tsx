@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import {dbConnection} from "@/app/backend/dbConnection";
+import { dbConnection } from "@/app/backend/dbConnection";
 
 
-import type {InferGetStaticPropsType, InferGetServerSidePropsType, GetServerSideProps, GetStaticProps } from 'next'
+import type { InferGetStaticPropsType, InferGetServerSidePropsType, GetServerSideProps, GetStaticProps } from 'next'
 
 import "./globals.css";
 import React from 'react';
@@ -30,11 +30,12 @@ const SwedishMap = dynamic(() => import('./frontend/map.jsx'), { ssr: false })
 
 
 type Repo = {
-  counties: any []
+  counties: any[]
   municipalities: any
-  emissionTypes: any 
+  emissionTypes: any
+  currentSearch: {}
 }
- 
+
 type municipalityJSONlist = {
   name: string;
   info: [string, string][];
@@ -70,7 +71,8 @@ export const getServerSideProps = (async () => {
   const repo: Repo = {
     counties: counties,
     municipalities: municipalitiesJSONformatted,
-    emissionTypes: await db.getEmissionTypes()
+    emissionTypes: await db.getEmissionTypes(),
+    currentSearch: { county: "Alla", municipality: "Alla", year: 1990, emissionType: "Arsenik (As)" }
 
   }
 
@@ -85,60 +87,60 @@ export const getServerSideProps = (async () => {
     });
     return municipalitiesPerCounty;
   }
-  
+
 }) satisfies GetServerSideProps<{ repo: Repo }>
-/* --- Visuals --- */ 
+/* --- Visuals --- */
 
 export default function Home({
   repo,
-}: InferGetServerSidePropsType<typeof getServerSideProps>)  {
+}: InferGetServerSidePropsType<typeof getServerSideProps>) {
 
   return (
-    
+
     <main>
 
       <div className="gradient"></div>
-      
-      <Header/>
-      
-        <SwedishMap 
-        repo = {repo} />
-        
+
+      <Header />
+
+      <SwedishMap
+        repo={repo} />
+
       <div className="buttons">
-        
-          <Dropdown_Year
-          counties={{repo:repo}} />
 
-          <Dropdown_Ln 
-            counties={{counties:repo}} />
+        <Dropdown_Year
+          counties={{ repo: repo }} />
 
-          <Dropdown_Mun 
-            counties={{counties:repo}} />
+        <Dropdown_Ln
+          counties={{ counties: repo }} />
 
-          <Dropdown_Emission
-           repo = {{repo: repo}} />
-             
+        <Dropdown_Mun
+          counties={{ counties: repo }} />
+
+        <Dropdown_Emission
+          repo={{ repo: repo }} />
+
         <a
-        className="searchButton"
-        target="_blank"
-        rel="noopener noreferrer">
+          className="searchButton"
+          target="_blank"
+          rel="noopener noreferrer">
           <button onClick={() => clickedSearch(repo)}>
-          <h2 className="">
-            Search{" "}
-            <span className="searchArrow">
-              -&gt;
-            </span>
-          </h2>
+            <h2 className="">
+              Search{" "}
+              <span className="searchArrow">
+                -&gt;
+              </span>
+            </h2>
           </button>
         </a>
       </div>
 
-        <a className="resultBox">
-          <div>
-            <Resultbox
-            counties = {{counties: repo}}/>
-          </div>
-        </a>
+      <a className="resultBox">
+        <div>
+          <Resultbox
+            counties={{ counties: repo }} />
+        </div>
+      </a>
     </main>
   );
 }
@@ -149,29 +151,27 @@ export default function Home({
 
 function clickedSearch(repo: Repo) {
   var query = document.getElementById("result")
-  query?.scrollIntoView({behavior: "smooth"})
-  const result_year = document.getElementsByClassName("yearDropdown")[0]
-  const result_ln = document.getElementsByClassName("countyDropdown")[0]
-  const result_emission = document.getElementsByClassName("emissionDropdown")[0] 
-  
-  console.log()
-  console.log("heehee")
-    var year= result_year.value
-    var ln = result_ln.value
-    var emission = result_emission.value
-    if (emission == "NO2"){
-      emission = 1
-    }else{
-      emission = 0 
-    }
- 
-  var year= result_year.value
+  query?.scrollIntoView({ behavior: "smooth" })
+  const result_year: any = document.getElementsByClassName("yearDropdown")[0]
+  const result_ln: any = document.getElementsByClassName("countyDropdown")[0]
+  const result_emission: any = document.getElementsByClassName("emissionDropdown")[0]
+
+  var year = result_year.value
+  var ln = result_ln.value
+  var emission = result_emission.value
+  if (emission == "NO2") {
+    emission = 1
+  } else {
+    emission = 0
+  }
+
+  var year = result_year.value
   var ln = result_ln.value
   var emission = result_emission.value
 
-  
 
-  updateResult(repo, ln,year, emission) 
-document.getElementsByTagName("g")[0].childNodes[0]?.dispatchEvent(new MouseEvent("contextmenu",{bubbles: true}))
 
+  updateResult(repo, ln, year, emission)
+  document.getElementsByTagName("g")[0].childNodes[0]?.dispatchEvent(new MouseEvent("contextmenu", { bubbles: true }))
+  repo.currentSearch = { county: ln, municipality: "Alla", year: year, emissionType: emission }
 }
