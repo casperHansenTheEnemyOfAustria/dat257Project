@@ -3,7 +3,9 @@ import { MapContainer, GeoJSON } from "react-leaflet";
 import counties from "./public/geography/counties.json";
 import '../globals.css';
 import "leaflet/dist/leaflet.css";
+
 import colorGradient from 'javascript-color-gradient';
+
 
 class Map extends React.Component {
     constructor(props) {
