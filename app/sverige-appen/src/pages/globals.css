@@ -79,13 +79,23 @@ p {
   z-index: 0;
 }
 
+.selectLabel {
+  font-weight: bold;
+}
+
+.custom-select {
+  padding-top: 5px;
+}
+
+
 .header {
-  width: 200px;
-  height: 150px;
-  background-image: url("./frontend/public/header_light.png");
+  width: 900px;
+  height: 100px;
+  background-image: url("./frontend/public/header_light_2.png");
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
+  padding-bottom: 25%;
 }
 
 .map {

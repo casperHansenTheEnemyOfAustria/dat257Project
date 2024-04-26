@@ -13,6 +13,7 @@ export default function Dropdown_Mun({counties}) {
 
     return (
         <div class='custom-select'>
+            <label htmlFor="arrayDropdown" className="selectLabel">Municipality</label>
             <select 
             id="arrayDropdown" 
             className= "countyDropdown"

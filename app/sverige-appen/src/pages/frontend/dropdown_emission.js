@@ -1,11 +1,13 @@
 import React from 'react';
 
-export default function Dropdown_Emission() {
-    const arr = ["All CO2 ekv", "NO2"];
+export default function Dropdown_Emission({repo}) {
+    const arr = repo.repo.emissionTypes
+
     // CountyList;
 
     return (
         <div class='custom-select'>
+            <label htmlFor="arrayDropdown" className="selectLabel">Emission type</label>
             <select 
             id="arrayDropdown" 
             className= "emissionDropdown"
