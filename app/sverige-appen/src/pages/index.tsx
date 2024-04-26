@@ -89,7 +89,8 @@ export default function Home({
       
       <Header/>
       
-        <SwedishMap  />
+        <SwedishMap 
+        repo = {{repo:repo }} />
         
       <div className="buttons">
         

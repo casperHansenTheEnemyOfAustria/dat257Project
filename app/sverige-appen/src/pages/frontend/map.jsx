@@ -6,9 +6,10 @@ import "leaflet/dist/leaflet.css";
 
 class Map extends React.Component {
     constructor(props) {
+        console.log(props);
         super(props);
         this.state = {
-            mapKey: Math.random()
+            mapKey: Math.random(),
         };
     }
 
@@ -22,7 +23,10 @@ class Map extends React.Component {
         console.log(feature.properties.name);
         layer.on({
             contextmenu: function (e) {
+                console.log(this.props);
                 console.log(feature.properties.name);
+               
+
                 this.forceUpdateMap();
                 
             }.bind(this)
@@ -40,6 +44,8 @@ class Map extends React.Component {
         } else {
             return { color: '#09cdda' }; // Default color
         }
+
+
     }
 
     render() {
