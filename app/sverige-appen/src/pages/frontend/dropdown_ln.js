@@ -16,7 +16,7 @@ export default function Dropdown_Ln({counties}) {
             <label htmlFor="arrayDropdown" className="selectLabel">County</label>
             <select 
             id="arrayDropdown" 
-            className= "dropdown"
+            className= "dropdown countyDropdown"
             >
                 {arr.map((op, i) => (
                     <option key={i} value={op}>{op}</option>
