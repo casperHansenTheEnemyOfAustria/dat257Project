@@ -6,7 +6,6 @@ import { useMapEvents } from 'react-leaflet/hooks'
 import '../globals.css';
 import "leaflet/dist/leaflet.css";
 
-
 class Map extends React.Component {
     onEachFeature(feature, layer) {
         //bind click

@@ -10,7 +10,7 @@ export default function Dropdown_Emission({repo}) {
             <label htmlFor="arrayDropdown" className="selectLabel">Emission type</label>
             <select 
             id="arrayDropdown" 
-            className= "emissionDropdown"
+            className= "dropdown"
             >
                 {arr.map((op, i) => (
                     <option key={i} value={op}>{op}</option>

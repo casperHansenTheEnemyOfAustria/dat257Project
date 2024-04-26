@@ -11,7 +11,7 @@ export default function Dropdown_year({counties}) {
             <label htmlFor="arrayDropdown" className="selectLabel">Year</label>
             <select 
             id="arrayDropdown" 
-            className= "yearDropdown"
+            className= "dropdown"
             defaultValue="Year"
             >
                 {arr.map((op, i) => (

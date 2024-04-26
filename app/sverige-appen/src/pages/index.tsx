@@ -74,7 +74,6 @@ export const getServerSideProps = (async () => {
 
   }
 
-
   // Pass data to the page via props
   return { props: { repo } }
 
@@ -95,8 +94,9 @@ export default function Home({
 }: InferGetServerSidePropsType<typeof getServerSideProps>)  {
 
   return (
+    
     <main>
-      
+
       <div className="gradient"></div>
       
       <Header/>

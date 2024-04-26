@@ -8,13 +8,36 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+/* Dark Mode */
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
+    --background-start-rgb: 50, 50, 50;
     --background-end-rgb: 0, 0, 0;
   }
+  .header {
+    background-image: url("./frontend/public/header_dark_2.png");
+  }
+  .dropdown{
+    background-color:black;
+    border-color: white;
+    border-width: 0.2vh;
+  }
+
+  .leaflet-layer,
+  .leaflet-control-zoom-in,
+  .leaflet-control-zoom-out,
+  .leaflet-control-attribution {
+    filter: 
+    invert(100%) 
+    hue-rotate(180deg)
+    brightness(90%) 
+    contrast(80%);
+  }
 }
+
+/* Light Mode and base */
 
 main {
   display: flex;
@@ -119,6 +142,7 @@ p {
 }
 
 .searchButton {
+  
   border: 1px solid transparent;
   padding: 1.25rem 1.25rem; /* Assuming 1rem = 16px */
   transition-property: border-color, background-color;
