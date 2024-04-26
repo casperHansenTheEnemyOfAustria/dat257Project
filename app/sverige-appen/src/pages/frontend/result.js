@@ -44,6 +44,12 @@ export function updateResult(repo, ln, year, emission) {
     var element = document.getElementById("result-text"); 
     element.innerText = info +" tons"
 
+    var element = document.getElementById("location");
+    element.innerText =ln
+
+    var element = document.getElementById("location-text");
+    element.innerText =  info 
+
 }
 
 
