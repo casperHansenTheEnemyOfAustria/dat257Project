@@ -36,13 +36,29 @@ class Map extends React.Component {
 
     getStyle(feature) {
         var result_ln = document.getElementsByClassName("countyDropdown")[0].value;
+        var result_emission = document.getElementsByClassName("emissionDropdown")[0].value;
         var new_result_ln = result_ln.replace('s län', '');
         var new_result_ln = new_result_ln.replace(' län', '');
+        ´
+        if (new_result_ln === 'Alla') {
+            // make the colors correspond to the countys emissions
+            var color = '#09cdda';
+            var counties = this.props.counties;
+            
+            for (var i = 0; i < counties.length; i++) {
+                if (counties[i].name === feature.properties.name) {
+                    
+                }
+            }
 
-        if (feature.properties.name === new_result_ln) {
-            return { color: '#ff0000' }; // Change this to the color you want
-        } else {
-            return { color: '#09cdda' }; // Default color
+
+        }else{
+
+            if (feature.properties.name === new_result_ln) {
+                return { color: '#ff0000' }; // Change this to the color you want
+            } else {
+                return { color: '#09cdda' }; // Default color
+            }
         }
 
 
