@@ -89,7 +89,7 @@ export default function Home({
       
       <Header/>
       
-        <SwedishMap/>
+        <SwedishMap  />
         
       <div className="buttons">
         
@@ -160,5 +160,6 @@ function clickedSearch(repo: Repo) {
     emission = 0
   }
   updateResult(repo, ln,year, emission) 
+document.getElementsByTagName("g")[0].childNodes[0]?.dispatchEvent(new MouseEvent("contextmenu",{bubbles: true, cancellable: true}))
 
 }

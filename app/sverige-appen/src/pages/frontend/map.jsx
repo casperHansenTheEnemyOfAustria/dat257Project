@@ -21,9 +21,10 @@ class Map extends React.Component {
         //bind click
         console.log(feature.properties.name);
         layer.on({
-            click: function (e) {
+            contextmenu: function (e) {
                 console.log(feature.properties.name);
                 this.forceUpdateMap();
+                
             }.bind(this)
         });
         layer.bindPopup(feature.properties.name);
@@ -44,7 +45,7 @@ class Map extends React.Component {
     render() {
         return (
             <MapContainer key={this.state.mapKey} center={[62.0, 15.0]} scrollWheelZoom={false} zoom={5} attributionControl={false} className={'map'}>
-                <GeoJSON data={counties.features} onEachFeature={this.onEachFeature.bind(this)} style={this.getStyle.bind(this)} />
+                <GeoJSON data={counties.features} onEachFeature={this.onEachFeature.bind(this)} style={this.getStyle.bind(this)}  />
             </MapContainer>
         );
     }
