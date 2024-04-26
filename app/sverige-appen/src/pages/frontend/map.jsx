@@ -39,11 +39,11 @@ class Map extends React.Component {
         var result_emission = document.getElementsByClassName("emissionDropdown")[0].value;
         var new_result_ln = result_ln.replace('s län', '');
         var new_result_ln = new_result_ln.replace(' län', '');
-        ´
+        
         if (new_result_ln === 'Alla') {
             // make the colors correspond to the countys emissions
             var color = '#09cdda';
-            var counties = this.props.counties;
+            var counties = this.props.repo.counties;
             
             for (var i = 0; i < counties.length; i++) {
                 if (counties[i].name === feature.properties.name) {
