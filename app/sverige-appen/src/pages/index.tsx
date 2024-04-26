@@ -101,7 +101,8 @@ export default function Home({
       
       <Header/>
       
-        <SwedishMap/>
+        <SwedishMap 
+        repo = {repo} />
         
       <div className="buttons">
         
@@ -167,7 +168,10 @@ function clickedSearch(repo: Repo) {
   var year= result_year.value
   var ln = result_ln.value
   var emission = result_emission.value
+
   
+
   updateResult(repo, ln,year, emission) 
+document.getElementsByTagName("g")[0].childNodes[0]?.dispatchEvent(new MouseEvent("contextmenu",{bubbles: true}))
 
 }
