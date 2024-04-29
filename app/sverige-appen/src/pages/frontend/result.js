@@ -8,9 +8,9 @@ export default function Resultbox({counties}) {
                 <h1 id="location">Plats</h1>
                 <p id="location-text">
                     Info info info </p>
-                <h2>Emission Results</h2>
+                <h2>Utsläpp</h2>
                 <p id="result-text">
-                    This is the result of the search
+                    
                 </p>
             </div>
         );
@@ -42,7 +42,7 @@ export function updateResult(repo, ln, year, emission) {
     info = infoValue.toString();
 
     var element = document.getElementById("result-text"); 
-    element.innerText = info +" tons"
+    element.innerText = info +" ton"
 
     var element = document.getElementById("location");
     element.innerText =ln
