@@ -13,7 +13,7 @@ export default function Dropdown_Ln({counties}) {
 
     return (
         <div class='custom-select'>
-            <label htmlFor="arrayDropdown" className="selectLabel">County</label>
+            <label htmlFor="arrayDropdown" className="selectLabel">Län</label>
             <select 
             id="arrayDropdown" 
             className= "dropdown countyDropdown"
