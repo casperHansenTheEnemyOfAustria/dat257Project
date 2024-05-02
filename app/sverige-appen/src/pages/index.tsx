@@ -93,7 +93,7 @@ export const getServerSideProps = (async () => {
 export default function Home({
   repo,
 }: InferGetServerSidePropsType<typeof getServerSideProps>)  {
-
+  
   return (
     <main>
       
@@ -104,9 +104,8 @@ export default function Home({
         <SwedishMap/>
         
       <div className="buttons">
-        
           <Dropdown
-            data={{repo:repo.counties[0].years}}
+            arr={{repo: repo.counties[0].years}}
             text="Year"
             className="yearDropdown"
             />
