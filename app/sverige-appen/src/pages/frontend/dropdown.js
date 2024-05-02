@@ -3,8 +3,6 @@ import React from 'react';
 export default function Dropdown({arr, text, className}) {
 
     const data = arr.repo
-    console.log('arr is ', arr)
-    console.log('data is: ', data)
     return (
         <div class='custom-select'>
             
