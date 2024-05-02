@@ -8,7 +8,7 @@ export default function Dropdown_year({counties}) {
 
     return (
         <div class='custom-select'>
-            <label htmlFor="arrayDropdown" className="selectLabel">Year</label>
+            <label htmlFor="arrayDropdown" className="selectLabel">År</label>
             <select 
             id="arrayDropdown" 
             className= "dropdown yearDropdown"
