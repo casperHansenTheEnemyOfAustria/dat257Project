@@ -23,6 +23,7 @@ import { Municipality } from "@/app/backend/minicipality";
 import { Container } from "postcss";
 import dynamic from "next/dynamic";
 import { Rectangle } from "react-leaflet/Rectangle";
+import Grid from '@material-ui/core/Grid';
 
 
 
@@ -96,49 +97,41 @@ export default function Home({
   return (
     
     <main>
-
-      <div className="gradient"></div>
-      
-      <Header/>
-      
-        <SwedishMap 
-        repo = {repo} />
-        
-      <div className="buttons">
-        
-          <Dropdown_Year
-          counties={{repo:repo}} />
-
-          <Dropdown_Ln 
-            counties={{counties:repo}} />
-
-          <Dropdown_Mun 
-            counties={{counties:repo}} />
-
-          <Dropdown_Emission
-           repo = {{repo: repo}} />
-             
-        <a
-        className="searchButton"
-        target="_blank"
-        rel="noopener noreferrer">
-          <button onClick={() => clickedSearch(repo)}>
-          <h2 className="">
-            Search{" "}
-            <span className="searchArrow">
-              -&gt;
-            </span>
-          </h2>
-          </button>
-        </a>
-      </div>
-
-        <a className="resultBox">
-          <div>
-            <Resultbox
-            counties = {{counties: repo}}/>
+      <Grid container spacing={1}>
+        <Grid item xs={12} id="HeaderGrid">
+          <div className="gradient"></div>
+          <Header/>
+        </Grid>
+          <Grid item xs={4} id="MapGrid">
+            <SwedishMap repo = {repo} />
+          </Grid>
+        <Grid item xs={8} id="InfoGrid">
+          <div className="buttons">
+            <Dropdown_Year counties={{repo:repo}} />
+            <Dropdown_Ln counties={{counties:repo}} />
+            <Dropdown_Mun counties={{counties:repo}} />
+            <Dropdown_Emission repo = {{repo: repo}} />
+            <a
+              className="searchButton"
+              target="_blank"
+              rel="noopener noreferrer">
+              <button onClick={() => clickedSearch(repo)}>
+              <h2 className="">
+                Search{" "}
+                <span className="searchArrow">
+                  -&gt;
+                </span>
+              </h2>
+              </button>
+            </a>
           </div>
-        </a>
+          <a className="resultBox">
+            <div>
+              <Resultbox counties = {{counties: repo}}/>
+            </div>
+          </a>
+        </Grid>
+      </Grid>
     </main>
   );
 }

@@ -4,6 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First time:
 npm install 
+npm install @material-ui/core
 
 Then, run the development server:
 

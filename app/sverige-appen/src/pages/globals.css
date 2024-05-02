@@ -62,7 +62,21 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-  
+
+/* Grid CSS currently not connecting (No match found)*/  
+.HeaderGrid {
+  display: grid;
+  align-items: center;
+}
+
+.MapGrid {
+  display: grid;
+}
+
+.InfoGrid {
+  display: grid;
+}
+
 select {
   appearance: auto;
   width: 90%;
@@ -119,14 +133,17 @@ p {
   background-size: 100%;
   position: relative;
   padding-bottom: 25%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
 }
 
 .map {
   /* background-color: turquoise; */
   /* overflow: contain; */
-  height: 70vh;
+  height: 80vh;
+  width: 50vh;
   position: relative;
-  width: 100%;
 }
 
 
@@ -161,7 +178,7 @@ p {
 
 .resultBox {
   border: border-transparent;
-  text-align-last: center;
+  text-align-last: left;
   font-size: 2rem;
   padding: 1em 1em 1em 1em; 
   position: relative;
