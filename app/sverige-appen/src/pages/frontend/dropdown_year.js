@@ -1,3 +1,4 @@
+import { Grid } from '@material-ui/core';
 import React from 'react';
 
 export default function Dropdown_year({counties}) {
@@ -7,18 +8,20 @@ export default function Dropdown_year({counties}) {
     // CountyList;
 
     return (
-        <div class='custom-select'>
-            <label htmlFor="arrayDropdown" className="selectLabel">År</label>
-            <select 
-            id="arrayDropdown" 
-            className= "dropdown yearDropdown"
-            defaultValue="Year"
-            >
-                {arr.map((op, i) => (
-                    <option key={i} value={op}>{op}</option>
-                ))}
-            
-            </select>
-        </div>
+        <Grid item xs={12}>
+            <div class='custom-select'>
+                <Grid item xs={12}>
+                    <label htmlFor="arrayDropdown" className="selectLabel">År</label>
+                    <select 
+                    id="arrayDropdown" 
+                    className= "dropdown yearDropdown"
+                    defaultValue="Year">
+                        {arr.map((op, i) => (
+                            <option key={i} value={op}>{op}</option>
+                        ))}
+                    </select>
+                </Grid>
+            </div>
+            </Grid>
     );
 }

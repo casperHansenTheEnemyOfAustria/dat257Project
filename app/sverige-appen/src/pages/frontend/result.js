@@ -1,18 +1,24 @@
 import React from 'react';
 import '../globals.css';
+import { Grid } from '@material-ui/core';
 
 export default function Resultbox({counties}) {
         {
         return (
-            <div className="resultBox">
-                <h1 id="location">Plats</h1>
-                <p id="location-text">
-                    Info info info </p>
-                <h2>Utsläpp</h2>
-                <p id="result-text">
-                    
-                </p>
-            </div>
+            <Grid item xs={12} className="resultBox">
+                <Grid item xs={12}>
+                    <h1 id="location">Plats</h1>
+                </Grid>
+                <Grid item xs={12}>
+                    <p id="location-text"> Här visas allmän info om platsen du valt att du vill se!</p>
+                </Grid>
+                <Grid item xs={12}>
+                    <h2>Utsläpp</h2>
+                </Grid>
+                <Grid item xs={12}>
+                    <p id="result-text">Här visas utsläppen du valt att du vill se, klicka på sök och testa!</p>
+                </Grid>
+            </Grid>
         );
     };
     };
