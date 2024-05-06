@@ -19,21 +19,18 @@
   .header {
     background-image: url("./frontend/public/header_dark_2.png");
   }
-  .dropdown{
+  .dropdown {
     background-color:black;
     border-color: white;
     border-width: 0.2vh;
   }
 
-  .leaflet-layer,
-  .leaflet-control-zoom-in,
-  .leaflet-control-zoom-out,
-  .leaflet-control-attribution {
+  .leaflet-container {
     filter: 
     invert(100%) 
     hue-rotate(180deg)
-    brightness(90%) 
-    contrast(80%);
+    brightness(100%) 
+    contrast(100%);
   }
 }
 
@@ -66,7 +63,6 @@ body {
 /* Grid CSS currently not connecting (No match found)*/  
 .HeaderGrid {
   display: grid;
-  align-items: center;
 }
 
 .MapGrid {
@@ -75,6 +71,16 @@ body {
 
 .InfoGrid {
   display: grid;
+  min-width: 100vh;
+}
+
+.ButtonsGrid{
+  display: grid;
+}
+
+.ResultGrid {
+  display: grid;
+  
 }
 
 select {
@@ -107,6 +113,7 @@ p {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.00938em;
+  padding-bottom: 2%;
 
 }
 
@@ -141,7 +148,7 @@ p {
 .map {
   /* background-color: turquoise; */
   /* overflow: contain; */
-  height: 80vh;
+  height: 90vh;
   width: 50vh;
   position: relative;
 }
@@ -152,6 +159,7 @@ p {
   display: grid;
   text-align: center;
   max-width: 80rem;
+  max-height: 4rem;
   margin-bottom: 0.5rem;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 1rem;
@@ -171,18 +179,4 @@ p {
   background-color: #F3F4F6; /* Gray 100 */
 
 }
-
-.searchArrow {
-  @apply inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none
-}
-
-.resultBox {
-  border: border-transparent;
-  text-align-last: left;
-  font-size: 2rem;
-  padding: 1em 1em 1em 1em; 
-  position: relative;
-
-}
-
 }
