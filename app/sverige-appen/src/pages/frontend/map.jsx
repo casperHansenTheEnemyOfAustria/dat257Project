@@ -10,14 +10,18 @@ import Legend from './Legend.js';
 import colorGradient from 'javascript-color-gradient';
 const gradient = new colorGradient();
 gradient.setColorGradient('#FF0000', '#09cdda');
-
+    
 class Map extends React.Component {
+
+    
+
     constructor(props) {
 
         super(props);
         this.state = {
             mapKey: Math.random(),
         };
+        
     }
 
     forceUpdateMap = () => {
@@ -94,7 +98,7 @@ class Map extends React.Component {
         return (
             <MapContainer key={this.state.mapKey} center={[62.0, 15.0]} scrollWheelZoom={false} zoom={5} attributionControl={false} className={'map'}>
                 <GeoJSON data={counties.features} onEachFeature={this.onEachFeature.bind(this)} style={this.getStyle.bind(this)} />
-            
+                <Legend gradient={{gradient: gradient}} />
             </MapContainer>
         );
     }
