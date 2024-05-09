@@ -180,11 +180,21 @@ p {
   position: relative;
   display: flex;
   background: linear-gradient(to bottom, #09cdda, #ff0000)  ;
+  height:100%;
 }
 .legend{
   display: flex;
   justify-content: space-between;
   padding: 0 1rem;
   width: 10vw;
+  margin-left: 83vw;
+  margin-top: 1vh;
+  height: 20vh;
+}
+.legend-text>.top{
+  margin-top:3px;
+}
+.legend-text>.bottom{
+  margin-top: 10vh;
 }
 }
