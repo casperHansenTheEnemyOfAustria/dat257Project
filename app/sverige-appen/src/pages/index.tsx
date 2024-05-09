@@ -16,6 +16,7 @@ import Dropdown_Ln from "./frontend/dropdown_ln";
 import Dropdown_Year from './frontend/dropdown_year';
 import Dropdown_Mun from './frontend/dropdown_mun';
 import Dropdown_Emission from './frontend/dropdown_emission';
+import Chart from './frontend/chart';
 
 import { Header } from './frontend/header';
 import { updateResult } from './frontend/result';
@@ -136,7 +137,9 @@ export default function Home({
           </a>
           </Grid>
           <Grid item xs={8} className="ChartGrid">
-            <LineChart repo = {{repo:repo}}/>
+            <div> 
+              <Chart/>
+            </div>
           </Grid>
         </Grid>
       </Grid>

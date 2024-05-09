@@ -3,6 +3,7 @@
 First time:
 npm install 
 npm install @material-ui/core
+npm install chart.js react-chartjs-2
 
 Then, run the development server:
 

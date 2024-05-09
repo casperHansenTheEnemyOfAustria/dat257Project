@@ -32,6 +32,12 @@
     brightness(100%) 
     contrast(100%);
   }
+  .searchButton:hover {
+    border-color: #57585a; /* Gray 300 */
+    background-color: #4d4e50; /* Gray 100 */
+  
+  }
+  
 }
 
 /* Light Mode and base */
@@ -76,9 +82,15 @@ body {
 
 .ButtonsGrid{
   display: grid;
+  padding-bottom: 5dvh;
 }
 
 .ResultGrid {
+  display: grid;
+  
+}
+
+.ChartGrid {
   display: grid;
   
 }
@@ -133,17 +145,15 @@ p {
 
 
 .header {
-  width: 900px;
-  height: 100px;
+  width: 800px;
+  height: 80px;
   background-image: url("./frontend/public/header_light_2.png");
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
   padding-bottom: 25%;
   background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
-}
+  }
 
 .map {
   /* background-color: turquoise; */
@@ -177,6 +187,11 @@ p {
 .searchButton:hover {
   border-color: #D1D5DB; /* Gray 300 */
   background-color: #F3F4F6; /* Gray 100 */
+
+}
+
+.chart {
+  position: relative;
 
 }
 }
