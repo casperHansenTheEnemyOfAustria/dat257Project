@@ -78,7 +78,9 @@ class Map extends React.Component {
         } else {
 
             if (feature.properties.name === new_result_ln) {
+                this.fitBounds(feature.geometry.coordinates[0]);
                 return { color: '#ff0000' }; // Change this to the color you want
+
             } else {
                 return { color: '#09cdda' }; // Default color
             }
