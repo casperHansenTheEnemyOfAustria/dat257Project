@@ -176,6 +176,7 @@ function clickedSearch(repo: Repo) {
   
 
   updateResult(repo, ln,year, emission) 
+
 document.getElementsByTagName("g")[0].childNodes[0]?.dispatchEvent(new MouseEvent("contextmenu",{bubbles: true}))
 
 }
