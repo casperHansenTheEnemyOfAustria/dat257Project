@@ -1,13 +1,21 @@
 import React from 'react';
+
 import { MapContainer, GeoJSON, useMap } from "react-leaflet";
 import counties from "./public/geography/counties.json";
 import '../globals.css';
 import "leaflet/dist/leaflet.css";
+import Legend from './Legend.js';
+
+
 
 import colorGradient from 'javascript-color-gradient';
-
-
+const gradient = new colorGradient();
+gradient.setColorGradient('#FF0000', '#09cdda');
+    
 class Map extends React.Component {
+
+    
+
     constructor(props) {
         var ref = React.createRef();
         super(props);
@@ -15,7 +23,7 @@ class Map extends React.Component {
             mapKey: Math.random(),
 
         };
-    
+
     }
 
     forceUpdateMap = () => {
@@ -39,8 +47,7 @@ class Map extends React.Component {
 
     getStyle(feature) {
 
-        const gradient = new colorGradient();
-        gradient.setColorGradient('#FF0000', '#09cdda');
+        
         var result_ln = document.getElementsByClassName("countyDropdown")[0].value;
         var result_emission = document.getElementsByClassName("emissionDropdown")[0].value;
         var result_year = document.getElementsByClassName("yearDropdown")[0].value;
@@ -131,11 +138,15 @@ class Map extends React.Component {
            
             <MapContainer key={this.state.mapKey}  center={[62.0, 15.0]} scrollWheelZoom={false} zoom={5} attributionControl={false} className={'map'} id={'mapid'} mapRef={this.ref}>
                 <GeoJSON data={counties.features} onEachFeature={this.onEachFeature.bind(this)} style={this.getStyle.bind(this)} />
+                <Legend gradient={{gradient: gradient}} />
             </MapContainer>
             
             
         );
     }
 }
+
+
+
 
 export default Map;

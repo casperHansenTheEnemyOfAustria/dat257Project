@@ -168,4 +168,47 @@ p {
 
 }
 
+.info {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  border-radius: 5px;
+}
+
+.legend-gradient {
+  margin: auto;
+  position: relative;
+  display: flex;
+  background: linear-gradient(to bottom, #09cdda, #ff0000)  ;
+  height:100%;
+  border-radius: 0.5rem;
+  width:50%
+}
+.legend{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  width: 7vw;
+  margin-left: 79vw;
+  margin-top: 1vh;
+  height: 20vh;
+  border-radius: 0.5rem;
+}
+.legend-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 50%;
+
+}
+.legend-text > p{
+  margin-left: 1vw;
+}
+.legend-text>.top{
+  margin-top:3px;
+}
+.legend-text>.bottom{
+  margin-top: 10vh;
+}
 }
