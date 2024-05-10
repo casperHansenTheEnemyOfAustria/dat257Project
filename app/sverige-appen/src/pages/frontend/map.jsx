@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapContainer, GeoJSON } from "react-leaflet";
+import { MapContainer, GeoJSON, useMap } from "react-leaflet";
 import counties from "./public/geography/counties.json";
 import '../globals.css';
 import "leaflet/dist/leaflet.css";
@@ -9,11 +9,13 @@ import colorGradient from 'javascript-color-gradient';
 
 class Map extends React.Component {
     constructor(props) {
-
+        var ref = React.createRef();
         super(props);
         this.state = {
             mapKey: Math.random(),
+
         };
+    
     }
 
     forceUpdateMap = () => {
@@ -45,6 +47,7 @@ class Map extends React.Component {
         var new_result_ln = result_ln.replace('s län', '');
         var new_result_ln = new_result_ln.replace(' län', '');
         var new_result_ln = new_result_ln.replace('Örebro', 'Orebro');
+        this.map = useMap();
 
         if (new_result_ln == 'Alla') {
 
@@ -89,11 +92,24 @@ class Map extends React.Component {
 
     }
 
+    fitBounds(coordinates) {
+        var bounds = coordinates.reduce(function (bounds, coord) {
+            return bounds.extend(coord);
+        }, new window.L.LatLngBounds(coordinates[0], coordinates[0]));
+
+        console.log(this.map._zoomBound);
+    }
+
+    // a fucntion that zooms in to some coordinates 
+   
     render() {
         return (
-            <MapContainer key={this.state.mapKey} center={[62.0, 15.0]} scrollWheelZoom={false} zoom={5} attributionControl={false} className={'map'}>
+           
+            <MapContainer key={this.state.mapKey}  center={[62.0, 15.0]} scrollWheelZoom={false} zoom={5} attributionControl={false} className={'map'} id={'mapid'} mapRef={this.ref}>
                 <GeoJSON data={counties.features} onEachFeature={this.onEachFeature.bind(this)} style={this.getStyle.bind(this)} />
             </MapContainer>
+            
+            
         );
     }
 }
