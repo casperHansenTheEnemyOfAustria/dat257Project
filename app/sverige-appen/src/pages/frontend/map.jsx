@@ -1,5 +1,6 @@
 import React from 'react';
-import { MapContainer, GeoJSON} from "react-leaflet";
+
+import { MapContainer, GeoJSON, useMap } from "react-leaflet";
 import counties from "./public/geography/counties.json";
 import '../globals.css';
 import "leaflet/dist/leaflet.css";
@@ -16,12 +17,13 @@ class Map extends React.Component {
     
 
     constructor(props) {
-
+        var ref = React.createRef();
         super(props);
         this.state = {
             mapKey: Math.random(),
+
         };
-        
+
     }
 
     forceUpdateMap = () => {
@@ -52,6 +54,7 @@ class Map extends React.Component {
         var new_result_ln = result_ln.replace('s län', '');
         var new_result_ln = new_result_ln.replace(' län', '');
         var new_result_ln = new_result_ln.replace('Örebro', 'Orebro');
+        this.map = useMap();
 
         if (new_result_ln == 'Alla') {
 
@@ -85,7 +88,9 @@ class Map extends React.Component {
         } else {
 
             if (feature.properties.name === new_result_ln) {
+                this.fit(feature.geometry.coordinates);
                 return { color: '#ff0000' }; // Change this to the color you want
+
             } else {
                 return { color: '#09cdda' }; // Default color
             }
@@ -94,12 +99,49 @@ class Map extends React.Component {
 
     }
 
+    fit(coordinates) {
+        //TODO make this nicer
+        console.log(coordinates[0].length);
+        var bounds
+        if (coordinates[0].length === 1){
+            bounds = coordinates[0][0].map((coord) => [coord[1], coord[0]]);
+
+        }
+        else if (coordinates[0][0].length === 2) {
+            bounds = coordinates[0].map((coord) => [coord[1], coord[0]]);
+        } else if (coordinates[0][0][0].length === 2) {
+            bounds = coordinates[0].map((coord) => [coord[1], coord[0]]);
+        }else {
+            bounds = coordinates[0][0].map((coord) => [coord[1], coord[0]]);
+        }
+       
+
+
+
+        console.log(bounds);
+        this.map = useMap();
+        try{
+            this.map.fitBounds(bounds);
+        }catch(e){
+            this.map.fitBounds([coordinates[0], coordinates[1]]);
+            console.log(e);
+        }
+        // this.map.zoomControl._map.setView(bounds[0], 6);
+        
+        
+    }
+
+    // a fucntion that zooms in to some coordinates 
+   
     render() {
         return (
-            <MapContainer key={this.state.mapKey} center={[62.0, 15.0]} scrollWheelZoom={false} zoom={5} attributionControl={false} className={'map'}>
+           
+            <MapContainer key={this.state.mapKey}  center={[62.0, 15.0]} scrollWheelZoom={false} zoom={5} attributionControl={false} className={'map'} id={'mapid'} mapRef={this.ref}>
                 <GeoJSON data={counties.features} onEachFeature={this.onEachFeature.bind(this)} style={this.getStyle.bind(this)} />
                 <Legend gradient={{gradient: gradient}} />
             </MapContainer>
+            
+            
         );
     }
 }
