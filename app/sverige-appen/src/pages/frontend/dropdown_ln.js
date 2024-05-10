@@ -1,4 +1,5 @@
 import React from 'react';
+import { Grid } from '@material-ui/core';
 
 
 
@@ -12,16 +13,19 @@ export default function Dropdown_Ln({counties}) {
 
 
     return (
-        <div class='custom-select'>
-            <label htmlFor="arrayDropdown" className="selectLabel">Län</label>
-            <select 
-            id="arrayDropdown" 
-            className= "dropdown countyDropdown"
-            >
-                {arr.map((op, i) => (
-                    <option key={i} value={op}>{op}</option>
-                ))}
-            </select>
-        </div>
+        <Grid item xs={12}>
+            <div class='custom-select'>
+                <Grid item xs={12}>
+                    <label htmlFor="arrayDropdown" className="selectLabel">Län</label>
+                    <select 
+                    id="arrayDropdown" 
+                    className= "dropdown countyDropdown">
+                        {arr.map((op, i) => (
+                            <option key={i} value={op}>{op}</option>
+                        ))}
+                    </select>
+                </Grid>
+            </div>
+        </Grid>
     );
 }

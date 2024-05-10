@@ -4,6 +4,7 @@ import React from 'react';
 import dynamic from 'next/dynamic'
 //importing globals
 import '../globals.css';
+import { Grid } from '@material-ui/core';
 
 
 //importing components
@@ -11,10 +12,8 @@ import '../globals.css';
 export const Header = () => {
 
    return (
-    <div>
-    <div style={{position: 'relative', zIndex: 2000}}>
-        <div className="header"> </div>
-      </div>
- </div>
-   );
+    <Grid item xs={12}> 
+      <div className="header"> </div>
+    </Grid>
+  );
 } 

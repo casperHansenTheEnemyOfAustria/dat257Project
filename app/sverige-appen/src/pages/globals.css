@@ -19,22 +19,25 @@
   .header {
     background-image: url("./frontend/public/header_dark_2.png");
   }
-  .dropdown{
+  .dropdown {
     background-color:black;
     border-color: white;
     border-width: 0.2vh;
   }
 
-  .leaflet-layer,
-  .leaflet-control-zoom-in,
-  .leaflet-control-zoom-out,
-  .leaflet-control-attribution {
+  .leaflet-container {
     filter: 
     invert(100%) 
     hue-rotate(180deg)
-    brightness(90%) 
-    contrast(80%);
+    brightness(100%) 
+    contrast(100%);
   }
+  .searchButton:hover {
+    border-color: #57585a; /* Gray 300 */
+    background-color: #4d4e50; /* Gray 100 */
+  
+  }
+  
 }
 
 /* Light Mode and base */
@@ -62,7 +65,36 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+/* Grid CSS currently not connecting (No match found)*/  
+.HeaderGrid {
+  display: grid;
+}
+
+.MapGrid {
+  display: grid;
+}
+
+.InfoGrid {
+  display: grid;
+  min-width: 100vh;
+}
+
+.ButtonsGrid{
+  display: grid;
+  padding-bottom: 5dvh;
+}
+
+.ResultGrid {
+  display: grid;
   
+}
+
+.ChartGrid {
+  display: grid;
+  
+}
+
 select {
   appearance: auto;
   width: 90%;
@@ -93,6 +125,7 @@ p {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.00938em;
+  padding-bottom: 2%;
 
 }
 
@@ -112,21 +145,22 @@ p {
 
 
 .header {
-  width: 900px;
-  height: 100px;
+  width: 800px;
+  height: 80px;
   background-image: url("./frontend/public/header_light_2.png");
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
   padding-bottom: 25%;
-}
+  background-repeat: no-repeat;
+  }
 
 .map {
   /* background-color: turquoise; */
   /* overflow: contain; */
-  height: 70vh;
+  height: 90vh;
+  width: 50vh;
   position: relative;
-  width: 100%;
 }
 
 
@@ -135,6 +169,7 @@ p {
   display: grid;
   text-align: center;
   max-width: 80rem;
+  max-height: 4rem;
   margin-bottom: 0.5rem;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 1rem;
@@ -155,15 +190,7 @@ p {
 
 }
 
-.searchArrow {
-  @apply inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none
-}
-
-.resultBox {
-  border: border-transparent;
-  text-align-last: center;
-  font-size: 2rem;
-  padding: 1em 1em 1em 1em; 
+.chart {
   position: relative;
 
 }
@@ -211,4 +238,5 @@ p {
 .legend-text>.bottom{
   margin-top: 10vh;
 }
+
 }

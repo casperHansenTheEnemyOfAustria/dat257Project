@@ -16,6 +16,7 @@ import Dropdown_Ln from "./frontend/dropdown_ln";
 import Dropdown_Year from './frontend/dropdown_year';
 import Dropdown_Mun from './frontend/dropdown_mun';
 import Dropdown_Emission from './frontend/dropdown_emission';
+import Chart from './frontend/chart';
 
 import { Header } from './frontend/header';
 import { updateResult } from './frontend/result';
@@ -23,10 +24,12 @@ import { Municipality } from "@/app/backend/minicipality";
 import { Container } from "postcss";
 import dynamic from "next/dynamic";
 import { Rectangle } from "react-leaflet/Rectangle";
+import Grid from '@material-ui/core/Grid';
 
 
 
 const SwedishMap = dynamic(() => import('./frontend/map.jsx'), { ssr: false })
+const LineChart = dynamic(() => import('./frontend/chart.js'), { ssr: false })
 
 
 type Repo = {
@@ -96,49 +99,50 @@ export default function Home({
   return (
     
     <main>
-
+      <Grid container spacing={1}>
       <div className="gradient"></div>
-      
-      <Header/>
-      
-        <SwedishMap 
-        repo = {repo} />
-        
-      <div className="buttons">
-        
-          <Dropdown_Year
-          counties={{repo:repo}} />
-
-          <Dropdown_Ln 
-            counties={{counties:repo}} />
-
-          <Dropdown_Mun 
-            counties={{counties:repo}} />
-
-          <Dropdown_Emission
-           repo = {{repo: repo}} />
-             
-        <a
-        className="searchButton"
-        target="_blank"
-        rel="noopener noreferrer">
-          <button onClick={() => clickedSearch(repo)}>
-          <h2 className="">
-            Search{" "}
-            <span className="searchArrow">
-              -&gt;
-            </span>
-          </h2>
-          </button>
-        </a>
-      </div>
-
-        <a className="resultBox">
-          <div>
-            <Resultbox
-            counties = {{counties: repo}}/>
-          </div>
-        </a>
+          <Grid item xs={4} className="MapGrid">
+            <SwedishMap repo = {repo} />
+          </Grid>
+        <Grid item xs={8} className="InfoGrid">
+          <Grid item xs={8} className="InfoGrid">
+            <Header/>
+          </Grid>
+          <Grid item xs={8} className="ButtonsGrid">
+            <div className="buttons">
+              <Dropdown_Year counties={{repo:repo}} />
+              <Dropdown_Ln counties={{counties:repo}} />
+              <Dropdown_Mun counties={{counties:repo}} />
+              <Dropdown_Emission repo = {{repo: repo}} />
+              <a
+                className="searchButton"
+                target="_blank"
+                rel="noopener noreferrer">
+                <button onClick={() => clickedSearch(repo)}>
+                <h2 className="">
+                  Search{" "}
+                  <span className="searchArrow">
+                    -&gt;
+                  </span>
+                </h2>
+                </button>
+              </a>
+            </div>
+          </Grid>
+          <Grid item xs={8} className="ResultGrid">
+          <a className="resultBox">
+            <div>
+              <Resultbox counties = {{counties: repo}}/>
+            </div>
+          </a>
+          </Grid>
+          <Grid item xs={8} className="ChartGrid">
+            <div> 
+              <Chart/>
+            </div>
+          </Grid>
+        </Grid>
+      </Grid>
     </main>
   );
 }
