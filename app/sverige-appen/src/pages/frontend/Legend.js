@@ -14,13 +14,13 @@ function Legend({ gradient }) {
               
               <div className="legend-gradient" style={{background: `linear-gradient(to right, ${gstart}, ${gend}`}}>
 
-                <div className="legend-text">
+                
+              </div>
+              <div className="legend-text">
                   
                   <p className="top">100%</p>
                   <p className="bottom">0%</p>
-                </div>
               </div>
-              
           </div>
 
     );

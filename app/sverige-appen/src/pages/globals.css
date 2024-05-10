@@ -181,15 +181,29 @@ p {
   display: flex;
   background: linear-gradient(to bottom, #09cdda, #ff0000)  ;
   height:100%;
+  border-radius: 0.5rem;
+  width:50%
 }
 .legend{
   display: flex;
   justify-content: space-between;
   padding: 0 1rem;
-  width: 10vw;
-  margin-left: 83vw;
+  width: 7vw;
+  margin-left: 79vw;
   margin-top: 1vh;
   height: 20vh;
+  border-radius: 0.5rem;
+}
+.legend-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 50%;
+
+}
+.legend-text > p{
+  margin-left: 1vw;
 }
 .legend-text>.top{
   margin-top:3px;
