@@ -81,7 +81,7 @@ class Map extends React.Component {
         } else {
 
             if (feature.properties.name === new_result_ln) {
-                this.fitBounds(feature.geometry.coordinates[0]);
+                this.fit(feature.geometry.coordinates);
                 return { color: '#ff0000' }; // Change this to the color you want
 
             } else {
@@ -92,12 +92,36 @@ class Map extends React.Component {
 
     }
 
-    fitBounds(coordinates) {
-        var bounds = coordinates.reduce(function (bounds, coord) {
-            return bounds.extend(coord);
-        }, new window.L.LatLngBounds(coordinates[0], coordinates[0]));
+    fit(coordinates) {
+        //TODO make this nicer
+        console.log(coordinates[0].length);
+        var bounds
+        if (coordinates[0].length === 1){
+            bounds = coordinates[0][0].map((coord) => [coord[1], coord[0]]);
 
-        console.log(this.map._zoomBound);
+        }
+        else if (coordinates[0][0].length === 2) {
+            bounds = coordinates[0].map((coord) => [coord[1], coord[0]]);
+        } else if (coordinates[0][0][0].length === 2) {
+            bounds = coordinates[0].map((coord) => [coord[1], coord[0]]);
+        }else {
+            bounds = coordinates[0][0].map((coord) => [coord[1], coord[0]]);
+        }
+       
+
+
+
+        console.log(bounds);
+        this.map = useMap();
+        try{
+            this.map.fitBounds(bounds);
+        }catch(e){
+            this.map.fitBounds([coordinates[0], coordinates[1]]);
+            console.log(e);
+        }
+        // this.map.zoomControl._map.setView(bounds[0], 6);
+        
+        
     }
 
     // a fucntion that zooms in to some coordinates 
