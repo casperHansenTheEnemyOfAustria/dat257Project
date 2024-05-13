@@ -15,7 +15,7 @@ const preferredMode = window.matchMedia('(prefers-color-scheme: light)');
 if (preferredMode.matches) {
     gradient.setColorGradient('#A0DA39', '#4AC16D', '#1FA187', '#277F8E', '#365C8D', '#46327E', '#440154');
 } else {
-    gradient.setColorGradient('#F0F921', '#FEBD2A', '#F48849', '#DB5C68', '#B83289', '#8B0AA5', '#5302A3', '#0D0887').reverse;
+    gradient.setColorGradient('#828708', '#52A302', '#24A50A', '#32B861', '#5CDBCF', '#49B5F4', '#2A6BFE', '#2A21F9');
 }
     
 class Map extends React.Component {
@@ -85,7 +85,7 @@ class Map extends React.Component {
         
 
                     color = gradient.getColor(emissionPercentage);
-                    return { color: color, backgound: color, opacity: 100, stroke: 1, fillOpacity: 1, fill: color};
+                    return { color: color, backgound: color, opacity: 100, stroke: 1, fillOpacity: 100, fill: color};
 
 
                 }
@@ -183,7 +183,7 @@ class Map extends React.Component {
 
                     color = gradient.getColor(emissionPercentage);
         
-                    return { color: color, backgound: color, opacity: 100, strokeWidth: 1, fillOpacity: 1, fill: color};
+                    return { color: color, backgound: color, opacity: 100, strokeWidth: 1, fillOpacity: 100, fill: color};
 
                 }else{
                     style = {opacity: 0, fillOpacity: 0};
