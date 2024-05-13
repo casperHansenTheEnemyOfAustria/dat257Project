@@ -71,7 +71,7 @@ class Map extends React.Component {
                 new_result_ln = new_result_ln.replace('s län', '');
                 new_result_ln = new_result_ln.replace(' län', '');
                 new_result_ln = new_result_ln.replace('Örebro', 'Orebro');
-                console.log(new_result_ln);
+
                 if (new_result_ln == feature.properties.name) {
 
                     var emissionNum = counties[i].emissions[result_year][current_emission_index];
@@ -146,7 +146,50 @@ class Map extends React.Component {
 
     getStyleMuni(feature) {
         var result_mn = document.getElementsByClassName("muniDropdown")[0].value;
-        console.log(result_mn);
+        var result_emission = document.getElementsByClassName("emissionDropdown")[0].value;
+        var result_year = document.getElementsByClassName("yearDropdown")[0].value;
+        console.log(feature.properties.name)
+        if (result_mn == 'Alla') {
+                      // make the colors correspond to the countys emissions
+            var color = '#09cdda';
+            var currentSearchCounty = this.props.repo.currentSearch.county;
+            if (currentSearchCounty == 'Alla') {
+                console.log('no county selected');
+                return {display: 'none', opacity: 0};
+            }
+            var munies = this.props.repo.municipalities[currentSearchCounty];
+            console.log(munies);
+
+            var current_emission_index = this.props.repo.emissionTypes.indexOf(result_emission);
+
+            var emissionForAllCounties =  munies[0].emissions[result_year][current_emission_index];
+            for (var i = 0; i < munies.length; i++) {
+                var new_result_ln = munies[i].name;
+                new_result_ln = new_result_ln.replace('s län', '');
+                new_result_ln = new_result_ln.replace(' län', '');
+                new_result_ln = new_result_ln.replace('Örebro', 'Orebro');
+
+                if (new_result_ln == feature.properties.name) {
+
+                    var emissionNum = munies[i].emissions[result_year][current_emission_index];
+                    var emissionPercentage = emissionNum * 100 / emissionForAllCounties;
+        
+
+                    color = gradient.getColor(emissionPercentage);
+                    return { color: color };
+
+
+                }
+            }
+          
+        } else {
+            if (feature.properties.name === result_mn) {
+                return { color: '#00000' }; // Change this to the color you want
+            } else {
+                return { color: '#09cdda' }; // Default color
+            }
+        }
+
         
     }
     render() {

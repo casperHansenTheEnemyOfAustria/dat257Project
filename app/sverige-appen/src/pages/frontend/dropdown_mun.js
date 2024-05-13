@@ -16,9 +16,8 @@ export default function Dropdown_Mun({counties}) {
     //     arr.push(counties.counties.municipalities[i])
     // }
     var currentCounty = counties.counties.currentSearch.county
-    console.log(currentCounty)
+
     var currentMunicipalities = counties.counties.municipalities[currentCounty]
-    console.log(currentMunicipalities)
 
     for (let i = 0; i < currentMunicipalities.length; i++) {
         arr.push(currentMunicipalities[i].name )

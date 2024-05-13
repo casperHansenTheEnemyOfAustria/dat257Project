@@ -11,6 +11,8 @@ export default function Dropdown_Ln({counties}) {
         arr.push(counties.counties.counties[i].name)
     }
 
+    arr.sort()
+
 
     return (
         <Grid item xs={12}>
@@ -19,7 +21,8 @@ export default function Dropdown_Ln({counties}) {
                     <label htmlFor="arrayDropdown" className="selectLabel">Län</label>
                     <select 
                     id="arrayDropdown" 
-                    className= "dropdown countyDropdown">
+                    className= "dropdown countyDropdown" 
+                    >
                         {arr.map((op, i) => (
                             <option key={i} value={op}>{op}</option>
                         ))}
