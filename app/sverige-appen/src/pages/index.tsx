@@ -36,6 +36,7 @@ type Repo = {
   counties: any []
   municipalities: any
   emissionTypes: any 
+  currentSearch:any
 }
  
 type municipalityJSONlist = {
@@ -57,7 +58,7 @@ export const getServerSideProps = (async () => {
   const countyNames = await db.getAllCounties() // get all county names
   var counties: any[] = [] // list of counties
   var countyMunicipalityMap = new Map<string, any[]>() // map of county names to list of municipalities
-  var municipalitiesJSONformatted: { [key: string]: municipalityJSONlist } = {} // map of municipalities but json
+  var municipalitiesArray// map of municipalities but json
   for (var i = 0; i < countyNames.length; i++) {
     var county = await db.getCounty(countyNames[i])
     counties.push(await county.toJSON())
@@ -65,16 +66,18 @@ export const getServerSideProps = (async () => {
     var municipalitiesPerCounty: municipalityJSONlist = getMunicipalitiesPerCounty();
     countyMunicipalityMap.set(countyNames[i], municipalitiesPerCounty)
   }
-  // this makes muicipalities a json serializable object my changing all map entries to arrays
-  municipalitiesJSONformatted = Array.from(countyMunicipalityMap.entries()).reduce((obj, [key, value]) => {
+  // this makes muicipalities into a list of json objects with counties as keys 
+  municipalitiesArray =Array.from(countyMunicipalityMap.entries()).reduce((obj, [key, value]) => {
     obj[key] = value;
     return obj;
   }, {} as { [key: string]: any[] })
+
+
   const repo: Repo = {
     counties: counties,
-    municipalities: municipalitiesJSONformatted,
-    emissionTypes: await db.getEmissionTypes()
-
+    municipalities: municipalitiesArray,
+    emissionTypes: await db.getEmissionTypes(),
+    currentSearch: {county: "Alla", year: 1990, emission: "", municipality: "Alla"}
   }
 
   // Pass data to the page via props
@@ -110,7 +113,7 @@ export default function Home({
           </Grid>
           <Grid item xs={8} className="ButtonsGrid">
             <div className="buttons">
-              <Dropdown_Year counties={{repo:repo}} />
+              <Dropdown_Year counties={{repo:repo}}/>
               <Dropdown_Ln counties={{counties:repo}} />
               <Dropdown_Mun counties={{counties:repo}} />
               <Dropdown_Emission repo = {{repo: repo}} />
@@ -157,25 +160,19 @@ function clickedSearch(repo: Repo) {
   const result_year = document.getElementsByClassName("yearDropdown")[0]
   const result_ln = document.getElementsByClassName("countyDropdown")[0]
   const result_emission = document.getElementsByClassName("emissionDropdown")[0] 
+  const result_mun = document.getElementsByClassName("muniDropdown")[0]
   
-  console.log()
-  console.log("heehee")
-    var year= result_year.value
-    var ln = result_ln.value
-    var emission = result_emission.value
-    if (emission == "NO2"){
-      emission = 1
-    }else{
-      emission = 0 
-    }
- 
+
   var year= result_year.value
   var ln = result_ln.value
   var emission = result_emission.value
+  var mun = result_mun.value
 
   
 
+
   updateResult(repo, ln,year, emission) 
+  repo.currentSearch = {county: ln, year: year, emission: emission, municipality: mun}
 
 document.getElementsByTagName("g")[0].childNodes[0]?.dispatchEvent(new MouseEvent("contextmenu",{bubbles: true}))
 
