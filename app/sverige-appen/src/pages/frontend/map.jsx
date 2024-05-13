@@ -15,7 +15,7 @@ const preferredMode = window.matchMedia('(prefers-color-scheme: light)');
 if (preferredMode.matches) {
     gradient.setColorGradient('#A0DA39', '#4AC16D', '#1FA187', '#277F8E', '#365C8D', '#46327E', '#440154');
 } else {
-    gradient.setColorGradient('#828708', '#52A302', '#24A50A', '#32B861', '#5CDBCF', '#49B5F4', '#2A6BFE', '#2A21F9');
+    gradient.setColorGradient('#8F7700', '#248E0C', '#09940F', '#06B12A', '#00EC60');
 }
     
 class Map extends React.Component {
@@ -81,7 +81,7 @@ class Map extends React.Component {
                 if (new_result_ln == feature.properties.name) {
 
                     var emissionNum = counties[i].emissions[result_year][current_emission_index];
-                    var emissionPercentage = emissionNum * 200 / emissionForAllCounties;
+                    var emissionPercentage = emissionNum * 100 / emissionForAllCounties;
         
 
                     color = gradient.getColor(emissionPercentage);
@@ -96,7 +96,7 @@ class Map extends React.Component {
 
             if (feature.properties.name === new_result_ln) {
                 this.fit(feature.geometry.coordinates);
-                return { color: '#000000' }; // Change this to the color you want
+                return { color: '#000000', stroke: false}; // Change this to the color you want
 
             } else {
                 return {opacity: 0, color: '#000000'}; // Default color
