@@ -2,6 +2,7 @@ import React from 'react';
 
 import { MapContainer, GeoJSON, useMap } from "react-leaflet";
 import counties from "./public/geography/counties.json";
+import municipalities from "./public/geography/municipalities.json";
 import '../globals.css';
 import "leaflet/dist/leaflet.css";
 import Legend from './Legend.js';
@@ -133,12 +134,28 @@ class Map extends React.Component {
 
     // a fucntion that zooms in to some coordinates 
    
+    onEachFeatureMuni(feature, layer) {
+        //bind click
+        layer.on({
+            contextmenu: function (e) {
+                this.forceUpdateMap();
+            }.bind(this)
+        });
+        
+    }
+
+    getStyleMuni(feature) {
+        var result_mn = document.getElementsByClassName("muniDropdown")[0].value;
+        console.log(result_mn);
+        
+    }
     render() {
         return (
            
             <MapContainer key={this.state.mapKey}  center={[62.0, 15.0]} scrollWheelZoom={false} zoom={5} attributionControl={false} className={'map'} id={'mapid'} mapRef={this.ref}>
                 <GeoJSON data={counties.features} onEachFeature={this.onEachFeature.bind(this)} style={this.getStyle.bind(this)} />
                 <Legend gradient={{gradient: gradient}} />
+                <GeoJSON data={municipalities.features} onEachFeature={this.onEachFeatureMuni.bind(this)} style={this.getStyleMuni.bind(this)} />
             </MapContainer>
             
             

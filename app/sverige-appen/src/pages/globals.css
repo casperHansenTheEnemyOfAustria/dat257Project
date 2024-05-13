@@ -238,5 +238,8 @@ p {
 .legend-text>.bottom{
   margin-top: 10vh;
 }
+.show{
+  display:flex;
+}
 
 }

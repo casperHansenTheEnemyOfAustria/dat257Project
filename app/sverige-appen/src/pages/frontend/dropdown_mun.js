@@ -19,7 +19,7 @@ export default function Dropdown_Mun({counties}) {
                     <label htmlFor="arrayDropdown" className="selectLabel">Kommun</label>
                     <select 
                     id="arrayDropdown" 
-                    className= "dropdown">
+                    className= "dropdown muniDropdown">
                         {arr.map((op, i) => (
                             <option key={i} value={op}>{op}</option>
                         ))}
