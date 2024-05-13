@@ -37,17 +37,28 @@ class Map extends React.Component {
         layer.on({
             contextmenu: function (e) {
 
-
                 this.forceUpdateMap();
 
             }.bind(this)
         });
-        layer.bindPopup(feature.properties.name);
+        var result_emission = document.getElementsByClassName("emissionDropdown")[0].value;
+        var result_year = document.getElementsByClassName("yearDropdown")[0].value;
+
+
+        var counties = this.props.repo.counties;
+        var index = counties.indexOf(feature.properties.name)
+
+        console.log("Debug popuop name: " + feature.properties.name + "s län")
+        console.log("Debug popuop: " + counties["Dalarnas län"])
+
+        var emissionNum = counties[feature.properties.name + "s län"].emissions[result_year][result_emission];
+
+        layer.bindPopup(feature.properties.name + " " + emissionNum);
     }
 
     getStyle(feature) {
 
-        
+
         var result_ln = document.getElementsByClassName("countyDropdown")[0].value;
         var result_emission = document.getElementsByClassName("emissionDropdown")[0].value;
         var result_year = document.getElementsByClassName("yearDropdown")[0].value;
