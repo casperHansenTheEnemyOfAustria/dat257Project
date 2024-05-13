@@ -11,7 +11,7 @@ import Legend from './Legend.js';
 
 import colorGradient from 'javascript-color-gradient';
 const gradient = new colorGradient();
-gradient.setColorGradient('#FF0000', '#09cdda');
+gradient.setColorGradient('#F0F921', '#FEBD2A', '#F48849', '#DB5C68', '#B83289', '#8B0AA5', '#5302A3', '#0D0887');
     
 class Map extends React.Component {
 
@@ -58,6 +58,7 @@ class Map extends React.Component {
         this.map = useMap();
 
         if (new_result_ln == 'Alla') {
+            console.log(document.getElementsByClassName("muniDropdown")[0].value)
 
             // make the colors correspond to the countys emissions
             var color = '#09cdda';
@@ -75,11 +76,11 @@ class Map extends React.Component {
                 if (new_result_ln == feature.properties.name) {
 
                     var emissionNum = counties[i].emissions[result_year][current_emission_index];
-                    var emissionPercentage = emissionNum * 100 / emissionForAllCounties;
+                    var emissionPercentage = emissionNum * 200 / emissionForAllCounties;
         
 
                     color = gradient.getColor(emissionPercentage);
-                    return { color: color };
+                    return { color: color, backgound: color, opacity: 100, stroke: false, fillOpacity: 1, fill: color};
 
 
                 }
@@ -90,10 +91,10 @@ class Map extends React.Component {
 
             if (feature.properties.name === new_result_ln) {
                 this.fit(feature.geometry.coordinates);
-                return { color: '#ff0000' }; // Change this to the color you want
+                return { color: '#000000' }; // Change this to the color you want
 
             } else {
-                return { color: '#09cdda' }; // Default color
+                return {opacity: 0, color: '#000000'}; // Default color
             }
         }
 
@@ -102,7 +103,7 @@ class Map extends React.Component {
 
     fit(coordinates) {
         //TODO make this nicer
-        console.log(coordinates[0].length);
+
         var bounds
         if (coordinates[0].length === 1){
             bounds = coordinates[0][0].map((coord) => [coord[1], coord[0]]);
@@ -119,13 +120,13 @@ class Map extends React.Component {
 
 
 
-        console.log(bounds);
+        
         this.map = useMap();
         try{
             this.map.fitBounds(bounds);
         }catch(e){
             this.map.fitBounds([coordinates[0], coordinates[1]]);
-            console.log(e);
+
         }
         // this.map.zoomControl._map.setView(bounds[0], 6);
         
@@ -145,48 +146,51 @@ class Map extends React.Component {
     }
 
     getStyleMuni(feature) {
-        var result_mn = document.getElementsByClassName("muniDropdown")[0].value;
+        var result_mn = this.props.repo.currentSearch.municipality;
         var result_emission = document.getElementsByClassName("emissionDropdown")[0].value;
         var result_year = document.getElementsByClassName("yearDropdown")[0].value;
-        console.log(feature.properties.name)
+        var style
+        var color
         if (result_mn == 'Alla') {
                       // make the colors correspond to the countys emissions
-            var color = '#09cdda';
+   
             var currentSearchCounty = this.props.repo.currentSearch.county;
             if (currentSearchCounty == 'Alla') {
-                console.log('no county selected');
+     
                 return {display: 'none', opacity: 0};
             }
             var munies = this.props.repo.municipalities[currentSearchCounty];
-            console.log(munies);
+
 
             var current_emission_index = this.props.repo.emissionTypes.indexOf(result_emission);
 
             var emissionForAllCounties =  munies[0].emissions[result_year][current_emission_index];
+
             for (var i = 0; i < munies.length; i++) {
                 var new_result_ln = munies[i].name;
-                new_result_ln = new_result_ln.replace('s län', '');
-                new_result_ln = new_result_ln.replace(' län', '');
-                new_result_ln = new_result_ln.replace('Örebro', 'Orebro');
+     
 
                 if (new_result_ln == feature.properties.name) {
 
                     var emissionNum = munies[i].emissions[result_year][current_emission_index];
-                    var emissionPercentage = emissionNum * 100 / emissionForAllCounties;
-        
+                    var emissionPercentage = emissionNum / emissionForAllCounties;
+             
 
                     color = gradient.getColor(emissionPercentage);
-                    return { color: color };
+        
+                    return { color: color, backgound: color, opacity: 100, stroke: false, fillOpacity: 1, fill: color};
 
-
+                }else{
+                    style = {opacity: 0, fillOpacity: 0};
                 }
             }
+            return style;
           
         } else {
             if (feature.properties.name === result_mn) {
-                return { color: '#00000' }; // Change this to the color you want
+                return { color: '#cb99e6', stroke: false, fillOpacity: 100 }; // Change this to the color you want
             } else {
-                return { color: '#09cdda' }; // Default color
+                return { opacity: 0, fillOpacity: 0 }; // Default color
             }
         }
 
@@ -196,7 +200,7 @@ class Map extends React.Component {
         return (
            
             <MapContainer key={this.state.mapKey}  center={[62.0, 15.0]} scrollWheelZoom={false} zoom={5} attributionControl={false} className={'map'} id={'mapid'} mapRef={this.ref}>
-                <GeoJSON data={counties.features} onEachFeature={this.onEachFeature.bind(this)} style={this.getStyle.bind(this)} />
+                <GeoJSON data={counties.features} onEachFeature={this.onEachFeature.bind(this)} style={this.getStyle.bind(this) } />
                 <Legend gradient={{gradient: gradient}} />
                 <GeoJSON data={municipalities.features} onEachFeature={this.onEachFeatureMuni.bind(this)} style={this.getStyleMuni.bind(this)} />
             </MapContainer>

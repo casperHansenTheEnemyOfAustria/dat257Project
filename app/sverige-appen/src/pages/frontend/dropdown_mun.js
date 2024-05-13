@@ -23,6 +23,7 @@ export default function Dropdown_Mun({counties}) {
         arr.push(currentMunicipalities[i].name )
     }
 
+    arr.sort()
 
     return (
         <Grid item xs={12}>
@@ -30,11 +31,16 @@ export default function Dropdown_Mun({counties}) {
                 <Grid item xs={12}>
                     <label htmlFor="arrayDropdown" className="selectLabel">Kommun</label>
                     <select 
-                    id="arrayDropdown" 
-                    className= "dropdown muniDropdown" onClick={update} >
-                        {arr.map((op, i) => (
-                            <option key={i} value={op}>{op}</option>
-                        ))}
+                        id="arrayDropdown" 
+                        className= "dropdown muniDropdown" onClick={update}
+                    >
+                        {arr.map((op, i) => {
+                            if (op === "Alla") {
+                                return <option key={i} value={op} selected>{op}</option>;
+                            } else {
+                                return <option key={i} value={op}>{op}</option>;
+                            }
+                        })}
                     </select>
                 </Grid>
             </div>
