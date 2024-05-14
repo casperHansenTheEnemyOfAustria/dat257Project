@@ -157,10 +157,10 @@ export default function Home({
 function clickedSearch(repo: Repo) {
   var query = document.getElementById("result")
   query?.scrollIntoView({behavior: "smooth"})
-  const result_year = document.getElementsByClassName("yearDropdown")[0]
-  const result_ln = document.getElementsByClassName("countyDropdown")[0]
-  const result_emission = document.getElementsByClassName("emissionDropdown")[0] 
-  const result_mun = document.getElementsByClassName("muniDropdown")[0]
+  const result_year:any = document.getElementsByClassName("yearDropdown")[0]
+  const result_ln: any = document.getElementsByClassName("countyDropdown")[0]
+  const result_emission:any = document.getElementsByClassName("emissionDropdown")[0] 
+  const result_mun:any= document.getElementsByClassName("muniDropdown")[0]
   
 
   var year= result_year.value
@@ -171,10 +171,11 @@ function clickedSearch(repo: Repo) {
   
 
 
-  updateResult(repo, ln,year, emission) 
+  
   if(ln != repo.currentSearch.county){
     mun = 'Alla'
   }
+  updateResult(repo, ln,year, emission, mun) 
 
   repo.currentSearch = {county: ln, year: year, emission: emission, municipality: mun}
 
