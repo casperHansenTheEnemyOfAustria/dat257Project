@@ -58,7 +58,7 @@ export const getServerSideProps = (async () => {
   console.log(await db.getPartiesPerRegion("Stockholms län"))
   for (var i = 0; i < countyNames.length; i++) {
     var county = await db.getCounty(countyNames[i])
-    if (i == 1) {
+    if (i == 0) {
       console.log("This should be empty ")
       console.log(county.getCountyInfo())
       console.log(countyNames[i])
