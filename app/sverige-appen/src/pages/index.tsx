@@ -141,7 +141,7 @@ export default function Home({
           </Grid>
           <Grid item xs={8} className="ChartGrid">
             <div> 
-              <Chart/>
+              <Chart repo ={repo} />
             </div>
           </Grid>
         </Grid>
@@ -179,6 +179,7 @@ function clickedSearch(repo: Repo) {
 
   repo.currentSearch = {county: ln, year: year, emission: emission, municipality: mun}
 
-document.getElementsByTagName("g")[0].childNodes[0]?.dispatchEvent(new MouseEvent("contextmenu",{bubbles: true}))
+  document.getElementsByTagName("g")[0].childNodes[0]?.dispatchEvent(new MouseEvent("contextmenu",{bubbles: true}))
+  document.getElementById("chart")?.dispatchEvent(new MouseEvent("contextmenu",{bubbles: true}))
 
 }
