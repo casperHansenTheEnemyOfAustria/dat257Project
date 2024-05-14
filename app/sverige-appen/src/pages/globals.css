@@ -111,10 +111,10 @@ body {
 
 select {
   appearance: auto;
-  width: 90%;
+  width: 115%;
   height: 90%;
   font-size: 1.15rem;
-  padding: 0.675em 6em 0.675em 1em;
+  padding: 1vh 1vw;
   border: 1px solid;
   border-radius: 0.25rem;
   cursor: pointer;
