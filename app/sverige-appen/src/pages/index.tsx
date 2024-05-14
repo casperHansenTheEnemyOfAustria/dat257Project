@@ -54,31 +54,24 @@ export const getServerSideProps = (async () => {
   const countyNames = await db.getAllCounties() // get all county names
   var counties: any[] = [] // list of counties
   var countyMunicipalityMap = new Map<string, any[]>() // map of county names to list of municipalities
-  var municipalitiesJSONformatted: { [key: string]: municipalityJSONlist } = {} // map of municipalities but json
+  var municipalitiesArray: { [key: string]: municipalityJSONlist } = {} // map of municipalities but json
   console.log(await db.getPartiesPerRegion("Stockholms län"))
   for (var i = 0; i < countyNames.length; i++) {
     var county = await db.getCounty(countyNames[i])
-    if (i == 0) {
-      console.log("This should be empty ")
-      console.log(county.getCountyInfo())
-      console.log(countyNames[i])
-      county.setInfo(await db.getPartiesPerRegion(countyNames[i]))
-      console.log("this should have been resolved ")
-      console.log(county.getCountyInfo())
-    }
+    county.setInfo(await db.getPartiesPerRegion(countyNames[i]))
     counties.push(await county.toJSON())
     var municipalityNames = await county.getMunicipalityNames()
     var municipalitiesPerCounty: municipalityJSONlist = getMunicipalitiesPerCounty();
     countyMunicipalityMap.set(countyNames[i], municipalitiesPerCounty)
   }
   // this makes muicipalities a json serializable object my changing all map entries to arrays
-  municipalitiesJSONformatted = Array.from(countyMunicipalityMap.entries()).reduce((obj, [key, value]) => {
+  municipalitiesArray = Array.from(countyMunicipalityMap.entries()).reduce((obj, [key, value]) => {
     obj[key] = value;
     return obj;
   }, {} as { [key: string]: any[] })
   const repo: Repo = {
     counties: counties,
-    municipalities: municipalitiesJSONformatted,
+    municipalities: municipalitiesArray,
     emissionTypes: await db.getEmissionTypes()
 
   }
