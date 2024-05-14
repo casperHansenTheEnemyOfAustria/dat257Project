@@ -171,10 +171,11 @@ function clickedSearch(repo: Repo) {
   
 
 
-  updateResult(repo, ln,year, emission) 
+  
   if(ln != repo.currentSearch.county){
     mun = 'Alla'
   }
+  updateResult(repo, ln,year, emission, mun) 
 
   repo.currentSearch = {county: ln, year: year, emission: emission, municipality: mun}
 

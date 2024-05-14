@@ -24,7 +24,7 @@ export default function Resultbox({counties}) {
     };
 
 
-export function updateResult(repo, ln, year, emission) {
+export function updateResult(repo, ln, year, emission, municipality) {
     var info= ""
     console.log("repo: " + repo.emissionTypes)
     console.log(emission)
@@ -33,10 +33,21 @@ export function updateResult(repo, ln, year, emission) {
     repo.counties.forEach((county) => {
        
         
-      if (county.name == ln) {
-        console.log(county.emissions[year])
+      if (county.name == ln && municipality == "Alla") {
+        // console.log(county.emissions[year])
          info = county.emissions[year][emission]
          console.log("ppeppeppeppe e")
+         var element = document.getElementById("location");
+         element.innerText =ln
+      }else if(county.name == ln && municipality != "Alla"){
+        repo.municipalities[ln].forEach((mInC) => {
+            console.log(mInC.name)
+            if(mInC.name == municipality){
+                info = mInC.emissions[year][emission]
+                var element = document.getElementById("location");
+                element.innerText =municipality
+            }
+        })
       }
     });
 
@@ -50,8 +61,7 @@ export function updateResult(repo, ln, year, emission) {
     var element = document.getElementById("result-text"); 
     element.innerText = info +" ton"
 
-    var element = document.getElementById("location");
-    element.innerText =ln
+
 
     var element = document.getElementById("location-text");
     element.innerText =  info 
