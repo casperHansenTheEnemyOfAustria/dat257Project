@@ -55,8 +55,17 @@ export const getServerSideProps = (async () => {
   var counties: any[] = [] // list of counties
   var countyMunicipalityMap = new Map<string, any[]>() // map of county names to list of municipalities
   var municipalitiesJSONformatted: { [key: string]: municipalityJSONlist } = {} // map of municipalities but json
+  console.log(await db.getPartiesPerRegion("Stockholms län"))
   for (var i = 0; i < countyNames.length; i++) {
     var county = await db.getCounty(countyNames[i])
+    if (i == 1) {
+      console.log("This should be empty ")
+      console.log(county.getCountyInfo())
+      console.log(countyNames[i])
+      county.setInfo(await db.getPartiesPerRegion(countyNames[i]))
+      console.log("this should have been resolved ")
+      console.log(county.getCountyInfo())
+    }
     counties.push(await county.toJSON())
     var municipalityNames = await county.getMunicipalityNames()
     var municipalitiesPerCounty: municipalityJSONlist = getMunicipalitiesPerCounty();
@@ -85,6 +94,7 @@ export const getServerSideProps = (async () => {
     });
     return municipalitiesPerCounty;
   }
+  
   
 }) satisfies GetServerSideProps<{ repo: Repo }>
 /* --- Visuals --- */ 

@@ -218,4 +218,21 @@ export class dbConnection {
         });
         return emissions;
     }
+
+    //Returns a map of 
+    public async getPartiesPerRegion(region: string): Promise<Map<number, string[]>> {
+        var query = `SELECT År, M, C, L, KD, S, V, MP, SD, ÖP  FROM styren_regions WHERE Län = ${"'"+region+"'"}`;
+        var rows = await this.runAll(query);
+
+        var styren = new Map<number, string[]>();
+
+        rows.forEach((row: any) => {
+            let year = row.År;
+            let parties = [row.M, row.C, row.L, row.KD, row.S, row.V, row.MP, row.SD, row.ÖP];
+            parties = parties.filter(e => e);
+            styren.set(year, parties);
+        });
+        return styren;
+    }
+
 }

@@ -19,14 +19,14 @@ import { Municipality } from "./minicipality";
  */
 export class County {
     private name: string;
-    private info: Map<string, string>;
+    private info: Map<number, string[]>;
     private emissions: Map<number, number[]>;
     private municipalities: Promise<string[]>;
     private db: dbConnection;
     constructor(name: string, emissions: Map<number, number[]>){
         this.db = dbConnection.getInstance();
         this.name = name;
-        this.info = new Map<string, string>(); // TODO fetch from db
+        this.info = new Map<number, string[]>(); // TODO fetch from db
         this.emissions = emissions; // TODO fetch from db
         this.municipalities = this.db.getMunicipalitiesInCounty(name);
 
@@ -38,7 +38,16 @@ export class County {
     async getMunicipalityNames(): Promise<string[]> {
         return await this.municipalities;
     }
- 
+
+    public setInfo(info: Map<number, string[]>): void {
+        this.info = info;
+    }
+
+
+    //temp debug function
+    getCountyInfo(): Map<number, string[]> {
+        return this.info;
+    }
     /**
      * 
      * @returns a json serializable representation of the county including all its elements
