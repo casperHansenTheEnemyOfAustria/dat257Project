@@ -17,14 +17,15 @@ def process_file(file_path):
 def read_file(file_path):
     with open(file_path, 'r') as file:
         return pd.read_csv(file)
+    
 
 
 def main():
     df = read_file('app/sverige-appen/Data/Styren Kommuner 1994_csv_modified.csv')
-
     df.drop(['Kod'], axis=1, inplace=True)
     df.to_csv('app/sverige-appen/Data/Styren_processed.csv', index=False)
-    
+
+
 
 if __name__ == "__main__":
     main()
