@@ -4,28 +4,30 @@ import {dbConnection} from '../src/app/backend/dbConnection'
 
 // test that the information is correctly fetched from the database especially getting a countyimport { DbConnection } from './dbConnection'; // adjust this import to your actual file structure
 
-jest.mock('./dbConnection', () => {
+jest.mock('../src/app/backend/dbConnection', () => {
     return {
-      __esModule: true,
-      DbConnection: jest.fn().mockImplementation(() => {
-        return {
-          runAll: jest.fn().mockImplementation((query) => {
-            if (query.includes('Kommun')) {
-              return Promise.resolve([
-                { Year: 2000, Emission: 100 },
-                { Year: 2001, Emission: 200 },
-                // ... more mock data ...
-              ]);
-            }
-          }),
-        };
-      }),
+        dbConnection: {
+            getInstance: jest.fn(() => {
+            return {
+                getMunicipality: jest.fn(() => {
+                return {
+                    name: 'Test',
+                    emissions: new Map([
+                    [2000, [100]],
+                    [2001, [200]],
+                    ]),
+                };
+                }),
+            };
+            }),
+        },
     };
   });
   
   describe('DbConnection', () => {
     it('getMunicipality returns correct data', async () => {
-      const db = dbConnection.getInstance();
+        var db = dbConnection.getInstance();
+
       const municipality = await db.getMunicipality('Test');
   
       expect(municipality.name).toBe('Test');
