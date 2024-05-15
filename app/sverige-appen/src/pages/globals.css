@@ -17,7 +17,7 @@
     --background-end-rgb: 0, 0, 0;
   }
   .header {
-    background-image: url("./frontend/public/header_dark_2.png");
+    filter: invert(100%);
   }
   .dropdown {
     background-color:black;
@@ -152,7 +152,7 @@ h2 { /* Search bar */
 .header {
   width: 800px;
   height: 80px;
-  background-image: url("./frontend/public/header_light_2.png");
+  background-image: url("./frontend/public/header_light.png");
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
