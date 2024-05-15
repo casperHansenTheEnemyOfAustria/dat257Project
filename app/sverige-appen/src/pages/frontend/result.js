@@ -49,6 +49,7 @@ export function updateResult(repo, ln, year, emission, municipality) {
             }
         })
       }
+      console.log("counties: " + repo.counties.)
     });
 
 

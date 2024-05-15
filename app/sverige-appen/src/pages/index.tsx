@@ -61,7 +61,6 @@ export const getServerSideProps = (async () => {
   var municipalitiesArray// map of municipalities but json
   for (var i = 0; i < countyNames.length; i++) {
     var county = await db.getCounty(countyNames[i])
-    county.setInfo(await db.getPartiesPerRegion(countyNames[i]))
     counties.push(await county.toJSON())
     var municipalityNames = await county.getMunicipalityNames()
     var municipalitiesPerCounty: municipalityJSONlist = getMunicipalitiesPerCounty();

@@ -3,6 +3,8 @@
 import { get } from "http";
 import { dbConnection } from "./dbConnection";
 import { Municipality } from "./minicipality";
+import { PHASE_PRODUCTION_BUILD } from "next/dist/shared/lib/constants";
+import { Info } from "./info";
 /**
  * A class that represents a county that has a name,
  *  a map of strings for info and a map of integers and lists of floats for emissions
@@ -19,18 +21,18 @@ import { Municipality } from "./minicipality";
  */
 export class County {
     private name: string;
-    private info: Map<number, string[]>;
+    private info: Info;
     private emissions: Map<number, number[]>;
     private municipalities: Promise<string[]>;
     private db: dbConnection;
-    constructor(name: string, emissions: Map<number, number[]>){
+    constructor(name: string, emissions: Map<number, number[]>, info: Info){
         this.db = dbConnection.getInstance();
         this.name = name;
-        this.info = new Map<number, string[]>(); // TODO fetch from db
+        this.info = new Info(new Map<number, string[]>(),  new Map<number, number>()); // Fetching is done in getServerSideProps
         this.emissions = emissions; // TODO fetch from db
         this.municipalities = this.db.getMunicipalitiesInCounty(name);
-
     }
+
     /**
      * 
      * @returns a list of the names of the municipalities in the county
@@ -39,13 +41,13 @@ export class County {
         return await this.municipalities;
     }
 
-    public setInfo(info: Map<number, string[]>): void {
+    public setInfo(info: Info): void {
         this.info = info;
     }
 
 
     //temp debug function
-    getCountyInfo(): Map<number, string[]> {
+    getCountyInfo(): Info {
         return this.info;
     }
     /**
@@ -55,7 +57,17 @@ export class County {
     async toJSON() {
         return {
             name: this.name,
-            info: Array.from(this.info.entries()),
+            //info: Array.from(this.info.entries()),
+            info: {
+                majorities: Array.from(this.info.getMajorities().entries()).reduce((obj, [key, value]) => {
+                    obj[key] = value;
+                    return obj;
+                }, {} as { [key: number]: string[] }),
+                populations: Array.from(this.info.getPopulation().entries()).reduce((obj, [key, value]) => {
+                    obj[key] = value;
+                    return obj;
+                }, {} as { [key: number]: number }) 
+            },
             emissions: Array.from(this.emissions.entries()).reduce((obj, [key, value]) => {
                 obj[key] = value;
                 return obj;

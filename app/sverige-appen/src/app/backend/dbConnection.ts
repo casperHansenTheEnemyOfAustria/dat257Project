@@ -1,6 +1,7 @@
 import { Database, OPEN_READONLY } from 'sqlite3';
 import { County } from './county';
 import { Municipality } from './minicipality';
+import { Info } from './info';
 /**
  * A class representing a connection to the database
  * @class
@@ -112,7 +113,11 @@ export class dbConnection {
             }
         });
 
-        let output = new County(name, emissions);
+        const majorities = await this.getPartiesPerRegion(name);
+        const population_information = await this.getPopulationPerRegion(name);
+        const info = new Info(majorities, population_information);
+
+        let output = new County(name, emissions, info);
 
     
         return output;
@@ -219,8 +224,9 @@ export class dbConnection {
         return emissions;
     }
 
-    //Returns a map of 
-    public async getPartiesPerRegion(region: string): Promise<Map<number, string[]>> {
+    //Returns a map of election years and the corresponding parties governing in the region
+    //Alla is regeringen (national government)
+    private async getPartiesPerRegion(region: string): Promise<Map<number, string[]>> {
         var query = `SELECT År, M, C, L, KD, S, V, MP, SD, ÖP  FROM styren_regions WHERE Län = ${"'"+region+"'"}`;
         var rows = await this.runAll(query);
 
@@ -234,5 +240,23 @@ export class dbConnection {
         });
         return styren;
     }
+
+
+    // Returns the population of a region per year
+    private async getPopulationPerRegion(region: string): Promise<Map<number, number>> {
+        var query = `SELECT År, Population FROM population_counties WHERE Län = ${"'"+region+"'"}`;
+        var rows = await this.runAll(query);
+
+        var population = new Map<number, number>();
+
+        rows.forEach((row: any) => {
+            let year = row.År;
+            let pop = row.Population;
+            population.set(year, pop);
+        });
+        return population;
+    }
+
+
 
 }
