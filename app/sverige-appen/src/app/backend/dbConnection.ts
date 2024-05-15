@@ -113,9 +113,9 @@ export class dbConnection {
             }
         });
 
-        const majorities = await this.getPartiesPerRegion(name);
-        const population_information = await this.getPopulationPerRegion(name);
-        const info = new Info(majorities, population_information);
+        var majorities = await this.getPartiesPerRegion(name);
+        var population_information = await this.getPopulationPerRegion(name);
+        var info = new Info(majorities, population_information);
 
         let output = new County(name, emissions, info);
 
@@ -226,37 +226,49 @@ export class dbConnection {
 
     //Returns a map of election years and the corresponding parties governing in the region
     //Alla is regeringen (national government)
-    private async getPartiesPerRegion(region: string): Promise<Map<number, string[]>> {
+    public async getPartiesPerRegion(region: string): Promise<Map<number, string[]>> {
         var query = `SELECT År, M, C, L, KD, S, V, MP, SD, ÖP  FROM styren_regions WHERE Län = ${"'"+region+"'"}`;
         var rows = await this.runAll(query);
 
         var styren = new Map<number, string[]>();
-
+        let valid_years = await this.getEmissionYears();
         rows.forEach((row: any) => {
-            let year = row.År;
-            let parties = [row.M, row.C, row.L, row.KD, row.S, row.V, row.MP, row.SD, row.ÖP];
-            parties = parties.filter(e => e);
-            styren.set(year, parties);
+            if (valid_years.includes(row.År)) {
+                let year = row.År;
+                let parties = [row.M, row.C, row.L, row.KD, row.S, row.V, row.MP, row.SD, row.ÖP];
+                parties = parties.filter(e => e);
+                styren.set(year, parties);
+            }
         });
         return styren;
     }
 
 
     // Returns the population of a region per year
-    private async getPopulationPerRegion(region: string): Promise<Map<number, number>> {
+    public async getPopulationPerRegion(region: string): Promise<Map<number, number>> {
         var query = `SELECT År, Population FROM population_counties WHERE Län = ${"'"+region+"'"}`;
         var rows = await this.runAll(query);
 
         var population = new Map<number, number>();
-
+        let valid_years = await this.getEmissionYears();
         rows.forEach((row: any) => {
-            let year = row.År;
-            let pop = row.Population;
-            population.set(year, pop);
+            if (valid_years.includes(row.År)) {
+                let year = row.År;
+                let pop = row.Population;
+                population.set(year, pop);
+            }
         });
         return population;
     }
 
-
+    private async getEmissionYears(): Promise<number[]> {
+        var query = `SELECT DISTINCT År FROM emissions`;
+        var rows = await this.runAll(query);
+        var years: number[] = [];
+        rows.forEach((row: any) => {
+            years.push(row.År);
+        });
+        return years;
+    }
 
 }

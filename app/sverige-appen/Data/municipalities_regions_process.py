@@ -18,6 +18,12 @@ def read_file(file_path):
     with open(file_path, 'r') as file:
         return pd.read_csv(file)
     
+# TODO: add each year to election data 
+def process_regions_file(file_path='app/sverige-appen/Data/Styren Regioner 1994-csv.csv'):
+    df_regions = read_file(file_path)
+    
+
+    
 def process_population_file(file_path='app/sverige-appen/Data/swedish population 1990-2023.csv'):
     # Melt the data so that the years are in a single column
 

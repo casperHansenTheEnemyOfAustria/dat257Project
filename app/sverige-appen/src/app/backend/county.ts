@@ -28,7 +28,7 @@ export class County {
     constructor(name: string, emissions: Map<number, number[]>, info: Info){
         this.db = dbConnection.getInstance();
         this.name = name;
-        this.info = new Info(new Map<number, string[]>(),  new Map<number, number>()); // Fetching is done in getServerSideProps
+        this.info = info; // Fetching is done in getServerSideProps
         this.emissions = emissions; // TODO fetch from db
         this.municipalities = this.db.getMunicipalitiesInCounty(name);
     }
