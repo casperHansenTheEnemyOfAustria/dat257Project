@@ -206,8 +206,9 @@ class Map extends React.Component {
            
             <MapContainer key={this.state.mapKey}  center={[62.0, 15.0]} scrollWheelZoom={false} zoom={5} attributionControl={false} className={'map'} id={'mapid'} mapRef={this.ref}>
                 <GeoJSON data={counties.features} onEachFeature={this.onEachFeature.bind(this)} style={this.getStyle.bind(this) } />
-                <Legend gradient={{gradient: gradient}} />
                 <GeoJSON data={municipalities.features} onEachFeature={this.onEachFeatureMuni.bind(this)} style={this.getStyleMuni.bind(this)} />
+                <Legend gradient={{gradient: gradient}} />
+
             </MapContainer>
             
             

@@ -16,20 +16,40 @@ export default function Chart({repo}) {
   var selectedMunicipalityName = currentSearch.municipality
   var emission = repo.emissionTypes.indexOf(selectedEmission)
   var emissions = []
+  //every year from 1990 to 2021
+  var allYears = [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] 
   var selectedCounty = repo.counties.find(county => county.name === selectedCountyName)
+  var savedValue
+  // Create an array of emissions for each year if emission is not found set it to 0
   if(selectedMunicipalityName == "Alla") {
-    for (var i = 0; i < years.length; i++) {
-      var year = years[i]
-      var emissionValue =selectedCounty.emissions[year][emission]
-      emissions.push(emissionValue)
+    for (var i = 0; i < allYears.length; i++) {
+      var year = allYears[i]
+      var emissionValue
+      if (emissionValue = selectedCounty.emissions[year]) {
+        emissionValue = selectedCounty.emissions[year][emission] 
+        savedValue = emissionValue
+        emissions.push(emissionValue)
+
+      }
+      else { 
+        emissions.push(null)
+  }
     }
   }else {
     console.log("municipality")
     var selectedMunicipality = repo.municipalities[selectedCountyName].find(municipality => municipality.name === selectedMunicipalityName)
-    for (var i = 0; i < years.length; i++) {
-      var year = years[i]
-      var emissionValue =selectedMunicipality.emissions[year][emission]
-      emissions.push(emissionValue)
+    for (var i = 0; i < allYears.length; i++) {
+      var year = allYears[i]
+      var emissionValue
+      if (emissionValue = selectedMunicipality.emissions[year]) {
+        emissionValue = selectedMunicipality.emissions[year][emission] 
+        savedValue = emissionValue
+        emissions.push(emissionValue)
+
+      }
+      else { 
+        emissions.push(null)
+  }
     }
   }
 
@@ -38,11 +58,13 @@ export default function Chart({repo}) {
     <Line
     className="chart"
     data = {{
-      labels: years,
+      labels: allYears,
       datasets: [
         {
           label: 'Emissions',
           data: emissions,
+          spanGaps: true,
+
         }, 
       ],
     }} onContextMenu={update} id="chart">
