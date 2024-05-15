@@ -13,7 +13,7 @@ import colorGradient from 'javascript-color-gradient';
 const gradient = new colorGradient();
 const preferredMode = window.matchMedia('(prefers-color-scheme: light)');
 if (preferredMode.matches) {
-    gradient.setColorGradient('#A0DA39', '#4AC16D', '#1FA187', '#277F8E', '#365C8D', '#46327E', '#440154');
+    gradient.setColorGradient('#A0DA39', '#4AC16D', '#1FA187', '#277F8E', '#365C8D', '#46327E', '#440154').reverse;
 } else {
     gradient.setColorGradient('#8F7700', '#248E0C', '#09940F', '#06B12A', '#00EC60');
 }

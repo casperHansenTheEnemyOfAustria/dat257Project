@@ -47,7 +47,7 @@
     margin: auto;
     position: relative;
     display: flex;
-    background: linear-gradient(to bottom, #8F7700, #248E0C, #09940F, #06B12A, #00EC60)  ;
+    background: linear-gradient(to top, #8F7700, #248E0C, #09940F, #06B12A, #00EC60)  ;
     height:100%;
     border-radius: 0.5rem;
     width:50%
@@ -221,7 +221,7 @@ h2 { /* Search bar */
   margin: auto;
   position: relative;
   display: flex;
-  background: linear-gradient(to bottom, #A0DA39, #4AC16D, #1FA187, #277F8E, #365C8D, #46327E, #440154)  ;
+  background: linear-gradient(to top, #A0DA39, #4AC16D, #1FA187, #277F8E, #365C8D, #46327E, #440154)  ;
   height:100%;
   border-radius: 0.5rem;
   width:50%
