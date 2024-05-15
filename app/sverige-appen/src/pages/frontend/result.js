@@ -49,8 +49,11 @@ export function updateResult(repo, ln, year, emission, municipality) {
             }
         })
       }
-    });
-
+      
+    }); 
+    console.log("counties: ")
+    let selected_county_info = repo.counties.find(county => county.name === ln).info.majorities
+    console.log(selected_county_info)
 
     var infoValue = parseFloat(info);
 

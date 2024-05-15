@@ -66,8 +66,10 @@ export const getServerSideProps = (async () => {
     var municipalitiesPerCounty: municipalityJSONlist = getMunicipalitiesPerCounty();
     countyMunicipalityMap.set(countyNames[i], municipalitiesPerCounty)
   }
+
   // this makes muicipalities into a list of json objects with counties as keys 
   municipalitiesArray =Array.from(countyMunicipalityMap.entries()).reduce((obj, [key, value]) => {
+
     obj[key] = value;
     return obj;
   }, {} as { [key: string]: any[] })
@@ -78,6 +80,7 @@ export const getServerSideProps = (async () => {
     municipalities: municipalitiesArray,
     emissionTypes: await db.getEmissionTypes(),
     currentSearch: {county: "Alla", year: 1990, emission: "", municipality: "Alla"}
+
   }
 
   // Pass data to the page via props
@@ -91,6 +94,7 @@ export const getServerSideProps = (async () => {
     });
     return municipalitiesPerCounty;
   }
+  
   
 }) satisfies GetServerSideProps<{ repo: Repo }>
 /* --- Visuals --- */ 

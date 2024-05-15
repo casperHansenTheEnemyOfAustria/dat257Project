@@ -1,2319 +1,2319 @@
-﻿Valår;Kod;Kommun;Styre;M;C;L/FP;KD;S;V;MP;SD;ÖP;Övrigt parti, ange vilket eller vilka;Övrigt styre;
-1994;114;Upplands väsby;V;;;;;S;V;;;;;;
-1994;115;Vallentuna;B;M;C;;KD;;;;;;;;
-1994;117;Österåker;BL;;;L/FP;;S;;;;;;;
-1994;120;Värmdö;B;M;C;L/FP;;;;MP;;;;;
-1994;123;Järfälla;V;;;;;S;V;MP;;;;;
-1994;125;Ekerö;B;M;C;L/FP;KD;;;;;;;;
-1994;126;Huddinge;V;;;;;S;V;MP;;;;;
-1994;127;Botkyrka;V;;;;;S;V;MP;;;;;
-1994;128;Salem;B;M;C;L/FP;KD;;;;;;;;
-1994;136;Haninge;BL;;;L/FP;;S;;;;;;;
-1994;138;Tyresö;V;;;;;S;V;MP;;;;;
-1994;139;Upplands-Bro;V;;;;;S;V;;;;;;
-1994;140;Nykvarn;Ännu inte bildad;;;;;;;;;;;;
-1994;160;Täby;B;M;C;;KD;;;;;ÖP;Täbypartiet;;
-1994;162;Danderyd;B;M;;;KD;;;;;;;;
-1994;163;Sollentuna;B;M;C;L/FP;KD;;;;;;;;
-1994;180;Stockholm;V;;;;;S;V;MP;;;;;
-1994;181;Södertälje;V;;;;;S;V;;;;;;
-1994;182;Nacka;B;M;;L/FP;;;;;;;;;
-1994;183;Sundbyberg;V;;;;;S;V;;;;;;
-1994;184;Solna;V;;;;;S;V;MP;;;;;
-1994;186;Lidingö;B;M;;;;;;;;;;;
-1994;187;Vaxholm;B;M;C;L/FP;;;;;;;;;
-1994;188;Norrtälje;V;;;;;S;V;MP;;;;;
-1994;191;Sigtuna;V;;;;;S;V;MP;;;;;
-1994;192;Nynäshamn;V;;;;;S;V;MP;;;;;
-1994;305;Håbo;BL;;C;;;S;V;MP;;;;;
-1994;319;Älvkarleby;V;;;;;S;V;;;;;;
-1994;331;Heby;V;;;;;S;V;MP;;;;;
-1994;360;Tierp;V;;;;;S;;;;;;;
-1994;380;Uppsala;V;;;;;S;V;MP;;;;;
-1994;381;Enköping;V;;;;;S;V;MP;;;;;
-1994;382;Östhammar;V;;;;;S;V;;;;;;
-1994;428;Vingåker;V;;;;;S;;;;;;;
-1994;461;Gnesta;BL;;C;;;S;;;;;;;
-1994;480;Nyköping;V;;;;;S;;;;;;;
-1994;481;Oxelösund;V;;;;;S;;;;;;;
-1994;482;Flen;V;;;;;S;V;;;;;;
-1994;483;Katrineholm;V;;;;;S;;;;;;;
-1994;484;Eskilstuna;V;;;;;S;;;;;;;
-1994;486;Strängnäs;B;M;C;L/FP;KD;;;;;ÖP;Strängnäspartiet;;
-1994;488;Trosa;V;;;;;S;V;MP;;;;;
-1994;509;Ödeshög;BL;;;;;;;;;;;Hoppande majoriteter;
-1994;512;Ydre;BL;;;;;;;;;;;"""samlingsregering alla partier""";
-1994;513;Kinda;V;;;;;S;;;;ÖP;Kindapartiet;;
-1994;560;Boxholm;V;;;;;S;;;;;;;
-1994;561;Åtvidaberg;V;;;;;S;;;;;;;
-1994;562;Finspång;V;;;;;S;;;;;;;
-1994;563;Valdemarsvik;B;M;C;L/FP;KD;;;;;;;;
-1994;580;Linköping;BL;;C;;;S;;;;;;;
-1994;581;Norrköping;V;;;;;S;;;;;;;
-1994;582;Söderköping;B;M;C;L/FP;KD;;;;;;;;
-1994;583;Motala;V;;;;;S;;;;;;;
-1994;584;Vadstena;BL;;C;;;S;;;;;;;
-1994;586;Mjölby;BL;;C;;;S;;;;;;;
-1994;604;Aneby;B;M;C;L/FP;KD;;;;;;;;
-1994;617;Gnosjö;A;M;C;L/FP;KD;;;;;;;;
-1994;642;Mullsjö;B;M;C;L/FP;KD;;;;;;;;
-1994;643;Habo;B;M;C;L/FP;KD;;;;;;;;
-1994;662;Gislaved;BL;;C;;;S;;MP;;;;;
-1994;665;Vaggeryd;B;M;C;L/FP;KD;;;;;;;;
-1994;680;Jönköping;BL;;C;;;S;;;;;;;
-1994;682;Nässjö;BL;;C;L/FP;;S;;;;;;;
-1994;683;Värnamo;B;M;C;;KD;;;;;;;;
-1994;684;Sävsjö;B;M;C;;KD;;;;;;;;
-1994;685;Vetlanda;B;M;C;L/FP;KD;;;;;;;;
-1994;686;Eksjö;BL;;;;;;;;;;;Samlingsregering alla partier;
-1994;687;Tranås;V;;;;;S;;;;;;;
-1994;760;Uppvidinge;V;;;;;S;V;;;;;;
-1994;761;Lessebo;V;;;;;S;;;;;;;
-1994;763;Tingsryd;B;M;C;L/FP;KD;;;;;;;;
-1994;764;Alvesta;BL;;C;;;S;;;;;;;
-1994;765;Älmhult;V;;;;;S;V;MP;;;;;
-1994;767;Markaryd;BL;M;C;L/FP;KD;S;;;;;;;
-1994;780;Växjö;V;;;;;S;V;MP;;;;;
-1994;781;Ljungby;BL;;C;L/FP;;S;;;;;;;
-1994;821;Högsby;B;M;C;L/FP;KD;;;MP;;;;;
-1994;834;Torsås;B;M;C;L/FP;KD;;;MP;;;;;
-1994;840;Mörbylånga;B;M;C;L/FP;KD;;;MP;;;;;
-1994;860;Hultsfred;V;;;;;S;V;;;;;;
-1994;861;Mönsterås;B;M;C;L/FP;KD;;;;;;;;
-1994;862;Emmaboda;V;;;;;S;V;;;;;;
-1994;880;Kalmar;V;;;;;S;V;;;;;;
-1994;881;Nybro;V;;;;;S;V;;;;;;
-1994;882;Oskarshamn;V;;;;;S;;;;;;;
-1994;883;Västervik;V;;;;;S;;;;;;;
-1994;884;Vimmerby;B;M;C;L/FP;KD;;;;;;;;
-1994;885;Borgholm;BL;M;;;;S;;;;;;;
-1994;980;Gotland;V;;;;;S;V;MP;;;;;
-1994;1060;Olofström;V;;;;;S;;;;;;;
-1994;1080;Karlskrona;V;;;;;S;V;;;;;;
-1994;1081;Ronneby;V;;;;;S;V;;;;;;
-1994;1082;Karlshamn;V;;;;;S;;;;;;;
-1994;1083;Sölvesborg;V;;;;;S;;;;;;;
-1994;1214;Svalöv;V;;;;;S;;MP;;;;;
-1994;1230;Staffanstorp;BL;;;L/FP;;S;;;;;;;
-1994;1231;Burlöv;V;;;;;S;;;;;;;
-1994;1233;Vellinge;B;M;;;;;;;;;;;
-1994;1256;Östra Göinge;V;;;;;S;;;;;;;
-1994;1257;Örkelljunga;B;M;C;L/FP;KD;;;;;;;;
-1994;1260;Bjuv;V;;;;;S;;;;;;;
-1994;1261;Kävlinge;V;;;;;S;;;;;;;
-1994;1262;Lomma;B;M;C;L/FP;KD;;;;;;;;
-1994;1263;Svedala;BL;;;L/FP;;S;;MP;;;;;
-1994;1264;Skurup;V;;;;;S;;;;;;;
-1994;1265;Sjöbo;B;M;C;L/FP;;;;;;ÖP;Sjöbopartiet;;
-1994;1266;Hörby;B;M;C;L/FP;KD;;;;;;;;
-1994;1267;Höör;B;M;;L/FP;KD;;;;;;;;
-1994;1270;Tomelilla;BL;;;L/FP;;S;;MP;;;;;
-1994;1272;Bromölla;V;;;;;S;;;;;;;
-1994;1273;Osby;V;;;;;S;;;;ÖP;Ungdomspartiet Nu;;
-1994;1275;Perstorp;V;;;;;S;V;;;;;;
-1994;1276;Klippan;BL;;;L/FP;;S;;;;;;;
-1994;1277;Åstorp;V;;;;;S;;;;;;;
-1994;1278;Båstad;BL;;C;L/FP;;S;;;;;;;
-1994;1280;Malmö;V;;;;;S;;;;;;;
-1994;1281;Lund;V;;;;;S;V;MP;;;;;
-1994;1282;Landskrona;V;;;;;S;;;;;;;
-1994;1283;Helsingborg;V;;;;;S;V;;;;;;
-1994;1284;Höganäs;BL;;;L/FP;;S;V;MP;;;;;
-1994;1285;Eslöv;V;;;;;S;;;;;;;
-1994;1286;Ystad;V;;;;;S;V;MP;;;;;
-1994;1287;Trelleborg;V;;;;;S;;;;;;;
-1994;1290;Kristianstad;V;;;;;S;;;;;;;
-1994;1291;Simrishamn;BL;;C;;;S;;;;;;;
-1994;1292;Ängelholm;B;M;C;L/FP;;;;;;;;;
-1994;1293;Hässleholm;BL;;C;;;S;;;;;;;
-1994;1315;Hylte;BL;;C;;;S;;;;;;;
-1994;1380;Halmstad;V;;;;;S;V;;;;;;
-1994;1381;Laholm;B;M;C;L/FP;KD;;;;;ÖP;Pensionärspartiet;;
-1994;1382;Falkenberg;V;;;;;S;;MP;;ÖP;Aktiv politik;;
-1994;1383;Varberg;V;;;;;S;V;MP;;;;;
-1994;1384;Kungsbacka;BL;;;;;;;;;;;"""Samlingsregering"" alla partier, S ordf";
-1994;1401;Härryda;BL;;C;;;S;V;MP;;;;;
-1994;1402;Partille;V;;;;;S;V;MP;;;;;
-1994;1407;Öckerö;B;M;C;L/FP;KD;;;;;;;;
-1994;1415;Stenungsund;BL;;C;;;S;V;MP;;;;;
-1994;1419;Tjörn;BL;M;;;;S;;;;;;;
-1994;1421;Orust;BL;;C;L/FP;;S;;;;;;;
-1994;1427;Sotenäs;BL;;C;;KD;S;V;MP;;;;;
-1994;1430;Munkedal;BL;;;;;;;;;;;Hoppande majoriteter;
-1994;1435;Tanum;B;M;C;L/FP;KD;;;;;;;;
-1994;1438;Dals-Ed;B;M;C;L/FP;KD;;;;;;;;
-1994;1439;Färgelanda;BL;M;;L/FP;KD;S;;;;;;;
-1994;1440;Ale;V;;;;;S;;;;;;;
-1994;1441;Lerum;B;M;C;L/FP;KD;;;MP;;;;;
-1994;1442;Vårgårda;BL;;;;;;;;;;;Hoppande majoriteter;
-1994;1443;Bollebygd;BL;;;L/FP;KD;S;;MP;;;;;
-1994;1444;Grästorp;B;M;C;;;;;;;;;;
-1994;1445;Essunga;B;M;C;L/FP;KD;;;;;;;;
-1994;1446;Karlsborg;BL;;C;;KD;;;;;;;;
-1994;1447;Gullspång;V;;;;;S;V;;;;;;
-1994;1452;Tranemo;B;M;C;L/FP;KD;;;;;;;;
-1994;1460;Bengtsfors;V;;;;;S;;;;ÖP;Medborgarpartiet  ;;
-1994;1461;Mellerud;BL;;;;;;;;;;;Hoppande majoriteter;
-1994;1462;Lilla Edet;V;;;;;S;V;;;;;;
-1994;1463;Mark;V;;;;;S;V;;;;;;
-1994;1465;Svenljunga;V;;;;;S;;;;;;;
-1994;1466;Herrljunga;BL;;;;;;;;;;;hoppande majoriteter;
-1994;1470;Vara;B;M;C;L/FP;KD;;;;;;;;
-1994;1471;Götene;B;M;C;L/FP;KD;;;;;;;;
-1994;1472;Tibro;B;M;C;L/FP;KD;;;;;;;;
-1994;1473;Töreboda;BL;M;;L/FP;KD;S;;;;;;;
-1994;1480;Göteborg;V;;;;;S;V;MP;;;;;
-1994;1481;Mölndal;V;;;;;S;V;MP;;;;;
-1994;1482;Kungälv;V;;;;;S;V;MP;;;;;
-1994;1484;Lysekil;V;;;;;S;;;;;;;
-1994;1485;Uddevalla;V;;;;;S;;;;;;;
-1994;1486;Strömstad;B;M;C;L/FP;;;;;;;;;
-1994;1487;Vänersborg;V;;;;;S;V;MP;;;;;
-1994;1488;Trollhättan;V;;;;;S;;;;;;;
-1994;1489;Alingsås;V;;;;;S;V;MP;;;;;
-1994;1490;Borås;V;;;;;S;;;;;;;
-1994;1491;Ulricehamn;BL;;;L/FP;KD;S;;MP;;;;;
-1994;1492;Åmål;V;;;;;S;;;;;;;
-1994;1493;Mariestad;V;;;;;S;V;;;;;;
-1994;1494;Lidköping;V;;;;;S;V;;;;;;
-1994;1495;Skara;V;;;;;S;;MP;;;;;
-1994;1496;Skövde;B;M;C;L/FP;KD;;;;;;;;
-1994;1497;Hjo;BL;M;C;L/FP;KD;S;;MP;;;;;
-1994;1498;Tidaholm;V;;;;;S;V;;;;;;
-1994;1499;Falköping;B;M;C;L/FP;KD;;;;;;;;
-1994;1715;Kil;BL;;;;;;;;;;;Hoppande majoriteter;
-1994;1730;Eda;V;;;;;S;V;;;;;;
-1994;1737;Torsby;V;;;;;S;V;;;;;;
-1994;1760;Storfors;V;;;;;S;V;;;;;;
-1994;1761;Hammarö;V;;;;;S;;;;;;;
-1994;1762;Munkfors;V;;;;;S;;;;;;;
-1994;1763;Forshaga;V;;;;;S;;;;;;;
-1994;1764;Grums;V;;;;;S;;;;;;;
-1994;1765;Årjäng;B;M;C;L/FP;KD;;;;;;;;
-1994;1766;Sunne;B;M;C;L/FP;KD;;;;;;;;
-1994;1780;Karlstad;BL;;C;L/FP;;S;;;;;;;
-1994;1781;Kristinehamn;V;;;;;S;;;;;;;
-1994;1782;Filipstad;V;;;;;S;;;;;;;
-1994;1783;Hagfors;V;;;;;S;;;;;;;
-1994;1784;Arvika;V;;;;;S;;;;;;;
-1994;1785;Säffle;BL;;;;;;;;;;;Hoppande majoriteter;
-1994;1814;Lekeberg;BL;;C;;;S;;;;;;;
-1994;1860;Laxå;BL;;C;;;S;;;;;;;
-1994;1861;Hallsberg;V;;;;;S;;;;;;;
-1994;1862;Degerfors;V;;;;;S;;;;;;;
-1994;1863;Hällefors;V;;;;;S;V;;;;;;
-1994;1864;Ljusnarsberg;V;;;;;S;;;;;;;
-1994;1880;Örebro;V;;;;;S;V;;;;;;
-1994;1881;Kumla;V;;;;;S;;;;;;;
-1994;1882;Askersund;V;;;;;S;;;;;;;
-1994;1883;Karlskoga;V;;;;;S;;;;;;;
-1994;1884;Nora;V;;;;;S;;;;;;;
-1994;1885;Lindesberg;V;;;;;S;V;;;;;;
-1994;1904;Skinnskatteberg;V;;;;;S;;;;;;;
-1994;1907;Surahammar;V;;;;;S;;;;;;;
-1994;1960;Kungsör;V;;;;;S;V;;;;;;
-1994;1961;Hallstahammar;V;;;;;S;;;;;;;
-1994;1962;Norberg;V;;;;;;V;;;;;;
-1994;1980;Västerås;V;;;;;S;;;;;;;
-1994;1981;Sala;B;M;C;L/FP;KD;;;;;ÖP;Salapartiet;;
-1994;1982;Fagersta;V;;;;;S;;;;;;;
-1994;1983;Köping;V;;;;;S;;;;;;;
-1994;1984;Arboga;BL;;C;;;S;;;;;;;
-1994;2021;Vansbro;V;;;;;S;V;;;;;;
-1994;2023;Malung- Sälen;V;;;;;S;V;;;;;;
-1994;2026;Gagnef;V;;;;;S;V;MP;;;;;
-1994;2029;Leksand;B;M;C;L/FP;KD;;;;;ÖP;Leksandspartiet;;
-1994;2031;Rättvik;V;;;;;S;V;;;;;;
-1994;2034;Orsa;V;;;;;S;V;MP;;;;;
-1994;2039;Älvdalen;BL;;;;;;;;;;;Hoppande majoriteter;
-1994;2061;Smedjebacken;V;;;;;S;;;;;;;
-1994;2062;Mora;BL;;C;;;S;;;;;;;
-1994;2080;Falun;V;;;;;S;V;MP;;;;;
-1994;2081;Borlänge;V;;;;;S;;;;;;;
-1994;2082;Säter;V;;;;;S;V;MP;;;;;
-1994;2083;Hedemora;V;;;;;S;V;;;;;;
-1994;2084;Avesta;V;;;;;S;V;MP;;;;;
-1994;2085;Ludvika;V;;;;;S;;;;;;;
-1994;2101;Ockelbo;V;;;;;S;;;;;;;
-1994;2104;Hofors;V;;;;;S;;;;;;;
-1994;2121;Ovanåker;B;M;C;L/FP;KD;;;MP;;;;;
-1994;2132;Nordanstig;V;;;;;S;V;MP;;;;;
-1994;2161;Ljusdal;V;;;;;S;;;;;;;
-1994;2180;Gävle;V;;;;;S;;;;;;;
-1994;2181;Sandviken;V;;;;;S;;;;;;;
-1994;2182;Söderhamn;V;;;;;S;;;;;;;
-1994;2183;Bollnäs;V;;;;;S;V;MP;;;;;
-1994;2184;Hudiksvall;V;;;;;S;;;;;;;
-1994;2260;Ånge;V;;;;;S;V;;;;;;
-1994;2262;Timrå;V;;;;;S;;;;;;;
-1994;2280;Härnösand;B;M;C;L/FP;KD;;;;;ÖP;Sjukvårdspartiet;;
-1994;2281;Sundsvall;V;;;;;S;;;;;;;
-1994;2282;Kramfors;V;;;;;S;;;;;;;
-1994;2283;Sollefteå;V;;;;;S;;;;;;;
-1994;2284;Örnsköldsvik;V;;;;;S;;;;;;;
-1994;2303;Ragunda;V;;;;;S;;;;;;;
-1994;2305;Bräcke;V;;;;;S;;;;;;;
-1994;2309;Krokom;V;;;;;S;;;;;;;
-1994;2313;Strömsund;V;;;;;S;;;;;;;
-1994;2321;Åre;V;;;;;S;V;MP;;;;;
-1994;2326;Berg;B;M;C;L/FP;;;;;;;;;
-1994;2361;Härjedalen;V;;;;;S;;;;;;;
-1994;2380;Östersund;V;;;;;S;;;;;;;
-1994;2401;Nordmaling;V;;;;;S;V;;;;;;
-1994;2403;Bjurholm;B;M;C;L/FP;KD;;;;;;;;
-1994;2404;Vindeln;B;M;C;L/FP;KD;;;;;;;;
-1994;2409;Robertsfors;B;M;C;L/FP;KD;;;;;;;;
-1994;2417;Norsjö;V;;;;;S;;;;;;;
-1994;2418;Malå;BL;;;;;;;;;;;Hoppande majoriteter;
-1994;2421;Storuman;BL;;;;;;;;;;;Hoppande majoriteter;
-1994;2422;Sorsele;B;M;C;L/FP;KD;;;MP;;;;;
-1994;2425;Dorotea;V;;;;;S;V;;;;;;
-1994;2460;Vännäs;V;;;;;S;V;;;;;;
-1994;2462;Vilhelmina;V;;;;;S;;;;;;;
-1994;2463;Åsele;V;;;;;S;;;;;;;
-1994;2480;Umeå;V;;;;;S;;;;;;;
-1994;2481;Lycksele;V;;;;;S;;;;;;;
-1994;2482;Skellefteå;V;;;;;S;;;;;;;
-1994;2505;Arvidsjaur;V;;;;;S;;;;;;;
-1994;2506;Arjeplog;B;;C;;KD;;;;;;;;
-1994;2510;Jokkmokk;V;;;;;S;;;;ÖP;Samernas väl;;
-1994;2513;Överkalix;V;;;;;S;;;;;;;
-1994;2514;Kalix;V;;;;;S;;;;;;;
-1994;2518;Övertorneå;V;;;;;S;;;;;;;
-1994;2521;Pajala;V;;;;;S;;;;;;;
-1994;2523;Gällivare;V;;;;;S;;;;;;;
-1994;2560;Älvsbyn;V;;;;;S;;;;;;;
-1994;2580;Luleå;V;;;;;S;;;;;;;
-1994;2581;Piteå;V;;;;;S;;;;;;;
-1994;2582;Boden;V;;;;;S;;;;;;;
-1994;2583;Haparanda;V;;;;;S;;;;;;;
-1994;2584;Kiruna;V;;;;;;V;MP;;ÖP;Kirunapartiet;;
-1998;114;Upplands väsby;V;;;;;S;V;MP;;;;;
-1998;115;Vallentuna;B;M;;L/FP;KD;;;;;;;;
-1998;117;Österåker;B;M;C;L/FP;KD;;;;;ÖP;Österåkerpartiet;;
-1998;120;Värmdö;B;M;C;L/FP;KD;;;MP;;;;;
-1998;123;Järfälla;B;M;C;L/FP;KD;;;;;;;;
-1998;125;Ekerö;B;M;;L/FP;KD;;;;;;;;
-1998;126;Huddinge;B;M;C;L/FP;KD;;;;;ÖP;Huddingepartiet ;;
-1998;127;Botkyrka;V;;;;;S;V;;;;;;
-1998;128;Salem;B;M;C;L/FP;KD;;;;;;;;
-1998;136;Haninge;BL;;;L/FP;;S;;;;;;;
-1998;138;Tyresö;B;M;C;L/FP;KD;;;MP;;;;;
-1998;139;Upplands-Bro;V;;;;;S;V;;;;;;
-1998;140;Nykvarn;BL;;C;L/FP;;S;V;;;;;;
-1998;160;Täby;B;M;;;;;;;;;;;
-1998;162;Danderyd;B;M;;;KD;;;;;;;;
-1998;163;Sollentuna;B;M;C;L/FP;KD;;;;;ÖP;Sollentunapartiet;;
-1998;180;Stockholm;B;M;;L/FP;KD;;;;;ÖP;Stockholmspartiet;;
-1998;181;Södertälje;V;;;;;S;;;;;;;
-1998;182;Nacka;B;M;;L/FP;KD;;;;;;;;
-1998;183;Sundbyberg;V;;;;;S;V;MP;;;;;
-1998;184;Solna;B;M;;L/FP;KD;;;;;;;;
-1998;186;Lidingö;B;M;;;;;;;;;;;
-1998;187;Vaxholm;B;M;C;L/FP;KD;;;;;;;;
-1998;188;Norrtälje;B;M;C;L/FP;KD;;;;;;;;
-1998;191;Sigtuna;B;M;C;L/FP;KD;;;;;ÖP;Samling f Signuna,SPI;;
-1998;192;Nynäshamn;V;;;;;S;V;MP;;;;;
-1998;305;Håbo;BL;;C;;;S;V;;;ÖP;Bålstapartiet;;
-1998;319;Älvkarleby;V;;;;;S;V;;;;;;
-1998;331;Heby;B;M;C;L/FP;KD;;;;;ÖP;Länsbytarepartiet;;
-1998;360;Tierp;V;;;;;S;V;;;;;;
-1998;380;Uppsala;V;;;;;S;V;MP;;;;;
-1998;381;Enköping;B;M;C;L/FP;KD;;;;;;;;
-1998;382;Östhammar;V;;;;;S;V;MP;;;;;
-1998;428;Vingåker;V;;;;;S;;;;;;;
-1998;461;Gnesta;B;M;C;L/FP;KD;;;MP;;ÖP;Gnestapartiet;;
-1998;480;Nyköping;V;;;;;S;V;;;;;;
-1998;481;Oxelösund;V;;;;;S;;;;;;;
-1998;482;Flen;V;;;;;S;V;MP;;;;;
-1998;483;Katrineholm;V;;;;;S;;;;;;;
-1998;484;Eskilstuna;V;;;;;S;V;;;;;;
-1998;486;Strängnäs;B;M;C;L/FP;KD;;;;;;;;
-1998;488;Trosa;B;M;C;L/FP;KD;;;;;;;;
-1998;509;Ödeshög;B;M;C;L/FP;KD;;;;;;;;
-1998;512;Ydre;B;M;C;L/FP;KD;;;;;;;;
-1998;513;Kinda;BL;;C;;;S;;;;;;;
-1998;560;Boxholm;V;;;;;S;V;;;;;;
-1998;561;Åtvidaberg;BL;M;C;;;S;;;;;;;
-1998;562;Finspång;V;;;;;S;V;;;;;;
-1998;563;Valdemarsvik;B;M;C;L/FP;KD;;;;;;;;
-1998;580;Linköping;BL;;C;;;S;;MP;;;;;
-1998;581;Norrköping;V;;;;;S;V;;;;;;
-1998;582;Söderköping;B;M;C;L/FP;KD;;;;;;;;
-1998;583;Motala;V;;;;;S;V;;;;;;
-1998;584;Vadstena;V;;;;;S;V;MP;;;;;
-1998;586;Mjölby;V;;;;;S;V;;;;;;
-1998;604;Aneby;B;M;C;L/FP;KD;;;;;;;;
-1998;617;Gnosjö;B;M;C;L/FP;KD;;;;;;;;
-1998;642;Mullsjö;BL;;;L/FP;;S;V;MP;;;;;
-1998;643;Habo;B;M;C;L/FP;KD;;;;;;;;
-1998;662;Gislaved;BL;;C;;;S;;MP;;;;;
-1998;665;Vaggeryd;BL;;C;;;S;;;;;;;
-1998;680;Jönköping;BL;;C;;;S;;;;;;;
-1998;682;Nässjö;BL;;C;L/FP;;S;V;MP;;;;;
-1998;683;Värnamo;B;M;C;;KD;;;;;;;;
-1998;684;Sävsjö;B;M;C;;KD;;;;;;;;
-1998;685;Vetlanda;B;M;C;L/FP;KD;;;;;;;;
-1998;686;Eksjö;BL;;;;;;;;;;;"""Samlingsregering"" alla partier";
-1998;687;Tranås;B;M;C;L/FP;KD;;;;;;;;
-1998;760;Uppvidinge;V;;;;;S;V;MP;;;;;
-1998;761;Lessebo;V;;;;;S;V;;;;;;
-1998;763;Tingsryd;B;M;C;L/FP;KD;;;;;;;;
-1998;764;Alvesta;BL;;C;L/FP;;S;;;;;;;
-1998;765;Älmhult;B;M;C;L/FP;KD;;;;;;;;
-1998;767;Markaryd;BL;M;C;L/FP;KD;S;;;;;;;
-1998;780;Växjö;V;;;;;S;V;MP;;;;;
-1998;781;Ljungby;BL;;C;L/FP;;S;;;;;;;
-1998;821;Högsby;V;;;;;S;V;MP;;;;;
-1998;834;Torsås;B;M;C;L/FP;KD;;;MP;;;;;
-1998;840;Mörbylånga;B;M;C;L/FP;KD;;;MP;;;;;
-1998;860;Hultsfred;V;;;;;S;V;;;;;;
-1998;861;Mönsterås;B;M;C;L/FP;KD;;;;;;;;
-1998;862;Emmaboda;V;;;;;S;V;;;;;;
-1998;880;Kalmar;V;;;;;S;V;MP;;;;;
-1998;881;Nybro;V;;;;;S;V;;;;;;
-1998;882;Oskarshamn;V;;;;;S;;;;;;;
-1998;883;Västervik;V;;;;;S;V;MP;;;;;
-1998;884;Vimmerby;B;M;C;L/FP;KD;;;;;;;;
-1998;885;Borgholm;B;M;C;L/FP;KD;;;;;;;;
-1998;980;Gotland;B;M;C;L/FP;KD;;;;;ÖP;Gotlandspartiet;;
-1998;1060;Olofström;V;;;;;S;;;;;;;
-1998;1080;Karlskrona;V;;;;;S;V;;;;;;
-1998;1081;Ronneby;V;;;;;S;V;;;;;;
-1998;1082;Karlshamn;V;;;;;S;V;MP;;;;;
-1998;1083;Sölvesborg;BL;;;;;;;;;;;Hoppande majoriteter;
-1998;1214;Svalöv;B;M;C;L/FP;KD;;;;;;;;
-1998;1230;Staffanstorp;B;M;;;;;;;;;;;
-1998;1231;Burlöv;V;;;;;S;V;MP;;;;;
-1998;1233;Vellinge;B;M;;;;;;;;;;;
-1998;1256;Östra Göinge;V;;;;;S;;;;;;;
-1998;1257;Örkelljunga;BL;M;C;;KD;;V;;;;;;
-1998;1260;Bjuv;V;;;;;S;V;;;;;;
-1998;1261;Kävlinge;V;;;;;S;;;;;;;
-1998;1262;Lomma;B;M;C;L/FP;KD;;;;;ÖP;SPI;;
-1998;1263;Svedala;BL;;;;;;;;;;;Hoppande majoriteter;
-1998;1264;Skurup;BL;;;;;;;;;;;hoppande majoriteter;
-1998;1265;Sjöbo;BL;;;;;;;;;;;Hoppande majoriteter;
-1998;1266;Hörby;B;M;C;L/FP;KD;;;;;;;;
-1998;1267;Höör;B;M;C;L/FP;KD;;;;;ÖP;SPI;;
-1998;1270;Tomelilla;B;M;C;;KD;;;;;ÖP;Kommunens Väl;;
-1998;1272;Bromölla;V;;;;;S;;;;;;;
-1998;1273;Osby;B;M;C;L/FP;KD;;;;;ÖP;Göingepartiet;;
-1998;1275;Perstorp;B;M;C;L/FP;KD;;;;;ÖP;SPI;;
-1998;1276;Klippan;BL;;C;;;S;V;;;;;;
-1998;1277;Åstorp;V;;;;;S;V;;;;;;
-1998;1278;Båstad;B;M;C;L/FP;;;;;;;;;
-1998;1280;Malmö;V;;;;;S;V;MP;;;;;
-1998;1281;Lund;B;M;C;L/FP;KD;;;;;ÖP;Kommunpartiet studenterna;;
-1998;1282;Landskrona;V;;;;;S;V;;;;;;
-1998;1283;Helsingborg;B;M;;L/FP;KD;;;;;;;;
-1998;1284;Höganäs;B;M;C;;KD;;;;;ÖP;SPI;;
-1998;1285;Eslöv;V;;;;;S;V;MP;;;;;
-1998;1286;Ystad;B;M;C;L/FP;KD;;;;;ÖP;SPI;;
-1998;1287;Trelleborg;V;;;;;S;V;;;;;;
-1998;1290;Kristianstad;V;;;;;S;V;MP;;ÖP;Åhuspartiet;;
-1998;1291;Simrishamn;B;M;;L/FP;KD;;;;;ÖP;Sjukvårdspartiet;;
-1998;1292;Ängelholm;B;M;C;;;;;;;;;;
-1998;1293;Hässleholm;BL;;C;;;S;V;MP;;;;;
-1998;1315;Hylte;BL;;;L/FP;;S;;;;ÖP;Kommunens väl;;
-1998;1380;Halmstad;V;;;;;S;V;MP;;;;;
-1998;1381;Laholm;B;M;C;;KD;;;;;;;;
-1998;1382;Falkenberg;A;M;C;L/FP;KD;;;;;;;;
-1998;1383;Varberg;B;M;C;L/FP;KD;;;;;ÖP;SPI;;
-1998;1384;Kungsbacka;B;M;C;L/FP;KD;;;;;;;;
-1998;1401;Härryda;V;;;;;S;V;MP;;ÖP;SPI;;
-1998;1402;Partille;B;M;;L/FP;KD;;;MP;;;;;
-1998;1407;Öckerö;BL;;C;L/FP;KD;S;;;;;;;
-1998;1415;Stenungsund;BL;;C;;;S;V;MP;;;;;
-1998;1419;Tjörn;A;M;C;L/FP;KD;;;;;ÖP;Kommunalt alternativ, Samhällets bästa;;
-1998;1421;Orust;V;;;;;S;V;MP;;ÖP;Folkviljan på Orust;;
-1998;1427;Sotenäs;BL;;C;;;S;V;MP;;;;;
-1998;1430;Munkedal;B;M;C;L/FP;KD;;;MP;;ÖP;Kommunal samverkan;;
-1998;1435;Tanum;B;M;C;L/FP;KD;;;;;;;;
-1998;1438;Dals-Ed;B;M;C;L/FP;KD;;;;;;;;
-1998;1439;Färgelanda;BL;;C;L/FP;KD;S;;;;;;;
-1998;1440;Ale;V;;;;;S;V;MP;;;;;
-1998;1441;Lerum;B;M;C;L/FP;KD;;;MP;;;;;
-1998;1442;Vårgårda;BL;;;;;;;;;;;"""Samlingsregering m alla partier""";
-1998;1443;Bollebygd;B;M;C;;KD;;;;;ÖP;Nya kommunpartiet;;
-1998;1444;Grästorp;B;M;C;;;;;;;;;;
-1998;1445;Essunga;B;M;C;L/FP;KD;;;;;;;;
-1998;1446;Karlsborg;V;;;;;S;;;;;;;
-1998;1447;Gullspång;B;M;C;;KD;;;;;ÖP;KVF;;
-1998;1452;Tranemo;B;M;C;L/FP;KD;;;;;;;;
-1998;1460;Bengtsfors;B;M;C;L/FP;KD;;;;;ÖP;Medbogarp, Kommunp;;
-1998;1461;Mellerud;BL;;;;;;;;;;;Hoppande majoriteter;
-1998;1462;Lilla Edet;V;;;;;S;V;MP;;;;;
-1998;1463;Mark;V;;;;;S;V;;;;;;
-1998;1465;Svenljunga;BL;;;;;;;;;;;Hoppande majoriteter;
-1998;1466;Herrljunga;B;M;C;L/FP;KD;;;;;;;;
-1998;1470;Vara;B;M;C;L/FP;KD;;;;;;;;
-1998;1471;Götene;B;M;C;L/FP;KD;;;;;ÖP;Götenes framtid;;
-1998;1472;Tibro;B;M;C;L/FP;KD;;;;;;;;
-1998;1473;Töreboda;BL;;C;;;S;V;MP;;;;;
-1998;1480;Göteborg;V;;;;;S;V;MP;;;;;
-1998;1481;Mölndal;V;;;;;S;V;MP;;ÖP;SPI;;
-1998;1482;Kungälv;B;M;C;L/FP;KD;;;MP;;;;;
-1998;1484;Lysekil;V;;;;;S;;;;;;;
-1998;1485;Uddevalla;V;;;;;S;V;;;;;;
-1998;1486;Strömstad;B;M;C;L/FP;;;;;;;;;
-1998;1487;Vänersborg;B;M;C;L/FP;KD;;;;;ÖP;Folkviljan;;
-1998;1488;Trollhättan;V;;;;;S;V;;;;;;
-1998;1489;Alingsås;BL;;C;;;S;V;;;;;;
-1998;1490;Borås;B;M;C;L/FP;KD;;;MP;;ÖP;Vägvalet;;
-1998;1491;Ulricehamn;B;M;C;L/FP;KD;;;MP;;;;;
-1998;1492;Åmål;BL;M;;;;S;;;;ÖP;Medborgarpartiet i Åmål;;
-1998;1493;Mariestad;V;;;;;S;V;;;;;;
-1998;1494;Lidköping;V;;;;;S;V;;;;;;
-1998;1495;Skara;BL;;C;;;S;V;MP;;;;;
-1998;1496;Skövde;B;M;C;L/FP;KD;;;;;;;;
-1998;1497;Hjo;B;M;C;L/FP;;;;;;;;;
-1998;1498;Tidaholm;BL;M;C;L/FP;KD;S;;;;;;;
-1998;1499;Falköping;A;M;C;L/FP;KD;;;;;;;;
-1998;1715;Kil;B;M;C;L/FP;KD;;;MP;;;;;
-1998;1730;Eda;BL;M;C;L/FP;;;V;;;ÖP;Hela Edas lista;;
-1998;1737;Torsby;V;;;;;S;V;;;;;;
-1998;1760;Storfors;V;;;;;S;V;;;;;;
-1998;1761;Hammarö;V;;;;;S;V;;;;;;
-1998;1762;Munkfors;V;;;;;S;;;;;;;
-1998;1763;Forshaga;V;;;;;S;;;;;;;
-1998;1764;Grums;BL;;C;;;S;;;;;;;
-1998;1765;Årjäng;B;M;C;L/FP;KD;;;;;;;;
-1998;1766;Sunne;B;;C;L/FP;KD;;;;;;;;
-1998;1780;Karlstad;V;;;;;S;V;MP;;;;;
-1998;1781;Kristinehamn;V;;;;;S;V;;;;;;
-1998;1782;Filipstad;V;;;;;S;;MP;;;;;
-1998;1783;Hagfors;V;;;;;S;V;;;;;;
-1998;1784;Arvika;V;;;;;S;;;;;;;
-1998;1785;Säffle;B;M;C;L/FP;KD;;;;;;;;
-1998;1814;Lekeberg;BL;;C;;;S;;;;;;;
-1998;1860;Laxå;BL;;C;;;S;;;;;;;
-1998;1861;Hallsberg;V;;;;;S;V;;;;;;
-1998;1862;Degerfors;BL;;;;;;;;;;;hoppande majoriteter;
-1998;1863;Hällefors;V;;;;;S;V;;;;;;
-1998;1864;Ljusnarsberg;V;;;;;S;V;;;;;;
-1998;1880;Örebro;V;;;;;S;V;MP;;;;;
-1998;1881;Kumla;BL;;C;L/FP;KD;S;;;;;;;
-1998;1882;Askersund;BL;;;;;;;;;;;Hoppande majoriteter;
-1998;1883;Karlskoga;V;;;;;S;;;;;;;
-1998;1884;Nora;V;;;;;S;;MP;;;;;
-1998;1885;Lindesberg;V;;;;;S;V;;;;;;
-1998;1904;Skinnskatteberg;V;;;;;S;V;;;;;;
-1998;1907;Surahammar;V;;;;;S;V;;;;;;
-1998;1960;Kungsör;V;;;;;S;V;;;ÖP;Socialistiska partiet;;
-1998;1961;Hallstahammar;V;;;;;S;V;;;;;;
-1998;1962;Norberg;V;;;;;;V;;;;;;
-1998;1980;Västerås;V;;;;;S;V;MP;;;;;
-1998;1981;Sala;B;M;C;L/FP;KD;;;;;ÖP;Salapartiet;;
-1998;1982;Fagersta;BL;;;;;;V;;;;;;
-1998;1983;Köping;V;;;;;S;V;MP;;;;;
-1998;1984;Arboga;BL;;C;;;S;;;;;;;
-1998;2021;Vansbro;BL;;;;;;;;;;;Hoppande majoriteter;
-1998;2023;Malung- Sälen;V;;;;;S;V;;;;;;
-1998;2026;Gagnef;B;M;C;L/FP;KD;;;MP;;;;;
-1998;2029;Leksand;B;M;C;L/FP;KD;;;;;ÖP;Leksandspartiet;;
-1998;2031;Rättvik;B;M;C;L/FP;KD;;;;;ÖP;SPI;;
-1998;2034;Orsa;V;;;;;S;V;MP;;;;;
-1998;2039;Älvdalen;BL;;C;;;S;;;;;;;
-1998;2061;Smedjebacken;BL;;C;;;S;;;;;;;
-1998;2062;Mora;B;M;C;L/FP;KD;;;MP;;ÖP;SPI, Morapartiet, Allians för Mora;;
-1998;2080;Falun;A;M;C;L/FP;KD;;;;;ÖP;SPI, Falupartiet;;
-1998;2081;Borlänge;V;;;;;S;;;;;;;
-1998;2082;Säter;B;M;C;L/FP;KD;;;;;;;;
-1998;2083;Hedemora;V;;;;;S;V;;;;;;
-1998;2084;Avesta;V;;;;;S;V;MP;;;;;
-1998;2085;Ludvika;V;;;;;S;;;;;;;
-1998;2101;Ockelbo;V;;;;;S;V;;;;;;
-1998;2104;Hofors;V;;;;;S;;;;;;;
-1998;2121;Ovanåker;B;M;C;L/FP;KD;;;MP;;;;;
-1998;2132;Nordanstig;V;;;;;S;V;MP;;;;;
-1998;2161;Ljusdal;V;;;;;S;V;;;;;;
-1998;2180;Gävle;V;;;;;S;V;;;;;;
-1998;2181;Sandviken;V;;;;;S;;;;;;;
-1998;2182;Söderhamn;BL;;;;;;;;;;;Hoppande majoriteter;
-1998;2183;Bollnäs;V;;;;;S;V;MP;;;;;
-1998;2184;Hudiksvall;V;;;;;S;V;;;;;;
-1998;2260;Ånge;V;;;;;S;;;;;;;
-1998;2262;Timrå;BL;M;C;L/FP;KD;;V;MP;;;;;
-1998;2280;Härnösand;BL;;;;KD;S;V;MP;;;;;
-1998;2281;Sundsvall;V;;;;;S;V;;;;;;
-1998;2282;Kramfors;V;;;;;S;V;;;;;;
-1998;2283;Sollefteå;V;;;;;S;V;;;;;;
-1998;2284;Örnsköldsvik;V;;;;;S;;;;;;;
-1998;2303;Ragunda;V;;;;;S;V;;;;;;
-1998;2305;Bräcke;V;;;;;S;;;;;;;
-1998;2309;Krokom;BL;;C;;;S;;;;;;;
-1998;2313;Strömsund;V;;;;;S;;;;;;;
-1998;2321;Åre;B;M;C;L/FP;;;;;;;;;
-1998;2326;Berg;B;M;C;L/FP;KD;;;;;;;;
-1998;2361;Härjedalen;V;;;;;S;V;;;;;;
-1998;2380;Östersund;V;;;;;S;V;MP;;;;;
-1998;2401;Nordmaling;B;M;C;L/FP;KD;;;;;ÖP;Nordmalings oberoende parti;;
-1998;2403;Bjurholm;B;M;C;L/FP;KD;;;;;;;;
-1998;2404;Vindeln;BL;;C;;KD;S;;;;;;;
-1998;2409;Robertsfors;BL;M;;L/FP;;S;;MP;;;;;
-1998;2417;Norsjö;B;M;C;L/FP;KD;;;;;;;;
-1998;2418;Malå;V;;;;;S;;;;;;;
-1998;2421;Storuman;BL;;;;;;;;;;;Hoppande majoriteter;
-1998;2422;Sorsele;V;;;;;S;;;;;;;
-1998;2425;Dorotea;B;;C;L/FP;;;;;;ÖP;Dorotea kommunlista;;
-1998;2460;Vännäs;V;;;;;S;V;;;;;;
-1998;2462;Vilhelmina;V;;;;;S;;;;;;;
-1998;2463;Åsele;B;M;C;L/FP;KD;;;;;ÖP;Åselepartiet;;
-1998;2480;Umeå;V;;;;;S;V;;;;;;
-1998;2481;Lycksele;V;;;;;S;V;;;;;;
-1998;2482;Skellefteå;V;;;;;S;;;;;;;
-1998;2505;Arvidsjaur;V;;;;;S;;;;;;;
-1998;2506;Arjeplog;V;;;;;S;V;;;;;;
-1998;2510;Jokkmokk;V;;;;;S;;;;ÖP;Samernas väl;;
-1998;2513;Överkalix;V;;;;;S;;;;;;;
-1998;2514;Kalix;BL;M;C;L/FP;KD;;V;;;ÖP;Kalixpartiet;;
-1998;2518;Övertorneå;BL;;C;;;S;V;;;;;;
-1998;2521;Pajala;V;;;;;S;V;;;;;;
-1998;2523;Gällivare;V;;;;;S;V;;;;;;
-1998;2560;Älvsbyn;V;;;;;S;V;;;;;;
-1998;2580;Luleå;V;;;;;S;V;;;;;;
-1998;2581;Piteå;V;;;;;S;;;;;;;
-1998;2582;Boden;V;;;;;S;V;MP;;;;;
-1998;2583;Haparanda;BL;;C;;;S;;;;;;;
-1998;2584;Kiruna;V;;;;;S;;;;ÖP;Kirunapartiet;;
-2002;114;Upplands väsby;V;;;;;S;V;MP;;;;;
-2002;115;Vallentuna;B;M;C;L/FP;KD;;;;;;;;
-2002;117;Österåker;B;M;C;L/FP;KD;;;;;ÖP;Österåkerpartiet;;
-2002;120;Värmdö;BL;;C;;KD;S;;MP;;;;;
-2002;123;Järfälla;V;;;;;S;V;MP;;;;;
-2002;125;Ekerö;B;M;C;L/FP;KD;;;;;;;;
-2002;126;Huddinge;V;;;;;S;V;MP;;;;;
-2002;127;Botkyrka;V;;;;;S;V;MP;;;;;
-2002;128;Salem;B;M;C;L/FP;KD;;;;;;;;
-2002;136;Haninge;BL;;;L/FP;;S;;;;;;;
-2002;138;Tyresö;B;M;C;L/FP;KD;;;;;;;;
-2002;139;Upplands-Bro;V;;;;;S;V;;;;;;
-2002;140;Nykvarn;B;M;C;;;;;;;ÖP;Nykvarnspartiet;;
-2002;160;Täby;B;M;;L/FP;KD;;;;;;;;
-2002;162;Danderyd;B;M;;;KD;;;;;;;;
-2002;163;Sollentuna;B;M;C;L/FP;;;;;;;;;
-2002;180;Stockholm;V;;;;;S;V;MP;;;;;
-2002;181;Södertälje;V;;;;;S;V;MP;;;;;
-2002;182;Nacka;B;M;;L/FP;KD;;;;;;;;
-2002;183;Sundbyberg;V;;;;;S;V;MP;;;;;
-2002;184;Solna;B;M;;L/FP;KD;;;;;;;;
-2002;186;Lidingö;B;M;;L/FP;;;;;;;;;
-2002;187;Vaxholm;B;M;C;L/FP;KD;;;;;;;;
-2002;188;Norrtälje;B;M;C;L/FP;KD;;;;;;;;
-2002;191;Sigtuna;V;;;;;S;V;MP;;;;;
-2002;192;Nynäshamn;BL;;;L/FP;;S;;;;;;;
-2002;305;Håbo;BL;;C;L/FP;;S;V;MP;;;;;
-2002;319;Älvkarleby;V;;;;;S;V;;;;;;
-2002;330;Knivsta;B;M;C;L/FP;KD;;;;;;;;
-2002;331;Heby;B;;C;L/FP;KD;;;MP;;ÖP;Länsbytarpartiet;;
-2002;360;Tierp;V;;;;;S;;;;;;;
-2002;380;Uppsala;V;;;;;S;V;MP;;;;;
-2002;381;Enköping;B;M;C;L/FP;KD;;;;;;;;
-2002;382;Östhammar;V;;;;;S;V;MP;;;;;
-2002;428;Vingåker;BL;M;C;L/FP;KD;;V;MP;;ÖP;Vtl;;
-2002;461;Gnesta;B;M;C;L/FP;KD;;;;;ÖP;Vänsterdemokr.;;
-2002;480;Nyköping;V;;;;;S;;;;;;;
-2002;481;Oxelösund;V;;;;;S;V;;;;;;
-2002;482;Flen;B;M;C;L/FP;KD;;;;;ÖP;Alternativ 2000;;
-2002;483;Katrineholm;V;;;;;S;;;;;;;
-2002;484;Eskilstuna;V;;;;;S;V;;;;;;
-2002;486;Strängnäs;B;M;C;L/FP;KD;;;;;;;;
-2002;488;Trosa;V;;;;;S;V;MP;;;;;
-2002;509;Ödeshög;B;M;C;;KD;;;;;;;;
-2002;512;Ydre;BL;;;;;;;;;;;Samlingsstyre;
-2002;513;Kinda;B;M;C;L/FP;KD;;;;;;;;
-2002;560;Boxholm;V;;;;;S;;;;;;;
-2002;561;Åtvidaberg;B;M;C;L/FP;KD;;;;;ÖP;Kopparp, Rotp;;
-2002;562;Finspång;V;;;;;S;V;;;;;;
-2002;563;Valdemarsvik;B;M;C;L/FP;KD;;;;;;;;
-2002;580;Linköping;BL;;C;;;S;;;;;;;
-2002;581;Norrköping;V;;;;;S;V;;;;;;
-2002;582;Söderköping;B;M;C;L/FP;KD;;;;;;;;
-2002;583;Motala;V;;;;;S;V;;;;;;
-2002;584;Vadstena;BL;M;;;;S;;;;;;;
-2002;586;Mjölby;V;;;;;S;V;;;;;;
-2002;604;Aneby;BL;;C;;;S;;;;;;;
-2002;617;Gnosjö;B;M;C;L/FP;KD;;;;;;;;
-2002;642;Mullsjö;B;M;C;;KD;;;;;;;;
-2002;643;Habo;B;M;C;L/FP;KD;;;;;;;;
-2002;662;Gislaved;BL;;C;;;S;;MP;;;;;
-2002;665;Vaggeryd;B;M;C;L/FP;KD;;;;;;;;
-2002;680;Jönköping;BL;;C;;;S;;;;;;;
-2002;682;Nässjö;BL;;C;L/FP;;S;;;;;;;
-2002;683;Värnamo;B;M;C;L/FP;KD;;;;;;;;
-2002;684;Sävsjö;B;M;C;;KD;;;;;;;;
-2002;685;Vetlanda;B;M;C;L/FP;KD;;;;;;;;
-2002;686;Eksjö;BL;;C;L/FP;KD;S;;MP;;;;;
-2002;687;Tranås;B;M;C;L/FP;KD;;;;;;;;
-2002;760;Uppvidinge;V;;;;;S;V;;;;;;
-2002;761;Lessebo;V;;;;;S;;;;;;;
-2002;763;Tingsryd;BL;;C;L/FP;;S;;;;;;;
-2002;764;Alvesta;B;M;C;L/FP;KD;;;;;;;;
-2002;765;Älmhult;BL;;;L/FP;;S;V;MP;;;;;
-2002;767;Markaryd;B;M;C;L/FP;KD;;;;;;;;
-2002;780;Växjö;V;;;;;S;V;MP;;;;;
-2002;781;Ljungby;BL;;C;L/FP;;S;;;;;;;
-2002;821;Högsby;B;M;C;L/FP;KD;;;;;;;;
-2002;834;Torsås;B;M;C;L/FP;KD;;;MP;;;;;
-2002;840;Mörbylånga;B;M;C;L/FP;KD;;;MP;;ÖP;Ölandspartiet;;
-2002;860;Hultsfred;V;;;;;S;V;;;;;;
-2002;861;Mönsterås;B;M;C;L/FP;KD;;;;;;;;
-2002;862;Emmaboda;V;;;;;S;;;;;;;
-2002;880;Kalmar;V;;;;;S;V;MP;;;;;
-2002;881;Nybro;V;;;;;S;;;;;;;
-2002;882;Oskarshamn;V;;;;;S;;;;;;;
-2002;883;Västervik;B;M;C;L/FP;KD;;;;;ÖP;VDM;;
-2002;884;Vimmerby;B;M;C;L/FP;KD;;;;;;;;
-2002;885;Borgholm;B;M;C;L/FP;KD;;;MP;;;;;
-2002;980;Gotland;V;;;;;S;V;MP;;;;;
-2002;1060;Olofström;V;;;;;S;V;;;;;;
-2002;1080;Karlskrona;V;;;;;S;V;MP;;;;;
-2002;1081;Ronneby;V;;;;;S;V;;;;;;
-2002;1082;Karlshamn;BL;;;L/FP;KD;S;;;;;;;
-2002;1083;Sölvesborg;V;;;;;S;V;;;;;;
-2002;1214;Svalöv;A;;C;L/FP;KD;;;;;;;;
-2002;1230;Staffanstorp;B;M;;L/FP;KD;;;;;;;;
-2002;1231;Burlöv;V;;;;;S;V;MP;;;;;
-2002;1233;Vellinge;B;M;;;;;;;;;;;
-2002;1256;Östra Göinge;V;;;;;S;V;;;;;;
-2002;1257;Örkelljunga;B;M;C;;KD;;;;;ÖP;SPI;;
-2002;1260;Bjuv;V;;;;;S;;;;;;;
-2002;1261;Kävlinge;BL;M;;;;S;V;;;;;;
-2002;1262;Lomma;B;M;C;L/FP;KD;;;;;ÖP;SPI;;
-2002;1263;Svedala;BL;;;;;;;;;;;Skapar majoritet i varje fråga;
-2002;1264;Skurup;B;M;C;L/FP;KD;;;;;;;;
-2002;1265;Sjöbo;B;M;C;L/FP;KD;;;;;ÖP;SPI;;
-2002;1266;Hörby;B;M;C;L/FP;KD;;;;;ÖP;Hörbypartiet;;
-2002;1267;Höör;B;M;C;L/FP;KD;;;;;ÖP;SPI;;
-2002;1270;Tomelilla;B;M;C;L/FP;KD;;;;;ÖP;Kommunens väl;;
-2002;1272;Bromölla;V;;;;;S;;;;;;;
-2002;1273;Osby;V;;;;;S;V;;;;;;
-2002;1275;Perstorp;BL;;C;L/FP;;S;;;;;;;
-2002;1276;Klippan;B;M;C;L/FP;KD;;;;;;;;
-2002;1277;Åstorp;BL;;C;L/FP;KD;S;;;;;;;
-2002;1278;Båstad;B;M;C;L/FP;;;;;;;;;
-2002;1280;Malmö;V;;;;;S;V;;;;;;
-2002;1281;Lund;V;;;;;S;V;MP;;;;;
-2002;1282;Landskrona;V;;;;;S;V;;;;;;
-2002;1283;Helsingborg;V;;;;;S;V;;;;;;
-2002;1284;Höganäs;B;M;C;L/FP;KD;;;;;;;;
-2002;1285;Eslöv;V;;;;;S;V;MP;;;;;
-2002;1286;Ystad;V;;;;;S;V;MP;;ÖP;Ystadspartiet;;
-2002;1287;Trelleborg;BL;M;;;;S;;;;;;;
-2002;1290;Kristianstad;BL;;;;KD;S;;MP;;;;;
-2002;1291;Simrishamn;B;M;C;L/FP;KD;;;;;ÖP;Österlenpartiet, sjp;;
-2002;1292;Ängelholm;B;M;C;L/FP;KD;;;;;ÖP;SPI;;
-2002;1293;Hässleholm;BL;;C;;;S;V;;;;;;
-2002;1315;Hylte;BL;M;C;L/FP;;S;V;;;;;;
-2002;1380;Halmstad;V;;;;;S;V;;;ÖP;SPI;;
-2002;1381;Laholm;B;M;C;L/FP;KD;;;;;;;;
-2002;1382;Falkenberg;B;M;C;L/FP;KD;;;MP;;;;;
-2002;1383;Varberg;B;M;C;L/FP;KD;;;;;ÖP;SPI;;
-2002;1384;Kungsbacka;B;M;C;L/FP;KD;;;;;ÖP;SPI;;
-2002;1401;Härryda;A;M;C;L/FP;KD;;;;;;;;
-2002;1402;Partille;B;M;;L/FP;KD;;;MP;;;;;
-2002;1407;Öckerö;B;M;;;KD;;;;;;;;
-2002;1415;Stenungsund;BL;;C;;;S;V;MP;;;;;
-2002;1419;Tjörn;BL;;;;KD;S;;;;ÖP;Samhällets bästa;;
-2002;1421;Orust;BL;M;;;;S;;;;ÖP;Folkviljan;;
-2002;1427;Sotenäs;BL;;C;;;S;V;MP;;;;;
-2002;1430;Munkedal;BL;;;;KD;S;V;;;;;;
-2002;1435;Tanum;B;M;C;L/FP;KD;;;;;;;;
-2002;1438;Dals-Ed;B;M;C;L/FP;KD;;;;;;;;
-2002;1439;Färgelanda;BL;;;L/FP;KD;S;;;;;;;
-2002;1440;Ale;V;;;;;S;V;;;;;;
-2002;1441;Lerum;B;M;C;L/FP;KD;;;;;;;;
-2002;1442;Vårgårda;BL;;;;;;;;;;;Samlingsstyre;
-2002;1443;Bollebygd;B;M;C;L/FP;KD;;;;;;;;
-2002;1444;Grästorp;BL;;C;;;S;;;;;;;
-2002;1445;Essunga;B;M;C;;KD;;;;;;;;
-2002;1446;Karlsborg;V;;;;;S;;;;;;;
-2002;1447;Gullspång;B;M;C;L/FP;KD;;;;;ÖP;KVf;;
-2002;1452;Tranemo;B;M;C;L/FP;KD;;;;;;;;
-2002;1460;Bengtsfors;BL;;;L/FP;;S;;;;;;;
-2002;1461;Mellerud;BL;M;C;;;S;;;;;;;
-2002;1462;Lilla Edet;B;M;C;L/FP;KD;;;MP;;;;;
-2002;1463;Mark;B;M;C;L/FP;KD;;;MP;;ÖP;Markbp;;
-2002;1465;Svenljunga;B;M;C;L/FP;KD;;;;;;;;
-2002;1466;Herrljunga;B;M;C;L/FP;KD;;;;;;;;
-2002;1470;Vara;B;M;C;L/FP;;;;;;;;;
-2002;1471;Götene;B;M;C;L/FP;KD;;;MP;;;;;
-2002;1472;Tibro;B;M;C;L/FP;KD;;;;;;;;
-2002;1473;Töreboda;BL;;C;;;S;V;MP;;;;;
-2002;1480;Göteborg;V;;;;;S;V;MP;;;;;
-2002;1481;Mölndal;V;;;;;S;V;MP;;ÖP;SPI;;
-2002;1482;Kungälv;V;;;;;S;V;MP;;;;;
-2002;1484;Lysekil;V;;;;;S;V;MP;;;;;
-2002;1485;Uddevalla;V;;;;;S;V;;;;;;
-2002;1486;Strömstad;B;M;C;L/FP;KD;;;;;;;;
-2002;1487;Vänersborg;BL;;C;;;S;;;;;;;
-2002;1488;Trollhättan;V;;;;;S;V;;;;;;
-2002;1489;Alingsås;B;M;;L/FP;KD;;;MP;;;;;
-2002;1490;Borås;B;M;C;L/FP;KD;;;MP;;ÖP;Vägvalet;;
-2002;1491;Ulricehamn;B;M;C;L/FP;KD;;;;;;;;
-2002;1492;Åmål;B;;C;L/FP;KD;;;;;;;;
-2002;1493;Mariestad;B;M;C;L/FP;KD;;;;;ÖP;Mariestadspartiet;;
-2002;1494;Lidköping;V;;;;;S;;;;;;;
-2002;1495;Skara;BL;;C;;;S;;;;;;;
-2002;1496;Skövde;B;M;C;L/FP;KD;;;;;;;;
-2002;1497;Hjo;B;M;C;L/FP;KD;;;;;;;;
-2002;1498;Tidaholm;V;;;;;S;V;MP;;;;;
-2002;1499;Falköping;B;M;C;L/FP;KD;;;;;;;;
-2002;1715;Kil;B;M;C;L/FP;KD;;;MP;;;;;
-2002;1730;Eda;V;;;;;S;V;;;;;;
-2002;1737;Torsby;V;;;;;S;V;;;;;;
-2002;1760;Storfors;V;;;;;S;V;;;;;;
-2002;1761;Hammarö;V;;;;;S;V;;;;;;
-2002;1762;Munkfors;V;;;;;S;;;;;;;
-2002;1763;Forshaga;V;;;;;S;;;;;;;
-2002;1764;Grums;V;;;;;S;;;;;;;
-2002;1765;Årjäng;B;M;C;L/FP;KD;;;;;;;;
-2002;1766;Sunne;B;M;C;L/FP;KD;;;;;;;;
-2002;1780;Karlstad;V;;;;;S;V;MP;;;;;
-2002;1781;Kristinehamn;B;M;C;L/FP;KD;;;;;;;;
-2002;1782;Filipstad;V;;;;;S;V;;;;;;
-2002;1783;Hagfors;BL;;C;;;S;;;;;;;
-2002;1784;Arvika;V;;;;;S;;;;;;;
-2002;1785;Säffle;B;M;C;L/FP;KD;;;;;;;;
-2002;1814;Lekeberg;BL;M;;L/FP;KD;S;V;MP;;;;;
-2002;1860;Laxå;V;;;;;S;V;;;;;;
-2002;1861;Hallsberg;V;;;;;S;;;;;;;
-2002;1862;Degerfors;V;;;;;S;;;;;;;
-2002;1863;Hällefors;V;;;;;S;;;;;;;
-2002;1864;Ljusnarsberg;V;;;;;S;;;;;;;
-2002;1880;Örebro;V;;;;;S;V;MP;;;;;
-2002;1881;Kumla;V;;;;;S;;;;;;;
-2002;1882;Askersund;BL;;C;;;S;;;;;;;
-2002;1883;Karlskoga;V;;;;;S;;;;;;;
-2002;1884;Nora;V;;;;;S;;MP;;;;;
-2002;1885;Lindesberg;V;;;;;S;V;;;;;;
-2002;1904;Skinnskatteberg;V;;;;;S;;;;;;;
-2002;1907;Surahammar;V;;;;;S;;;;;;;
-2002;1960;Kungsör;V;;;;;S;V;;;;;;
-2002;1961;Hallstahammar;V;;;;;S;V;;;;;;
-2002;1962;Norberg;V;;;;;S;V;;;;;;
-2002;1980;Västerås;V;;;;;S;V;;;;;;
-2002;1981;Sala;B;M;C;L/FP;KD;;;;;ÖP;Salapartiet;;
-2002;1982;Fagersta;BL;M;C;L/FP;KD;;V;;;;;;
-2002;1983;Köping;V;;;;;S;V;MP;;;;;
-2002;1984;Arboga;BL;;C;L/FP;;S;;;;;;;
-2002;2021;Vansbro;V;;;;;S;V;;;;;;
-2002;2023;Malung- Sälen;V;;;;;S;V;;;;;;
-2002;2026;Gagnef;B;M;C;L/FP;KD;;;;;;;;
-2002;2029;Leksand;B;M;C;L/FP;KD;;;;;ÖP;Leksandspartiet;;
-2002;2031;Rättvik;B;M;C;L/FP;KD;;;MP;;ÖP;SPI;;
-2002;2034;Orsa;BL;;;L/FP;;S;;MP;;;;;
-2002;2039;Älvdalen;BL;;C;;;S;;MP;;;;;
-2002;2061;Smedjebacken;V;;;;;S;V;;;;;;
-2002;2062;Mora;BL;;C;;;S;;;;;;;
-2002;2080;Falun;BL;;C;;;S;;MP;;;;;
-2002;2081;Borlänge;V;;;;;S;;;;;;;
-2002;2082;Säter;BL;;C;;KD;S;;;;;;;
-2002;2083;Hedemora;B;M;C;L/FP;KD;;;MP;;ÖP;Hedemorapartiet;;
-2002;2084;Avesta;B;M;C;L/FP;KD;;;MP;;ÖP; AI lista;;
-2002;2085;Ludvika;V;;;;;S;V;;;;;;
-2002;2101;Ockelbo;V;;;;;S;;;;;;;
-2002;2104;Hofors;V;;;;;S;;;;;;;
-2002;2121;Ovanåker;B;M;C;L/FP;KD;;;;;;;;
-2002;2132;Nordanstig;B;M;C;L/FP;KD;;;;;;;;
-2002;2161;Ljusdal;V;;;;;S;V;MP;;;;;
-2002;2180;Gävle;V;;;;;S;;;;;;;
-2002;2181;Sandviken;V;;;;;S;;;;;;;
-2002;2182;Söderhamn;BL;;C;;;S;;;;;;;
-2002;2183;Bollnäs;B;M;C;L/FP;KD;;;;;;;;
-2002;2184;Hudiksvall;V;;;;;S;V;;;;;;
-2002;2260;Ånge;V;;;;;S;;;;;;;
-2002;2262;Timrå;V;;;;;S;;;;;;;
-2002;2280;Härnösand;V;;;;;S;V;MP;;;;;
-2002;2281;Sundsvall;V;;;;;S;V;;;;;;
-2002;2282;Kramfors;V;;;;;S;V;;;;;;
-2002;2283;Sollefteå;V;;;;;S;V;;;;;;
-2002;2284;Örnsköldsvik;V;;;;;S;;;;;;;
-2002;2303;Ragunda;V;;;;;S;;;;;;;
-2002;2305;Bräcke;V;;;;;S;;;;;;;
-2002;2309;Krokom;BL;;C;;;S;;;;;;;
-2002;2313;Strömsund;V;;;;;S;;;;;;;
-2002;2321;Åre;V;;;;;S;V;MP;;;;;
-2002;2326;Berg;BL;;;;;S;;MP;;ÖP;Bergspartiet;;
-2002;2361;Härjedalen;V;;;;;S;V;;;;;;
-2002;2380;Östersund;V;;;;;S;V;;;;;;
-2002;2401;Nordmaling;V;;;;;S;V;;;;;;
-2002;2403;Bjurholm;B;M;C;L/FP;KD;;;;;;;;
-2002;2404;Vindeln;BL;;C;;;S;;;;;;;
-2002;2409;Robertsfors;BL;M;;L/FP;;S;;MP;;;;;
-2002;2417;Norsjö;BL;;;;KD;S;V;;;;;;
-2002;2418;Malå;V;;;;;S;V;;;;;;
-2002;2421;Storuman;BL;M;;L/FP;KD;S;;;;;;;
-2002;2422;Sorsele;V;;;;;S;V;;;;;;
-2002;2425;Dorotea;B;;C;L/FP;;;;;;ÖP;Dorotea kommunlista;;
-2002;2460;Vännäs;V;;;;;S;V;;;;;;
-2002;2462;Vilhelmina;V;;;;;S;V;;;;;;
-2002;2463;Åsele;V;;;;;S;V;;;;;;
-2002;2480;Umeå;V;;;;;S;;;;;;;
-2002;2481;Lycksele;V;;;;;S;;;;;;;
-2002;2482;Skellefteå;V;;;;;S;;;;;;;
-2002;2505;Arvidsjaur;V;;;;;S;;;;;;;
-2002;2506;Arjeplog;BL;;C;;;S;;;;ÖP;Arjeplogs fria demokrater;;
-2002;2510;Jokkmokk;BL;;;;KD;S;;;;;;;
-2002;2513;Överkalix;V;;;;;S;;;;;;;
-2002;2514;Kalix;B;;C;L/FP;KD;;;MP;;;;;
-2002;2518;Övertorneå;V;;;;;S;V;;;ÖP;Övertorneåalternativet, Sjp;;
-2002;2521;Pajala;BL;;C;;KD;S;;;;;;;
-2002;2523;Gällivare;V;;;;;S;;;;;;;
-2002;2560;Älvsbyn;V;;;;;S;;;;;;;
-2002;2580;Luleå;V;;;;;S;V;;;;;;
-2002;2581;Piteå;V;;;;;S;;;;;;;
-2002;2582;Boden;BL;M;C;L/FP;;;V;MP;;ÖP;NSp;;
-2002;2583;Haparanda;V;;;;;S;V;;;;;;
-2002;2584;Kiruna;BL;M;C;L/FP;KD;S;;MP;;;;;
-2006;114;Upplands väsby;A;M;C;L/FP;KD;;;;;;;;
-2006;115;Vallentuna;A;M;C;L/FP;KD;;;;;;;;
-2006;117;Österåker;A;M;C;L/FP;KD;;;;;ÖP;Österåkerpartiet;;
-2006;120;Värmdö;A;M;C;L/FP;KD;;;;;;;;
-2006;123;Järfälla;A;M;C;L/FP;KD;;;;;;;;
-2006;125;Ekerö;A;M;C;L/FP;KD;;;;;;;;
-2006;126;Huddinge;A;M;;L/FP;KD;;;;;ÖP;Drevvikenpartiet;;
-2006;127;Botkyrka;V;;;;;S;V;MP;;;;;
-2006;128;Salem;A;M;C;L/FP;KD;;;;;;;;
-2006;136;Haninge;A;M;C;L/FP;KD;;;MP;;;;;
-2006;138;Tyresö;A;M;C;L/FP;KD;;;;;;;;
-2006;139;Upplands-Bro;A;M;C;L/FP;KD;;;;;;;;
-2006;140;Nykvarn;A;M;C;;;;;;;ÖP;Nykvarnspartiet;;
-2006;160;Täby;A;M;C;L/FP;KD;;;;;;;;
-2006;162;Danderyd;A;M;;;KD;;;;;;;;
-2006;163;Sollentuna;A;M;C;L/FP;KD;;;;;;;;
-2006;180;Stockholm;A;M;C;L/FP;KD;;;;;;;;
-2006;181;Södertälje;V;;;;;S;V;MP;;;;;
-2006;182;Nacka;A;M;;L/FP;KD;;;;;;;;
-2006;183;Sundbyberg;A;M;C;L/FP;KD;;;;;;;;
-2006;184;Solna;A;M;;L/FP;KD;;;;;;;;
-2006;186;Lidingö;A;M;;L/FP;;;;;;;;;
-2006;187;Vaxholm;A;M;C;L/FP;KD;;;;;;;;
-2006;188;Norrtälje;A;M;C;L/FP;KD;;;;;;;;
-2006;191;Sigtuna;BL;;C;;;S;;MP;;;;;
-2006;192;Nynäshamn;BL;;;L/FP;;S;;;;;;;
-2006;305;Håbo;A;M;;L/FP;KD;;;;;ÖP;Bålstapartiet;;
-2006;319;Älvkarleby;V;;;;;S;V;;;;;;
-2006;330;Knivsta;A;M;C;L/FP;KD;;;;;;;;
-2006;331;Heby;BL;M;;L/FP;;S;V;;;;;;
-2006;360;Tierp;V;;;;;S;V;;;;;;
-2006;380;Uppsala;A;M;C;L/FP;KD;;;;;;;;
-2006;381;Enköping;A;M;C;L/FP;KD;;;;;;;;
-2006;382;Östhammar;A;M;C;L/FP;KD;;;MP;;ÖP;Borgerligt alternativ;;
-2006;428;Vingåker;V;;;;;S;;;;;;;
-2006;461;Gnesta;A;M;C;L/FP;KD;;;;;;;;
-2006;480;Nyköping;A;M;C;L/FP;KD;;;MP;;;;;
-2006;481;Oxelösund;V;;;;;S;;;;;;;
-2006;482;Flen;V;;;;;S;;;;ÖP;Alternativ 2000;;
-2006;483;Katrineholm;V;;;;;S;;;;;;;
-2006;484;Eskilstuna;V;;;;;S;V;;;;;;
-2006;486;Strängnäs;B;M;C;L/FP;KD;;;;;ÖP;Strängnäspartiet;;
-2006;488;Trosa;A;M;C;L/FP;KD;;;;;;;;
-2006;509;Ödeshög;A;M;C;L/FP;KD;;;;;;;;
-2006;512;Ydre;BL;M;C;;KD;S;;;;ÖP;Folk och Miljö;;
-2006;513;Kinda;A;M;C;L/FP;KD;;;;;;;;
-2006;560;Boxholm;V;;;;;S;;;;;;;
-2006;561;Åtvidaberg;BL;M;;;;S;;;;;;;
-2006;562;Finspång;V;;;;;S;V;;;;;;
-2006;563;Valdemarsvik;A;M;C;L/FP;KD;;;;;;;;
-2006;580;Linköping;A;M;C;L/FP;KD;;;;;;;;
-2006;581;Norrköping;V;;;;;S;V;MP;;;;;
-2006;582;Söderköping;A;M;C;L/FP;KD;;;;;;;;
-2006;583;Motala;A;M;C;L/FP;KD;;;MP;;ÖP;SPI;;
-2006;584;Vadstena;BL;M;;;;S;;;;;;;
-2006;586;Mjölby;A;M;C;L/FP;KD;;;;;ÖP;SPI;;
-2006;604;Aneby;A;M;C;L/FP;KD;;;;;;;;
-2006;617;Gnosjö;A;M;C;L/FP;KD;;;;;;;;
-2006;642;Mullsjö;A;M;C;L/FP;KD;;;;;ÖP;Mullsjö Framtid;;
-2006;643;Habo;BL;M;C;L/FP;KD;S;;;;;;;
-2006;662;Gislaved;A;M;C;L/FP;KD;;;;;;;;
-2006;665;Vaggeryd;A;M;C;L/FP;KD;;;;;;;;
-2006;680;Jönköping;A;M;C;L/FP;KD;;;MP;;;;;
-2006;682;Nässjö;V;;;;;S;V;;;ÖP;SAFE (Solidaritet arbete fred ekologi);;
-2006;683;Värnamo;A;M;C;L/FP;KD;;;;;;;;
-2006;684;Sävsjö;A;M;C;L/FP;KD;;;;;;;;
-2006;685;Vetlanda;A;M;C;L/FP;KD;;;;;;;;
-2006;686;Eksjö;A;M;C;L/FP;KD;;;;;;;;
-2006;687;Tranås;A;M;C;L/FP;KD;;;;;;;;
-2006;760;Uppvidinge;A;M;C;L/FP;KD;;;;;;;;
-2006;761;Lessebo;V;;;;;S;;;;;;;
-2006;763;Tingsryd;A;M;C;L/FP;KD;;;;;;;;
-2006;764;Alvesta;BL;;C;L/FP;;S;;;;;;;
-2006;765;Älmhult;A;M;C;L/FP;KD;;;MP;;;;;
-2006;767;Markaryd;A;M;C;L/FP;KD;;;;;;;;
-2006;780;Växjö;A;M;C;L/FP;KD;;;;;;;;
-2006;781;Ljungby;V;;;;;S;;;;;;;
-2006;821;Högsby;A;M;C;L/FP;KD;;;MP;;ÖP; Livskvalitet Högsby kommun;;
-2006;834;Torsås;V;;;;;S;V;;;ÖP;Torsåspartiet;;
-2006;840;Mörbylånga;A;M;C;L/FP;KD;;;MP;;ÖP;Ölandspartiet;;
-2006;860;Hultsfred;V;;;;;S;V;;;;;;
-2006;861;Mönsterås;A;M;C;L/FP;KD;;;;;;;;
-2006;862;Emmaboda;V;;;;;S;V;;;;;;
-2006;880;Kalmar;V;;;;;S;V;MP;;;;;
-2006;881;Nybro;V;;;;;S;V;MP;;;;;
-2006;882;Oskarshamn;V;;;;;S;V;;;;;;
-2006;883;Västervik;A;M;C;L/FP;KD;;;;;ÖP;Kommunpartiet VDM;;
-2006;884;Vimmerby;A;M;C;L/FP;KD;;;;;;;;
-2006;885;Borgholm;A;M;C;L/FP;KD;;;MP;;;;;
-2006;980;Gotland;A;M;C;L/FP;KD;;;;;;;;
-2006;1060;Olofström;V;;;;;S;;;;;;;
-2006;1080;Karlskrona;A;M;C;L/FP;KD;;;MP;;;;;
-2006;1081;Ronneby;BL;;;L/FP;KD;S;;;;;;;
-2006;1082;Karlshamn;BL;;;L/FP;KD;S;;;;;;;
-2006;1083;Sölvesborg;V;;;;;S;V;;;ÖP;Sölvesborgspartiet;;
-2006;1214;Svalöv;BL;M;;;;S;;;;;;;
-2006;1230;Staffanstorp;A;M;;L/FP;KD;;;;;;;;
-2006;1231;Burlöv;BL;M;;;;S;;;;;;;
-2006;1233;Vellinge;A;M;;;;;;;;;;;
-2006;1256;Östra Göinge;V;;;;;S;;;;;;;
-2006;1257;Örkelljunga;A;M;C;;KD;;;;;ÖP;SPI;;
-2006;1260;Bjuv;V;;;;;S;V;;;;;;
-2006;1261;Kävlinge;A;M;C;L/FP;KD;;;;;;;;
-2006;1262;Lomma;A;M;C;L/FP;KD;;;;;ÖP;SPI;;
-2006;1263;Svedala;BL;;;;;;;;;;;Hoppande majoriteter;
-2006;1264;Skurup;A;M;C;L/FP;KD;;;;;;;;
-2006;1265;Sjöbo;A;M;C;L/FP;;;;;;;;;
-2006;1266;Hörby;A;M;C;L/FP;KD;;;MP;;;;;
-2006;1267;Höör;A;M;C;L/FP;KD;;;;;;;;
-2006;1270;Tomelilla;A;M;C;L/FP;KD;;;;;ÖP;Kommunens väl;;
-2006;1272;Bromölla;V;;;;;S;;;;;;;
-2006;1273;Osby;A;M;C;L/FP;KD;;;;;;;;
-2006;1275;Perstorp;V;;;;;S;V;;;;;;
-2006;1276;Klippan;A;M;C;L/FP;KD;;;;;;;;
-2006;1277;Åstorp;BL;;C;;;S;;;;;;;
-2006;1278;Båstad;A;M;;L/FP;;;;;;ÖP;Bjärepartiet;;
-2006;1280;Malmö;V;;;;;S;V;MP;;;;;
-2006;1281;Lund;A;M;C;L/FP;KD;;;;;;;;
-2006;1282;Landskrona;A;M;;L/FP;;;;MP;;;;;
-2006;1283;Helsingborg;A;M;C;L/FP;KD;;;;;ÖP;SPI;;
-2006;1284;Höganäs;A;M;C;L/FP;KD;;;;;;;;
-2006;1285;Eslöv;V;;;;;S;V;MP;;;;;
-2006;1286;Ystad;A;M;C;L/FP;KD;;;;;ÖP;SPI;;
-2006;1287;Trelleborg;A;M;C;L/FP;KD;;;MP;;ÖP;SPI;;
-2006;1290;Kristianstad;A;M;C;L/FP;;;;;;ÖP;Åhuspartiet, Kristianstadsbygdens Framtid;;
-2006;1291;Simrishamn;A;M;C;L/FP;KD;;;;;ÖP;Sjukvårdspartiet;;
-2006;1292;Ängelholm;A;M;C;L/FP;KD;;;;;ÖP;SPI;;
-2006;1293;Hässleholm;A;M;C;L/FP;KD;;;;;ÖP;Folkets Väl;;
-2006;1315;Hylte;BL;M;C;L/FP;;S;V;;;;;;
-2006;1380;Halmstad;A;M;C;L/FP;KD;;;;;ÖP;SPI;;
-2006;1381;Laholm;A;M;C;L/FP;KD;;;;;;;;
-2006;1382;Falkenberg;A;M;C;L/FP;KD;;;;;ÖP;Aktiv politik;;
-2006;1383;Varberg;A;M;C;L/FP;KD;;;;;ÖP;SPI;;
-2006;1384;Kungsbacka;A;M;C;L/FP;KD;;;;;;;;
-2006;1401;Härryda;A;M;C;L/FP;KD;;;;;;;;
-2006;1402;Partille;A;M;C;L/FP;KD;;;;;;;;
-2006;1407;Öckerö;A;M;;L/FP;KD;;;;;;;;
-2006;1415;Stenungsund;A;M;C;L/FP;KD;;;MP;;;;;
-2006;1419;Tjörn;A;;C;L/FP;;S;;;;;;;
-2006;1421;Orust;A;M;C;L/FP;KD;;;;;;;;
-2006;1427;Sotenäs;A;M;C;L/FP;KD;;;;;ÖP;NSP (Nya Sotenäspartiet);;
-2006;1430;Munkedal;A;M;C;;KD;;;MP;;ÖP;Kommunal Samverkan Folket i Fokus;;
-2006;1435;Tanum;A;M;C;L/FP;KD;;;;;;;;
-2006;1438;Dals-Ed;A;M;C;;KD;;;;;;;;
-2006;1439;Färgelanda;A;M;C;L/FP;KD;;;;;;;;
-2006;1440;Ale;V;;;;;S;V;MP;;;;;
-2006;1441;Lerum;A;M;C;L/FP;KD;;;;;;;;
-2006;1442;Vårgårda;A;M;C;L/FP;KD;;;;;;;;
-2006;1443;Bollebygd;A;M;C;L/FP;KD;;;;;;;;
-2006;1444;Grästorp;A;M;C;L/FP;KD;;;;;;;;
-2006;1445;Essunga;A;M;C;;KD;;;;;;;;
-2006;1446;Karlsborg;A;M;C;L/FP;KD;;;;;;;;
-2006;1447;Gullspång;BL;;C;;;S;;;;;;;
-2006;1452;Tranemo;A;M;C;L/FP;KD;;;;;;;;
-2006;1460;Bengtsfors;B;M;C;L/FP;KD;;;;;;;;
-2006;1461;Mellerud;A;M;C;L/FP;KD;;;;;;;;
-2006;1462;Lilla Edet;A;M;C;L/FP;KD;;;MP;;;;;
-2006;1463;Mark;V;;;;;S;V;;;;;;
-2006;1465;Svenljunga;A;M;C;L/FP;KD;;;;;;;;
-2006;1466;Herrljunga;A;M;C;L/FP;KD;;;;;;;;
-2006;1470;Vara;A;M;C;L/FP;KD;;;;;;;;
-2006;1471;Götene;A;M;C;L/FP;KD;;;;;;;;
-2006;1472;Tibro;A;M;C;L/FP;KD;;;;;;;;
-2006;1473;Töreboda;BL;;C;;;S;;;;;;;
-2006;1480;Göteborg;V;;;;;S;V;MP;;;;;
-2006;1481;Mölndal;A;M;C;L/FP;KD;;;;;ÖP;Kommunpartiet i Mölndal;;
-2006;1482;Kungälv;A;M;C;L/FP;KD;;;;;;;;
-2006;1484;Lysekil;A;M;C;L/FP;KD;;;;;;;;
-2006;1485;Uddevalla;A;M;C;L/FP;KD;;;;;ÖP;Uddevallapartiet;;
-2006;1486;Strömstad;V;;;;;S;V;;;ÖP;Strömstadspartiet;;
-2006;1487;Vänersborg;BL;;C;;;S;;;;;;;
-2006;1488;Trollhättan;V;;;;;S;;;;;;;
-2006;1489;Alingsås;A;M;C;L/FP;KD;;;;;;;;
-2006;1490;Borås;A;M;C;L/FP;KD;;;MP;;ÖP;Vägvalet;;
-2006;1491;Ulricehamn;A;M;C;L/FP;KD;;;;;;;;
-2006;1492;Åmål;A;;C;L/FP;KD;;;;;;;;
-2006;1493;Mariestad;BL;;C;;;S;;MP;;;;;
-2006;1494;Lidköping;V;;;;;S;V;MP;;;;;
-2006;1495;Skara;A;M;C;L/FP;KD;;;;;;;;
-2006;1496;Skövde;A;M;C;L/FP;KD;;;;;;;;
-2006;1497;Hjo;A;M;C;L/FP;KD;;;;;;;;
-2006;1498;Tidaholm;V;;;;;S;;;;;;;
-2006;1499;Falköping;B;M;C;L/FP;KD;;;;;;;;
-2006;1715;Kil;BL;;;;KD;S;;MP;;;;;
-2006;1730;Eda;V;;;;;S;;;;ÖP;Hela Edas lista;;
-2006;1737;Torsby;V;;;;;S;;;;;;;
-2006;1760;Storfors;V;;;;;S;V;;;;;;
-2006;1761;Hammarö;V;;;;;S;V;MP;;;;;
-2006;1762;Munkfors;V;;;;;S;V;;;;;;
-2006;1763;Forshaga;V;;;;;S;;;;;;;
-2006;1764;Grums;V;;;;;S;;;;;;;
-2006;1765;Årjäng;A;M;C;L/FP;KD;;;;;;;;
-2006;1766;Sunne;A;M;C;L/FP;KD;;;;;;;;
-2006;1780;Karlstad;V;;;;;S;V;MP;;;;;
-2006;1781;Kristinehamn;A;M;C;L/FP;KD;;;;;ÖP;Sjukvårdspartiet i Värmland;;
-2006;1782;Filipstad;V;;;;;S;;;;;;;
-2006;1783;Hagfors;V;;;;;S;;;;;;;
-2006;1784;Arvika;V;;;;;S;V;MP;;;;;
-2006;1785;Säffle;A;M;C;L/FP;KD;;;;;;;;
-2006;1814;Lekeberg;A;M;C;L/FP;KD;;;;;;;;
-2006;1860;Laxå;V;;;;;S;V;;;;;;
-2006;1861;Hallsberg;V;;;;;S;;;;;;;
-2006;1862;Degerfors;BL;M;C;L/FP;KD;S;;;;;;;
-2006;1863;Hällefors;V;;;;;S;;;;;;;
-2006;1864;Ljusnarsberg;V;;;;;S;V;;;;;;
-2006;1880;Örebro;A;M;C;L/FP;KD;;;MP;;;;;
-2006;1881;Kumla;V;;;;;S;;;;;;;
-2006;1882;Askersund;BL;;C;;;S;;;;;;;
-2006;1883;Karlskoga;V;;;;;S;;;;;;;
-2006;1884;Nora;V;;;;;S;V;;;;;;
-2006;1885;Lindesberg;BL;M;C;L/FP;KD;;V;;;;;;
-2006;1904;Skinnskatteberg;A;M;C;L/FP;KD;;;;;ÖP;Skinnskattebergsdemokraterna;;
-2006;1907;Surahammar;V;;;;;S;;;;;;;
-2006;1960;Kungsör;BL;;C;;;S;;;;;;;
-2006;1961;Hallstahammar;V;;;;;S;V;;;;;;
-2006;1962;Norberg;V;;;;;S;V;;;;;;
-2006;1980;Västerås;A;M;C;L/FP;KD;;;MP;;;;;
-2006;1981;Sala;A;M;C;L/FP;KD;;;;;;;;
-2006;1982;Fagersta;V;;;;;;V;;;;;;
-2006;1983;Köping;V;;;;;S;V;MP;;;;;
-2006;1984;Arboga;V;;;;;S;V;;;;;;
-2006;2021;Vansbro;A;M;C;L/FP;KD;;;;;;;;
-2006;2023;Malung- Sälen;B;M;C;L/FP;KD;;;;;ÖP;Malung Sälen partiet;;
-2006;2026;Gagnef;A;M;C;L/FP;KD;;;;;;;;
-2006;2029;Leksand;B;M;C;L/FP;KD;;;;;;;;
-2006;2031;Rättvik;A;M;C;L/FP;KD;;;MP;;ÖP;SPI;;
-2006;2034;Orsa;V;;;;;S;V;MP;;;;;
-2006;2039;Älvdalen;BL;;;L/FP;;S;;MP;;;;;
-2006;2061;Smedjebacken;V;;;;;S;V;;;;;;
-2006;2062;Mora;BL;;C;;;S;;;;;;;
-2006;2080;Falun;A;M;C;L/FP;KD;;;;;ÖP;Falupartiet;;
-2006;2081;Borlänge;V;;;;;S;V;MP;;;;;
-2006;2082;Säter;BL;;;L/FP;;S;V;MP;;;;;
-2006;2083;Hedemora;V;;;;;S;V;MP;;;;;
-2006;2084;Avesta;V;;;;;S;V;MP;;;;;
-2006;2085;Ludvika;V;;;;;S;V;;;;;;
-2006;2101;Ockelbo;BL;M;C;;KD;S;V;MP;;;;;
-2006;2104;Hofors;V;;;;;S;V;MP;;;;;
-2006;2121;Ovanåker;A;M;C;L/FP;KD;;;;;;;;
-2006;2132;Nordanstig;A;M;C;;KD;;;;;;;;
-2006;2161;Ljusdal;BL;;C;L/FP;;S;;;;;;;
-2006;2180;Gävle;V;;;;;S;V;MP;;;;;
-2006;2181;Sandviken;BL;;C;;;S;;;;;;;
-2006;2182;Söderhamn;BL;;C;;;S;;;;;;;
-2006;2183;Bollnäs;B;M;C;L/FP;KD;;;;;ÖP;Sjukvårdspartiet;;
-2006;2184;Hudiksvall;V;;;;;S;V;;;;;;
-2006;2260;Ånge;V;;;;;S;;;;;;;
-2006;2262;Timrå;V;;;;;S;;;;;;;
-2006;2280;Härnösand;A;M;C;L/FP;KD;;;;;ÖP;Sjukvårdspartiet;;
-2006;2281;Sundsvall;V;;;;;S;V;MP;;;;;
-2006;2282;Kramfors;V;;;;;S;V;MP;;;;;
-2006;2283;Sollefteå;V;;;;;S;V;;;;;;
-2006;2284;Örnsköldsvik;V;;;;;S;;;;;;;
-2006;2303;Ragunda;BL;;C;;;S;;;;;;;
-2006;2305;Bräcke;V;;;;;S;V;;;;;;
-2006;2309;Krokom;A;M;C;L/FP;KD;;;MP;;;;;
-2006;2313;Strömsund;A;M;C;L/FP;;;;;;ÖP;Rättvis Demokrati;;
-2006;2321;Åre;A;M;C;L/FP;KD;;;;;;;;
-2006;2326;Berg;BL;M;C;;KD;;V;;;ÖP;Bergspartiet;;
-2006;2361;Härjedalen;BL;;C;L/FP;;S;;;;;;;
-2006;2380;Östersund;V;;;;;S;V;MP;;;;;
-2006;2401;Nordmaling;A;M;C;L/FP;KD;;;;;;;;
-2006;2403;Bjurholm;A;M;C;L/FP;KD;;;;;;;;
-2006;2404;Vindeln;BL;;C;;;S;;;;;;;
-2006;2409;Robertsfors;A;M;C;;KD;;;;;;;;
-2006;2417;Norsjö;V;;;;;S;V;;;;;;
-2006;2418;Malå;A;;C;L/FP;KD;;;;;ÖP;Malålistan;;
-2006;2421;Storuman;BL;M;C;L/FP;KD;;V;;;;;;
-2006;2422;Sorsele;A;M;C;L/FP;KD;;;;;;;;
-2006;2425;Dorotea;A;;C;L/FP;;;;;;ÖP;Dorotea kommunlista;;
-2006;2460;Vännäs;V;;;;;S;V;MP;;;;;
-2006;2462;Vilhelmina;A;M;C;L/FP;KD;;;;;;;;
-2006;2463;Åsele;V;;;;;S;V;;;;;;
-2006;2480;Umeå;V;;;;;S;;;;;;;
-2006;2481;Lycksele;V;;;;;S;;;;;;;
-2006;2482;Skellefteå;V;;;;;S;;;;;;;
-2006;2505;Arvidsjaur;BL;M;C;L/FP;;S;V;;;;;;
-2006;2506;Arjeplog;BL;;;L/FP;;S;;;;;;;
-2006;2510;Jokkmokk;BL;M;C;L/FP;;;V;MP;;ÖP;Alternativet, Samernas Väl;;
-2006;2513;Överkalix;BL;M;C;L/FP;;S;V;MP;;;;;
-2006;2514;Kalix;BL;;C;;;S;;;;;;;
-2006;2518;Övertorneå;V;;;;;S;V;;;ÖP;Övertorneåalternativet;;
-2006;2521;Pajala;V;;;;;S;V;;;;;;
-2006;2523;Gällivare;V;;;;;S;V;;;ÖP;Norrbottens sjukvårdsparti;;
-2006;2560;Älvsbyn;V;;;;;S;;;;;;;
-2006;2580;Luleå;V;;;;;S;;;;;;;
-2006;2581;Piteå;V;;;;;S;;;;;;;
-2006;2582;Boden;BL;M;C;L/FP;;;V;MP;;ÖP;Norrbottens sjukvårdsparti;;
-2006;2583;Haparanda;V;;;;;S;;;;;;;
-2006;2584;Kiruna;BL;M;;;KD;S;;MP;;ÖP;Norrbottens sjukvårdsparti, Samelistan;;
-2010;114;Upplands väsby;A;M;C;L/FP;KD;;;;;;;;
-2010;115;Vallentuna;A;M;C;L/FP;KD;;;;;;;;
-2010;117;Österåker;A;M;C;L/FP;KD;;;;;ÖP;ÖP;;
-2010;120;Värmdö;A;M;;L/FP;KD;;;MP;;;;;
-2010;123;Järfälla;A;M;C;L/FP;KD;;;;;;;;
-2010;125;Ekerö;A;M;C;L/FP;KD;;;;;;;;
-2010;126;Huddinge;A;M;C;L/FP;KD;;;;;ÖP;Drevvikenpartiet;;
-2010;127;Botkyrka;V;;;;;S;V;MP;;;;;
-2010;128;Salem;A;M;C;L/FP;KD;;;;;;;;
-2010;136;Haninge;A;M;C;L/FP;KD;;;MP;;;;;
-2010;138;Tyresö;A;M;C;L/FP;KD;;;;;;;;
-2010;139;Upplands-Bro;A;M;C;L/FP;KD;;;;;;;;
-2010;140;Nykvarn;A;M;C;L/FP;;;;;;ÖP;Nykvarnpartiet;;
-2010;160;Täby;A;M;C;L/FP;KD;;;;;;;;
-2010;162;Danderyd;A;M;C;L/FP;KD;;;;;;;;
-2010;163;Sollentuna;A;M;C;L/FP;KD;;;;;;;;
-2010;180;Stockholm;A;M;C;L/FP;KD;;;;;;;;
-2010;181;Södertälje;V;;;;;S;V;MP;;;;;
-2010;182;Nacka;A;M;C;L/FP;KD;;;;;;;;
-2010;183;Sundbyberg;BL;;C;;KD;S;;MP;;;;;
-2010;184;Solna;A;M;C;L/FP;KD;;;;;;;;
-2010;186;Lidingö;A;M;;L/FP;KD;;;;;;;;
-2010;187;Vaxholm;A;M;C;L/FP;;;;;;;;;
-2010;188;Norrtälje;A;M;C;L/FP;KD;;;;;;;;
-2010;191;Sigtuna;BL;;C;;;S;;MP;;;;;
-2010;192;Nynäshamn;BL;;;L/FP;;S;;;;;;;
-2010;305;Håbo;V;;;;;S;V;MP;;ÖP;Bålstapartiet;;
-2010;319;Älvkarleby;V;;;;;S;V;;;;;;
-2010;330;Knivsta;A;M;C;L/FP;KD;;;;;ÖP;Knivsta.nu;;
-2010;331;Heby;A;M;C;L/FP;KD;;;MP;;;;;
-2010;360;Tierp;V;;;;;S;V;MP;;;;;
-2010;380;Uppsala;A;M;C;L/FP;KD;;;;;;;;
-2010;381;Enköping;A;M;C;L/FP;KD;;;;;;;;
-2010;382;Östhammar;BL;;C;;;S;;;;;;;
-2010;428;Vingåker;V;;;;;S;;;;;;;
-2010;461;Gnesta;V;;;;;S;V;MP;;;;;
-2010;480;Nyköping;V;;;;;S;V;MP;;;;;
-2010;481;Oxelösund;V;;;;;S;V;;;;;;
-2010;482;Flen;V;;;;;S;V;;;ÖP;Alternativ 2000;;
-2010;483;Katrineholm;BL;M;;;;S;;;;;;;
-2010;484;Eskilstuna;V;;;;;S;V;MP;;;;;
-2010;486;Strängnäs;BL;;C;L/FP;;S;;;;;;;
-2010;488;Trosa;A;M;C;L/FP;KD;;;;;;;;
-2010;509;Ödeshög;A;M;C;;KD;;;;;;;;
-2010;512;Ydre;A;M;C;;KD;;;;;;;;
-2010;513;Kinda;A;M;C;;KD;;;MP;;;;;
-2010;560;Boxholm;V;;;;;S;;;;;;;
-2010;561;Åtvidaberg;BL;M;;;;S;;;;;;;
-2010;562;Finspång;V;;;;;S;V;MP;;;;;
-2010;563;Valdemarsvik;A;M;C;L/FP;KD;;;;;ÖP;Nybyggarpartiet;;
-2010;580;Linköping;A;M;C;L/FP;KD;;;;;;;;
-2010;581;Norrköping;V;;;;;S;V;MP;;;;;
-2010;582;Söderköping;A;M;C;L/FP;KD;;;;;;;;
-2010;583;Motala;V;;;;;S;V;MP;;;;;
-2010;584;Vadstena;A;M;C;L/FP;KD;;;;;;;;
-2010;586;Mjölby;V;;;;;S;V;MP;;;;;
-2010;604;Aneby;A;M;C;L/FP;KD;;;;;;;;
-2010;617;Gnosjö;A;M;C;L/FP;KD;;;;;;;;
-2010;642;Mullsjö;A;M;C;L/FP;KD;;;;;;;;
-2010;643;Habo;A;M;C;L/FP;KD;;;;;;;;
-2010;662;Gislaved;A;M;C;L/FP;KD;;;MP;;;;;
-2010;665;Vaggeryd;BL;;C;;;S;V;MP;;;;;
-2010;680;Jönköping;A;M;C;L/FP;KD;;;MP;;;;;
-2010;682;Nässjö;BL;;C;L/FP;;S;;;;;;;
-2010;683;Värnamo;A;M;C;L/FP;KD;;;;;;;;
-2010;684;Sävsjö;A;M;C;L/FP;KD;;;;;;;;
-2010;685;Vetlanda;BL;M;C;;;S;;;;;;;
-2010;686;Eksjö;BL;M;C;;;S;;;;;;;
-2010;687;Tranås;A;M;C;L/FP;KD;;;MP;;;;;
-2010;760;Uppvidinge;A;M;C;L/FP;KD;;;MP;;;;;
-2010;761;Lessebo;V;;;;;S;;;;;;;
-2010;763;Tingsryd;BL;M;;L/FP;KD;S;;;;;;;
-2010;764;Alvesta;A;M;;L/FP;KD;;;;;;;;
-2010;765;Älmhult;A;M;C;L/FP;KD;;;MP;;;;;
-2010;767;Markaryd;A;M;C;;KD;;;;;;;;
-2010;780;Växjö;A;M;C;L/FP;KD;;;;;;;;
-2010;781;Ljungby;A;M;C;L/FP;KD;;;MP;;;;;
-2010;821;Högsby;V;;;;;S;V;MP;;;;;
-2010;834;Torsås;A;M;C;L/FP;KD;;;;;;;;
-2010;840;Mörbylånga;A;M;C;L/FP;KD;;;;;;;;
-2010;860;Hultsfred;A;M;C;L/FP;KD;;;MP;;;;;
-2010;861;Mönsterås;A;M;C;L/FP;KD;;;;;;;;
-2010;862;Emmaboda;V;;;;;S;V;MP;;;;;
-2010;880;Kalmar;V;;;;;S;V;MP;;;;;
-2010;881;Nybro;V;;;;;S;V;MP;;;;;
-2010;882;Oskarshamn;V;;;;;S;V;MP;;;;;
-2010;883;Västervik;A;M;C;L/FP;KD;;;;;ÖP;Kommunpartiet VDM;;
-2010;884;Vimmerby;A;M;C;L/FP;KD;;;;;;;;
-2010;885;Borgholm;A;M;C;L/FP;KD;;;;;;;;
-2010;980;Gotland;V;;;;;S;V;MP;;;;;
-2010;1060;Olofström;V;;;;;S;;;;;;;
-2010;1080;Karlskrona;A;M;C;L/FP;KD;;;MP;;;;;
-2010;1081;Ronneby;A;M;C;L/FP;KD;;;;;;;;
-2010;1082;Karlshamn;BL;;C;L/FP;KD;S;;;;;;;
-2010;1083;Sölvesborg;V;;;;;S;V;MP;;;;;
-2010;1214;Svalöv;BL;M;;L/FP;;S;;;;;;;
-2010;1230;Staffanstorp;A;M;;;;;;;;;;;
-2010;1231;Burlöv;V;;;;;S;;;;;;;
-2010;1233;Vellinge;A;M;;;;;;;;;;;
-2010;1256;Östra Göinge;A;M;C;L/FP;KD;;;MP;;;;;
-2010;1257;Örkelljunga;A;M;C;L/FP;KD;;;;;ÖP;SPI;;
-2010;1260;Bjuv;V;;;;;S;V;;;;;;
-2010;1261;Kävlinge;A;M;C;L/FP;KD;;;;;;;;
-2010;1262;Lomma;A;M;;;;;;;;;;;
-2010;1263;Svedala;A;M;C;L/FP;;;;;;ÖP;Bara-partiet;;
-2010;1264;Skurup;A;M;C;L/FP;;;;MP;;;;;
-2010;1265;Sjöbo;A;M;C;L/FP;;;;;;;;;
-2010;1266;Hörby;A;M;C;L/FP;KD;;;MP;;;;;
-2010;1267;Höör;A;M;C;L/FP;KD;;;;;;;;
-2010;1270;Tomelilla;BL;M;;;;S;;;;;;;
-2010;1272;Bromölla;V;;;;;S;;;;;;;
-2010;1273;Osby;A;;C;;KD;;;;;;;;
-2010;1275;Perstorp;A;M;C;L/FP;KD;;;;;ÖP;PF;;
-2010;1276;Klippan;A;M;C;L/FP;KD;;;MP;;;;;
-2010;1277;Åstorp;BL;;C;;;S;;MP;;;;;
-2010;1278;Båstad;A;M;C;L/FP;KD;;;;;;;;
-2010;1280;Malmö;V;;;;;S;V;MP;;;;;
-2010;1281;Lund;A;M;C;L/FP;KD;;;;;;;;
-2010;1282;Landskrona;A;M;;L/FP;;;;MP;;;;;
-2010;1283;Helsingborg;A;M;;L/FP;KD;;;;;;;;
-2010;1284;Höganäs;A;M;C;L/FP;KD;;;;;;;;
-2010;1285;Eslöv;BL;M;;;;S;;;;;;;
-2010;1286;Ystad;A;M;C;L/FP;KD;;;MP;;;;;
-2010;1287;Trelleborg;A;M;C;L/FP;KD;;;MP;;;;;
-2010;1290;Kristianstad;A;M;C;L/FP;;;;MP;;ÖP;Åhuspartiet;;
-2010;1291;Simrishamn;A;M;C;L/FP;KD;;;;;ÖP;Österlenpartiet;;
-2010;1292;Ängelholm;A;M;C;L/FP;KD;;;;;;;;
-2010;1293;Hässleholm;A;M;C;L/FP;KD;;;MP;;ÖP;Folkets väl;;
-2010;1315;Hylte;A;M;C;L/FP;KD;;;;;ÖP;Kommunens väl;;
-2010;1380;Halmstad;A;M;C;L/FP;KD;;;MP;;;;;
-2010;1381;Laholm;A;M;C;L/FP;KD;;;;;;;;
-2010;1382;Falkenberg;A;M;C;L/FP;KD;;;;;;;;
-2010;1383;Varberg;A;M;C;L/FP;KD;;;;;;;;
-2010;1384;Kungsbacka;A;M;C;L/FP;KD;;;;;;;;
-2010;1401;Härryda;A;M;C;L/FP;KD;;;;;;;;
-2010;1402;Partille;A;M;C;L/FP;KD;;;;;;;;
-2010;1407;Öckerö;A;M;;L/FP;KD;;;;;;;;
-2010;1415;Stenungsund;A;M;C;L/FP;KD;;;;;;;;
-2010;1419;Tjörn;A;M;C;L/FP;KD;;;;;ÖP;Samhällets bästa;;
-2010;1421;Orust;BL;;;L/FP;;S;;;;ÖP;Folkviljan;;
-2010;1427;Sotenäs;A;M;C;L/FP;KD;;;;;ÖP;NSP (Nya Sotenäspartiet);;
-2010;1430;Munkedal;BL;;C;;;S;;;;;;;
-2010;1435;Tanum;A;M;C;L/FP;KD;;;;;;;;
-2010;1438;Dals-Ed;A;M;C;L/FP;KD;;;;;;;;
-2010;1439;Färgelanda;A;M;C;;KD;;;;;;;;
-2010;1440;Ale;A;M;C;L/FP;KD;;;;;ÖP;Aledemokraterna;;
-2010;1441;Lerum;A;M;C;L/FP;KD;;;;;;;;
-2010;1442;Vårgårda;A;M;C;L/FP;KD;;;;;;;;
-2010;1443;Bollebygd;A;M;C;L/FP;KD;;;;;;;;
-2010;1444;Grästorp;A;M;C;L/FP;;;;;;;;;
-2010;1445;Essunga;A;M;;L/FP;KD;;;;;;;;
-2010;1446;Karlsborg;A;M;C;L/FP;KD;;;;;;;;
-2010;1447;Gullspång;BL;;C;;;S;;MP;;;;;
-2010;1452;Tranemo;A;M;C;L/FP;KD;;;;;;;;
-2010;1460;Bengtsfors;BL;;;L/FP;;S;;MP;;;;;
-2010;1461;Mellerud;A;M;C;L/FP;KD;;;;;;;;
-2010;1462;Lilla Edet;BL;;;L/FP;;S;V;;;;;;
-2010;1463;Mark;A;M;C;L/FP;KD;;;MP;;;;;
-2010;1465;Svenljunga;A;M;C;L/FP;KD;;;;;;;;
-2010;1466;Herrljunga;A;M;C;;KD;;;;;;;;
-2010;1470;Vara;A;M;C;L/FP;KD;;;;;;;;
-2010;1471;Götene;V;;;;;;;;;;;;
-2010;1472;Tibro;A;M;C;L/FP;KD;;;;;;;;
-2010;1473;Töreboda;BL;;;L/FP;;S;V;MP;;;;;
-2010;1480;Göteborg;V;;;;;S;V;MP;;;;;
-2010;1481;Mölndal;A;M;C;L/FP;KD;;;;;;;;
-2010;1482;Kungälv;A;M;C;L/FP;KD;;;;;;;;
-2010;1484;Lysekil;A;M;C;L/FP;;;;;;;;;
-2010;1485;Uddevalla;A;M;C;L/FP;KD;;;MP;;;;;
-2010;1486;Strömstad;BL;M;;;;S;;;;ÖP;Strömstadspartiet;;
-2010;1487;Vänersborg;A;M;;L/FP;KD;;;;;;;;
-2010;1488;Trollhättan;V;;;;;S;;;;;;;
-2010;1489;Alingsås;A;M;C;L/FP;KD;;;;;;;;
-2010;1490;Borås;V;;;;;S;V;MP;;ÖP;Vägvalet;;
-2010;1491;Ulricehamn;A;M;C;L/FP;KD;;;;;;;;
-2010;1492;Åmål;V;;;;;S;V;MP;;;;;
-2010;1493;Mariestad;V;;;;;S;V;MP;;ÖP;Mariestadspartiet;;
-2010;1494;Lidköping;V;;;;;S;V;MP;;;;;
-2010;1495;Skara;A;M;C;L/FP;KD;;;;;;;;
-2010;1496;Skövde;A;M;C;L/FP;KD;;;;;;;;
-2010;1497;Hjo;A;M;C;L/FP;KD;;;;;;;;
-2010;1498;Tidaholm;V;;;;;S;;;;;;;
-2010;1499;Falköping;BL;;C;;KD;S;;;;;;;
-2010;1715;Kil;BL;;C;;;S;;;;;;;
-2010;1730;Eda;A;M;C;L/FP;KD;;;;;;;;
-2010;1737;Torsby;V;;;;;S;;;;;;;
-2010;1760;Storfors;V;;;;;S;;;;;;;
-2010;1761;Hammarö;A;M;C;L/FP;KD;;;MP;;;;;
-2010;1762;Munkfors;V;;;;;S;;;;;;;
-2010;1763;Forshaga;V;;;;;S;;;;;;;
-2010;1764;Grums;V;;;;;S;;;;;;;
-2010;1765;Årjäng;A;M;C;L/FP;KD;;;;;;;;
-2010;1766;Sunne;A;M;C;L/FP;;;;;;;;;
-2010;1780;Karlstad;A;M;C;L/FP;KD;;;MP;;;;;
-2010;1781;Kristinehamn;V;;;;;S;V;MP;;;;;
-2010;1782;Filipstad;V;;;;;S;V;MP;;;;;
-2010;1783;Hagfors;V;;;;;S;V;;;;;;
-2010;1784;Arvika;V;;;;;S;;;;;;;
-2010;1785;Säffle;A;M;C;L/FP;KD;;;MP;;;;;
-2010;1814;Lekeberg;A;M;C;L/FP;KD;;;;;;;;
-2010;1860;Laxå;V;;;;;S;V;;;;;;
-2010;1861;Hallsberg;V;;;;;S;;;;;;;
-2010;1862;Degerfors;V;;;;;;V;MP;;;;;
-2010;1863;Hällefors;BL;;C;;;S;V;;;ÖP;Hällefors Oberoende;;
-2010;1864;Ljusnarsberg;V;;;;;S;V;MP;;;;;
-2010;1880;Örebro;BL;M;C;L/FP;KD;S;V;MP;;;;Alla partier utom SD gjorde en uppgörelse där ordförandeposten i kommunstyrelsen alternerades mellan M och S från januari 2011 t.o.m. omValet i maj/juni. ;
-2010;1881;Kumla;V;;;;;S;;;;;;;
-2010;1882;Askersund;V;;;;;S;V;MP;;;;;
-2010;1883;Karlskoga;V;;;;;S;V;;;;;;
-2010;1884;Nora;A;M;C;L/FP;KD;;;MP;;ÖP;Norapartiet;;
-2010;1885;Lindesberg;V;;;;;S;V;MP;;;;;
-2010;1904;Skinnskatteberg;V;;;;;S;V;MP;;;;;
-2010;1907;Surahammar;V;;;;;S;;;;;;;
-2010;1960;Kungsör;V;;;;;S;;;;;;;
-2010;1961;Hallstahammar;V;;;;;S;V;;;;;;
-2010;1962;Norberg;V;;;;;S;;MP;;;;;
-2010;1980;Västerås;V;;;;;S;V;MP;;;;;
-2010;1981;Sala;V;;;;;S;V;MP;;ÖP;Salas bästa;;
-2010;1982;Fagersta;V;;;;;;V;;;;;;
-2010;1983;Köping;V;;;;;S;V;MP;;;;;
-2010;1984;Arboga;BL;;C;;;S;V;;;ÖP;Omsorgspartiet i Arboga;;
-2010;2021;Vansbro;A;M;C;L/FP;KD;;;;;;;;
-2010;2023;Malung;BL;;C;;;S;V;;;;;;
-2010;2026;Gagnef;A;M;C;L/FP;KD;;;;;;;;
-2010;2029;Leksand;A;M;C;L/FP;KD;;;;;;;;
-2010;2031;Rättvik;A;M;C;L/FP;KD;;;;;ÖP;SPI;;
-2010;2034;Orsa;BL;M;;L/FP;;S;;MP;;;;;
-2010;2039;Älvdalen;A;M;C;;KD;;;;;ÖP;Kommunlistan (KL);;
-2010;2061;Smedjebacken;V;;;;;S;V;;;;;;
-2010;2062;Mora;BL;;C;;;S;;;;;;;
-2010;2080;Falun;V;;;;;S;V;MP;;;;;
-2010;2081;Borlänge;V;;;;;S;;MP;;;;;
-2010;2082;Säter;BL;;;L/FP;;S;V;MP;;;;;
-2010;2083;Hedemora;V;;;;;S;V;MP;;ÖP;Långshyttepartiet;;
-2010;2084;Avesta;V;;;;;S;V;MP;;;;;
-2010;2085;Ludvika;V;;;;;S;V;;;;;;
-2010;2101;Ockelbo;BL;;C;;;S;;;;;;;
-2010;2104;Hofors;V;;;;;S;V;MP;;;;;
-2010;2121;Ovanåker;BL;M;;L/FP;;S;;MP;;;;;
-2010;2132;Nordanstig;BL;M;C;;;S;V;MP;;;;;
-2010;2161;Ljusdal;V;;;;;S;V;;;ÖP;Socialradikala demokraterna (SRD);;
-2010;2180;Gävle;V;;;;;S;V;MP;;;;;
-2010;2181;Sandviken;V;;;;;S;;MP;;;;;
-2010;2182;Söderhamn;V;;;;;S;V;MP;;;;;
-2010;2183;Bollnäs;BL;;;L/FP;;S;V;MP;;ÖP;Sjukvårdspartiet;;
-2010;2184;Hudiksvall;A;M;C;L/FP;KD;;;MP;;;;;
-2010;2260;Ånge;V;;;;;S;;;;;;;
-2010;2262;Timrå;V;;;;;S;V;;;;;;
-2010;2280;Härnösand;V;;;;;S;V;MP;;;;;
-2010;2281;Sundsvall;A;M;C;L/FP;KD;;;MP;;;;;
-2010;2282;Kramfors;V;;;;;S;V;;;;;;
-2010;2283;Sollefteå;V;;;;;S;V;;;;;;
-2010;2284;Örnsköldsvik;V;;;;;S;;;;;;;
-2010;2303;Ragunda;V;;;;;S;;;;;;;
-2010;2305;Bräcke;V;;;;;S;;;;;;;
-2010;2309;Krokom;A;M;C;L/FP;KD;;;MP;;;;;
-2010;2313;Strömsund;V;;;;;S;V;;;;;;
-2010;2321;Åre;A;M;C;L/FP;KD;;;;;ÖP;Västjämtlands väl;;
-2010;2326;Berg;BL;;C;L/FP;;S;;;;;;;
-2010;2361;Härjedalen;BL;;C;L/FP;;S;;;;;;;
-2010;2380;Östersund;V;;;;;S;V;MP;;;;;
-2010;2401;Nordmaling;V;;;;;S;V;;;;;;
-2010;2403;Bjurholm;A;M;C;L/FP;KD;;;;;;;;
-2010;2404;Vindeln;A;M;C;L/FP;KD;;;;;;;;
-2010;2409;Robertsfors;V;;;;;S;V;;;;;;
-2010;2417;Norsjö;V;;;;;S;;;;;;;
-2010;2418;Malå;V;;;;;S;V;;;;;;
-2010;2421;Storuman;A;M;C;L/FP;KD;;;;;ÖP;Kommunlistan (KL);;
-2010;2422;Sorsele;V;;;;;S;V;;;;;;
-2010;2425;Dorotea;V;;;;;S;;;;;;;
-2010;2460;Vännäs;V;;;;;S;V;MP;;;;;
-2010;2462;Vilhelmina;V;;;;;S;V;;;;;;
-2010;2463;Åsele;V;;;;;S;;;;;;;
-2010;2480;Umeå;V;;;;;S;V;;;;;;
-2010;2481;Lycksele;V;;;;;S;V;MP;;;;;
-2010;2482;Skellefteå;V;;;;;S;;;;;;;
-2010;2505;Arvidsjaur;V;;;;;S;V;;;;;;
-2010;2506;Arjeplog;V;;;;;S;;;;;;;
-2010;2510;Jokkmokk;V;;;;;S;;;;ÖP;Framtid i Jokkmokk;;
-2010;2513;Överkalix;V;;;;;S;;;;;;;
-2010;2514;Kalix;V;;;;;S;V;MP;;;;;
-2010;2518;Övertorneå;V;;;;;S;V;;;ÖP;Övertorneås fria alternativ;;
-2010;2521;Pajala;V;;;;;S;V;;;;;;
-2010;2523;Gällivare;V;;;;;S;;;;;;;
-2010;2560;Älvsbyn;V;;;;;S;;;;;;;
-2010;2580;Luleå;V;;;;;S;;MP;;;;;
-2010;2581;Piteå;V;;;;;S;;;;;;;
-2010;2582;Boden;V;;;;;S;V;MP;;;;;
-2010;2583;Haparanda;V;;;;;S;;;;;;;
-2010;2584;Kiruna;V;;;;;S;V;;;ÖP;Samelistan;;
-2014;114;Upplands väsby;V;;;;;S;V;MP;;ÖP;Väsbys Bästa;;
-2014;115;Vallentuna;A;M;C;L/FP;KD;;;;;;;;
-2014;117;Österåker;A;M;C;L/FP;KD;;;;;ÖP;Österåkerpartiet;;
-2014;120;Värmdö;A;M;C;L/FP;KD;;;;;;;;
-2014;123;Järfälla kommun;BL;;C;;;S;;MP;;;;;
-2014;125;Ekerö;A;M;C;L/FP;KD;;;;;;;;
-2014;126;Huddinge;A;M;C;L/FP;KD;;;;;ÖP;Huddingepartiet, Drevvikenpartiet;;
-2014;127;Botkyrka;V;;;;;S;V;MP;;;;;
-2014;128;Salem;A;M;C;L/FP;KD;;;;;;;;
-2014;136;Haninge;BL;;C;;;S;;MP;;;;;
-2014;138;Tyresö;A;M;C;L/FP;KD;;;;;;;;
-2014;139;Upplands-Bro;BL;;C;;KD;S;;MP;;;;;
-2014;140;Nykvarn;A;M;C;;;;;;;ÖP;Nykvarnspartiet;;
-2014;160;Täby;A;M;C;L/FP;KD;;;;;;;;
-2014;162;Danderyd;A;M;;L/FP;KD;;;;;;;;
-2014;163;Sollentuna;A;M;C;L/FP;KD;;;;;;;;
-2014;180;Stockholm;V;;;;;S;V;MP;;ÖP;FI;;
-2014;181;Södertälje;V;;;;;S;V;MP;;;;;
-2014;182;Nacka;A;M;C;L/FP;KD;;;;;;;;
-2014;183;Sundbyberg;BL;;C;;KD;S;V;;;;;;
-2014;184;Solna;A;M;;L/FP;KD;;;;;;;;
-2014;186;Lidingö;A;M;;;KD;;;;;ÖP;Lidingöpartiet;;
-2014;187;Vaxholm;A;M;C;L/FP;;;;;;;;;
-2014;188;Norrtälje;BL;;C;;;S;;MP;;;;;
-2014;191;Sigtuna;BL;;;L/FP;;S;;MP;;;;;
-2014;192;Nynäshamn;BL;;;L/FP;;S;;MP;;;;;
-2014;305;Håbo;A;M;C;L/FP;KD;;;MP;;;;;
-2014;319;Älvkarleby;V;;;;;S;V;MP;;;;;
-2014;330;Knivsta;A;M;C;L/FP;KD;;;;;;;;
-2014;331;Heby;A;M;C;L/FP;KD;;;MP;;ÖP;Lokala partiet;;
-2014;360;Tierp;V;;;;;S;;MP;;;;;
-2014;380;Uppsala;V;;;;;S;V;MP;;;;;
-2014;381;Enköping;V;;;;;S;;;;ÖP;Nystart Enköping;;
-2014;382;Östhammar;BL;;C;;;S;;;;;;;
-2014;428;Vingåker;V;;;;;S;V;MP;;;;;
-2014;461;Gnesta;BL;M;;;;S;;;;;;;
-2014;480;Nyköping;V;;;;;S;V;MP;;;;;
-2014;481;Oxelösund;V;;;;;S;V;;;;;;
-2014;482;Flen;BL;;C;;KD;S;;MP;;;;;
-2014;483;Katrineholm;BL;M;;;;S;;;;;;;
-2014;484;Eskilstuna;BL;M;C;;;S;;;;;;;
-2014;486;Strängnäs;BL;M;;;;S;;;;;;;
-2014;488;Trosa;A;M;C;L/FP;KD;;;;;;;;
-2014;509;Ödeshög;A;M;C;;KD;;;;;;;;
-2014;512;Ydre;BL;M;C;;KD;S;;MP;;;;;
-2014;513;Kinda;BL;M;;;KD;S;;;;;;;
-2014;560;Boxholm;V;;;;;S;;;;;;;
-2014;561;Åtvidaberg;BL;M;;;;S;;;;;;;
-2014;562;Finspång;V;;;;;S;V;MP;;;;;
-2014;563;Valdemarsvik;V;;;;;S;V;MP;;ÖP;Nybyggarpartiet;;
-2014;580;Linköping;BL;;;L/FP;;S;;MP;;;;;
-2014;581;Norrköping;BL;;C;L/FP;KD;S;;;;;;;
-2014;582;Söderköping;BL;M;;;;S;;MP;;;;;
-2014;583;Motala;V;;;;;S;V;MP;;;;;
-2014;584;Vadstena;V;;;;;S;;;;ÖP;Konsensus;;
-2014;586;Mjölby;BL;;C;;KD;S;;MP;;;;;
-2014;604;Aneby;A;M;C;L/FP;KD;;;;;;;;
-2014;617;Gnosjö;A;M;C;L/FP;KD;;;;;;;;
-2014;642;Mullsjö;V;;;;;S;V;MP;;;;;
-2014;643;Habo;BL;;C;;KD;S;;MP;;;;;
-2014;662;Gislaved;BL;M;;;;S;;MP;;;;;
-2014;665;Vaggeryd;A;M;C;L/FP;KD;;;MP;;;;;
-2014;680;Jönköping;A;M;C;L/FP;KD;;;;;;;;
-2014;682;Nässjö;BL;M;C;L/FP;;S;V;;;;;;
-2014;683;Värnamo;A;M;;L/FP;KD;;;MP;;;;;
-2014;684;Sävsjö;BL;;C;;KD;S;;;;;;;
-2014;685;Vetlanda;V;;;;;S;;;;ÖP;Vetlanda framåtanda;;
-2014;686;Eksjö;A;M;C;;;;;;;;;;
-2014;687;Tranås;A;M;C;L/FP;KD;;;;;;;;
-2014;760;Uppvidinge;A;;C;;KD;;;;;;;;
-2014;761;Lessebo;V;;;;;S;;;;;;;
-2014;763;Tingsryd;BL;M;;;;S;;;;;;;
-2014;764;Alvesta;BL;;C;;;S;;MP;;;;;
-2014;765;Älmhult;V;;;;;S;V;MP;;;;;
-2014;767;Markaryd;A;M;C;;KD;;;;;;;;
-2014;780;Växjö;A;M;C;L/FP;KD;;;MP;;;;;
-2014;781;Ljungby;A;M;C;L/FP;;;;;;;;;
-2014;821;Högsby;A;M;C;;KD;;;;;;;;
-2014;834;Torsås;BL;M;;L/FP;KD;S;V;MP;;;;;
-2014;840;Mörbylånga;A;M;C;L/FP;KD;;;MP;;;;;
-2014;860;Hultsfred;A;M;C;L/FP;KD;;;MP;;;;;
-2014;861;Mönsterås;A;M;C;L/FP;KD;;;;;;;;
-2014;862;Emmaboda;V;;;;;S;V;MP;;;;;
-2014;880;Kalmar;BL;;C;;;S;V;;;;;;
-2014;881;Nybro;A;M;C;L/FP;KD;;;;;ÖP;SPI;;
-2014;882;Oskarshamn;BL;;C;;;S;V;MP;;;;;
-2014;883;Västervik;BL;;C;;;S;;;;;;;
-2014;884;Vimmerby;BL;M;;;;S;;;;;;;
-2014;885;Borgholm;V;;;;;S;;;;ÖP;Framtid Öland;;
-2014;980;Gotland;V;;;;;S;V;MP;;;;;
-2014;1060;Olofström;V;;;;;S;;;;;;;
-2014;1080;Karlskrona;BL;;C;L/FP;;S;;;;;;;
-2014;1081;Ronneby;A;M;C;L/FP;KD;;;;;ÖP;Ronnebypartiet;;
-2014;1082;Karlshamn;BL;;C;L/FP;;S;;;;;;;
-2014;1083;Sölvesborg;V;;;;;S;V;MP;;;;;
-2014;1214;Svalöv;BL;M;;;;S;;MP;;;;;
-2014;1230;Staffanstorp;A;M;C;L/FP;KD;;;;;;;;
-2014;1231;Burlöv;BL;;C;;;S;V;MP;;;;;
-2014;1233;Vellinge;A;M;;;;;;;;;;;
-2014;1256;Östra Göinge;A;M;C;L/FP;KD;;;MP;;;;;
-2014;1257;Örkelljunga;A;M;C;L/FP;KD;;;;;;;;
-2014;1260;Bjuv;BL;;C;L/FP;;S;V;;;;;;
-2014;1261;Kävlinge;A;M;C;L/FP;KD;;;MP;;;;;
-2014;1262;Lomma;A;M;C;L/FP;KD;;;;;;;;
-2014;1263;Svedala;A;M;C;L/FP;;;;;;ÖP;Bara-partiet;;
-2014;1264;Skurup;V;;;;;S;V;MP;;ÖP;Kommunens Väl;;
-2014;1265;Sjöbo;A;M;C;L/FP;KD;;;;;ÖP;Sjöbopartiet;;
-2014;1266;Hörby;BL;;C;L/FP;KD;S;;MP;;;;;
-2014;1267;Höör;A;M;C;L/FP;KD;;;;;;;;
-2014;1270;Tomelilla;A;M;C;L/FP;KD;;;MP;;ÖP;SPI;;
-2014;1272;Bromölla;V;;;;;S;;;;;;;
-2014;1273;Osby ;V;;;;;S;V;;;;;;
-2014;1275;Perstorp;BL;M;C;;KD;S;;;;;;;
-2014;1276;Klippan;BL;;C;;;S;V;MP;;;;;
-2014;1277;Åstorp;BL;;C;;KD;S;;MP;;;;;
-2014;1278;Båstad;A;;C;;;;;;;ÖP;Bjärepartiet;;
-2014;1280;Malmö stad;V;;;;;S;V;MP;;;;;
-2014;1281;Lund;V;;;;;S;V;MP;;ÖP;FI;;
-2014;1282;Landskrona;A;M;;L/FP;;;;MP;;;;;
-2014;1283;Helsingborg;A;M;C;L/FP;KD;;;MP;;;;;
-2014;1284;Höganäs;A;M;C;L/FP;KD;;;;;;;;
-2014;1285;Eslöv;BL;M;;;;S;;;;;;;
-2014;1286;Ystad;BL;;C;;;S;;;;;;;
-2014;1287;Trelleborg;BL;;C;;;S;;MP;;ÖP;Söderslättspartiet;;
-2014;1290;Kristianstad;BL;;C;L/FP;;S;;;;;;;
-2014;1291;Simrishamn;BL;;C;L/FP;;S;;MP;;ÖP;Österlenspartiet;;
-2014;1292;Ängelholm;BL;;;L/FP;;S;;;;ÖP;Engelholmspartiet;;
-2014;1293;Hässleholm;BL;;C;;;S;V;MP;;;;;
-2014;1315;Hylte;BL;;;L/FP;;S;V;MP;;ÖP;SPI;;
-2014;1380;Halmstad;A;M;C;L/FP;KD;;;MP;;ÖP;SPI Välfärden;;
-2014;1381;Laholm;A;M;C;L/FP;KD;;;MP;;;;;
-2014;1382;Falkenberg;A;M;C;L/FP;KD;;;MP;;;;;
-2014;1383;Varberg;A;M;C;L/FP;KD;;;;;;;;
-2014;1384;Kungsbacka;A;M;C;;KD;;;MP;;;;;
-2014;1401;Härryda;A;M;C;L/FP;KD;;;;;ÖP;Sportpartiet;;
-2014;1402;Partille;A;M;C;L/FP;KD;;;;;;;;
-2014;1407;Öckerö;A;M;;L/FP;KD;;;;;;;;
-2014;1415;Stenungsund;A;M;C;L/FP;KD;;;;;;;;
-2014;1419;Tjörn;A;M;C;L/FP;KD;;;;;;;;
-2014;1421;Orust;BL;;C;;;S;V;MP;;ÖP;Orustpartiet, Folkviljan på Orust;;
-2014;1427;Sotenäs;A;M;C;L/FP;KD;;;;;;;;
-2014;1430;Munkedals ;BL;;C;;;S;;MP;;;;;
-2014;1435;Tanum;A;M;C;L/FP;KD;;;;;;;;
-2014;1438;Dals-Ed;A;M;C;L/FP;KD;;;;;;;;
-2014;1439;Färgelanda;BL;;;L/FP;;S;V;;;;;;
-2014;1440;Ale;V;;;;;S;V;MP;;;;;
-2014;1441;Lerum;BL;;C;L/FP;;S;;MP;;;;;
-2014;1442;Vårgårda;A;M;C;L/FP;KD;;;;;;;;
-2014;1443;Bollebygd;V;;;;;S;V;MP;;;;;
-2014;1444;Grästorp;A;M;C;L/FP;;;;;;;;;
-2014;1445;Essunga;A;M;C;L/FP;KD;;;MP;;;;;
-2014;1446;Karlsborg;BL;M;;;;S;;;;;;;
-2014;1447;Gullspång;BL;;C;;;S;;;;;;;
-2014;1452;Tranemo;BL;M;C;L/FP;KD;S;;;;;;;
-2014;1460;Bengtsfors;BL;;;L/FP;;S;;MP;;;;;
-2014;1461;Mellerud;BL;;C;;;S;;;;;;;
-2014;1462;Lilla Edet;BL;;;L/FP;;S;V;;;;;;
-2014;1463;Mark;A;M;C;L/FP;KD;;;MP;;ÖP;Markbygdspartiet;;
-2014;1465;Svenljunga;BL;;;L/FP;;S;;;;ÖP;Landsbygdspartiet oberoende;;
-2014;1466;Herrljunga;BL;;;L/FP;;S;;MP;;ÖP;Kommunens väl;;
-2014;1470;Vara;V;;;;;S;;;;;;;
-2014;1471;Götene ;V;;;;;S;;;;ÖP;Götene framtid;;
-2014;1472;Tibro;BL;;C;;;S;V;MP;;;;;
-2014;1473;Töreboda;A;M;C;L/FP;;;;MP;;;;;
-2014;1480;Göteborg;V;;;;;S;V;MP;;;;;
-2014;1481;Mölndal;BL;;;;KD;S;V;MP;;;;;
-2014;1482;Kungälv;BL;;;L/FP;;S;V;MP;;ÖP;Utvecklingspartiet;;
-2014;1484;Lysekil;BL;M;C;L/FP;;S;;;;;;;
-2014;1485;Uddevalla;V;;;;;S;V;MP;;;;;
-2014;1486;Strömstad;A;;C;L/FP;KD;;;MP;;;;;
-2014;1487;Vänersborg;BL;;C;;;S;;MP;;ÖP;Välfärdspartiet;;
-2014;1488;Trollhättan;V;;;;;S;V;MP;;;;;
-2014;1489;Alingsås;V;;;;;S;V;MP;;;;;
-2014;1490;Borås;V;;;;;S;V;MP;;;;;
-2014;1491;Ulricehamn;V;;;;;S;V;;;;;;
-2014;1492;Åmål;V;;;;;S;V;MP;;;;;
-2014;1493;Mariestad;A;M;C;L/FP;KD;;;;;;;;
-2014;1494;Lidköping;V;;;;;S;V;MP;;;;;
-2014;1495;Skara;BL;;;L/FP;;S;V;MP;;;;;
-2014;1496;Skövde;A;M;C;L/FP;KD;;;;;;;;
-2014;1497;Hjo ;A;M;C;L/FP;KD;;;;;;;;
-2014;1498;Tidaholm;V;;;;;S;;;;;;;
-2014;1499;Falköping;BL;;C;;KD;S;;;;;;;
-2014;1715;Kil;BL;;C;;;S;;;;;;;
-2014;1730;Eda;BL;;C;;KD;;V;;;ÖP;Hela Edas lista;;
-2014;1737;Torsby;BL;;C;L/FP;;S;;;;;;;
-2014;1760;Storfors;V;;;;;S;V;;;;;;
-2014;1761;Hammarö;BL;;C;;;S;V;;;;;;
-2014;1762;Munkfors;V;;;;;S;;;;;;;
-2014;1763;Forshaga;V;;;;;S;;;;;;;
-2014;1764;Grums;V;;;;;S;;;;;;;
-2014;1765;Årjäng;BL;M;;L/FP;KD;S;;;;;;;
-2014;1766;Sunne;V;;;;;S;V;MP;;ÖP;Hela Sunne;;
-2014;1780;Karlstad;A;M;C;L/FP;KD;;;MP;;;;;
-2014;1781;Kristinehamn;V;;;;;S;V;MP;;;;;
-2014;1782;Filipstad;BL;;;;KD;S;V;MP;;;;;
-2014;1783;Hagfors ;V;;;;;S;;;;;;;
-2014;1784;Arvika;V;;;;;S;;;;;;;
-2014;1785;Säffle;A;M;C;L/FP;KD;;;MP;;ÖP;SJK;;
-2014;1814;Lekeberg;A;M;C;L/FP;KD;;;MP;;;;;
-2014;1860;Laxå;A;M;C;L/FP;KD;;;MP;;;;;
-2014;1861;Hallsberg;V;;;;;S;;MP;;;;;
-2014;1862;Degerfors;V;;;;;;V;MP;;;;;
-2014;1863;Hällefors;BL;M;;;;S;;;;ÖP;Landsbygdspartiet oberoende, Grythyttelistan;;
-2014;1864;Ljusnarsberg;V;;;;;S;V;MP;;;;;
-2014;1880;Örebro;BL;;C;;KD;S;;;;;;;
-2014;1881;Kumla;BL;M;;;;S;;;;;;;
-2014;1882;Askersund;V;;;;;S;V;MP;;;;;
-2014;1883;Karlskoga;BL;;;L/FP;;S;V;;;;;;
-2014;1884;Nora ;V;;;;;S;V;;;;;;
-2014;1885;Lindesberg;BL;;C;;;S;V;;;;;;
-2014;1904;Skinnskatteberg;A;M;C;L/FP;;;;;;;;;
-2014;1907;Surahammar;BL;;C;;;S;;;;;;;
-2014;1960;Kungsör;BL;;;L/FP;;S;V;MP;;;;;
-2014;1961;Hallstahammar;V;;;;;S;V;MP;;;;;
-2014;1962;Norberg;V;;;;;S;;;;;;;
-2014;1980;Västerås;BL;;C;;KD;S;;MP;;;;;
-2014;1981;Sala;A;M;C;L/FP;KD;;;;;ÖP;Salas bästa;;
-2014;1982;Fagersta;V;;;;;S;V;;;;;;
-2014;1983;Köping;V;;;;;S;V;MP;;;;;
-2014;1984;Arboga;BL;;C;;;S;V;;;ÖP;Omsorgspartiet i Arboga;;
-2014;2021;Vansbro;BL;;C;;;S;;;;;;;
-2014;2023;Malung- Sälen;BL;;C;;;S;V;;;;;;
-2014;2026;Gagnef;V;;;;;S;;;;ÖP;Kommunal samling;;
-2014;2029;Leksand;A;M;C;L/FP;KD;;;;;;;;
-2014;2031;Rättvik;A;M;C;L/FP;KD;;;;;;;;
-2014;2034;Orsa;A;M;C;L/FP;KD;;;MP;;;;;
-2014;2039;Älvdalen;V;;;;;S;;MP;;;;;
-2014;2061;Smedjebacken;V;;;;;S;V;MP;;;;;
-2014;2062;Mora;A;M;C;L/FP;KD;;;;;ÖP;Morapartiet;;
-2014;2080;Falun;BL;;C;;;S;;MP;;;;;
-2014;2081;Borlänge;V;;;;;S;V;MP;;ÖP;Omsorg för alla;;
-2014;2082;Säter;BL;;C;;;S;;;;;;;
-2014;2083;Hedemora;BL;;C;;;S;V;;;;;;
-2014;2084;Avesta;V;;;;;S;V;MP;;;;;
-2014;2085;Ludvika ;V;;;;;S;V;MP;;;;;
-2014;2101;Ockelbo;BL;;C;;;S;;;;;;;
-2014;2104;Hofors ;V;;;;;S;V;;;;;;
-2014;2121;Ovanåker;BL;M;;L/FP;;S;;MP;;;;;
-2014;2132;Nordanstig;BL;;C;;;S;;MP;;;;;
-2014;2161;Ljusdal;BL;M;C;L/FP;KD;;V;;;ÖP;Socialradikala demokraterna;;
-2014;2180;Gävle;V;;;;;S;V;MP;;;;;
-2014;2181;Sandviken;BL;;C;;;S;;MP;;;;;
-2014;2182;Söderhamn;V;;;;;S;V;MP;;;;;
-2014;2183;Bollnäs;BL;;;L/FP;;S;V;MP;;;;;
-2014;2184;Hudiksvall;V;;;;;S;V;;;;;;
-2014;2260;Ånge;V;;;;;S;;;;;;;
-2014;2262;Timrå;V;;;;;S;V;;;;;;
-2014;2280;Härnösand;V;;;;;S;V;MP;;;;;
-2014;2281;Sundsvall;BL;;C;;;S;V;;;;;;
-2014;2282;Kramfors;V;;;;;S;V;MP;;;;;
-2014;2283;Sollefteå;V;;;;;S;V;;;;;;
-2014;2284;Örnsköldsvik;V;;;;;S;V;;;;;;
-2014;2303;Ragunda;V;;;;;S;;;;;;;
-2014;2305;Bräcke;BL;;;L/FP;;S;V;;;ÖP;Landsbygdens framtid i Bräcke;;
-2014;2309;Krokom;A;M;C;;KD;;;MP;;;;;
-2014;2313;Strömsund;V;;;;;S;;;;;;;
-2014;2321;Åre;BL;M;;;;S;;MP;;;;;
-2014;2326;Berg;V;;;;;S;;MP;;;;;
-2014;2361;Härjedalen;V;;;;;S;V;;;ÖP;Vox humana;;
-2014;2380;Östersund;V;;;;;S;V;MP;;;;;
-2014;2401;Nordmaling;A;;C;;;;;;;;;;
-2014;2403;Bjurholm;A;M;C;L/FP;KD;;;;;;;;
-2014;2404;Vindeln;V;;;;;S;V;;;;;;
-2014;2409;Robertsfors;V;;;;;S;;;;;;;
-2014;2417;Norsjö ;V;;;;;S;;;;;;;
-2014;2418;Malå;V;;;;;S;V;;;;;;
-2014;2421;Storuman;A;M;C;L/FP;KD;;;;;;;;
-2014;2422;Sorsele;BL;M;C;;KD;;V;;;;;;
-2014;2425;Dorotea;Ö;;;;;;;;;ÖP;Dorotea kommunlista;;
-2014;2460;Vännäs;V;;;;;S;V;MP;;;;;
-2014;2462;Vilhelmina;V;;;;;S;V;;;ÖP;Oberoende ledamot;;
-2014;2463;Åsele;A;;C;L/FP;;;;;;ÖP;Åselepartiet;;
-2014;2480;Umeå;V;;;;;S;;;;;;;
-2014;2481;Lycksele;V;;;;;S;V;;;;;;
-2014;2482;Skellefteå;V;;;;;S;;;;;;;
-2014;2505;Arvidsjaur;V;;;;;S;V;;;;;;
-2014;2506;Arjeplog;V;;;;;S;;;;;;;
-2014;2510;Jokkmokk;V;;;;;S;V;;;;;;
-2014;2513;Överkalix;BL;M;C;L/FP;;;V;MP;;;;;
-2014;2514;Kalix;V;;;;;S;V;MP;;;;;
-2014;2518;Övertorneå;A;M;C;;KD;;;;;ÖP;NS, Övertorneå fria alternativ;;
-2014;2521;Pajala;V;;;;;S;V;;;;;;
-2014;2523;Gällivare;BL;M;;;;;V;MP;;ÖP;NS, Malmfältens väl;;
-2014;2560;Älvsbyn;V;;;;;S;V;;;;;;
-2014;2580;Luleå;V;;;;;S;;;;;;;
-2014;2581;Piteå;V;;;;;S;V;MP;;;;;
-2014;2582;Boden;BL;;;L/FP;KD;S;;MP;;ÖP;NS;;
-2014;2583;Haparanda;V;;;;;S;V;;;;;;
-2014;2584;Kiruna;BL;M;;;;S;V;;;ÖP;FI, Samelistan;;
-2018;114;Upplands Väsby kommun;B;M;C;L;KD;;;;;ÖP;Väsbys Bästa (VB);;
-2018;115;Vallentuna kommun;B;M;C;L;KD;;;;;;;;
-2018;117;Österåkers kommun;B;M;C;L;KD;;;;;;;;
-2018;120;Värmdö kommun;B;M;C;L;KD;;;MP;;;;;
-2018;123;Järfälla kommun;B;M;C;L;KD;;;;;;;;
-2018;125;Ekerö kommun;B;M;C;;KD;;;;;;;;
-2018;126;Huddinge kommun;B;M;C;L;KD;;;;;ÖP;Drevvikenpartiet och Huddingepartiet;;
-2018;127;Botkyrka kommun;BL;;C;L;KD;S;;MP;;;;;
-2018;128;Salems kommun;B;M;C;L;KD;;;;;;;;
-2018;136;Haninge kommun;BL;;C;L;KD;S;;;;;;;
-2018;138;Tyresö kommun;BL;;;L;;S;;MP;;;;;
-2018;139;Upplands-Bro kommun;B;M;C;L;KD;;;;;;;;
-2018;140;Nykvarns kommun;B;M;;;;;;MP;;ÖP;Nykvarnspartiet;;Nykvarnspartiet
-2018;160;Täby kommun;B;M;C;L;KD;;;;;;;;
-2018;162;Danderyds kommun;B;M;;L;KD;;;;;;;;
-2018;163;Sollentuna kommun;B;M;C;L;KD;;;;;;;;
-2018;180;Stockholms stad;B;M;C;L;KD;;;MP;;;;;
-2018;181;Södertälje kommun;BL;;C;;KD;S;;MP;;;;;
-2018;182;Nacka kommun;B;M;C;L;KD;;;;;;;;
-2018;183;Sundbybergs stad;BL;;C;L;;S;;;;;;;
-2018;184;Solna stad;B;M;C;L;KD;;;MP;;;;;
-2018;186;Lidingö stad;B;M;;L;KD;;;;;ÖP;Lidingöpartiet;;
-2018;187;Vaxholms stad;BL;;C;L;;S;;;;;;;
-2018;188;Norrtälje kommun;B;M;C;L;KD;;;;;;;;
-2018;191;Sigtuna kommun;B;M;C;L;KD;;;;;ÖP;Samling för Sigtuna;;
-2018;192;Nynäshamns kommun;B;M;C;L;KD;;;;;;;;
-2018;305;Håbo kommun;B;M;C;L;KD;;;MP;;;;;
-2018;319;Älvkarleby kommun;BL;;C;;;S;V;MP;;;;;
-2018;330;Knivsta kommun;BL;M;C;;;S;V;MP;;;;;
-2018;331;Heby kommun;BL;;C;;;S;;;;;;;
-2018;360;Tierps kommun;B;M;C;L;KD;;;MP;;;;;
-2018;380;Uppsala kommun;BL;;;L;;S;;MP;;;;;
-2018;381;Enköpings kommun;B;M;C;L;KD;;;MP;;;;;
-2018;382;Östhammars kommun;BL;;C;;;S;V;;;;;;
-2018;428;Vingåkers kommun;BL;;C;;KD;S;;MP;;;;;
-2018;461;Gnesta kommun;BL;M;;;;S;;;;;;;
-2018;480;Nyköpings kommun;BL;;C;;;S;;MP;;;;;
-2018;481;Oxelösunds kommun;V;;;;;S;V;;;;;;
-2018;482;Flens kommun;V;;;;;S;V;MP;;;;;
-2018;483;Katrineholms kommun;BL;M;;;;S;;;;;;;
-2018;484;Eskilstuna kommun;BL;M;C;;;S;;;;;;;
-2018;486;Strängnäs kommun;BL;M;;;;S;;;;;;;
-2018;488;Trosa kommun;B;M;C;L;KD;;;;;;;;
-2018;509;Ödeshögs kommun;BL;;C;;KD;S;;;;;;;
-2018;512;Ydre kommun;BL;M;C;;;S;;;;;;;
-2018;513;Kinda kommun;BL;;C;L;;S;;;;ÖP;Landsbygdspartiet Oberoende;;
-2018;560;Boxholms kommun;V;;;;;S;;;;;;;
-2018;561;Åtvidabergs kommun;BL;;C;L;;S;V;;;;;;
-2018;562;Finspångs kommun;BL;;C;;KD;S;;;;;;;
-2018;563;Valdemarsviks kommun;BL;;C;;;S;V;;;;;;
-2018;580;Linköpings kommun;B;M;C;L;KD;;;;;;;;
-2018;581;Norrköpings kommun;BL;;C;L;KD;S;;;;;;;
-2018;582;Söderköpings kommun;B;M;C;L;KD;;;;;;;;
-2018;583;Motala kommun;B;M;C;L;KD;;;;;;;;
-2018;584;Vadstena kommun;BL;M;;;;S;;MP;;;;;
-2018;586;Mjölby kommun;BL;;C;L;KD;S;;MP;;;;;
-2018;604;Aneby kommun;B;M;C;L;KD;;;;;;;;
-2018;617;Gnosjö kommun;B;M;C;;KD;;;;;;;;
-2018;642;Mullsjö kommun;BL;;C;L;KD;S;;;;;;;
-2018;643;Habo kommun;B;M;C;L;KD;;;;;;;;
-2018;662;Gislaveds kommun;B;M;C;L;KD;;;;;ÖP;WeP;;
-2018;665;Vaggeryds kommun;B;M;C;L;KD;;;MP;;;;;
-2018;680;Jönköpings kommun;BL;;C;L;;S;;MP;;;;;
-2018;682;Nässjö kommun;BL;;C;;KD;S;;;;;;;
-2018;683;Värnamo kommun;B;M;C;L;KD;;;;;;;;
-2018;684;Sävsjö kommun;BL;;C;;KD;S;;;;;;;
-2018;685;Vetlanda kommun;BL;M;C;;;S;;;;;;;
-2018;686;Eksjö kommun;B;M;C;L;KD;;;;;;;;
-2018;687;Tranås kommun;B;M;C;L;KD;;;;;;;;
-2018;760;Uppvidinge kommun;BL;M;;;;S;V;;;;;;
-2018;761;Lessebo kommun;V;;;;;S;;;;;;;
-2018;763;Tingsryds kommun;BL;M;;;KD;S;;;;;;;
-2018;764;Alvesta kommun;BL;;C;;;S;V;;;;;;
-2018;765;Älmhults kommun;B;M;C;L;KD;;;;;;;;
-2018;767;Markaryds kommun;B;M;C;;KD;;;;;;;;
-2018;780;Växjö kommun;B;M;C;L;KD;;;MP;;;;;
-2018;781;Ljungby kommun;B;M;C;L;KD;;;;;;;;
-2018;821;Högsby kommun;B;M;C;;KD;;;;;;;;
-2018;834;Torsås kommun;BL;M;;L;KD;S;V;;;;;;
-2018;840;Mörbylånga kommun;BL;;C;;;S;V;;;;;;
-2018;860;Hultsfreds kommun;B;M;C;;KD;;;;;;;;
-2018;861;Mönsterås kommun;B;M;C;L;KD;;;;;;;;
-2018;862;Emmaboda kommun;B;M;C;;KD;;;;;ÖP;BA, Bästa Alternativet;;
-2018;880;Kalmar kommun;BL;;C;;;S;V;;;;;;
-2018;881;Nybro kommun;B;M;C;L;KD;;;;;;;;
-2018;882;Oskarshamns kommun;BL;M;;;;S;;;;;;;
-2018;883;Västerviks kommun;BL;;C;;;S;;MP;;;;;
-2018;884;Vimmerby kommun;B;M;C;;KD;;;;;;;;
-2018;885;Borgholms kommun;BL;;C;;;S;V;;;;;;
-2018;980;Region Gotland;B;M;C;L;KD;;;;;;;;
-2018;1060;Olofströms kommun;BL;;;;KD;S;V;;;;;;
-2018;1080;Karlskrona kommun;BL;;C;L;;S;;;;;;;
-2018;1081;Ronneby kommun;B;M;C;L;KD;;;;;;;;
-2018;1082;Karlshamns kommun;BL;;C;;;S;;MP;;;;;
-2018;1083;Sölvesborgs kommun;Ö;M;;;KD;;;;SD;ÖP;Sölvesborg och Listerpartiet;;
-2018;1214;Svalövs kommun;B;M;C;L;KD;;;;;;;;
-2018;1230;Staffanstorps kommun;Ö;M;;;;;;;SD;;;;
-2018;1231;Burlövs kommun;B;M;C;L;;;;;;;;;
-2018;1233;Vellinge kommun;B;M;;;;;;;;;;;
-2018;1256;Östra Göinge kommun;B;M;C;;KD;;;;;;;;
-2018;1257;Örkelljunga kommun;B;M;C;;KD;;;;;;;;
-2018;1260;Bjuvs kommun;BL;;C;L;KD;S;V;;;;;;
-2018;1261;Kävlinge kommun;B;M;C;L;KD;;;;;;;;
-2018;1262;Lomma kommun;B;M;C;L;KD;;;;;;;;
-2018;1263;Svedala kommun;B;M;C;L;KD;;;;;ÖP;Barapartiet;;
-2018;1264;Skurups kommun;B;M;C;;;;;;;ÖP;Skurupspartiet;;
-2018;1265;Sjöbo kommun;B;M;C;L;;;;MP;;;;;
-2018;1266;Hörby kommun;Ö;;;;;;;;SD;;;;
-2018;1267;Höörs kommun;B;M;C;L;KD;;;;;;;;
-2018;1270;Tomelilla kommun;B;M;C;L;KD;;;;;;;;
-2018;1272;Bromölla kommun;Ö;;;;;;;;SD;;;;
-2018;1273;Osby kommun;B;M;C;L;KD;;;;;;;;
-2018;1275;Perstorps kommun;B;M;C;;KD;;;MP;;ÖP;Perstorps Framtid;;Perstorps Framtid
-2018;1276;Klippans kommun;BL;M;C;;;S;;;;;;;
-2018;1277;Åstorps kommun;BL;;C;;;S;;;;;;;
-2018;1278;Båstads kommun;BL;M;;L;KD;S;;;;;;;
-2018;1280;Malmö stad;BL;;;L;;S;;;;;;;
-2018;1281;Lunds kommun;B;M;C;L;KD;;;;;ÖP;För Nya Lund;;
-2018;1282;Landskrona stad;B;M;;L;;;;MP;;;;;
-2018;1283;Helsingborgs stad;B;M;C;L;KD;;;;;;;;
-2018;1284;Höganäs kommun;B;M;C;;KD;;;;;;;;
-2018;1285;Eslövs kommun;BL;M;;L;;S;;;;;;;
-2018;1286;Ystads kommun;B;M;;L;KD;;;;;;;;
-2018;1287;Trelleborgs kommun;B;M;;;KD;;;;;;;;
-2018;1290;Kristianstads kommun;B;M;C;L;KD;;;;;;;;(L) och (M), de alternerar
-2018;1291;Simrishamns kommun;B;M;C;L;KD;;;;;;;;
-2018;1292;Ängelholms kommun;B;M;C;L;KD;;;MP;;;;;
-2018;1293;Hässleholms kommun;B;M;;L;KD;;;;;;;;
-2018;1315;Hylte kommun;BL;;;L;;S;V;;;ÖP;Kommunens Väl;;
-2018;1380;Halmstads kommun;B;M;C;L;KD;;;;;;;;
-2018;1381;Laholms kommun;B;M;C;L;KD;;;MP;;ÖP;Trygghetspartiet;;
-2018;1382;Falkenbergs kommun;BL;;;L;KD;S;;MP;;;;;
-2018;1383;Varbergs kommun;B;M;C;L;KD;;;;;;;;
-2018;1384;Kungsbacka kommun;B;M;C;L;KD;;;;;;;;
-2018;1401;Härryda kommun;B;M;C;L;KD;;;;;ÖP;Sportpartiet;;
-2018;1402;Partille kommun;B;M;C;L;KD;;;;;;;;
-2018;1407;Öckerö kommun;B;M;;L;KD;;;;;;;;
-2018;1415;Stenungsunds kommun;BL;;C;;;S;V;MP;;ÖP;Stenungsundspartiet;;
-2018;1419;Tjörns kommun;B;M;C;L;KD;;;MP;;;;;
-2018;1421;Orust kommun;BL;M;;L;;S;;;;ÖP;Fokviljan Orust;;
-2018;1427;Sotenäs kommun;B;M;C;L;KD;;;;;;;;
-2018;1430;Munkedals kommun;B;M;;L;;;;;;;;;
-2018;1435;Tanums kommun;B;M;C;L;KD;;;;;;;;
-2018;1438;Dals-Eds kommun;B;M;C;L;KD;;;;;;;;
-2018;1439;Färgelanda kommun;B;M;C;L;;;;;;;;;
-2018;1440;Ale kommun;B;M;C;L;KD;;;MP;;ÖP;Framtid i Ale;;
-2018;1441;Lerums kommun;B;M;C;L;KD;;;;;;;;
-2018;1442;Vårgårda kommun;B;M;C;L;KD;;;;;;;;
-2018;1443;Bollebygds kommun;B;M;C;L;KD;;;;;ÖP;Folkets Röst (FR);;Folkets Röst (FR)
-2018;1444;Grästorps kommun;B;M;C;;;;;;;;;;
-2018;1445;Essunga kommun;B;M;C;;KD;;;MP;;;;;
-2018;1446;Karlsborgs kommun;B;M;C;L;KD;;;;;;;;
-2018;1447;Gullspångs kommun;BL;;C;;;S;;;;ÖP;RÄTT VÄG för Gullspångs kommun;;
-2018;1452;Tranemo kommun;BL;;;L;KD;S;V;MP;;;;;
-2018;1460;Bengtsfors kommun;B;M;C;;KD;;;;;;;;
-2018;1461;Melleruds kommun;B;M;C;L;KD;;;MP;;ÖP;Kommunpartiet i Mellerud;;
-2018;1462;Lilla Edets kommun;B;M;C;L;KD;;;MP;;;;;
-2018;1463;Marks kommun;BL;;C;L;;S;;;;;;;
-2018;1465;Svenljunga kommun;BL;;;L;;S;V;;;;;;
-2018;1466;Herrljunga kommun;B;M;C;;KD;;;;;ÖP;Kommunens väl;;
-2018;1470;Vara kommun;B;M;C;L;;;;;;;;;
-2018;1471;Götene kommun;B;M;C;L;KD;;;MP;;ÖP;Götenes framtid;;
-2018;1472;Tibro kommun;BL;;C;L;;S;;;;;;;
-2018;1473;Töreboda kommun;B;M;C;L;;;;;;;;;
-2018;1480;Göteborgs stad;B;M;C;L;KD;;;;;;;;
-2018;1481;Mölndals stad;B;M;C;L;KD;;;MP;;;;;
-2018;1482;Kungälvs kommun;BL;M;C;;;S;;;;;;;
-2018;1484;Lysekils kommun;BL;;C;L;;S;;MP;;;;;
-2018;1485;Uddevalla kommun;B;M;C;L;KD;;;MP;;ÖP;Uddevalla partiet;;Uddevalla partiet
-2018;1486;Strömstads kommun;BL;;;;KD;S;V;;;ÖP;FI;;
-2018;1487;Vänersborgs kommun;BL;;C;;;S;;MP;;;;;
-2018;1488;Trollhättans stad;V;;;;;S;V;MP;;;;;
-2018;1489;Alingsås kommun;B;M;C;L;KD;;;;;;;;
-2018;1490;Borås stad;BL;;C;L;;S;;MP;;;;;
-2018;1491;Ulricehamns kommun;B;;C;;;;;;;ÖP;NU, Nya Ulricehamn;;
-2018;1492;Åmåls kommun;V;;;;;S;V;MP;;;;;
-2018;1493;Mariestads kommun;B;M;C;L;KD;;;;;;;;
-2018;1494;Lidköpings kommun;BL;;C;;KD;S;;MP;;;;;
-2018;1495;Skara kommun;B;M;C;L;KD;;;;;;;;
-2018;1496;Skövde kommun;B;M;C;L;KD;;;;;;;;
-2018;1497;Hjo kommun;B;M;C;L;KD;;;;;;;;
-2018;1498;Tidaholms kommun;V;;;;;S;V;MP;;;;;
-2018;1499;Falköpings kommun;BL;;C;;KD;S;;;;;;;
-2018;1715;Kils kommun;BL;;C;;;S;;;;;;;
-2018;1730;Eda kommun;BL;;C;;KD;;V;;;ÖP;Hela Edas Lista;;
-2018;1737;Torsby kommun;BL;;C;L;;S;;;;;;;
-2018;1760;Storfors kommun;V;;;;;S;V;;;;;;
-2018;1761;Hammarö kommun;B;M;C;L;KD;;;MP;;;;;
-2018;1762;Munkfors kommun;V;;;;;S;;;;;;;
-2018;1763;Forshaga kommun;BL;;C;;;S;;;;;;;
-2018;1764;Grums kommun;V;;;;;S;;;;;;;
-2018;1765;Årjängs kommun;BL;;C;;;S;;MP;;;;;
-2018;1766;Sunne kommun;BL;;C;;;S;;;;;;;
-2018;1780;Karlstads kommun;B;M;C;L;KD;;;MP;;;;;
-2018;1781;Kristinehamns kommun;B;M;C;L;KD;;;MP;;;;;
-2018;1782;Filipstads kommun;V;;;;;S;V;;;;;;
-2018;1783;Hagfors kommun;Ö;;;;;;;;;ÖP;Oberoende Realister;;OR
-2018;1784;Arvika kommun;V;;;;;S;V;MP;;;;;
-2018;1785;Säffle kommun;B;M;C;L;KD;;;;;ÖP;Sjukvårdspartiet i Värmland (SiV);;
-2018;1814;Lekebergs kommun;BL;;C;;;S;;;;;;;
-2018;1860;Laxå kommun;B;;C;;KD;;;MP;;;;;
-2018;1861;Hallsbergs kommun;V;;;;;S;;;;;;;
-2018;1862;Degerfors kommun;BL;M;C;L;;S;;;;;;;
-2018;1863;Hällefors kommun;V;;;;;S;V;;;;;;
-2018;1864;Ljusnarsbergs kommun;BL;;;L;;S;V;MP;;;;;
-2018;1880;Örebro kommun;BL;;C;;KD;S;;;;;;;
-2018;1881;Kumla kommun;BL;M;;;;S;;;;;;;
-2018;1882;Askersunds kommun;B;M;;L;KD;;;;;;;;
-2018;1883;Karlskoga kommun;B;M;C;L;KD;;;;;;;;
-2018;1884;Nora kommun;BL;M;C;L;KD;S;;;;;;;
-2018;1885;Lindesbergs kommun;BL;;C;;;S;V;;;;;;
-2018;1904;Skinnskattebergs kommun;V;;;;;S;;;;;;;
-2018;1907;Surahammars kommun;BL;;C;;;S;V;;;;;;
-2018;1960;Kungsörs kommun;BL;;;L;;S;V;;;;;;
-2018;1961;Hallstahammars kommun;BL;;C;L;;S;;;;;;;
-2018;1962;Norbergs kommun;V;;;;;S;V;;;;;;
-2018;1980;Västerås stad;BL;;C;L;;S;;MP;;;;;
-2018;1981;Sala kommun;B;M;C;L;KD;;;;;ÖP;Salas Bästa;;
-2018;1982;Fagersta kommun;BL;M;;L;;S;;;;ÖP;Sjukvårdspartiet - Västmanland;;
-2018;1983;Köpings kommun;BL;M;;L;;S;V;;;;;;
-2018;1984;Arboga kommun;BL;M;C;L;KD;;V;MP;;ÖP;Omsorgspartiet i Arboga;;
-2018;2021;Vansbro kommun;B;M;C;;KD;;;;;ÖP;Landsbygdspartiet oberoende;;
-2018;2023;Malung-Sälens kommun;BL;;C;L;;S;;;;;;;
-2018;2026;Gagnefs kommun;BL;M;C;;;S;;;;;;;
-2018;2029;Leksands kommun;B;M;C;L;KD;;;;;;;;
-2018;2031;Rättviks kommun;B;M;C;;KD;;;;;;;;
-2018;2034;Orsa kommun;B;;C;;KD;;;MP;;;;;
-2018;2039;Älvdalens kommun;BL;;C;L;;S;;;;;;;
-2018;2061;Smedjebackens kommun;V;;;;;S;V;MP;;;;;
-2018;2062;Mora kommun;B;M;C;;KD;;;;;ÖP;Morapartiet;;
-2018;2080;Falu kommun;B;M;C;L;KD;;;;;ÖP;Falupartiet;;
-2018;2081;Borlänge kommun;BL;;C;L;;S;;MP;;ÖP;OFA (Omsorg för alla);;
-2018;2082;Säters kommun;BL;;C;;;S;;;;;;;
-2018;2083;Hedemora kommun;BL;;C;;;S;V;;;;;;
-2018;2084;Avesta kommun;V;;;;;S;V;;;;;;
-2018;2085;Ludvika kommun;BL;M;;L;KD;S;;;;;;;
-2018;2101;Ockelbo kommun;BL;;C;;;S;;;;;;;
-2018;2104;Hofors kommun;BL;;C;L;;S;;;;;;;
-2018;2121;Ovanåkers kommun;BL;M;;L;;S;;;;;;;
-2018;2132;Nordanstigs kommun;BL;;C;;;S;;;;ÖP;nordanstigspartiet.se;;
-2018;2161;Ljusdals kommun;BL;;;L;;S;;MP;;;;;
-2018;2180;Gävle kommun;BL;;C;L;;S;;MP;;;;;
-2018;2181;Sandvikens kommun;BL;;C;L;;S;;;;;;;
-2018;2182;Söderhamns kommun;B;M;C;L;KD;;;;;;;;
-2018;2183;Bollnäs kommun;BL;M;;;;S;;MP;;ÖP;Bollnäspartiet;;
-2018;2184;Hudiksvalls kommun;BL;M;;;;S;;MP;;;;;
-2018;2260;Ånge kommun;V;;;;;S;V;;;;;;
-2018;2262;Timrå kommun;V;;;;;S;V;;;;;;
-2018;2280;Härnösands kommun;BL;;;;KD;S;V;MP;;;;;
-2018;2281;Sundsvalls kommun;BL;;C;;;S;V;;;;;;
-2018;2282;Kramfors kommun;V;;;;;S;V;;;;;;
-2018;2283;Sollefteå kommun;BL;;C;;;;V;;;ÖP;Västra Initiativet;;
-2018;2284;Örnsköldsviks kommun;V;;;;;S;;;;;;;
-2018;2303;Ragunda kommun;B;;C;;KD;;;;;ÖP;Allt för Ragunda;;
-2018;2305;Bräcke kommun;BL;M;;;;S;V;;;;;;
-2018;2309;Krokoms kommun;B;M;C;;KD;;;MP;;;;;
-2018;2313;Strömsunds kommun;V;;;;;S;V;;;;;;
-2018;2321;Åre kommun;B;;C;;KD;;;;;ÖP;VV (Västjämtlands Väl);;
-2018;2326;Bergs kommun;BL;;C;;;S;;;;;;;
-2018;2361;Härjedalens kommun;BL;M;C;;;S;;;;;;;Två år med C, Två år med S
-2018;2380;Östersunds kommun;B;M;C;L;KD;;;;;;;;
-2018;2401;Nordmalings kommun;B;M;C;;KD;;;;;;;;
-2018;2403;Bjurholms kommun;B;M;C;L;KD;;;;;;;;
-2018;2404;Vindelns kommun;BL;;;;KD;S;V;;;;;;
-2018;2409;Robertsfors kommun;V;;;;;S;V;;;;;;
-2018;2417;Norsjö kommun;V;;;;;S;V;;;;;;
-2018;2418;Malå kommun;V;;;;;S;V;;;;;;
-2018;2421;Storumans kommun;B;M;C;L;KD;;;;;;;;
-2018;2422;Sorsele kommun;BL;;C;;;;V;;;;;;
-2018;2425;Dorotea kommun;BL;;C;L;KD;S;V;;;;;;
-2018;2460;Vännäs kommun;BL;M;;;;S;V;MP;;;;;
-2018;2462;Vilhelmina kommun;B;M;C;;KD;;;;;ÖP;FI OCH POLITISKT ALTERNATIV;;
-2018;2463;Åsele kommun;V;;;;;S;;;;ÖP;Åselepartiet;;
-2018;2480;Umeå kommun;V;;;;;S;;;;;;;
-2018;2481;Lycksele kommun;B;M;C;L;KD;;;;;;;;
-2018;2482;Skellefteå kommun;V;;;;;S;V;;;;;;
-2018;2505;Arvidsjaurs kommun;V;;;;;S;V;;;;;;
-2018;2506;Arjeplogs kommun;V;;;;;S;;;;;;;
-2018;2510;Jokkmokks kommun;V;;;;;S;V;;;;;;
-2018;2513;Överkalix kommun;V;;;;;S;;;;;;;
-2018;2514;Kalix kommun;V;;;;;S;V;MP;;;;;
-2018;2518;Övertorneå kommun;BL;;C;;KD;;V;;;ÖP;Sjukvårdspartiet, Övertorneå Fria alternativ;;
-2018;2521;Pajala kommun;BL;;;;KD;S;;;;ÖP;sjukvårdspartiet;;
-2018;2523;Gällivare kommun;V;;;;;S;V;MP;;;;;
-2018;2560;Älvsbyns kommun;V;;;;;S;;;;;;;
-2018;2580;Luleå kommun;V;;;;;S;;;;;;;
-2018;2581;Piteå kommun;V;;;;;S;V;MP;;;;;
-2018;2582;Bodens kommun;BL;;C;;;S;;MP;;ÖP;Sjukvårdspartiet (SJVP);;
-2018;2583;Haparanda stad;B;M;C;;KD;;;;;ÖP;Sjukvårdspartiet;;
-2018;2584;Kiruna kommun;B;M;C;;KD;;;;;ÖP;Sjukvårdspartiet;;
-2022;0114;Upplands Väsby kommun;BL;;;L;;S;;;;ÖP;Väsbys Bästa;;
-2022;0115;Vallentuna kommun;A;M;C;L;KD;;;;;;;;
-2022;0117;Österåkers kommun;A;M;C;L;KD;;;;;;;;
-2022;0120;Värmdö kommun;BL;;C;L;;S;;MP;;;;;
-2022;0123;Järfälla kommun;BL;;C;;;S;;;;;;;
-2022;0125;Ekerö kommun;A;M;C;L;KD;;;;;;;;
-2022;0126;Huddinge kommun;BL;;C;;;S;;MP;;ÖP;Huddingepartiet;;
-2022;0127;Botkyrka kommun;BL;;C;L;KD;S;;MP;;;;;
-2022;0128;Salems kommun;A;M;C;L;KD;;;;;;;;
-2022;0136;Haninge kommun;A;M;;L;KD;;;;;;;;
-2022;0138;Tyresö kommun;BL;;;L;;S;;MP;;;;;
-2022;0139;Upplands-Bro kommun;A;M;C;L;KD;;;;;;;;
-2022;0140;Nykvarns kommun;BL;;C;;;S;;MP;;ÖP;Nykvarnspartiet;;
-2022;0160;Täby kommun;A;M;C;L;KD;;;;;;;;
-2022;0162;Danderyds kommun;A;M;;L;KD;;;;;;;;
-2022;0163;Sollentuna kommun;A;M;C;L;KD;;;;;;;;
-2022;0180;Stockholms stad;V;;;;;S;V;MP;;;;;
-2022;0181;Södertälje kommun;BL;M;;;;S;;MP;;;;;
-2022;0182;Nacka kommun;A;M;C;L;KD;;;;;;;;
-2022;0183;Sundbybergs stad;BL;;C;;;S;V;MP;;;;;
-2022;0184;Solna stad;BL;;C;;;S;V;MP;;;;;
-2022;0186;Lidingö stad;A;M;;;;;;;;ÖP;Lidingöpartiet;;
-2022;0187;Vaxholms stad;BL;M;;L;KD;S;V;;;;;;
-2022;0188;Norrtälje kommun;B;M;;L;KD;;;;SD;;;;
-2022;0191;Sigtuna kommun;A;M;C;L;KD;;;;;ÖP;Samling för Sigtuna (SfS);;
-2022;0192;Nynäshamns kommun;A;M;C;L;KD;;;;;;;;
-2022;0305;Håbo kommun;A;M;C;;KD;;;;;;;;
-2022;0319;Älvkarleby kommun;BL;;C;;;S;V;MP;;ÖP;Kommunens väl ;;
-2022;0330;Knivsta kommun;B;;;;KD;;;;SD;ÖP;Knivsta.nu (KNU);;
-2022;0331;Heby kommun;BL;;C;;;S;V;MP;;;;;
-2022;0360;Tierps kommun;A;M;C;L;KD;;;;;;;;
-2022;0380;Uppsala kommun;V;;;;;S;V;MP;;;;;
-2022;0381;Enköpings kommun;BL;M;C;L;KD;;;MP;;ÖP;Nystart Enköping;;
-2022;0382;Östhammars kommun;B;M;;;KD;;;;SD;ÖP;Lokalpartiet BOA;;
-2022;0428;Vingåkers kommun;A;M;C;;KD;;;;;;;;
-2022;0461;Gnesta kommun;BL;M;;;;S;;;;;;;
-2022;0480;Nyköpings kommun;BL;M;;;;S;;;;;;;
-2022;0481;Oxelösunds kommun;B;M;;L;KD;;;;SD;;;;
-2022;0482;Flens kommun;BL;;C;;;S;;;;;;;
-2022;0483;Katrineholms kommun;BL;M;;;;S;;;;;;;
-2022;0484;Eskilstuna kommun;BL;M;;;;S;;;;;;;
-2022;0486;Strängnäs kommun;BL;M;;;;S;;;;;;;
-2022;0488;Trosa kommun;A;M;C;L;KD;;;;;;;;
-2022;0509;Ödeshögs kommun;BL;M;C;;;S;;;;;;;
-2022;0512;Ydre kommun;A;M;C;;;;;;;;;;
-2022;0513;Kinda kommun;BL;M;;;KD;S;;;;;;;
-2022;0560;Boxholms kommun;V;;;;;S;;;;;;;
-2022;0561;Åtvidabergs kommun;BL;;C;L;;S;V;MP;;;;;
-2022;0562;Finspångs kommun;BL;;C;L;;S;;;;;;;
-2022;0563;Valdemarsviks kommun;B;M;;;KD;;;;SD;ÖP;Landsbygdspartiet Oberoende (LPo);;
-2022;0580;Linköpings kommun;BL;M;;;;S;;;;;;;
-2022;0581;Norrköpings kommun;A;M;;L;KD;;;;;;;;
-2022;0582;Söderköpings kommun;BL;M;;;KD;S;;;;;;;
-2022;0583;Motala kommun;B;M;;;KD;;;;SD;;;;
-2022;0584;Vadstena kommun;BL;M;;;;S;;;;;;;
-2022;0586;Mjölby kommun;BL;;C;L;KD;S;;MP;;;;;
-2022;0604;Aneby kommun;BL;;C;;KD;S;;;;;;;
-2022;0617;Gnosjö kommun;A;M;C;;KD;;;;;;;;
-2022;0642;Mullsjö kommun;BL;;C;L;KD;S;;;;;;;
-2022;0643;Habo kommun;A;M;C;L;KD;;;;;;;;
-2022;0662;Gislaveds kommun;BL;M;C;L;;S;;;;ÖP;Westbopartiet;;
-2022;0665;Vaggeryds kommun;BL;M;;;;S;;;;;;;
-2022;0680;Jönköpings kommun;BL;;C;L;;S;;;;;;;
-2022;0682;Nässjö kommun;BL;;C;;KD;S;V;;;;;;
-2022;0683;Värnamo kommun;A;M;C;L;KD;;;;;;;;
-2022;0684;Sävsjö kommun;BL;;C;;KD;S;;;;;;;
-2022;0685;Vetlanda kommun;B;M;;;;;;;SD;ÖP;Vetlanda framåtanda;;
-2022;0686;Eksjö kommun;BL;M;;;;S;;;;;;;
-2022;0687;Tranås kommun;B;M;;L;KD;;;;SD;;;;
-2022;0760;Uppvidinge kommun;B;;C;;KD;;;;SD;ÖP;LPo;;
-2022;0761;Lessebo kommun;BL;;C;;;S;V;;;;;;
-2022;0763;Tingsryds kommun;A;M;C;;KD;;;;;;;;
-2022;0764;Alvesta kommun;BL;;C;;KD;S;;;;;;;
-2022;0765;Älmhults kommun;BL;;C;;;S;;;;;;;
-2022;0767;Markaryds kommun;A;M;C;;KD;;;;;;;;
-2022;0780;Växjö kommun;V;;;;;S;V;MP;;;;;
-2022;0781;Ljungby kommun;A;M;C;;KD;;;;;;;;
-2022;0821;Högsby kommun;BL;;C;;;S;V;;;;;;
-2022;0834;Torsås kommun;BL;M;C;;;S;V;;;;;;
-2022;0840;Mörbylånga kommun;BL;;C;;;S;;;;;;;
-2022;0860;Hultsfreds kommun;A;M;C;;KD;;;;;;;;
-2022;0861;Mönsterås kommun;A;M;C;L;KD;;;;;;;;
-2022;0862;Emmaboda kommun;A;M;C;;KD;;;;;;;;
-2022;0880;Kalmar kommun;BL;;C;;;S;V;;;;;;
-2022;0881;Nybro kommun;BL;;C;;;S;;;;;;;
-2022;0882;Oskarshamns kommun;BL;M;;;;S;;;;;;;
-2022;0883;Västerviks kommun;A;M;;L;KD;;;;;ÖP;Westervikspartiet (W);;
-2022;0884;Vimmerby kommun;BL;;C;;;S;V;;;;;;
-2022;0885;Borgholms kommun;BL;;C;;;S;V;;;;;;
-2022;0980;Region Gotland (kommun);BL;M;;;;S;;;;;;;
-2022;1060;Olofströms kommun;BL;;C;;;S;;;;;;;
-2022;1080;Karlskrona kommun;B;M;;L;KD;;;;SD;;;;
-2022;1081;Ronneby kommun;B;M;;L;KD;;;;SD;;;;
-2022;1082;Karlshamns kommun;B;M;;;KD;;;;SD;;;;
-2022;1083;Sölvesborgs kommun;BL;M;C;;;S;;;;ÖP;SoL;;
-2022;1214;Svalövs kommun;B;M;;;KD;;;;SD;;;;
-2022;1230;Staffanstorps kommun;B;M;;;;;;;SD;;;;
-2022;1231;Burlövs kommun;A;M;C;L;;;;;;;;;
-2022;1233;Vellinge kommun;A;M;;;;;;;;;;;
-2022;1256;Östra Göinge kommun;A;M;C;;KD;;;;;;;;
-2022;1257;Örkelljunga kommun;B;M;;;;;;;SD;;;;
-2022;1260;Bjuvs kommun;B;M;;;;;;;SD;;;;
-2022;1261;Kävlinge kommun;B;M;;;KD;;;;SD;;;;
-2022;1262;Lomma kommun;A;M;C;L;KD;;;;;;;;
-2022;1263;Svedala kommun;A;M;C;L;KD;;;;;ÖP;Barapartiet;;
-2022;1264;Skurups kommun;B;M;;;KD;;;;SD;;;;
-2022;1265;Sjöbo kommun;BL;M;C;L;;S;;;;;;;
-2022;1266;Hörby kommun;B;M;;;;;;;SD;;;;
-2022;1267;Höörs kommun;A;M;C;L;KD;;;;;;;;
-2022;1270;Tomelilla kommun;A;M;C;L;KD;;;;;;;;
-2022;1272;Bromölla kommun;V;;;;;S;V;;;;;;
-2022;1273;Osby kommun;A;M;C;;KD;;;;;;;;
-2022;1275;Perstorps kommun;BL;M;C;;KD;S;;;;ÖP;Perstorps Framtid;;
-2022;1276;Klippans kommun;B;;;;KD;;;;SD;ÖP;Vår Framtid Klippan (VF);;
-2022;1277;Åstorps kommun;B;M;;;KD;;;;SD;;;;
-2022;1278;Båstads kommun;BL;M;;L;KD;S;;;;;;;
-2022;1280;Malmö stad;BL;;;L;;S;;MP;;;;;
-2022;1281;Lunds kommun;BL;M;;;KD;S;;;;;;;
-2022;1282;Landskrona stad;BL;M;;L;;;;MP;;;;;
-2022;1283;Helsingborgs stad;A;M;;L;KD;;;;;;;;
-2022;1284;Höganäs kommun;BL;M;C;;KD;;;MP;;;;;
-2022;1285;Eslövs kommun;BL;M;;L;;S;;;;;;;
-2022;1286;Ystads kommun;A;M;;L;KD;;;;;;;;
-2022;1287;Trelleborgs kommun;B;M;;L;KD;;;;SD;;;;
-2022;1290;Kristianstads kommun;B;M;;;KD;;;;SD;;;;
-2022;1291;Simrishamns kommun;A;M;C;L;KD;;;;;;;;
-2022;1292;Ängelholms kommun;A;M;C;L;KD;;;;;;;;
-2022;1293;Hässleholms kommun;B;M;;;KD;;;;SD;;;;
-2022;1315;Hylte kommun;BL;;;L;;S;V;;;ÖP;Kommunens väl;;
-2022;1380;Halmstads kommun;BL;M;;;KD;S;;;;;;;
-2022;1381;Laholms kommun;A;M;C;L;KD;;;;;;;;
-2022;1382;Falkenbergs kommun;BL;;;L;KD;S;V;MP;;;;;
-2022;1383;Varbergs kommun;B;M;;L;KD;;;;SD;;;;
-2022;1384;Kungsbacka kommun;A;M;C;L;KD;;;;;;;;
-2022;1401;Härryda kommun;A;M;C;L;KD;;;;;ÖP;Även KommunPartiet och SportPartiet i Härryda kommun är med i denna koalition;;
-2022;1402;Partille kommun;A;M;;L;KD;;;;;;;;
-2022;1407;Öckerö kommun;A;M;;L;KD;;;;;;;;
-2022;1415;Stenungsunds kommun;BL;M;;;;S;;;;;;;
-2022;1419;Tjörns kommun;B;M;C;L;;;;;SD;ÖP;Tjörnpartiet;;
-2022;1421;Orust kommun;BL;M;;L;;S;;;;;;;
-2022;1427;Sotenäs kommun;V;;;;;S;;;;;;;
-2022;1430;Munkedals kommun;B;M;;;KD;;;;SD;;;;
-2022;1435;Tanums kommun;A;M;C;L;KD;;;;;;;;
-2022;1438;Dals-Eds kommun;A;M;C;L;KD;;;;;;;;
-2022;1439;Färgelanda kommun;BL;M;;L;;S;;;;;;;
-2022;1440;Ale kommun;B;M;;;KD;;;;SD;ÖP;FiA, Framtid i Ale;;
-2022;1441;Lerums kommun;BL;M;;;;S;;;;;;;
-2022;1442;Vårgårda kommun;A;M;C;L;KD;;;;;;;;
-2022;1443;Bollebygds kommun;BL;M;;;;S;V;MP;;;;;
-2022;1444;Grästorps kommun;A;M;C;;;;;;;;;;
-2022;1445;Essunga kommun;BL;M;C;;KD;;;MP;;;;;
-2022;1446;Karlsborgs kommun;A;M;C;L;KD;;;;;;;;
-2022;1447;Gullspångs kommun;BL;M;;;KD;;V;;;ÖP;Feministiskt Initiativ;;
-2022;1452;Tranemo kommun;BL;;C;L;;S;;;;;;;
-2022;1460;Bengtsfors kommun;A;M;C;L;KD;;;;;;;;
-2022;1461;Melleruds kommun;A;M;;;KD;;;;;ÖP;Kommunpartiet i Mellerud KIM;;
-2022;1462;Lilla Edets kommun;BL;M;C;;;S;;;;;;;
-2022;1463;Marks kommun;BL;;C;;;S;;;;;;;
-2022;1465;Svenljunga kommun;B;M;;;KD;;;;SD;ÖP;Landsbygdspartiet oberoende;;
-2022;1466;Herrljunga kommun;BL;;C;L;;S;V;;;;;;
-2022;1470;Vara kommun;B;M;;L;KD;;;;SD;;;;
-2022;1471;Götene kommun;BL;M;C;L;KD;;;MP;;ÖP;Götenes framtid;;
-2022;1472;Tibro kommun;BL;;C;L;;S;;;;;;;
-2022;1473;Töreboda kommun;A;M;;L;;;;;;;;;
-2022;1480;Göteborgs stad;V;;;;;S;V;MP;;;;;
-2022;1481;Mölndals stad;BL;M;;;;S;;;;;;;
-2022;1482;Kungälvs kommun;BL;M;;;;S;;MP;;;;;
-2022;1484;Lysekils kommun;V;;;;;S;;MP;;;;;
-2022;1485;Uddevalla kommun;B;M;;;KD;;;;SD;ÖP;Uddevalla Partiet;;
-2022;1486;Strömstads kommun;BL;M;;;KD;S;V;;;;;;
-2022;1487;Vänersborgs kommun;BL;;C;;KD;S;;MP;;;;;
-2022;1488;Trollhättans stad;A;M;C;;KD;;;;;;;;
-2022;1489;Alingsås kommun;A;M;C;L;;;;;;;;;
-2022;1490;Borås stad;BL;;C;L;;S;;MP;;;;;
-2022;1491;Ulricehamns kommun;A;M;C;L;KD;;;;;;;;
-2022;1492;Åmåls kommun;A;M;C;L;KD;;;;;;;;
-2022;1493;Mariestads kommun;A;M;C;;KD;;;;;;;;
-2022;1494;Lidköpings kommun;BL;M;;L;KD;;V;;;;;;
-2022;1495;Skara kommun;BL;;C;L;;S;;MP;;;;;
-2022;1496;Skövde kommun;BL;M;;;KD;S;;;;;;;
-2022;1497;Hjo kommun;A;M;C;L;KD;;;;;;;;
-2022;1498;Tidaholms kommun;B;M;;L;KD;;;;SD;ÖP;Vi Tidaholm;;
-2022;1499;Falköpings kommun;BL;M;C;L;KD;;V;MP;;;;;
-2022;1715;Kils kommun;BL;;C;;;S;;MP;;;;;
-2022;1730;Eda kommun;BL;M;C;L;KD;;V;;;ÖP;HEL;;
-2022;1737;Torsby kommun;V;;;;;S;;;;;;;
-2022;1760;Storfors kommun;V;;;;;S;;;;;;;
-2022;1761;Hammarö kommun;BL;;C;;;S;V;MP;;;;;
-2022;1762;Munkfors kommun;V;;;;;S;;;;;;;
-2022;1763;Forshaga kommun;BL;;C;;;S;;;;;;;
-2022;1764;Grums kommun;V;;;;;S;V;;;;;;
-2022;1765;Årjängs kommun;A;M;;L;KD;;;;;;;;
-2022;1766;Sunne kommun;A;M;;L;;;;;;ÖP;Hela Sunne;;
-2022;1780;Karlstads kommun;BL;;C;;;S;;MP;;;;;
-2022;1781;Kristinehamns kommun;BL;;C;;;S;V;MP;;;;;
-2022;1782;Filipstads kommun;B;M;C;L;;;;;SD;;;;
-2022;1783;Hagfors kommun;Ö;;;;;;;;;ÖP;Oberoende realister;;
-2022;1784;Arvika kommun;BL;;C;;;S;V;MP;;;;;
-2022;1785;Säffle kommun;BL;M;C;L;KD;;;MP;;;;;
-2022;1814;Lekebergs kommun;BL;M;;L;KD;;V;;;ÖP;Framtidspartiet i Lekeberg;;
-2022;1860;Laxå kommun;BL;;C;;KD;;V;;;;;;
-2022;1861;Hallsbergs kommun;BL;;C;L;KD;S;;;;;;;
-2022;1862;Degerfors kommun;BL;M;;;;;V;MP;;;;;
-2022;1863;Hällefors kommun;V;;;;;S;;;;;;;
-2022;1864;Ljusnarsbergs kommun;V;;;;;S;V;;;;;;
-2022;1880;Örebro kommun;BL;M;C;;;S;;;;;;;
-2022;1881;Kumla kommun;BL;M;;;;S;;;;;;;
-2022;1882;Askersunds kommun;A;M;;L;KD;;;;;;;;
-2022;1883;Karlskoga kommun;A;M;C;L;KD;;;;;;;;
-2022;1884;Nora kommun;BL;M;;;KD;S;;;;;;;
-2022;1885;Lindesbergs kommun;B;M;;;;;;;SD;;;;
-2022;1904;Skinnskattebergs kommun;B;;C;;;;;;SD;;;;
-2022;1907;Surahammars kommun;BL;M;C;;KD;S;;;;;;;
-2022;1960;Kungsörs kommun;BL;;C;;;S;V;;;;;;
-2022;1961;Hallstahammars kommun;BL;;;L;;S;V;MP;;;;;
-2022;1962;Norbergs kommun;V;;;;;S;;;;ÖP;Partiet för Norbergs Framtid (PNF);;
-2022;1980;Västerås stad;BL;;C;;KD;S;V;;;;;;
-2022;1981;Sala kommun;BL;;C;;;S;V;MP;;;;;
-2022;1982;Fagersta kommun;BL;M;C;L;;S;;;;;;;
-2022;1983;Köpings kommun;BL;;C;;KD;S;V;;;;;;
-2022;1984;Arboga kommun;B;M;;L;KD;;;;SD;;;;
-2022;2021;Vansbro kommun;BL;M;;;;S;;;;;;;
-2022;2023;Malung-Sälens kommun;BL;M;;;;S;;;;;;;
-2022;2026;Gagnefs kommun;BL;M;C;;;S;;;;;;;
-2022;2029;Leksands kommun;BL;M;C;L;;S;;;;;;;
-2022;2031;Rättviks kommun;A;M;C;;KD;;;;;;;;
-2022;2034;Orsa kommun;BL;;C;;;S;;;;;;;
-2022;2039;Älvdalens kommun;BL;;C;;;S;;;;;;;
-2022;2061;Smedjebackens kommun;V;;;;;S;V;;;;;;
-2022;2062;Mora kommun;A;M;C;;KD;;;;;ÖP;Morapartiet;;
-2022;2080;Falu kommun;BL;M;;;;S;;;;;;;
-2022;2081;Borlänge kommun;BL;M;;;;S;;;;;;;
-2022;2082;Säters kommun;BL;;C;;KD;S;;;;;;;
-2022;2083;Hedemora kommun;BL;M;;;;S;;MP;;;;;
-2022;2084;Avesta kommun;BL;;C;;;S;;;;;;;
-2022;2085;Ludvika kommun;BL;M;;;KD;S;;;;;;;
-2022;2101;Ockelbo kommun;V;;;;;S;;;;;;;
-2022;2104;Hofors kommun;BL;;C;L;;S;;;;;;;
-2022;2121;Ovanåkers kommun;BL;;C;;;S;;;;;;;
-2022;2132;Nordanstigs kommun;BL;M;;L;;S;;;;;;;
-2022;2161;Ljusdals kommun;B;M;;L;KD;;;;SD;ÖP;Ljusdalsbygdens Parti ;;
-2022;2180;Gävle kommun;BL;;C;L;KD;S;;MP;;;;;
-2022;2181;Sandvikens kommun;BL;;C;L;;S;;;;;;;
-2022;2182;Söderhamns kommun;A;M;C;L;KD;;;;;;;;
-2022;2183;Bollnäs kommun;BL;M;C;;;S;;;;;;;
-2022;2184;Hudiksvalls kommun;BL;M;;;;S;;MP;;;;;
-2022;2260;Ånge kommun;BL;M;C;;KD;S;;;;;;;
-2022;2262;Timrå kommun;BL;M;;;;S;;;;;;;
-2022;2280;Härnösands kommun;BL;;;;KD;S;V;MP;;;;;
-2022;2281;Sundsvalls kommun;BL;;C;;;S;V;;;;;;
-2022;2282;Kramfors kommun;V;;;;;S;V;;;;;;
-2022;2283;Sollefteå kommun;BL;;C;;;;V;;;ÖP;Västra Initiativet;;
-2022;2284;Örnsköldsviks kommun;A;M;C;;KD;;;;;;;;
-2022;2303;Ragunda kommun;A;M;C;;KD;;;;;ÖP;Allt för Ragunda;;
-2022;2305;Bräcke kommun;BL;;C;;;S;;;;;;;
-2022;2309;Krokoms kommun;BL;M;;;KD;S;;;;;;;
-2022;2313;Strömsunds kommun;BL;;C;;;S;;;;;;;
-2022;2321;Åre kommun;V;;;;;S;V;;;ÖP;Västjämtlands väl;;
-2022;2326;Bergs kommun;BL;;C;;;S;;;;;;;
-2022;2361;Härjedalens kommun;BL;M;C;;;S;;;;;;;
-2022;2380;Östersunds kommun;BL;;C;;;S;;;;;;;
-2022;2401;Nordmalings kommun;A;M;C;L;KD;;;;;;;;
-2022;2403;Bjurholms kommun;B;M;;L;KD;;;;SD;;;;
-2022;2404;Vindelns kommun;BL;;;;KD;S;;;;;;;
-2022;2409;Robertsfors kommun;V;;;;;S;V;;;;;;
-2022;2417;Norsjö kommun;V;;;;;S;V;;;;;;
-2022;2418;Malå kommun;V;;;;;;V;;;;;;
-2022;2421;Storumans kommun;BL;;C;;KD;S;;;;;;;
-2022;2422;Sorsele kommun;V;;;;;S;V;;;;;;
-2022;2425;Dorotea kommun;BL;;C;L;KD;S;V;;;;;;
-2022;2460;Vännäs kommun;BL;M;;;;S;V;;;;;;
-2022;2462;Vilhelmina kommun;V;;;;;S;;;;;;;
-2022;2463;Åsele kommun;V;;;;;S;;;;ÖP;Åsele partiet;;
-2022;2480;Umeå kommun;V;;;;;S;;MP;;;;;
-2022;2481;Lycksele kommun;A;M;C;L;KD;;;;;;;;
-2022;2482;Skellefteå kommun;V;;;;;S;V;;;;;;
-2022;2505;Arvidsjaurs kommun;V;;;;;S;;;;;;;
-2022;2506;Arjeplogs kommun;BL;;;L;;S;;;;;;;
-2022;2510;Jokkmokks kommun;V;;;;;;V;MP;;ÖP;Samernas Väl, Framtid i Jokkmokk;;
-2022;2513;Överkalix kommun;V;;;;;S;;;;;;;
-2022;2514;Kalix kommun;BL;;C;;;S;;MP;;;;;
-2022;2518;Övertorneå kommun;BL;;C;;KD;;V;;;ÖP;Framtid S ;;
-2022;2521;Pajala kommun;BL;M;C;;KD;S;;;;ÖP;Sjukvårdspartiet;;
-2022;2523;Gällivare kommun;V;;;;;S;;MP;;;;;
-2022;2560;Älvsbyns kommun;B;M;;L;KD;;;;SD;;;;
-2022;2580;Luleå kommun;V;;;;;S;V;MP;;;;;
-2022;2581;Piteå kommun;BL;;C;;;S;;;;;;;
-2022;2582;Bodens kommun;V;;;;;S;;;;ÖP;SJVP;;
-2022;2583;Haparanda stad;V;;;;;S;V;;;;;;
-2022;2584;Kiruna kommun;V;;;;;S;V;;;ÖP;Feministiskt Initiativ och Sámelistu;;
+Valår,Kod,Kommun,Styre,M,C,L/FP,KD,S,V,MP,SD,ÖP
+1994,114,Upplands väsby,V,,,,,S,V,,,
+1994,115,Vallentuna,B,M,C,,KD,,,,,
+1994,117,Österåker,BL,,,L/FP,,S,,,,
+1994,120,Värmdö,B,M,C,L/FP,,,,MP,,
+1994,123,Järfälla,V,,,,,S,V,MP,,
+1994,125,Ekerö,B,M,C,L/FP,KD,,,,,
+1994,126,Huddinge,V,,,,,S,V,MP,,
+1994,127,Botkyrka,V,,,,,S,V,MP,,
+1994,128,Salem,B,M,C,L/FP,KD,,,,,
+1994,136,Haninge,BL,,,L/FP,,S,,,,
+1994,138,Tyresö,V,,,,,S,V,MP,,
+1994,139,Upplands-Bro,V,,,,,S,V,,,
+1994,140,Nykvarn,Ännu inte bildad,,,,,,,,,
+1994,160,Täby,B,M,C,,KD,,,,,ÖP
+1994,162,Danderyd,B,M,,,KD,,,,,
+1994,163,Sollentuna,B,M,C,L/FP,KD,,,,,
+1994,180,Stockholm,V,,,,,S,V,MP,,
+1994,181,Södertälje,V,,,,,S,V,,,
+1994,182,Nacka,B,M,,L/FP,,,,,,
+1994,183,Sundbyberg,V,,,,,S,V,,,
+1994,184,Solna,V,,,,,S,V,MP,,
+1994,186,Lidingö,B,M,,,,,,,,
+1994,187,Vaxholm,B,M,C,L/FP,,,,,,
+1994,188,Norrtälje,V,,,,,S,V,MP,,
+1994,191,Sigtuna,V,,,,,S,V,MP,,
+1994,192,Nynäshamn,V,,,,,S,V,MP,,
+1994,305,Håbo,BL,,C,,,S,V,MP,,
+1994,319,Älvkarleby,V,,,,,S,V,,,
+1994,331,Heby,V,,,,,S,V,MP,,
+1994,360,Tierp,V,,,,,S,,,,
+1994,380,Uppsala,V,,,,,S,V,MP,,
+1994,381,Enköping,V,,,,,S,V,MP,,
+1994,382,Östhammar,V,,,,,S,V,,,
+1994,428,Vingåker,V,,,,,S,,,,
+1994,461,Gnesta,BL,,C,,,S,,,,
+1994,480,Nyköping,V,,,,,S,,,,
+1994,481,Oxelösund,V,,,,,S,,,,
+1994,482,Flen,V,,,,,S,V,,,
+1994,483,Katrineholm,V,,,,,S,,,,
+1994,484,Eskilstuna,V,,,,,S,,,,
+1994,486,Strängnäs,B,M,C,L/FP,KD,,,,,ÖP
+1994,488,Trosa,V,,,,,S,V,MP,,
+1994,509,Ödeshög,BL,,,,,,,,,
+1994,512,Ydre,BL,,,,,,,,,
+1994,513,Kinda,V,,,,,S,,,,ÖP
+1994,560,Boxholm,V,,,,,S,,,,
+1994,561,Åtvidaberg,V,,,,,S,,,,
+1994,562,Finspång,V,,,,,S,,,,
+1994,563,Valdemarsvik,B,M,C,L/FP,KD,,,,,
+1994,580,Linköping,BL,,C,,,S,,,,
+1994,581,Norrköping,V,,,,,S,,,,
+1994,582,Söderköping,B,M,C,L/FP,KD,,,,,
+1994,583,Motala,V,,,,,S,,,,
+1994,584,Vadstena,BL,,C,,,S,,,,
+1994,586,Mjölby,BL,,C,,,S,,,,
+1994,604,Aneby,B,M,C,L/FP,KD,,,,,
+1994,617,Gnosjö,A,M,C,L/FP,KD,,,,,
+1994,642,Mullsjö,B,M,C,L/FP,KD,,,,,
+1994,643,Habo,B,M,C,L/FP,KD,,,,,
+1994,662,Gislaved,BL,,C,,,S,,MP,,
+1994,665,Vaggeryd,B,M,C,L/FP,KD,,,,,
+1994,680,Jönköping,BL,,C,,,S,,,,
+1994,682,Nässjö,BL,,C,L/FP,,S,,,,
+1994,683,Värnamo,B,M,C,,KD,,,,,
+1994,684,Sävsjö,B,M,C,,KD,,,,,
+1994,685,Vetlanda,B,M,C,L/FP,KD,,,,,
+1994,686,Eksjö,BL,,,,,,,,,
+1994,687,Tranås,V,,,,,S,,,,
+1994,760,Uppvidinge,V,,,,,S,V,,,
+1994,761,Lessebo,V,,,,,S,,,,
+1994,763,Tingsryd,B,M,C,L/FP,KD,,,,,
+1994,764,Alvesta,BL,,C,,,S,,,,
+1994,765,Älmhult,V,,,,,S,V,MP,,
+1994,767,Markaryd,BL,M,C,L/FP,KD,S,,,,
+1994,780,Växjö,V,,,,,S,V,MP,,
+1994,781,Ljungby,BL,,C,L/FP,,S,,,,
+1994,821,Högsby,B,M,C,L/FP,KD,,,MP,,
+1994,834,Torsås,B,M,C,L/FP,KD,,,MP,,
+1994,840,Mörbylånga,B,M,C,L/FP,KD,,,MP,,
+1994,860,Hultsfred,V,,,,,S,V,,,
+1994,861,Mönsterås,B,M,C,L/FP,KD,,,,,
+1994,862,Emmaboda,V,,,,,S,V,,,
+1994,880,Kalmar,V,,,,,S,V,,,
+1994,881,Nybro,V,,,,,S,V,,,
+1994,882,Oskarshamn,V,,,,,S,,,,
+1994,883,Västervik,V,,,,,S,,,,
+1994,884,Vimmerby,B,M,C,L/FP,KD,,,,,
+1994,885,Borgholm,BL,M,,,,S,,,,
+1994,980,Gotland,V,,,,,S,V,MP,,
+1994,1060,Olofström,V,,,,,S,,,,
+1994,1080,Karlskrona,V,,,,,S,V,,,
+1994,1081,Ronneby,V,,,,,S,V,,,
+1994,1082,Karlshamn,V,,,,,S,,,,
+1994,1083,Sölvesborg,V,,,,,S,,,,
+1994,1214,Svalöv,V,,,,,S,,MP,,
+1994,1230,Staffanstorp,BL,,,L/FP,,S,,,,
+1994,1231,Burlöv,V,,,,,S,,,,
+1994,1233,Vellinge,B,M,,,,,,,,
+1994,1256,Östra Göinge,V,,,,,S,,,,
+1994,1257,Örkelljunga,B,M,C,L/FP,KD,,,,,
+1994,1260,Bjuv,V,,,,,S,,,,
+1994,1261,Kävlinge,V,,,,,S,,,,
+1994,1262,Lomma,B,M,C,L/FP,KD,,,,,
+1994,1263,Svedala,BL,,,L/FP,,S,,MP,,
+1994,1264,Skurup,V,,,,,S,,,,
+1994,1265,Sjöbo,B,M,C,L/FP,,,,,,ÖP
+1994,1266,Hörby,B,M,C,L/FP,KD,,,,,
+1994,1267,Höör,B,M,,L/FP,KD,,,,,
+1994,1270,Tomelilla,BL,,,L/FP,,S,,MP,,
+1994,1272,Bromölla,V,,,,,S,,,,
+1994,1273,Osby,V,,,,,S,,,,ÖP
+1994,1275,Perstorp,V,,,,,S,V,,,
+1994,1276,Klippan,BL,,,L/FP,,S,,,,
+1994,1277,Åstorp,V,,,,,S,,,,
+1994,1278,Båstad,BL,,C,L/FP,,S,,,,
+1994,1280,Malmö,V,,,,,S,,,,
+1994,1281,Lund,V,,,,,S,V,MP,,
+1994,1282,Landskrona,V,,,,,S,,,,
+1994,1283,Helsingborg,V,,,,,S,V,,,
+1994,1284,Höganäs,BL,,,L/FP,,S,V,MP,,
+1994,1285,Eslöv,V,,,,,S,,,,
+1994,1286,Ystad,V,,,,,S,V,MP,,
+1994,1287,Trelleborg,V,,,,,S,,,,
+1994,1290,Kristianstad,V,,,,,S,,,,
+1994,1291,Simrishamn,BL,,C,,,S,,,,
+1994,1292,Ängelholm,B,M,C,L/FP,,,,,,
+1994,1293,Hässleholm,BL,,C,,,S,,,,
+1994,1315,Hylte,BL,,C,,,S,,,,
+1994,1380,Halmstad,V,,,,,S,V,,,
+1994,1381,Laholm,B,M,C,L/FP,KD,,,,,ÖP
+1994,1382,Falkenberg,V,,,,,S,,MP,,ÖP
+1994,1383,Varberg,V,,,,,S,V,MP,,
+1994,1384,Kungsbacka,BL,,,,,,,,,
+1994,1401,Härryda,BL,,C,,,S,V,MP,,
+1994,1402,Partille,V,,,,,S,V,MP,,
+1994,1407,Öckerö,B,M,C,L/FP,KD,,,,,
+1994,1415,Stenungsund,BL,,C,,,S,V,MP,,
+1994,1419,Tjörn,BL,M,,,,S,,,,
+1994,1421,Orust,BL,,C,L/FP,,S,,,,
+1994,1427,Sotenäs,BL,,C,,KD,S,V,MP,,
+1994,1430,Munkedal,BL,,,,,,,,,
+1994,1435,Tanum,B,M,C,L/FP,KD,,,,,
+1994,1438,Dals-Ed,B,M,C,L/FP,KD,,,,,
+1994,1439,Färgelanda,BL,M,,L/FP,KD,S,,,,
+1994,1440,Ale,V,,,,,S,,,,
+1994,1441,Lerum,B,M,C,L/FP,KD,,,MP,,
+1994,1442,Vårgårda,BL,,,,,,,,,
+1994,1443,Bollebygd,BL,,,L/FP,KD,S,,MP,,
+1994,1444,Grästorp,B,M,C,,,,,,,
+1994,1445,Essunga,B,M,C,L/FP,KD,,,,,
+1994,1446,Karlsborg,BL,,C,,KD,,,,,
+1994,1447,Gullspång,V,,,,,S,V,,,
+1994,1452,Tranemo,B,M,C,L/FP,KD,,,,,
+1994,1460,Bengtsfors,V,,,,,S,,,,ÖP
+1994,1461,Mellerud,BL,,,,,,,,,
+1994,1462,Lilla Edet,V,,,,,S,V,,,
+1994,1463,Mark,V,,,,,S,V,,,
+1994,1465,Svenljunga,V,,,,,S,,,,
+1994,1466,Herrljunga,BL,,,,,,,,,
+1994,1470,Vara,B,M,C,L/FP,KD,,,,,
+1994,1471,Götene,B,M,C,L/FP,KD,,,,,
+1994,1472,Tibro,B,M,C,L/FP,KD,,,,,
+1994,1473,Töreboda,BL,M,,L/FP,KD,S,,,,
+1994,1480,Göteborg,V,,,,,S,V,MP,,
+1994,1481,Mölndal,V,,,,,S,V,MP,,
+1994,1482,Kungälv,V,,,,,S,V,MP,,
+1994,1484,Lysekil,V,,,,,S,,,,
+1994,1485,Uddevalla,V,,,,,S,,,,
+1994,1486,Strömstad,B,M,C,L/FP,,,,,,
+1994,1487,Vänersborg,V,,,,,S,V,MP,,
+1994,1488,Trollhättan,V,,,,,S,,,,
+1994,1489,Alingsås,V,,,,,S,V,MP,,
+1994,1490,Borås,V,,,,,S,,,,
+1994,1491,Ulricehamn,BL,,,L/FP,KD,S,,MP,,
+1994,1492,Åmål,V,,,,,S,,,,
+1994,1493,Mariestad,V,,,,,S,V,,,
+1994,1494,Lidköping,V,,,,,S,V,,,
+1994,1495,Skara,V,,,,,S,,MP,,
+1994,1496,Skövde,B,M,C,L/FP,KD,,,,,
+1994,1497,Hjo,BL,M,C,L/FP,KD,S,,MP,,
+1994,1498,Tidaholm,V,,,,,S,V,,,
+1994,1499,Falköping,B,M,C,L/FP,KD,,,,,
+1994,1715,Kil,BL,,,,,,,,,
+1994,1730,Eda,V,,,,,S,V,,,
+1994,1737,Torsby,V,,,,,S,V,,,
+1994,1760,Storfors,V,,,,,S,V,,,
+1994,1761,Hammarö,V,,,,,S,,,,
+1994,1762,Munkfors,V,,,,,S,,,,
+1994,1763,Forshaga,V,,,,,S,,,,
+1994,1764,Grums,V,,,,,S,,,,
+1994,1765,Årjäng,B,M,C,L/FP,KD,,,,,
+1994,1766,Sunne,B,M,C,L/FP,KD,,,,,
+1994,1780,Karlstad,BL,,C,L/FP,,S,,,,
+1994,1781,Kristinehamn,V,,,,,S,,,,
+1994,1782,Filipstad,V,,,,,S,,,,
+1994,1783,Hagfors,V,,,,,S,,,,
+1994,1784,Arvika,V,,,,,S,,,,
+1994,1785,Säffle,BL,,,,,,,,,
+1994,1814,Lekeberg,BL,,C,,,S,,,,
+1994,1860,Laxå,BL,,C,,,S,,,,
+1994,1861,Hallsberg,V,,,,,S,,,,
+1994,1862,Degerfors,V,,,,,S,,,,
+1994,1863,Hällefors,V,,,,,S,V,,,
+1994,1864,Ljusnarsberg,V,,,,,S,,,,
+1994,1880,Örebro,V,,,,,S,V,,,
+1994,1881,Kumla,V,,,,,S,,,,
+1994,1882,Askersund,V,,,,,S,,,,
+1994,1883,Karlskoga,V,,,,,S,,,,
+1994,1884,Nora,V,,,,,S,,,,
+1994,1885,Lindesberg,V,,,,,S,V,,,
+1994,1904,Skinnskatteberg,V,,,,,S,,,,
+1994,1907,Surahammar,V,,,,,S,,,,
+1994,1960,Kungsör,V,,,,,S,V,,,
+1994,1961,Hallstahammar,V,,,,,S,,,,
+1994,1962,Norberg,V,,,,,,V,,,
+1994,1980,Västerås,V,,,,,S,,,,
+1994,1981,Sala,B,M,C,L/FP,KD,,,,,ÖP
+1994,1982,Fagersta,V,,,,,S,,,,
+1994,1983,Köping,V,,,,,S,,,,
+1994,1984,Arboga,BL,,C,,,S,,,,
+1994,2021,Vansbro,V,,,,,S,V,,,
+1994,2023,Malung- Sälen,V,,,,,S,V,,,
+1994,2026,Gagnef,V,,,,,S,V,MP,,
+1994,2029,Leksand,B,M,C,L/FP,KD,,,,,ÖP
+1994,2031,Rättvik,V,,,,,S,V,,,
+1994,2034,Orsa,V,,,,,S,V,MP,,
+1994,2039,Älvdalen,BL,,,,,,,,,
+1994,2061,Smedjebacken,V,,,,,S,,,,
+1994,2062,Mora,BL,,C,,,S,,,,
+1994,2080,Falun,V,,,,,S,V,MP,,
+1994,2081,Borlänge,V,,,,,S,,,,
+1994,2082,Säter,V,,,,,S,V,MP,,
+1994,2083,Hedemora,V,,,,,S,V,,,
+1994,2084,Avesta,V,,,,,S,V,MP,,
+1994,2085,Ludvika,V,,,,,S,,,,
+1994,2101,Ockelbo,V,,,,,S,,,,
+1994,2104,Hofors,V,,,,,S,,,,
+1994,2121,Ovanåker,B,M,C,L/FP,KD,,,MP,,
+1994,2132,Nordanstig,V,,,,,S,V,MP,,
+1994,2161,Ljusdal,V,,,,,S,,,,
+1994,2180,Gävle,V,,,,,S,,,,
+1994,2181,Sandviken,V,,,,,S,,,,
+1994,2182,Söderhamn,V,,,,,S,,,,
+1994,2183,Bollnäs,V,,,,,S,V,MP,,
+1994,2184,Hudiksvall,V,,,,,S,,,,
+1994,2260,Ånge,V,,,,,S,V,,,
+1994,2262,Timrå,V,,,,,S,,,,
+1994,2280,Härnösand,B,M,C,L/FP,KD,,,,,ÖP
+1994,2281,Sundsvall,V,,,,,S,,,,
+1994,2282,Kramfors,V,,,,,S,,,,
+1994,2283,Sollefteå,V,,,,,S,,,,
+1994,2284,Örnsköldsvik,V,,,,,S,,,,
+1994,2303,Ragunda,V,,,,,S,,,,
+1994,2305,Bräcke,V,,,,,S,,,,
+1994,2309,Krokom,V,,,,,S,,,,
+1994,2313,Strömsund,V,,,,,S,,,,
+1994,2321,Åre,V,,,,,S,V,MP,,
+1994,2326,Berg,B,M,C,L/FP,,,,,,
+1994,2361,Härjedalen,V,,,,,S,,,,
+1994,2380,Östersund,V,,,,,S,,,,
+1994,2401,Nordmaling,V,,,,,S,V,,,
+1994,2403,Bjurholm,B,M,C,L/FP,KD,,,,,
+1994,2404,Vindeln,B,M,C,L/FP,KD,,,,,
+1994,2409,Robertsfors,B,M,C,L/FP,KD,,,,,
+1994,2417,Norsjö,V,,,,,S,,,,
+1994,2418,Malå,BL,,,,,,,,,
+1994,2421,Storuman,BL,,,,,,,,,
+1994,2422,Sorsele,B,M,C,L/FP,KD,,,MP,,
+1994,2425,Dorotea,V,,,,,S,V,,,
+1994,2460,Vännäs,V,,,,,S,V,,,
+1994,2462,Vilhelmina,V,,,,,S,,,,
+1994,2463,Åsele,V,,,,,S,,,,
+1994,2480,Umeå,V,,,,,S,,,,
+1994,2481,Lycksele,V,,,,,S,,,,
+1994,2482,Skellefteå,V,,,,,S,,,,
+1994,2505,Arvidsjaur,V,,,,,S,,,,
+1994,2506,Arjeplog,B,,C,,KD,,,,,
+1994,2510,Jokkmokk,V,,,,,S,,,,ÖP
+1994,2513,Överkalix,V,,,,,S,,,,
+1994,2514,Kalix,V,,,,,S,,,,
+1994,2518,Övertorneå,V,,,,,S,,,,
+1994,2521,Pajala,V,,,,,S,,,,
+1994,2523,Gällivare,V,,,,,S,,,,
+1994,2560,Älvsbyn,V,,,,,S,,,,
+1994,2580,Luleå,V,,,,,S,,,,
+1994,2581,Piteå,V,,,,,S,,,,
+1994,2582,Boden,V,,,,,S,,,,
+1994,2583,Haparanda,V,,,,,S,,,,
+1994,2584,Kiruna,V,,,,,,V,MP,,ÖP
+1998,114,Upplands väsby,V,,,,,S,V,MP,,
+1998,115,Vallentuna,B,M,,L/FP,KD,,,,,
+1998,117,Österåker,B,M,C,L/FP,KD,,,,,ÖP
+1998,120,Värmdö,B,M,C,L/FP,KD,,,MP,,
+1998,123,Järfälla,B,M,C,L/FP,KD,,,,,
+1998,125,Ekerö,B,M,,L/FP,KD,,,,,
+1998,126,Huddinge,B,M,C,L/FP,KD,,,,,ÖP
+1998,127,Botkyrka,V,,,,,S,V,,,
+1998,128,Salem,B,M,C,L/FP,KD,,,,,
+1998,136,Haninge,BL,,,L/FP,,S,,,,
+1998,138,Tyresö,B,M,C,L/FP,KD,,,MP,,
+1998,139,Upplands-Bro,V,,,,,S,V,,,
+1998,140,Nykvarn,BL,,C,L/FP,,S,V,,,
+1998,160,Täby,B,M,,,,,,,,
+1998,162,Danderyd,B,M,,,KD,,,,,
+1998,163,Sollentuna,B,M,C,L/FP,KD,,,,,ÖP
+1998,180,Stockholm,B,M,,L/FP,KD,,,,,ÖP
+1998,181,Södertälje,V,,,,,S,,,,
+1998,182,Nacka,B,M,,L/FP,KD,,,,,
+1998,183,Sundbyberg,V,,,,,S,V,MP,,
+1998,184,Solna,B,M,,L/FP,KD,,,,,
+1998,186,Lidingö,B,M,,,,,,,,
+1998,187,Vaxholm,B,M,C,L/FP,KD,,,,,
+1998,188,Norrtälje,B,M,C,L/FP,KD,,,,,
+1998,191,Sigtuna,B,M,C,L/FP,KD,,,,,ÖP
+1998,192,Nynäshamn,V,,,,,S,V,MP,,
+1998,305,Håbo,BL,,C,,,S,V,,,ÖP
+1998,319,Älvkarleby,V,,,,,S,V,,,
+1998,331,Heby,B,M,C,L/FP,KD,,,,,ÖP
+1998,360,Tierp,V,,,,,S,V,,,
+1998,380,Uppsala,V,,,,,S,V,MP,,
+1998,381,Enköping,B,M,C,L/FP,KD,,,,,
+1998,382,Östhammar,V,,,,,S,V,MP,,
+1998,428,Vingåker,V,,,,,S,,,,
+1998,461,Gnesta,B,M,C,L/FP,KD,,,MP,,ÖP
+1998,480,Nyköping,V,,,,,S,V,,,
+1998,481,Oxelösund,V,,,,,S,,,,
+1998,482,Flen,V,,,,,S,V,MP,,
+1998,483,Katrineholm,V,,,,,S,,,,
+1998,484,Eskilstuna,V,,,,,S,V,,,
+1998,486,Strängnäs,B,M,C,L/FP,KD,,,,,
+1998,488,Trosa,B,M,C,L/FP,KD,,,,,
+1998,509,Ödeshög,B,M,C,L/FP,KD,,,,,
+1998,512,Ydre,B,M,C,L/FP,KD,,,,,
+1998,513,Kinda,BL,,C,,,S,,,,
+1998,560,Boxholm,V,,,,,S,V,,,
+1998,561,Åtvidaberg,BL,M,C,,,S,,,,
+1998,562,Finspång,V,,,,,S,V,,,
+1998,563,Valdemarsvik,B,M,C,L/FP,KD,,,,,
+1998,580,Linköping,BL,,C,,,S,,MP,,
+1998,581,Norrköping,V,,,,,S,V,,,
+1998,582,Söderköping,B,M,C,L/FP,KD,,,,,
+1998,583,Motala,V,,,,,S,V,,,
+1998,584,Vadstena,V,,,,,S,V,MP,,
+1998,586,Mjölby,V,,,,,S,V,,,
+1998,604,Aneby,B,M,C,L/FP,KD,,,,,
+1998,617,Gnosjö,B,M,C,L/FP,KD,,,,,
+1998,642,Mullsjö,BL,,,L/FP,,S,V,MP,,
+1998,643,Habo,B,M,C,L/FP,KD,,,,,
+1998,662,Gislaved,BL,,C,,,S,,MP,,
+1998,665,Vaggeryd,BL,,C,,,S,,,,
+1998,680,Jönköping,BL,,C,,,S,,,,
+1998,682,Nässjö,BL,,C,L/FP,,S,V,MP,,
+1998,683,Värnamo,B,M,C,,KD,,,,,
+1998,684,Sävsjö,B,M,C,,KD,,,,,
+1998,685,Vetlanda,B,M,C,L/FP,KD,,,,,
+1998,686,Eksjö,BL,,,,,,,,,
+1998,687,Tranås,B,M,C,L/FP,KD,,,,,
+1998,760,Uppvidinge,V,,,,,S,V,MP,,
+1998,761,Lessebo,V,,,,,S,V,,,
+1998,763,Tingsryd,B,M,C,L/FP,KD,,,,,
+1998,764,Alvesta,BL,,C,L/FP,,S,,,,
+1998,765,Älmhult,B,M,C,L/FP,KD,,,,,
+1998,767,Markaryd,BL,M,C,L/FP,KD,S,,,,
+1998,780,Växjö,V,,,,,S,V,MP,,
+1998,781,Ljungby,BL,,C,L/FP,,S,,,,
+1998,821,Högsby,V,,,,,S,V,MP,,
+1998,834,Torsås,B,M,C,L/FP,KD,,,MP,,
+1998,840,Mörbylånga,B,M,C,L/FP,KD,,,MP,,
+1998,860,Hultsfred,V,,,,,S,V,,,
+1998,861,Mönsterås,B,M,C,L/FP,KD,,,,,
+1998,862,Emmaboda,V,,,,,S,V,,,
+1998,880,Kalmar,V,,,,,S,V,MP,,
+1998,881,Nybro,V,,,,,S,V,,,
+1998,882,Oskarshamn,V,,,,,S,,,,
+1998,883,Västervik,V,,,,,S,V,MP,,
+1998,884,Vimmerby,B,M,C,L/FP,KD,,,,,
+1998,885,Borgholm,B,M,C,L/FP,KD,,,,,
+1998,980,Gotland,B,M,C,L/FP,KD,,,,,ÖP
+1998,1060,Olofström,V,,,,,S,,,,
+1998,1080,Karlskrona,V,,,,,S,V,,,
+1998,1081,Ronneby,V,,,,,S,V,,,
+1998,1082,Karlshamn,V,,,,,S,V,MP,,
+1998,1083,Sölvesborg,BL,,,,,,,,,
+1998,1214,Svalöv,B,M,C,L/FP,KD,,,,,
+1998,1230,Staffanstorp,B,M,,,,,,,,
+1998,1231,Burlöv,V,,,,,S,V,MP,,
+1998,1233,Vellinge,B,M,,,,,,,,
+1998,1256,Östra Göinge,V,,,,,S,,,,
+1998,1257,Örkelljunga,BL,M,C,,KD,,V,,,
+1998,1260,Bjuv,V,,,,,S,V,,,
+1998,1261,Kävlinge,V,,,,,S,,,,
+1998,1262,Lomma,B,M,C,L/FP,KD,,,,,ÖP
+1998,1263,Svedala,BL,,,,,,,,,
+1998,1264,Skurup,BL,,,,,,,,,
+1998,1265,Sjöbo,BL,,,,,,,,,
+1998,1266,Hörby,B,M,C,L/FP,KD,,,,,
+1998,1267,Höör,B,M,C,L/FP,KD,,,,,ÖP
+1998,1270,Tomelilla,B,M,C,,KD,,,,,ÖP
+1998,1272,Bromölla,V,,,,,S,,,,
+1998,1273,Osby,B,M,C,L/FP,KD,,,,,ÖP
+1998,1275,Perstorp,B,M,C,L/FP,KD,,,,,ÖP
+1998,1276,Klippan,BL,,C,,,S,V,,,
+1998,1277,Åstorp,V,,,,,S,V,,,
+1998,1278,Båstad,B,M,C,L/FP,,,,,,
+1998,1280,Malmö,V,,,,,S,V,MP,,
+1998,1281,Lund,B,M,C,L/FP,KD,,,,,ÖP
+1998,1282,Landskrona,V,,,,,S,V,,,
+1998,1283,Helsingborg,B,M,,L/FP,KD,,,,,
+1998,1284,Höganäs,B,M,C,,KD,,,,,ÖP
+1998,1285,Eslöv,V,,,,,S,V,MP,,
+1998,1286,Ystad,B,M,C,L/FP,KD,,,,,ÖP
+1998,1287,Trelleborg,V,,,,,S,V,,,
+1998,1290,Kristianstad,V,,,,,S,V,MP,,ÖP
+1998,1291,Simrishamn,B,M,,L/FP,KD,,,,,ÖP
+1998,1292,Ängelholm,B,M,C,,,,,,,
+1998,1293,Hässleholm,BL,,C,,,S,V,MP,,
+1998,1315,Hylte,BL,,,L/FP,,S,,,,ÖP
+1998,1380,Halmstad,V,,,,,S,V,MP,,
+1998,1381,Laholm,B,M,C,,KD,,,,,
+1998,1382,Falkenberg,A,M,C,L/FP,KD,,,,,
+1998,1383,Varberg,B,M,C,L/FP,KD,,,,,ÖP
+1998,1384,Kungsbacka,B,M,C,L/FP,KD,,,,,
+1998,1401,Härryda,V,,,,,S,V,MP,,ÖP
+1998,1402,Partille,B,M,,L/FP,KD,,,MP,,
+1998,1407,Öckerö,BL,,C,L/FP,KD,S,,,,
+1998,1415,Stenungsund,BL,,C,,,S,V,MP,,
+1998,1419,Tjörn,A,M,C,L/FP,KD,,,,,ÖP
+1998,1421,Orust,V,,,,,S,V,MP,,ÖP
+1998,1427,Sotenäs,BL,,C,,,S,V,MP,,
+1998,1430,Munkedal,B,M,C,L/FP,KD,,,MP,,ÖP
+1998,1435,Tanum,B,M,C,L/FP,KD,,,,,
+1998,1438,Dals-Ed,B,M,C,L/FP,KD,,,,,
+1998,1439,Färgelanda,BL,,C,L/FP,KD,S,,,,
+1998,1440,Ale,V,,,,,S,V,MP,,
+1998,1441,Lerum,B,M,C,L/FP,KD,,,MP,,
+1998,1442,Vårgårda,BL,,,,,,,,,
+1998,1443,Bollebygd,B,M,C,,KD,,,,,ÖP
+1998,1444,Grästorp,B,M,C,,,,,,,
+1998,1445,Essunga,B,M,C,L/FP,KD,,,,,
+1998,1446,Karlsborg,V,,,,,S,,,,
+1998,1447,Gullspång,B,M,C,,KD,,,,,ÖP
+1998,1452,Tranemo,B,M,C,L/FP,KD,,,,,
+1998,1460,Bengtsfors,B,M,C,L/FP,KD,,,,,ÖP
+1998,1461,Mellerud,BL,,,,,,,,,
+1998,1462,Lilla Edet,V,,,,,S,V,MP,,
+1998,1463,Mark,V,,,,,S,V,,,
+1998,1465,Svenljunga,BL,,,,,,,,,
+1998,1466,Herrljunga,B,M,C,L/FP,KD,,,,,
+1998,1470,Vara,B,M,C,L/FP,KD,,,,,
+1998,1471,Götene,B,M,C,L/FP,KD,,,,,ÖP
+1998,1472,Tibro,B,M,C,L/FP,KD,,,,,
+1998,1473,Töreboda,BL,,C,,,S,V,MP,,
+1998,1480,Göteborg,V,,,,,S,V,MP,,
+1998,1481,Mölndal,V,,,,,S,V,MP,,ÖP
+1998,1482,Kungälv,B,M,C,L/FP,KD,,,MP,,
+1998,1484,Lysekil,V,,,,,S,,,,
+1998,1485,Uddevalla,V,,,,,S,V,,,
+1998,1486,Strömstad,B,M,C,L/FP,,,,,,
+1998,1487,Vänersborg,B,M,C,L/FP,KD,,,,,ÖP
+1998,1488,Trollhättan,V,,,,,S,V,,,
+1998,1489,Alingsås,BL,,C,,,S,V,,,
+1998,1490,Borås,B,M,C,L/FP,KD,,,MP,,ÖP
+1998,1491,Ulricehamn,B,M,C,L/FP,KD,,,MP,,
+1998,1492,Åmål,BL,M,,,,S,,,,ÖP
+1998,1493,Mariestad,V,,,,,S,V,,,
+1998,1494,Lidköping,V,,,,,S,V,,,
+1998,1495,Skara,BL,,C,,,S,V,MP,,
+1998,1496,Skövde,B,M,C,L/FP,KD,,,,,
+1998,1497,Hjo,B,M,C,L/FP,,,,,,
+1998,1498,Tidaholm,BL,M,C,L/FP,KD,S,,,,
+1998,1499,Falköping,A,M,C,L/FP,KD,,,,,
+1998,1715,Kil,B,M,C,L/FP,KD,,,MP,,
+1998,1730,Eda,BL,M,C,L/FP,,,V,,,ÖP
+1998,1737,Torsby,V,,,,,S,V,,,
+1998,1760,Storfors,V,,,,,S,V,,,
+1998,1761,Hammarö,V,,,,,S,V,,,
+1998,1762,Munkfors,V,,,,,S,,,,
+1998,1763,Forshaga,V,,,,,S,,,,
+1998,1764,Grums,BL,,C,,,S,,,,
+1998,1765,Årjäng,B,M,C,L/FP,KD,,,,,
+1998,1766,Sunne,B,,C,L/FP,KD,,,,,
+1998,1780,Karlstad,V,,,,,S,V,MP,,
+1998,1781,Kristinehamn,V,,,,,S,V,,,
+1998,1782,Filipstad,V,,,,,S,,MP,,
+1998,1783,Hagfors,V,,,,,S,V,,,
+1998,1784,Arvika,V,,,,,S,,,,
+1998,1785,Säffle,B,M,C,L/FP,KD,,,,,
+1998,1814,Lekeberg,BL,,C,,,S,,,,
+1998,1860,Laxå,BL,,C,,,S,,,,
+1998,1861,Hallsberg,V,,,,,S,V,,,
+1998,1862,Degerfors,BL,,,,,,,,,
+1998,1863,Hällefors,V,,,,,S,V,,,
+1998,1864,Ljusnarsberg,V,,,,,S,V,,,
+1998,1880,Örebro,V,,,,,S,V,MP,,
+1998,1881,Kumla,BL,,C,L/FP,KD,S,,,,
+1998,1882,Askersund,BL,,,,,,,,,
+1998,1883,Karlskoga,V,,,,,S,,,,
+1998,1884,Nora,V,,,,,S,,MP,,
+1998,1885,Lindesberg,V,,,,,S,V,,,
+1998,1904,Skinnskatteberg,V,,,,,S,V,,,
+1998,1907,Surahammar,V,,,,,S,V,,,
+1998,1960,Kungsör,V,,,,,S,V,,,ÖP
+1998,1961,Hallstahammar,V,,,,,S,V,,,
+1998,1962,Norberg,V,,,,,,V,,,
+1998,1980,Västerås,V,,,,,S,V,MP,,
+1998,1981,Sala,B,M,C,L/FP,KD,,,,,ÖP
+1998,1982,Fagersta,BL,,,,,,V,,,
+1998,1983,Köping,V,,,,,S,V,MP,,
+1998,1984,Arboga,BL,,C,,,S,,,,
+1998,2021,Vansbro,BL,,,,,,,,,
+1998,2023,Malung- Sälen,V,,,,,S,V,,,
+1998,2026,Gagnef,B,M,C,L/FP,KD,,,MP,,
+1998,2029,Leksand,B,M,C,L/FP,KD,,,,,ÖP
+1998,2031,Rättvik,B,M,C,L/FP,KD,,,,,ÖP
+1998,2034,Orsa,V,,,,,S,V,MP,,
+1998,2039,Älvdalen,BL,,C,,,S,,,,
+1998,2061,Smedjebacken,BL,,C,,,S,,,,
+1998,2062,Mora,B,M,C,L/FP,KD,,,MP,,ÖP
+1998,2080,Falun,A,M,C,L/FP,KD,,,,,ÖP
+1998,2081,Borlänge,V,,,,,S,,,,
+1998,2082,Säter,B,M,C,L/FP,KD,,,,,
+1998,2083,Hedemora,V,,,,,S,V,,,
+1998,2084,Avesta,V,,,,,S,V,MP,,
+1998,2085,Ludvika,V,,,,,S,,,,
+1998,2101,Ockelbo,V,,,,,S,V,,,
+1998,2104,Hofors,V,,,,,S,,,,
+1998,2121,Ovanåker,B,M,C,L/FP,KD,,,MP,,
+1998,2132,Nordanstig,V,,,,,S,V,MP,,
+1998,2161,Ljusdal,V,,,,,S,V,,,
+1998,2180,Gävle,V,,,,,S,V,,,
+1998,2181,Sandviken,V,,,,,S,,,,
+1998,2182,Söderhamn,BL,,,,,,,,,
+1998,2183,Bollnäs,V,,,,,S,V,MP,,
+1998,2184,Hudiksvall,V,,,,,S,V,,,
+1998,2260,Ånge,V,,,,,S,,,,
+1998,2262,Timrå,BL,M,C,L/FP,KD,,V,MP,,
+1998,2280,Härnösand,BL,,,,KD,S,V,MP,,
+1998,2281,Sundsvall,V,,,,,S,V,,,
+1998,2282,Kramfors,V,,,,,S,V,,,
+1998,2283,Sollefteå,V,,,,,S,V,,,
+1998,2284,Örnsköldsvik,V,,,,,S,,,,
+1998,2303,Ragunda,V,,,,,S,V,,,
+1998,2305,Bräcke,V,,,,,S,,,,
+1998,2309,Krokom,BL,,C,,,S,,,,
+1998,2313,Strömsund,V,,,,,S,,,,
+1998,2321,Åre,B,M,C,L/FP,,,,,,
+1998,2326,Berg,B,M,C,L/FP,KD,,,,,
+1998,2361,Härjedalen,V,,,,,S,V,,,
+1998,2380,Östersund,V,,,,,S,V,MP,,
+1998,2401,Nordmaling,B,M,C,L/FP,KD,,,,,ÖP
+1998,2403,Bjurholm,B,M,C,L/FP,KD,,,,,
+1998,2404,Vindeln,BL,,C,,KD,S,,,,
+1998,2409,Robertsfors,BL,M,,L/FP,,S,,MP,,
+1998,2417,Norsjö,B,M,C,L/FP,KD,,,,,
+1998,2418,Malå,V,,,,,S,,,,
+1998,2421,Storuman,BL,,,,,,,,,
+1998,2422,Sorsele,V,,,,,S,,,,
+1998,2425,Dorotea,B,,C,L/FP,,,,,,ÖP
+1998,2460,Vännäs,V,,,,,S,V,,,
+1998,2462,Vilhelmina,V,,,,,S,,,,
+1998,2463,Åsele,B,M,C,L/FP,KD,,,,,ÖP
+1998,2480,Umeå,V,,,,,S,V,,,
+1998,2481,Lycksele,V,,,,,S,V,,,
+1998,2482,Skellefteå,V,,,,,S,,,,
+1998,2505,Arvidsjaur,V,,,,,S,,,,
+1998,2506,Arjeplog,V,,,,,S,V,,,
+1998,2510,Jokkmokk,V,,,,,S,,,,ÖP
+1998,2513,Överkalix,V,,,,,S,,,,
+1998,2514,Kalix,BL,M,C,L/FP,KD,,V,,,ÖP
+1998,2518,Övertorneå,BL,,C,,,S,V,,,
+1998,2521,Pajala,V,,,,,S,V,,,
+1998,2523,Gällivare,V,,,,,S,V,,,
+1998,2560,Älvsbyn,V,,,,,S,V,,,
+1998,2580,Luleå,V,,,,,S,V,,,
+1998,2581,Piteå,V,,,,,S,,,,
+1998,2582,Boden,V,,,,,S,V,MP,,
+1998,2583,Haparanda,BL,,C,,,S,,,,
+1998,2584,Kiruna,V,,,,,S,,,,ÖP
+2002,114,Upplands väsby,V,,,,,S,V,MP,,
+2002,115,Vallentuna,B,M,C,L/FP,KD,,,,,
+2002,117,Österåker,B,M,C,L/FP,KD,,,,,ÖP
+2002,120,Värmdö,BL,,C,,KD,S,,MP,,
+2002,123,Järfälla,V,,,,,S,V,MP,,
+2002,125,Ekerö,B,M,C,L/FP,KD,,,,,
+2002,126,Huddinge,V,,,,,S,V,MP,,
+2002,127,Botkyrka,V,,,,,S,V,MP,,
+2002,128,Salem,B,M,C,L/FP,KD,,,,,
+2002,136,Haninge,BL,,,L/FP,,S,,,,
+2002,138,Tyresö,B,M,C,L/FP,KD,,,,,
+2002,139,Upplands-Bro,V,,,,,S,V,,,
+2002,140,Nykvarn,B,M,C,,,,,,,ÖP
+2002,160,Täby,B,M,,L/FP,KD,,,,,
+2002,162,Danderyd,B,M,,,KD,,,,,
+2002,163,Sollentuna,B,M,C,L/FP,,,,,,
+2002,180,Stockholm,V,,,,,S,V,MP,,
+2002,181,Södertälje,V,,,,,S,V,MP,,
+2002,182,Nacka,B,M,,L/FP,KD,,,,,
+2002,183,Sundbyberg,V,,,,,S,V,MP,,
+2002,184,Solna,B,M,,L/FP,KD,,,,,
+2002,186,Lidingö,B,M,,L/FP,,,,,,
+2002,187,Vaxholm,B,M,C,L/FP,KD,,,,,
+2002,188,Norrtälje,B,M,C,L/FP,KD,,,,,
+2002,191,Sigtuna,V,,,,,S,V,MP,,
+2002,192,Nynäshamn,BL,,,L/FP,,S,,,,
+2002,305,Håbo,BL,,C,L/FP,,S,V,MP,,
+2002,319,Älvkarleby,V,,,,,S,V,,,
+2002,330,Knivsta,B,M,C,L/FP,KD,,,,,
+2002,331,Heby,B,,C,L/FP,KD,,,MP,,ÖP
+2002,360,Tierp,V,,,,,S,,,,
+2002,380,Uppsala,V,,,,,S,V,MP,,
+2002,381,Enköping,B,M,C,L/FP,KD,,,,,
+2002,382,Östhammar,V,,,,,S,V,MP,,
+2002,428,Vingåker,BL,M,C,L/FP,KD,,V,MP,,ÖP
+2002,461,Gnesta,B,M,C,L/FP,KD,,,,,ÖP
+2002,480,Nyköping,V,,,,,S,,,,
+2002,481,Oxelösund,V,,,,,S,V,,,
+2002,482,Flen,B,M,C,L/FP,KD,,,,,ÖP
+2002,483,Katrineholm,V,,,,,S,,,,
+2002,484,Eskilstuna,V,,,,,S,V,,,
+2002,486,Strängnäs,B,M,C,L/FP,KD,,,,,
+2002,488,Trosa,V,,,,,S,V,MP,,
+2002,509,Ödeshög,B,M,C,,KD,,,,,
+2002,512,Ydre,BL,,,,,,,,,
+2002,513,Kinda,B,M,C,L/FP,KD,,,,,
+2002,560,Boxholm,V,,,,,S,,,,
+2002,561,Åtvidaberg,B,M,C,L/FP,KD,,,,,ÖP
+2002,562,Finspång,V,,,,,S,V,,,
+2002,563,Valdemarsvik,B,M,C,L/FP,KD,,,,,
+2002,580,Linköping,BL,,C,,,S,,,,
+2002,581,Norrköping,V,,,,,S,V,,,
+2002,582,Söderköping,B,M,C,L/FP,KD,,,,,
+2002,583,Motala,V,,,,,S,V,,,
+2002,584,Vadstena,BL,M,,,,S,,,,
+2002,586,Mjölby,V,,,,,S,V,,,
+2002,604,Aneby,BL,,C,,,S,,,,
+2002,617,Gnosjö,B,M,C,L/FP,KD,,,,,
+2002,642,Mullsjö,B,M,C,,KD,,,,,
+2002,643,Habo,B,M,C,L/FP,KD,,,,,
+2002,662,Gislaved,BL,,C,,,S,,MP,,
+2002,665,Vaggeryd,B,M,C,L/FP,KD,,,,,
+2002,680,Jönköping,BL,,C,,,S,,,,
+2002,682,Nässjö,BL,,C,L/FP,,S,,,,
+2002,683,Värnamo,B,M,C,L/FP,KD,,,,,
+2002,684,Sävsjö,B,M,C,,KD,,,,,
+2002,685,Vetlanda,B,M,C,L/FP,KD,,,,,
+2002,686,Eksjö,BL,,C,L/FP,KD,S,,MP,,
+2002,687,Tranås,B,M,C,L/FP,KD,,,,,
+2002,760,Uppvidinge,V,,,,,S,V,,,
+2002,761,Lessebo,V,,,,,S,,,,
+2002,763,Tingsryd,BL,,C,L/FP,,S,,,,
+2002,764,Alvesta,B,M,C,L/FP,KD,,,,,
+2002,765,Älmhult,BL,,,L/FP,,S,V,MP,,
+2002,767,Markaryd,B,M,C,L/FP,KD,,,,,
+2002,780,Växjö,V,,,,,S,V,MP,,
+2002,781,Ljungby,BL,,C,L/FP,,S,,,,
+2002,821,Högsby,B,M,C,L/FP,KD,,,,,
+2002,834,Torsås,B,M,C,L/FP,KD,,,MP,,
+2002,840,Mörbylånga,B,M,C,L/FP,KD,,,MP,,ÖP
+2002,860,Hultsfred,V,,,,,S,V,,,
+2002,861,Mönsterås,B,M,C,L/FP,KD,,,,,
+2002,862,Emmaboda,V,,,,,S,,,,
+2002,880,Kalmar,V,,,,,S,V,MP,,
+2002,881,Nybro,V,,,,,S,,,,
+2002,882,Oskarshamn,V,,,,,S,,,,
+2002,883,Västervik,B,M,C,L/FP,KD,,,,,ÖP
+2002,884,Vimmerby,B,M,C,L/FP,KD,,,,,
+2002,885,Borgholm,B,M,C,L/FP,KD,,,MP,,
+2002,980,Gotland,V,,,,,S,V,MP,,
+2002,1060,Olofström,V,,,,,S,V,,,
+2002,1080,Karlskrona,V,,,,,S,V,MP,,
+2002,1081,Ronneby,V,,,,,S,V,,,
+2002,1082,Karlshamn,BL,,,L/FP,KD,S,,,,
+2002,1083,Sölvesborg,V,,,,,S,V,,,
+2002,1214,Svalöv,A,,C,L/FP,KD,,,,,
+2002,1230,Staffanstorp,B,M,,L/FP,KD,,,,,
+2002,1231,Burlöv,V,,,,,S,V,MP,,
+2002,1233,Vellinge,B,M,,,,,,,,
+2002,1256,Östra Göinge,V,,,,,S,V,,,
+2002,1257,Örkelljunga,B,M,C,,KD,,,,,ÖP
+2002,1260,Bjuv,V,,,,,S,,,,
+2002,1261,Kävlinge,BL,M,,,,S,V,,,
+2002,1262,Lomma,B,M,C,L/FP,KD,,,,,ÖP
+2002,1263,Svedala,BL,,,,,,,,,
+2002,1264,Skurup,B,M,C,L/FP,KD,,,,,
+2002,1265,Sjöbo,B,M,C,L/FP,KD,,,,,ÖP
+2002,1266,Hörby,B,M,C,L/FP,KD,,,,,ÖP
+2002,1267,Höör,B,M,C,L/FP,KD,,,,,ÖP
+2002,1270,Tomelilla,B,M,C,L/FP,KD,,,,,ÖP
+2002,1272,Bromölla,V,,,,,S,,,,
+2002,1273,Osby,V,,,,,S,V,,,
+2002,1275,Perstorp,BL,,C,L/FP,,S,,,,
+2002,1276,Klippan,B,M,C,L/FP,KD,,,,,
+2002,1277,Åstorp,BL,,C,L/FP,KD,S,,,,
+2002,1278,Båstad,B,M,C,L/FP,,,,,,
+2002,1280,Malmö,V,,,,,S,V,,,
+2002,1281,Lund,V,,,,,S,V,MP,,
+2002,1282,Landskrona,V,,,,,S,V,,,
+2002,1283,Helsingborg,V,,,,,S,V,,,
+2002,1284,Höganäs,B,M,C,L/FP,KD,,,,,
+2002,1285,Eslöv,V,,,,,S,V,MP,,
+2002,1286,Ystad,V,,,,,S,V,MP,,ÖP
+2002,1287,Trelleborg,BL,M,,,,S,,,,
+2002,1290,Kristianstad,BL,,,,KD,S,,MP,,
+2002,1291,Simrishamn,B,M,C,L/FP,KD,,,,,ÖP
+2002,1292,Ängelholm,B,M,C,L/FP,KD,,,,,ÖP
+2002,1293,Hässleholm,BL,,C,,,S,V,,,
+2002,1315,Hylte,BL,M,C,L/FP,,S,V,,,
+2002,1380,Halmstad,V,,,,,S,V,,,ÖP
+2002,1381,Laholm,B,M,C,L/FP,KD,,,,,
+2002,1382,Falkenberg,B,M,C,L/FP,KD,,,MP,,
+2002,1383,Varberg,B,M,C,L/FP,KD,,,,,ÖP
+2002,1384,Kungsbacka,B,M,C,L/FP,KD,,,,,ÖP
+2002,1401,Härryda,A,M,C,L/FP,KD,,,,,
+2002,1402,Partille,B,M,,L/FP,KD,,,MP,,
+2002,1407,Öckerö,B,M,,,KD,,,,,
+2002,1415,Stenungsund,BL,,C,,,S,V,MP,,
+2002,1419,Tjörn,BL,,,,KD,S,,,,ÖP
+2002,1421,Orust,BL,M,,,,S,,,,ÖP
+2002,1427,Sotenäs,BL,,C,,,S,V,MP,,
+2002,1430,Munkedal,BL,,,,KD,S,V,,,
+2002,1435,Tanum,B,M,C,L/FP,KD,,,,,
+2002,1438,Dals-Ed,B,M,C,L/FP,KD,,,,,
+2002,1439,Färgelanda,BL,,,L/FP,KD,S,,,,
+2002,1440,Ale,V,,,,,S,V,,,
+2002,1441,Lerum,B,M,C,L/FP,KD,,,,,
+2002,1442,Vårgårda,BL,,,,,,,,,
+2002,1443,Bollebygd,B,M,C,L/FP,KD,,,,,
+2002,1444,Grästorp,BL,,C,,,S,,,,
+2002,1445,Essunga,B,M,C,,KD,,,,,
+2002,1446,Karlsborg,V,,,,,S,,,,
+2002,1447,Gullspång,B,M,C,L/FP,KD,,,,,ÖP
+2002,1452,Tranemo,B,M,C,L/FP,KD,,,,,
+2002,1460,Bengtsfors,BL,,,L/FP,,S,,,,
+2002,1461,Mellerud,BL,M,C,,,S,,,,
+2002,1462,Lilla Edet,B,M,C,L/FP,KD,,,MP,,
+2002,1463,Mark,B,M,C,L/FP,KD,,,MP,,ÖP
+2002,1465,Svenljunga,B,M,C,L/FP,KD,,,,,
+2002,1466,Herrljunga,B,M,C,L/FP,KD,,,,,
+2002,1470,Vara,B,M,C,L/FP,,,,,,
+2002,1471,Götene,B,M,C,L/FP,KD,,,MP,,
+2002,1472,Tibro,B,M,C,L/FP,KD,,,,,
+2002,1473,Töreboda,BL,,C,,,S,V,MP,,
+2002,1480,Göteborg,V,,,,,S,V,MP,,
+2002,1481,Mölndal,V,,,,,S,V,MP,,ÖP
+2002,1482,Kungälv,V,,,,,S,V,MP,,
+2002,1484,Lysekil,V,,,,,S,V,MP,,
+2002,1485,Uddevalla,V,,,,,S,V,,,
+2002,1486,Strömstad,B,M,C,L/FP,KD,,,,,
+2002,1487,Vänersborg,BL,,C,,,S,,,,
+2002,1488,Trollhättan,V,,,,,S,V,,,
+2002,1489,Alingsås,B,M,,L/FP,KD,,,MP,,
+2002,1490,Borås,B,M,C,L/FP,KD,,,MP,,ÖP
+2002,1491,Ulricehamn,B,M,C,L/FP,KD,,,,,
+2002,1492,Åmål,B,,C,L/FP,KD,,,,,
+2002,1493,Mariestad,B,M,C,L/FP,KD,,,,,ÖP
+2002,1494,Lidköping,V,,,,,S,,,,
+2002,1495,Skara,BL,,C,,,S,,,,
+2002,1496,Skövde,B,M,C,L/FP,KD,,,,,
+2002,1497,Hjo,B,M,C,L/FP,KD,,,,,
+2002,1498,Tidaholm,V,,,,,S,V,MP,,
+2002,1499,Falköping,B,M,C,L/FP,KD,,,,,
+2002,1715,Kil,B,M,C,L/FP,KD,,,MP,,
+2002,1730,Eda,V,,,,,S,V,,,
+2002,1737,Torsby,V,,,,,S,V,,,
+2002,1760,Storfors,V,,,,,S,V,,,
+2002,1761,Hammarö,V,,,,,S,V,,,
+2002,1762,Munkfors,V,,,,,S,,,,
+2002,1763,Forshaga,V,,,,,S,,,,
+2002,1764,Grums,V,,,,,S,,,,
+2002,1765,Årjäng,B,M,C,L/FP,KD,,,,,
+2002,1766,Sunne,B,M,C,L/FP,KD,,,,,
+2002,1780,Karlstad,V,,,,,S,V,MP,,
+2002,1781,Kristinehamn,B,M,C,L/FP,KD,,,,,
+2002,1782,Filipstad,V,,,,,S,V,,,
+2002,1783,Hagfors,BL,,C,,,S,,,,
+2002,1784,Arvika,V,,,,,S,,,,
+2002,1785,Säffle,B,M,C,L/FP,KD,,,,,
+2002,1814,Lekeberg,BL,M,,L/FP,KD,S,V,MP,,
+2002,1860,Laxå,V,,,,,S,V,,,
+2002,1861,Hallsberg,V,,,,,S,,,,
+2002,1862,Degerfors,V,,,,,S,,,,
+2002,1863,Hällefors,V,,,,,S,,,,
+2002,1864,Ljusnarsberg,V,,,,,S,,,,
+2002,1880,Örebro,V,,,,,S,V,MP,,
+2002,1881,Kumla,V,,,,,S,,,,
+2002,1882,Askersund,BL,,C,,,S,,,,
+2002,1883,Karlskoga,V,,,,,S,,,,
+2002,1884,Nora,V,,,,,S,,MP,,
+2002,1885,Lindesberg,V,,,,,S,V,,,
+2002,1904,Skinnskatteberg,V,,,,,S,,,,
+2002,1907,Surahammar,V,,,,,S,,,,
+2002,1960,Kungsör,V,,,,,S,V,,,
+2002,1961,Hallstahammar,V,,,,,S,V,,,
+2002,1962,Norberg,V,,,,,S,V,,,
+2002,1980,Västerås,V,,,,,S,V,,,
+2002,1981,Sala,B,M,C,L/FP,KD,,,,,ÖP
+2002,1982,Fagersta,BL,M,C,L/FP,KD,,V,,,
+2002,1983,Köping,V,,,,,S,V,MP,,
+2002,1984,Arboga,BL,,C,L/FP,,S,,,,
+2002,2021,Vansbro,V,,,,,S,V,,,
+2002,2023,Malung- Sälen,V,,,,,S,V,,,
+2002,2026,Gagnef,B,M,C,L/FP,KD,,,,,
+2002,2029,Leksand,B,M,C,L/FP,KD,,,,,ÖP
+2002,2031,Rättvik,B,M,C,L/FP,KD,,,MP,,ÖP
+2002,2034,Orsa,BL,,,L/FP,,S,,MP,,
+2002,2039,Älvdalen,BL,,C,,,S,,MP,,
+2002,2061,Smedjebacken,V,,,,,S,V,,,
+2002,2062,Mora,BL,,C,,,S,,,,
+2002,2080,Falun,BL,,C,,,S,,MP,,
+2002,2081,Borlänge,V,,,,,S,,,,
+2002,2082,Säter,BL,,C,,KD,S,,,,
+2002,2083,Hedemora,B,M,C,L/FP,KD,,,MP,,ÖP
+2002,2084,Avesta,B,M,C,L/FP,KD,,,MP,,ÖP
+2002,2085,Ludvika,V,,,,,S,V,,,
+2002,2101,Ockelbo,V,,,,,S,,,,
+2002,2104,Hofors,V,,,,,S,,,,
+2002,2121,Ovanåker,B,M,C,L/FP,KD,,,,,
+2002,2132,Nordanstig,B,M,C,L/FP,KD,,,,,
+2002,2161,Ljusdal,V,,,,,S,V,MP,,
+2002,2180,Gävle,V,,,,,S,,,,
+2002,2181,Sandviken,V,,,,,S,,,,
+2002,2182,Söderhamn,BL,,C,,,S,,,,
+2002,2183,Bollnäs,B,M,C,L/FP,KD,,,,,
+2002,2184,Hudiksvall,V,,,,,S,V,,,
+2002,2260,Ånge,V,,,,,S,,,,
+2002,2262,Timrå,V,,,,,S,,,,
+2002,2280,Härnösand,V,,,,,S,V,MP,,
+2002,2281,Sundsvall,V,,,,,S,V,,,
+2002,2282,Kramfors,V,,,,,S,V,,,
+2002,2283,Sollefteå,V,,,,,S,V,,,
+2002,2284,Örnsköldsvik,V,,,,,S,,,,
+2002,2303,Ragunda,V,,,,,S,,,,
+2002,2305,Bräcke,V,,,,,S,,,,
+2002,2309,Krokom,BL,,C,,,S,,,,
+2002,2313,Strömsund,V,,,,,S,,,,
+2002,2321,Åre,V,,,,,S,V,MP,,
+2002,2326,Berg,BL,,,,,S,,MP,,ÖP
+2002,2361,Härjedalen,V,,,,,S,V,,,
+2002,2380,Östersund,V,,,,,S,V,,,
+2002,2401,Nordmaling,V,,,,,S,V,,,
+2002,2403,Bjurholm,B,M,C,L/FP,KD,,,,,
+2002,2404,Vindeln,BL,,C,,,S,,,,
+2002,2409,Robertsfors,BL,M,,L/FP,,S,,MP,,
+2002,2417,Norsjö,BL,,,,KD,S,V,,,
+2002,2418,Malå,V,,,,,S,V,,,
+2002,2421,Storuman,BL,M,,L/FP,KD,S,,,,
+2002,2422,Sorsele,V,,,,,S,V,,,
+2002,2425,Dorotea,B,,C,L/FP,,,,,,ÖP
+2002,2460,Vännäs,V,,,,,S,V,,,
+2002,2462,Vilhelmina,V,,,,,S,V,,,
+2002,2463,Åsele,V,,,,,S,V,,,
+2002,2480,Umeå,V,,,,,S,,,,
+2002,2481,Lycksele,V,,,,,S,,,,
+2002,2482,Skellefteå,V,,,,,S,,,,
+2002,2505,Arvidsjaur,V,,,,,S,,,,
+2002,2506,Arjeplog,BL,,C,,,S,,,,ÖP
+2002,2510,Jokkmokk,BL,,,,KD,S,,,,
+2002,2513,Överkalix,V,,,,,S,,,,
+2002,2514,Kalix,B,,C,L/FP,KD,,,MP,,
+2002,2518,Övertorneå,V,,,,,S,V,,,ÖP
+2002,2521,Pajala,BL,,C,,KD,S,,,,
+2002,2523,Gällivare,V,,,,,S,,,,
+2002,2560,Älvsbyn,V,,,,,S,,,,
+2002,2580,Luleå,V,,,,,S,V,,,
+2002,2581,Piteå,V,,,,,S,,,,
+2002,2582,Boden,BL,M,C,L/FP,,,V,MP,,ÖP
+2002,2583,Haparanda,V,,,,,S,V,,,
+2002,2584,Kiruna,BL,M,C,L/FP,KD,S,,MP,,
+2006,114,Upplands väsby,A,M,C,L/FP,KD,,,,,
+2006,115,Vallentuna,A,M,C,L/FP,KD,,,,,
+2006,117,Österåker,A,M,C,L/FP,KD,,,,,ÖP
+2006,120,Värmdö,A,M,C,L/FP,KD,,,,,
+2006,123,Järfälla,A,M,C,L/FP,KD,,,,,
+2006,125,Ekerö,A,M,C,L/FP,KD,,,,,
+2006,126,Huddinge,A,M,,L/FP,KD,,,,,ÖP
+2006,127,Botkyrka,V,,,,,S,V,MP,,
+2006,128,Salem,A,M,C,L/FP,KD,,,,,
+2006,136,Haninge,A,M,C,L/FP,KD,,,MP,,
+2006,138,Tyresö,A,M,C,L/FP,KD,,,,,
+2006,139,Upplands-Bro,A,M,C,L/FP,KD,,,,,
+2006,140,Nykvarn,A,M,C,,,,,,,ÖP
+2006,160,Täby,A,M,C,L/FP,KD,,,,,
+2006,162,Danderyd,A,M,,,KD,,,,,
+2006,163,Sollentuna,A,M,C,L/FP,KD,,,,,
+2006,180,Stockholm,A,M,C,L/FP,KD,,,,,
+2006,181,Södertälje,V,,,,,S,V,MP,,
+2006,182,Nacka,A,M,,L/FP,KD,,,,,
+2006,183,Sundbyberg,A,M,C,L/FP,KD,,,,,
+2006,184,Solna,A,M,,L/FP,KD,,,,,
+2006,186,Lidingö,A,M,,L/FP,,,,,,
+2006,187,Vaxholm,A,M,C,L/FP,KD,,,,,
+2006,188,Norrtälje,A,M,C,L/FP,KD,,,,,
+2006,191,Sigtuna,BL,,C,,,S,,MP,,
+2006,192,Nynäshamn,BL,,,L/FP,,S,,,,
+2006,305,Håbo,A,M,,L/FP,KD,,,,,ÖP
+2006,319,Älvkarleby,V,,,,,S,V,,,
+2006,330,Knivsta,A,M,C,L/FP,KD,,,,,
+2006,331,Heby,BL,M,,L/FP,,S,V,,,
+2006,360,Tierp,V,,,,,S,V,,,
+2006,380,Uppsala,A,M,C,L/FP,KD,,,,,
+2006,381,Enköping,A,M,C,L/FP,KD,,,,,
+2006,382,Östhammar,A,M,C,L/FP,KD,,,MP,,ÖP
+2006,428,Vingåker,V,,,,,S,,,,
+2006,461,Gnesta,A,M,C,L/FP,KD,,,,,
+2006,480,Nyköping,A,M,C,L/FP,KD,,,MP,,
+2006,481,Oxelösund,V,,,,,S,,,,
+2006,482,Flen,V,,,,,S,,,,ÖP
+2006,483,Katrineholm,V,,,,,S,,,,
+2006,484,Eskilstuna,V,,,,,S,V,,,
+2006,486,Strängnäs,B,M,C,L/FP,KD,,,,,ÖP
+2006,488,Trosa,A,M,C,L/FP,KD,,,,,
+2006,509,Ödeshög,A,M,C,L/FP,KD,,,,,
+2006,512,Ydre,BL,M,C,,KD,S,,,,ÖP
+2006,513,Kinda,A,M,C,L/FP,KD,,,,,
+2006,560,Boxholm,V,,,,,S,,,,
+2006,561,Åtvidaberg,BL,M,,,,S,,,,
+2006,562,Finspång,V,,,,,S,V,,,
+2006,563,Valdemarsvik,A,M,C,L/FP,KD,,,,,
+2006,580,Linköping,A,M,C,L/FP,KD,,,,,
+2006,581,Norrköping,V,,,,,S,V,MP,,
+2006,582,Söderköping,A,M,C,L/FP,KD,,,,,
+2006,583,Motala,A,M,C,L/FP,KD,,,MP,,ÖP
+2006,584,Vadstena,BL,M,,,,S,,,,
+2006,586,Mjölby,A,M,C,L/FP,KD,,,,,ÖP
+2006,604,Aneby,A,M,C,L/FP,KD,,,,,
+2006,617,Gnosjö,A,M,C,L/FP,KD,,,,,
+2006,642,Mullsjö,A,M,C,L/FP,KD,,,,,ÖP
+2006,643,Habo,BL,M,C,L/FP,KD,S,,,,
+2006,662,Gislaved,A,M,C,L/FP,KD,,,,,
+2006,665,Vaggeryd,A,M,C,L/FP,KD,,,,,
+2006,680,Jönköping,A,M,C,L/FP,KD,,,MP,,
+2006,682,Nässjö,V,,,,,S,V,,,ÖP
+2006,683,Värnamo,A,M,C,L/FP,KD,,,,,
+2006,684,Sävsjö,A,M,C,L/FP,KD,,,,,
+2006,685,Vetlanda,A,M,C,L/FP,KD,,,,,
+2006,686,Eksjö,A,M,C,L/FP,KD,,,,,
+2006,687,Tranås,A,M,C,L/FP,KD,,,,,
+2006,760,Uppvidinge,A,M,C,L/FP,KD,,,,,
+2006,761,Lessebo,V,,,,,S,,,,
+2006,763,Tingsryd,A,M,C,L/FP,KD,,,,,
+2006,764,Alvesta,BL,,C,L/FP,,S,,,,
+2006,765,Älmhult,A,M,C,L/FP,KD,,,MP,,
+2006,767,Markaryd,A,M,C,L/FP,KD,,,,,
+2006,780,Växjö,A,M,C,L/FP,KD,,,,,
+2006,781,Ljungby,V,,,,,S,,,,
+2006,821,Högsby,A,M,C,L/FP,KD,,,MP,,ÖP
+2006,834,Torsås,V,,,,,S,V,,,ÖP
+2006,840,Mörbylånga,A,M,C,L/FP,KD,,,MP,,ÖP
+2006,860,Hultsfred,V,,,,,S,V,,,
+2006,861,Mönsterås,A,M,C,L/FP,KD,,,,,
+2006,862,Emmaboda,V,,,,,S,V,,,
+2006,880,Kalmar,V,,,,,S,V,MP,,
+2006,881,Nybro,V,,,,,S,V,MP,,
+2006,882,Oskarshamn,V,,,,,S,V,,,
+2006,883,Västervik,A,M,C,L/FP,KD,,,,,ÖP
+2006,884,Vimmerby,A,M,C,L/FP,KD,,,,,
+2006,885,Borgholm,A,M,C,L/FP,KD,,,MP,,
+2006,980,Gotland,A,M,C,L/FP,KD,,,,,
+2006,1060,Olofström,V,,,,,S,,,,
+2006,1080,Karlskrona,A,M,C,L/FP,KD,,,MP,,
+2006,1081,Ronneby,BL,,,L/FP,KD,S,,,,
+2006,1082,Karlshamn,BL,,,L/FP,KD,S,,,,
+2006,1083,Sölvesborg,V,,,,,S,V,,,ÖP
+2006,1214,Svalöv,BL,M,,,,S,,,,
+2006,1230,Staffanstorp,A,M,,L/FP,KD,,,,,
+2006,1231,Burlöv,BL,M,,,,S,,,,
+2006,1233,Vellinge,A,M,,,,,,,,
+2006,1256,Östra Göinge,V,,,,,S,,,,
+2006,1257,Örkelljunga,A,M,C,,KD,,,,,ÖP
+2006,1260,Bjuv,V,,,,,S,V,,,
+2006,1261,Kävlinge,A,M,C,L/FP,KD,,,,,
+2006,1262,Lomma,A,M,C,L/FP,KD,,,,,ÖP
+2006,1263,Svedala,BL,,,,,,,,,
+2006,1264,Skurup,A,M,C,L/FP,KD,,,,,
+2006,1265,Sjöbo,A,M,C,L/FP,,,,,,
+2006,1266,Hörby,A,M,C,L/FP,KD,,,MP,,
+2006,1267,Höör,A,M,C,L/FP,KD,,,,,
+2006,1270,Tomelilla,A,M,C,L/FP,KD,,,,,ÖP
+2006,1272,Bromölla,V,,,,,S,,,,
+2006,1273,Osby,A,M,C,L/FP,KD,,,,,
+2006,1275,Perstorp,V,,,,,S,V,,,
+2006,1276,Klippan,A,M,C,L/FP,KD,,,,,
+2006,1277,Åstorp,BL,,C,,,S,,,,
+2006,1278,Båstad,A,M,,L/FP,,,,,,ÖP
+2006,1280,Malmö,V,,,,,S,V,MP,,
+2006,1281,Lund,A,M,C,L/FP,KD,,,,,
+2006,1282,Landskrona,A,M,,L/FP,,,,MP,,
+2006,1283,Helsingborg,A,M,C,L/FP,KD,,,,,ÖP
+2006,1284,Höganäs,A,M,C,L/FP,KD,,,,,
+2006,1285,Eslöv,V,,,,,S,V,MP,,
+2006,1286,Ystad,A,M,C,L/FP,KD,,,,,ÖP
+2006,1287,Trelleborg,A,M,C,L/FP,KD,,,MP,,ÖP
+2006,1290,Kristianstad,A,M,C,L/FP,,,,,,ÖP
+2006,1291,Simrishamn,A,M,C,L/FP,KD,,,,,ÖP
+2006,1292,Ängelholm,A,M,C,L/FP,KD,,,,,ÖP
+2006,1293,Hässleholm,A,M,C,L/FP,KD,,,,,ÖP
+2006,1315,Hylte,BL,M,C,L/FP,,S,V,,,
+2006,1380,Halmstad,A,M,C,L/FP,KD,,,,,ÖP
+2006,1381,Laholm,A,M,C,L/FP,KD,,,,,
+2006,1382,Falkenberg,A,M,C,L/FP,KD,,,,,ÖP
+2006,1383,Varberg,A,M,C,L/FP,KD,,,,,ÖP
+2006,1384,Kungsbacka,A,M,C,L/FP,KD,,,,,
+2006,1401,Härryda,A,M,C,L/FP,KD,,,,,
+2006,1402,Partille,A,M,C,L/FP,KD,,,,,
+2006,1407,Öckerö,A,M,,L/FP,KD,,,,,
+2006,1415,Stenungsund,A,M,C,L/FP,KD,,,MP,,
+2006,1419,Tjörn,A,,C,L/FP,,S,,,,
+2006,1421,Orust,A,M,C,L/FP,KD,,,,,
+2006,1427,Sotenäs,A,M,C,L/FP,KD,,,,,ÖP
+2006,1430,Munkedal,A,M,C,,KD,,,MP,,ÖP
+2006,1435,Tanum,A,M,C,L/FP,KD,,,,,
+2006,1438,Dals-Ed,A,M,C,,KD,,,,,
+2006,1439,Färgelanda,A,M,C,L/FP,KD,,,,,
+2006,1440,Ale,V,,,,,S,V,MP,,
+2006,1441,Lerum,A,M,C,L/FP,KD,,,,,
+2006,1442,Vårgårda,A,M,C,L/FP,KD,,,,,
+2006,1443,Bollebygd,A,M,C,L/FP,KD,,,,,
+2006,1444,Grästorp,A,M,C,L/FP,KD,,,,,
+2006,1445,Essunga,A,M,C,,KD,,,,,
+2006,1446,Karlsborg,A,M,C,L/FP,KD,,,,,
+2006,1447,Gullspång,BL,,C,,,S,,,,
+2006,1452,Tranemo,A,M,C,L/FP,KD,,,,,
+2006,1460,Bengtsfors,B,M,C,L/FP,KD,,,,,
+2006,1461,Mellerud,A,M,C,L/FP,KD,,,,,
+2006,1462,Lilla Edet,A,M,C,L/FP,KD,,,MP,,
+2006,1463,Mark,V,,,,,S,V,,,
+2006,1465,Svenljunga,A,M,C,L/FP,KD,,,,,
+2006,1466,Herrljunga,A,M,C,L/FP,KD,,,,,
+2006,1470,Vara,A,M,C,L/FP,KD,,,,,
+2006,1471,Götene,A,M,C,L/FP,KD,,,,,
+2006,1472,Tibro,A,M,C,L/FP,KD,,,,,
+2006,1473,Töreboda,BL,,C,,,S,,,,
+2006,1480,Göteborg,V,,,,,S,V,MP,,
+2006,1481,Mölndal,A,M,C,L/FP,KD,,,,,ÖP
+2006,1482,Kungälv,A,M,C,L/FP,KD,,,,,
+2006,1484,Lysekil,A,M,C,L/FP,KD,,,,,
+2006,1485,Uddevalla,A,M,C,L/FP,KD,,,,,ÖP
+2006,1486,Strömstad,V,,,,,S,V,,,ÖP
+2006,1487,Vänersborg,BL,,C,,,S,,,,
+2006,1488,Trollhättan,V,,,,,S,,,,
+2006,1489,Alingsås,A,M,C,L/FP,KD,,,,,
+2006,1490,Borås,A,M,C,L/FP,KD,,,MP,,ÖP
+2006,1491,Ulricehamn,A,M,C,L/FP,KD,,,,,
+2006,1492,Åmål,A,,C,L/FP,KD,,,,,
+2006,1493,Mariestad,BL,,C,,,S,,MP,,
+2006,1494,Lidköping,V,,,,,S,V,MP,,
+2006,1495,Skara,A,M,C,L/FP,KD,,,,,
+2006,1496,Skövde,A,M,C,L/FP,KD,,,,,
+2006,1497,Hjo,A,M,C,L/FP,KD,,,,,
+2006,1498,Tidaholm,V,,,,,S,,,,
+2006,1499,Falköping,B,M,C,L/FP,KD,,,,,
+2006,1715,Kil,BL,,,,KD,S,,MP,,
+2006,1730,Eda,V,,,,,S,,,,ÖP
+2006,1737,Torsby,V,,,,,S,,,,
+2006,1760,Storfors,V,,,,,S,V,,,
+2006,1761,Hammarö,V,,,,,S,V,MP,,
+2006,1762,Munkfors,V,,,,,S,V,,,
+2006,1763,Forshaga,V,,,,,S,,,,
+2006,1764,Grums,V,,,,,S,,,,
+2006,1765,Årjäng,A,M,C,L/FP,KD,,,,,
+2006,1766,Sunne,A,M,C,L/FP,KD,,,,,
+2006,1780,Karlstad,V,,,,,S,V,MP,,
+2006,1781,Kristinehamn,A,M,C,L/FP,KD,,,,,ÖP
+2006,1782,Filipstad,V,,,,,S,,,,
+2006,1783,Hagfors,V,,,,,S,,,,
+2006,1784,Arvika,V,,,,,S,V,MP,,
+2006,1785,Säffle,A,M,C,L/FP,KD,,,,,
+2006,1814,Lekeberg,A,M,C,L/FP,KD,,,,,
+2006,1860,Laxå,V,,,,,S,V,,,
+2006,1861,Hallsberg,V,,,,,S,,,,
+2006,1862,Degerfors,BL,M,C,L/FP,KD,S,,,,
+2006,1863,Hällefors,V,,,,,S,,,,
+2006,1864,Ljusnarsberg,V,,,,,S,V,,,
+2006,1880,Örebro,A,M,C,L/FP,KD,,,MP,,
+2006,1881,Kumla,V,,,,,S,,,,
+2006,1882,Askersund,BL,,C,,,S,,,,
+2006,1883,Karlskoga,V,,,,,S,,,,
+2006,1884,Nora,V,,,,,S,V,,,
+2006,1885,Lindesberg,BL,M,C,L/FP,KD,,V,,,
+2006,1904,Skinnskatteberg,A,M,C,L/FP,KD,,,,,ÖP
+2006,1907,Surahammar,V,,,,,S,,,,
+2006,1960,Kungsör,BL,,C,,,S,,,,
+2006,1961,Hallstahammar,V,,,,,S,V,,,
+2006,1962,Norberg,V,,,,,S,V,,,
+2006,1980,Västerås,A,M,C,L/FP,KD,,,MP,,
+2006,1981,Sala,A,M,C,L/FP,KD,,,,,
+2006,1982,Fagersta,V,,,,,,V,,,
+2006,1983,Köping,V,,,,,S,V,MP,,
+2006,1984,Arboga,V,,,,,S,V,,,
+2006,2021,Vansbro,A,M,C,L/FP,KD,,,,,
+2006,2023,Malung- Sälen,B,M,C,L/FP,KD,,,,,ÖP
+2006,2026,Gagnef,A,M,C,L/FP,KD,,,,,
+2006,2029,Leksand,B,M,C,L/FP,KD,,,,,
+2006,2031,Rättvik,A,M,C,L/FP,KD,,,MP,,ÖP
+2006,2034,Orsa,V,,,,,S,V,MP,,
+2006,2039,Älvdalen,BL,,,L/FP,,S,,MP,,
+2006,2061,Smedjebacken,V,,,,,S,V,,,
+2006,2062,Mora,BL,,C,,,S,,,,
+2006,2080,Falun,A,M,C,L/FP,KD,,,,,ÖP
+2006,2081,Borlänge,V,,,,,S,V,MP,,
+2006,2082,Säter,BL,,,L/FP,,S,V,MP,,
+2006,2083,Hedemora,V,,,,,S,V,MP,,
+2006,2084,Avesta,V,,,,,S,V,MP,,
+2006,2085,Ludvika,V,,,,,S,V,,,
+2006,2101,Ockelbo,BL,M,C,,KD,S,V,MP,,
+2006,2104,Hofors,V,,,,,S,V,MP,,
+2006,2121,Ovanåker,A,M,C,L/FP,KD,,,,,
+2006,2132,Nordanstig,A,M,C,,KD,,,,,
+2006,2161,Ljusdal,BL,,C,L/FP,,S,,,,
+2006,2180,Gävle,V,,,,,S,V,MP,,
+2006,2181,Sandviken,BL,,C,,,S,,,,
+2006,2182,Söderhamn,BL,,C,,,S,,,,
+2006,2183,Bollnäs,B,M,C,L/FP,KD,,,,,ÖP
+2006,2184,Hudiksvall,V,,,,,S,V,,,
+2006,2260,Ånge,V,,,,,S,,,,
+2006,2262,Timrå,V,,,,,S,,,,
+2006,2280,Härnösand,A,M,C,L/FP,KD,,,,,ÖP
+2006,2281,Sundsvall,V,,,,,S,V,MP,,
+2006,2282,Kramfors,V,,,,,S,V,MP,,
+2006,2283,Sollefteå,V,,,,,S,V,,,
+2006,2284,Örnsköldsvik,V,,,,,S,,,,
+2006,2303,Ragunda,BL,,C,,,S,,,,
+2006,2305,Bräcke,V,,,,,S,V,,,
+2006,2309,Krokom,A,M,C,L/FP,KD,,,MP,,
+2006,2313,Strömsund,A,M,C,L/FP,,,,,,ÖP
+2006,2321,Åre,A,M,C,L/FP,KD,,,,,
+2006,2326,Berg,BL,M,C,,KD,,V,,,ÖP
+2006,2361,Härjedalen,BL,,C,L/FP,,S,,,,
+2006,2380,Östersund,V,,,,,S,V,MP,,
+2006,2401,Nordmaling,A,M,C,L/FP,KD,,,,,
+2006,2403,Bjurholm,A,M,C,L/FP,KD,,,,,
+2006,2404,Vindeln,BL,,C,,,S,,,,
+2006,2409,Robertsfors,A,M,C,,KD,,,,,
+2006,2417,Norsjö,V,,,,,S,V,,,
+2006,2418,Malå,A,,C,L/FP,KD,,,,,ÖP
+2006,2421,Storuman,BL,M,C,L/FP,KD,,V,,,
+2006,2422,Sorsele,A,M,C,L/FP,KD,,,,,
+2006,2425,Dorotea,A,,C,L/FP,,,,,,ÖP
+2006,2460,Vännäs,V,,,,,S,V,MP,,
+2006,2462,Vilhelmina,A,M,C,L/FP,KD,,,,,
+2006,2463,Åsele,V,,,,,S,V,,,
+2006,2480,Umeå,V,,,,,S,,,,
+2006,2481,Lycksele,V,,,,,S,,,,
+2006,2482,Skellefteå,V,,,,,S,,,,
+2006,2505,Arvidsjaur,BL,M,C,L/FP,,S,V,,,
+2006,2506,Arjeplog,BL,,,L/FP,,S,,,,
+2006,2510,Jokkmokk,BL,M,C,L/FP,,,V,MP,,ÖP
+2006,2513,Överkalix,BL,M,C,L/FP,,S,V,MP,,
+2006,2514,Kalix,BL,,C,,,S,,,,
+2006,2518,Övertorneå,V,,,,,S,V,,,ÖP
+2006,2521,Pajala,V,,,,,S,V,,,
+2006,2523,Gällivare,V,,,,,S,V,,,ÖP
+2006,2560,Älvsbyn,V,,,,,S,,,,
+2006,2580,Luleå,V,,,,,S,,,,
+2006,2581,Piteå,V,,,,,S,,,,
+2006,2582,Boden,BL,M,C,L/FP,,,V,MP,,ÖP
+2006,2583,Haparanda,V,,,,,S,,,,
+2006,2584,Kiruna,BL,M,,,KD,S,,MP,,ÖP
+2010,114,Upplands väsby,A,M,C,L/FP,KD,,,,,
+2010,115,Vallentuna,A,M,C,L/FP,KD,,,,,
+2010,117,Österåker,A,M,C,L/FP,KD,,,,,ÖP
+2010,120,Värmdö,A,M,,L/FP,KD,,,MP,,
+2010,123,Järfälla,A,M,C,L/FP,KD,,,,,
+2010,125,Ekerö,A,M,C,L/FP,KD,,,,,
+2010,126,Huddinge,A,M,C,L/FP,KD,,,,,ÖP
+2010,127,Botkyrka,V,,,,,S,V,MP,,
+2010,128,Salem,A,M,C,L/FP,KD,,,,,
+2010,136,Haninge,A,M,C,L/FP,KD,,,MP,,
+2010,138,Tyresö,A,M,C,L/FP,KD,,,,,
+2010,139,Upplands-Bro,A,M,C,L/FP,KD,,,,,
+2010,140,Nykvarn,A,M,C,L/FP,,,,,,ÖP
+2010,160,Täby,A,M,C,L/FP,KD,,,,,
+2010,162,Danderyd,A,M,C,L/FP,KD,,,,,
+2010,163,Sollentuna,A,M,C,L/FP,KD,,,,,
+2010,180,Stockholm,A,M,C,L/FP,KD,,,,,
+2010,181,Södertälje,V,,,,,S,V,MP,,
+2010,182,Nacka,A,M,C,L/FP,KD,,,,,
+2010,183,Sundbyberg,BL,,C,,KD,S,,MP,,
+2010,184,Solna,A,M,C,L/FP,KD,,,,,
+2010,186,Lidingö,A,M,,L/FP,KD,,,,,
+2010,187,Vaxholm,A,M,C,L/FP,,,,,,
+2010,188,Norrtälje,A,M,C,L/FP,KD,,,,,
+2010,191,Sigtuna,BL,,C,,,S,,MP,,
+2010,192,Nynäshamn,BL,,,L/FP,,S,,,,
+2010,305,Håbo,V,,,,,S,V,MP,,ÖP
+2010,319,Älvkarleby,V,,,,,S,V,,,
+2010,330,Knivsta,A,M,C,L/FP,KD,,,,,ÖP
+2010,331,Heby,A,M,C,L/FP,KD,,,MP,,
+2010,360,Tierp,V,,,,,S,V,MP,,
+2010,380,Uppsala,A,M,C,L/FP,KD,,,,,
+2010,381,Enköping,A,M,C,L/FP,KD,,,,,
+2010,382,Östhammar,BL,,C,,,S,,,,
+2010,428,Vingåker,V,,,,,S,,,,
+2010,461,Gnesta,V,,,,,S,V,MP,,
+2010,480,Nyköping,V,,,,,S,V,MP,,
+2010,481,Oxelösund,V,,,,,S,V,,,
+2010,482,Flen,V,,,,,S,V,,,ÖP
+2010,483,Katrineholm,BL,M,,,,S,,,,
+2010,484,Eskilstuna,V,,,,,S,V,MP,,
+2010,486,Strängnäs,BL,,C,L/FP,,S,,,,
+2010,488,Trosa,A,M,C,L/FP,KD,,,,,
+2010,509,Ödeshög,A,M,C,,KD,,,,,
+2010,512,Ydre,A,M,C,,KD,,,,,
+2010,513,Kinda,A,M,C,,KD,,,MP,,
+2010,560,Boxholm,V,,,,,S,,,,
+2010,561,Åtvidaberg,BL,M,,,,S,,,,
+2010,562,Finspång,V,,,,,S,V,MP,,
+2010,563,Valdemarsvik,A,M,C,L/FP,KD,,,,,ÖP
+2010,580,Linköping,A,M,C,L/FP,KD,,,,,
+2010,581,Norrköping,V,,,,,S,V,MP,,
+2010,582,Söderköping,A,M,C,L/FP,KD,,,,,
+2010,583,Motala,V,,,,,S,V,MP,,
+2010,584,Vadstena,A,M,C,L/FP,KD,,,,,
+2010,586,Mjölby,V,,,,,S,V,MP,,
+2010,604,Aneby,A,M,C,L/FP,KD,,,,,
+2010,617,Gnosjö,A,M,C,L/FP,KD,,,,,
+2010,642,Mullsjö,A,M,C,L/FP,KD,,,,,
+2010,643,Habo,A,M,C,L/FP,KD,,,,,
+2010,662,Gislaved,A,M,C,L/FP,KD,,,MP,,
+2010,665,Vaggeryd,BL,,C,,,S,V,MP,,
+2010,680,Jönköping,A,M,C,L/FP,KD,,,MP,,
+2010,682,Nässjö,BL,,C,L/FP,,S,,,,
+2010,683,Värnamo,A,M,C,L/FP,KD,,,,,
+2010,684,Sävsjö,A,M,C,L/FP,KD,,,,,
+2010,685,Vetlanda,BL,M,C,,,S,,,,
+2010,686,Eksjö,BL,M,C,,,S,,,,
+2010,687,Tranås,A,M,C,L/FP,KD,,,MP,,
+2010,760,Uppvidinge,A,M,C,L/FP,KD,,,MP,,
+2010,761,Lessebo,V,,,,,S,,,,
+2010,763,Tingsryd,BL,M,,L/FP,KD,S,,,,
+2010,764,Alvesta,A,M,,L/FP,KD,,,,,
+2010,765,Älmhult,A,M,C,L/FP,KD,,,MP,,
+2010,767,Markaryd,A,M,C,,KD,,,,,
+2010,780,Växjö,A,M,C,L/FP,KD,,,,,
+2010,781,Ljungby,A,M,C,L/FP,KD,,,MP,,
+2010,821,Högsby,V,,,,,S,V,MP,,
+2010,834,Torsås,A,M,C,L/FP,KD,,,,,
+2010,840,Mörbylånga,A,M,C,L/FP,KD,,,,,
+2010,860,Hultsfred,A,M,C,L/FP,KD,,,MP,,
+2010,861,Mönsterås,A,M,C,L/FP,KD,,,,,
+2010,862,Emmaboda,V,,,,,S,V,MP,,
+2010,880,Kalmar,V,,,,,S,V,MP,,
+2010,881,Nybro,V,,,,,S,V,MP,,
+2010,882,Oskarshamn,V,,,,,S,V,MP,,
+2010,883,Västervik,A,M,C,L/FP,KD,,,,,ÖP
+2010,884,Vimmerby,A,M,C,L/FP,KD,,,,,
+2010,885,Borgholm,A,M,C,L/FP,KD,,,,,
+2010,980,Gotland,V,,,,,S,V,MP,,
+2010,1060,Olofström,V,,,,,S,,,,
+2010,1080,Karlskrona,A,M,C,L/FP,KD,,,MP,,
+2010,1081,Ronneby,A,M,C,L/FP,KD,,,,,
+2010,1082,Karlshamn,BL,,C,L/FP,KD,S,,,,
+2010,1083,Sölvesborg,V,,,,,S,V,MP,,
+2010,1214,Svalöv,BL,M,,L/FP,,S,,,,
+2010,1230,Staffanstorp,A,M,,,,,,,,
+2010,1231,Burlöv,V,,,,,S,,,,
+2010,1233,Vellinge,A,M,,,,,,,,
+2010,1256,Östra Göinge,A,M,C,L/FP,KD,,,MP,,
+2010,1257,Örkelljunga,A,M,C,L/FP,KD,,,,,ÖP
+2010,1260,Bjuv,V,,,,,S,V,,,
+2010,1261,Kävlinge,A,M,C,L/FP,KD,,,,,
+2010,1262,Lomma,A,M,,,,,,,,
+2010,1263,Svedala,A,M,C,L/FP,,,,,,ÖP
+2010,1264,Skurup,A,M,C,L/FP,,,,MP,,
+2010,1265,Sjöbo,A,M,C,L/FP,,,,,,
+2010,1266,Hörby,A,M,C,L/FP,KD,,,MP,,
+2010,1267,Höör,A,M,C,L/FP,KD,,,,,
+2010,1270,Tomelilla,BL,M,,,,S,,,,
+2010,1272,Bromölla,V,,,,,S,,,,
+2010,1273,Osby,A,,C,,KD,,,,,
+2010,1275,Perstorp,A,M,C,L/FP,KD,,,,,ÖP
+2010,1276,Klippan,A,M,C,L/FP,KD,,,MP,,
+2010,1277,Åstorp,BL,,C,,,S,,MP,,
+2010,1278,Båstad,A,M,C,L/FP,KD,,,,,
+2010,1280,Malmö,V,,,,,S,V,MP,,
+2010,1281,Lund,A,M,C,L/FP,KD,,,,,
+2010,1282,Landskrona,A,M,,L/FP,,,,MP,,
+2010,1283,Helsingborg,A,M,,L/FP,KD,,,,,
+2010,1284,Höganäs,A,M,C,L/FP,KD,,,,,
+2010,1285,Eslöv,BL,M,,,,S,,,,
+2010,1286,Ystad,A,M,C,L/FP,KD,,,MP,,
+2010,1287,Trelleborg,A,M,C,L/FP,KD,,,MP,,
+2010,1290,Kristianstad,A,M,C,L/FP,,,,MP,,ÖP
+2010,1291,Simrishamn,A,M,C,L/FP,KD,,,,,ÖP
+2010,1292,Ängelholm,A,M,C,L/FP,KD,,,,,
+2010,1293,Hässleholm,A,M,C,L/FP,KD,,,MP,,ÖP
+2010,1315,Hylte,A,M,C,L/FP,KD,,,,,ÖP
+2010,1380,Halmstad,A,M,C,L/FP,KD,,,MP,,
+2010,1381,Laholm,A,M,C,L/FP,KD,,,,,
+2010,1382,Falkenberg,A,M,C,L/FP,KD,,,,,
+2010,1383,Varberg,A,M,C,L/FP,KD,,,,,
+2010,1384,Kungsbacka,A,M,C,L/FP,KD,,,,,
+2010,1401,Härryda,A,M,C,L/FP,KD,,,,,
+2010,1402,Partille,A,M,C,L/FP,KD,,,,,
+2010,1407,Öckerö,A,M,,L/FP,KD,,,,,
+2010,1415,Stenungsund,A,M,C,L/FP,KD,,,,,
+2010,1419,Tjörn,A,M,C,L/FP,KD,,,,,ÖP
+2010,1421,Orust,BL,,,L/FP,,S,,,,ÖP
+2010,1427,Sotenäs,A,M,C,L/FP,KD,,,,,ÖP
+2010,1430,Munkedal,BL,,C,,,S,,,,
+2010,1435,Tanum,A,M,C,L/FP,KD,,,,,
+2010,1438,Dals-Ed,A,M,C,L/FP,KD,,,,,
+2010,1439,Färgelanda,A,M,C,,KD,,,,,
+2010,1440,Ale,A,M,C,L/FP,KD,,,,,ÖP
+2010,1441,Lerum,A,M,C,L/FP,KD,,,,,
+2010,1442,Vårgårda,A,M,C,L/FP,KD,,,,,
+2010,1443,Bollebygd,A,M,C,L/FP,KD,,,,,
+2010,1444,Grästorp,A,M,C,L/FP,,,,,,
+2010,1445,Essunga,A,M,,L/FP,KD,,,,,
+2010,1446,Karlsborg,A,M,C,L/FP,KD,,,,,
+2010,1447,Gullspång,BL,,C,,,S,,MP,,
+2010,1452,Tranemo,A,M,C,L/FP,KD,,,,,
+2010,1460,Bengtsfors,BL,,,L/FP,,S,,MP,,
+2010,1461,Mellerud,A,M,C,L/FP,KD,,,,,
+2010,1462,Lilla Edet,BL,,,L/FP,,S,V,,,
+2010,1463,Mark,A,M,C,L/FP,KD,,,MP,,
+2010,1465,Svenljunga,A,M,C,L/FP,KD,,,,,
+2010,1466,Herrljunga,A,M,C,,KD,,,,,
+2010,1470,Vara,A,M,C,L/FP,KD,,,,,
+2010,1471,Götene,V,,,,,,,,,
+2010,1472,Tibro,A,M,C,L/FP,KD,,,,,
+2010,1473,Töreboda,BL,,,L/FP,,S,V,MP,,
+2010,1480,Göteborg,V,,,,,S,V,MP,,
+2010,1481,Mölndal,A,M,C,L/FP,KD,,,,,
+2010,1482,Kungälv,A,M,C,L/FP,KD,,,,,
+2010,1484,Lysekil,A,M,C,L/FP,,,,,,
+2010,1485,Uddevalla,A,M,C,L/FP,KD,,,MP,,
+2010,1486,Strömstad,BL,M,,,,S,,,,ÖP
+2010,1487,Vänersborg,A,M,,L/FP,KD,,,,,
+2010,1488,Trollhättan,V,,,,,S,,,,
+2010,1489,Alingsås,A,M,C,L/FP,KD,,,,,
+2010,1490,Borås,V,,,,,S,V,MP,,ÖP
+2010,1491,Ulricehamn,A,M,C,L/FP,KD,,,,,
+2010,1492,Åmål,V,,,,,S,V,MP,,
+2010,1493,Mariestad,V,,,,,S,V,MP,,ÖP
+2010,1494,Lidköping,V,,,,,S,V,MP,,
+2010,1495,Skara,A,M,C,L/FP,KD,,,,,
+2010,1496,Skövde,A,M,C,L/FP,KD,,,,,
+2010,1497,Hjo,A,M,C,L/FP,KD,,,,,
+2010,1498,Tidaholm,V,,,,,S,,,,
+2010,1499,Falköping,BL,,C,,KD,S,,,,
+2010,1715,Kil,BL,,C,,,S,,,,
+2010,1730,Eda,A,M,C,L/FP,KD,,,,,
+2010,1737,Torsby,V,,,,,S,,,,
+2010,1760,Storfors,V,,,,,S,,,,
+2010,1761,Hammarö,A,M,C,L/FP,KD,,,MP,,
+2010,1762,Munkfors,V,,,,,S,,,,
+2010,1763,Forshaga,V,,,,,S,,,,
+2010,1764,Grums,V,,,,,S,,,,
+2010,1765,Årjäng,A,M,C,L/FP,KD,,,,,
+2010,1766,Sunne,A,M,C,L/FP,,,,,,
+2010,1780,Karlstad,A,M,C,L/FP,KD,,,MP,,
+2010,1781,Kristinehamn,V,,,,,S,V,MP,,
+2010,1782,Filipstad,V,,,,,S,V,MP,,
+2010,1783,Hagfors,V,,,,,S,V,,,
+2010,1784,Arvika,V,,,,,S,,,,
+2010,1785,Säffle,A,M,C,L/FP,KD,,,MP,,
+2010,1814,Lekeberg,A,M,C,L/FP,KD,,,,,
+2010,1860,Laxå,V,,,,,S,V,,,
+2010,1861,Hallsberg,V,,,,,S,,,,
+2010,1862,Degerfors,V,,,,,,V,MP,,
+2010,1863,Hällefors,BL,,C,,,S,V,,,ÖP
+2010,1864,Ljusnarsberg,V,,,,,S,V,MP,,
+2010,1880,Örebro,BL,M,C,L/FP,KD,S,V,MP,,
+2010,1881,Kumla,V,,,,,S,,,,
+2010,1882,Askersund,V,,,,,S,V,MP,,
+2010,1883,Karlskoga,V,,,,,S,V,,,
+2010,1884,Nora,A,M,C,L/FP,KD,,,MP,,ÖP
+2010,1885,Lindesberg,V,,,,,S,V,MP,,
+2010,1904,Skinnskatteberg,V,,,,,S,V,MP,,
+2010,1907,Surahammar,V,,,,,S,,,,
+2010,1960,Kungsör,V,,,,,S,,,,
+2010,1961,Hallstahammar,V,,,,,S,V,,,
+2010,1962,Norberg,V,,,,,S,,MP,,
+2010,1980,Västerås,V,,,,,S,V,MP,,
+2010,1981,Sala,V,,,,,S,V,MP,,ÖP
+2010,1982,Fagersta,V,,,,,,V,,,
+2010,1983,Köping,V,,,,,S,V,MP,,
+2010,1984,Arboga,BL,,C,,,S,V,,,ÖP
+2010,2021,Vansbro,A,M,C,L/FP,KD,,,,,
+2010,2023,Malung,BL,,C,,,S,V,,,
+2010,2026,Gagnef,A,M,C,L/FP,KD,,,,,
+2010,2029,Leksand,A,M,C,L/FP,KD,,,,,
+2010,2031,Rättvik,A,M,C,L/FP,KD,,,,,ÖP
+2010,2034,Orsa,BL,M,,L/FP,,S,,MP,,
+2010,2039,Älvdalen,A,M,C,,KD,,,,,ÖP
+2010,2061,Smedjebacken,V,,,,,S,V,,,
+2010,2062,Mora,BL,,C,,,S,,,,
+2010,2080,Falun,V,,,,,S,V,MP,,
+2010,2081,Borlänge,V,,,,,S,,MP,,
+2010,2082,Säter,BL,,,L/FP,,S,V,MP,,
+2010,2083,Hedemora,V,,,,,S,V,MP,,ÖP
+2010,2084,Avesta,V,,,,,S,V,MP,,
+2010,2085,Ludvika,V,,,,,S,V,,,
+2010,2101,Ockelbo,BL,,C,,,S,,,,
+2010,2104,Hofors,V,,,,,S,V,MP,,
+2010,2121,Ovanåker,BL,M,,L/FP,,S,,MP,,
+2010,2132,Nordanstig,BL,M,C,,,S,V,MP,,
+2010,2161,Ljusdal,V,,,,,S,V,,,ÖP
+2010,2180,Gävle,V,,,,,S,V,MP,,
+2010,2181,Sandviken,V,,,,,S,,MP,,
+2010,2182,Söderhamn,V,,,,,S,V,MP,,
+2010,2183,Bollnäs,BL,,,L/FP,,S,V,MP,,ÖP
+2010,2184,Hudiksvall,A,M,C,L/FP,KD,,,MP,,
+2010,2260,Ånge,V,,,,,S,,,,
+2010,2262,Timrå,V,,,,,S,V,,,
+2010,2280,Härnösand,V,,,,,S,V,MP,,
+2010,2281,Sundsvall,A,M,C,L/FP,KD,,,MP,,
+2010,2282,Kramfors,V,,,,,S,V,,,
+2010,2283,Sollefteå,V,,,,,S,V,,,
+2010,2284,Örnsköldsvik,V,,,,,S,,,,
+2010,2303,Ragunda,V,,,,,S,,,,
+2010,2305,Bräcke,V,,,,,S,,,,
+2010,2309,Krokom,A,M,C,L/FP,KD,,,MP,,
+2010,2313,Strömsund,V,,,,,S,V,,,
+2010,2321,Åre,A,M,C,L/FP,KD,,,,,ÖP
+2010,2326,Berg,BL,,C,L/FP,,S,,,,
+2010,2361,Härjedalen,BL,,C,L/FP,,S,,,,
+2010,2380,Östersund,V,,,,,S,V,MP,,
+2010,2401,Nordmaling,V,,,,,S,V,,,
+2010,2403,Bjurholm,A,M,C,L/FP,KD,,,,,
+2010,2404,Vindeln,A,M,C,L/FP,KD,,,,,
+2010,2409,Robertsfors,V,,,,,S,V,,,
+2010,2417,Norsjö,V,,,,,S,,,,
+2010,2418,Malå,V,,,,,S,V,,,
+2010,2421,Storuman,A,M,C,L/FP,KD,,,,,ÖP
+2010,2422,Sorsele,V,,,,,S,V,,,
+2010,2425,Dorotea,V,,,,,S,,,,
+2010,2460,Vännäs,V,,,,,S,V,MP,,
+2010,2462,Vilhelmina,V,,,,,S,V,,,
+2010,2463,Åsele,V,,,,,S,,,,
+2010,2480,Umeå,V,,,,,S,V,,,
+2010,2481,Lycksele,V,,,,,S,V,MP,,
+2010,2482,Skellefteå,V,,,,,S,,,,
+2010,2505,Arvidsjaur,V,,,,,S,V,,,
+2010,2506,Arjeplog,V,,,,,S,,,,
+2010,2510,Jokkmokk,V,,,,,S,,,,ÖP
+2010,2513,Överkalix,V,,,,,S,,,,
+2010,2514,Kalix,V,,,,,S,V,MP,,
+2010,2518,Övertorneå,V,,,,,S,V,,,ÖP
+2010,2521,Pajala,V,,,,,S,V,,,
+2010,2523,Gällivare,V,,,,,S,,,,
+2010,2560,Älvsbyn,V,,,,,S,,,,
+2010,2580,Luleå,V,,,,,S,,MP,,
+2010,2581,Piteå,V,,,,,S,,,,
+2010,2582,Boden,V,,,,,S,V,MP,,
+2010,2583,Haparanda,V,,,,,S,,,,
+2010,2584,Kiruna,V,,,,,S,V,,,ÖP
+2014,114,Upplands väsby,V,,,,,S,V,MP,,ÖP
+2014,115,Vallentuna,A,M,C,L/FP,KD,,,,,
+2014,117,Österåker,A,M,C,L/FP,KD,,,,,ÖP
+2014,120,Värmdö,A,M,C,L/FP,KD,,,,,
+2014,123,Järfälla kommun,BL,,C,,,S,,MP,,
+2014,125,Ekerö,A,M,C,L/FP,KD,,,,,
+2014,126,Huddinge,A,M,C,L/FP,KD,,,,,ÖP
+2014,127,Botkyrka,V,,,,,S,V,MP,,
+2014,128,Salem,A,M,C,L/FP,KD,,,,,
+2014,136,Haninge,BL,,C,,,S,,MP,,
+2014,138,Tyresö,A,M,C,L/FP,KD,,,,,
+2014,139,Upplands-Bro,BL,,C,,KD,S,,MP,,
+2014,140,Nykvarn,A,M,C,,,,,,,ÖP
+2014,160,Täby,A,M,C,L/FP,KD,,,,,
+2014,162,Danderyd,A,M,,L/FP,KD,,,,,
+2014,163,Sollentuna,A,M,C,L/FP,KD,,,,,
+2014,180,Stockholm,V,,,,,S,V,MP,,ÖP
+2014,181,Södertälje,V,,,,,S,V,MP,,
+2014,182,Nacka,A,M,C,L/FP,KD,,,,,
+2014,183,Sundbyberg,BL,,C,,KD,S,V,,,
+2014,184,Solna,A,M,,L/FP,KD,,,,,
+2014,186,Lidingö,A,M,,,KD,,,,,ÖP
+2014,187,Vaxholm,A,M,C,L/FP,,,,,,
+2014,188,Norrtälje,BL,,C,,,S,,MP,,
+2014,191,Sigtuna,BL,,,L/FP,,S,,MP,,
+2014,192,Nynäshamn,BL,,,L/FP,,S,,MP,,
+2014,305,Håbo,A,M,C,L/FP,KD,,,MP,,
+2014,319,Älvkarleby,V,,,,,S,V,MP,,
+2014,330,Knivsta,A,M,C,L/FP,KD,,,,,
+2014,331,Heby,A,M,C,L/FP,KD,,,MP,,ÖP
+2014,360,Tierp,V,,,,,S,,MP,,
+2014,380,Uppsala,V,,,,,S,V,MP,,
+2014,381,Enköping,V,,,,,S,,,,ÖP
+2014,382,Östhammar,BL,,C,,,S,,,,
+2014,428,Vingåker,V,,,,,S,V,MP,,
+2014,461,Gnesta,BL,M,,,,S,,,,
+2014,480,Nyköping,V,,,,,S,V,MP,,
+2014,481,Oxelösund,V,,,,,S,V,,,
+2014,482,Flen,BL,,C,,KD,S,,MP,,
+2014,483,Katrineholm,BL,M,,,,S,,,,
+2014,484,Eskilstuna,BL,M,C,,,S,,,,
+2014,486,Strängnäs,BL,M,,,,S,,,,
+2014,488,Trosa,A,M,C,L/FP,KD,,,,,
+2014,509,Ödeshög,A,M,C,,KD,,,,,
+2014,512,Ydre,BL,M,C,,KD,S,,MP,,
+2014,513,Kinda,BL,M,,,KD,S,,,,
+2014,560,Boxholm,V,,,,,S,,,,
+2014,561,Åtvidaberg,BL,M,,,,S,,,,
+2014,562,Finspång,V,,,,,S,V,MP,,
+2014,563,Valdemarsvik,V,,,,,S,V,MP,,ÖP
+2014,580,Linköping,BL,,,L/FP,,S,,MP,,
+2014,581,Norrköping,BL,,C,L/FP,KD,S,,,,
+2014,582,Söderköping,BL,M,,,,S,,MP,,
+2014,583,Motala,V,,,,,S,V,MP,,
+2014,584,Vadstena,V,,,,,S,,,,ÖP
+2014,586,Mjölby,BL,,C,,KD,S,,MP,,
+2014,604,Aneby,A,M,C,L/FP,KD,,,,,
+2014,617,Gnosjö,A,M,C,L/FP,KD,,,,,
+2014,642,Mullsjö,V,,,,,S,V,MP,,
+2014,643,Habo,BL,,C,,KD,S,,MP,,
+2014,662,Gislaved,BL,M,,,,S,,MP,,
+2014,665,Vaggeryd,A,M,C,L/FP,KD,,,MP,,
+2014,680,Jönköping,A,M,C,L/FP,KD,,,,,
+2014,682,Nässjö,BL,M,C,L/FP,,S,V,,,
+2014,683,Värnamo,A,M,,L/FP,KD,,,MP,,
+2014,684,Sävsjö,BL,,C,,KD,S,,,,
+2014,685,Vetlanda,V,,,,,S,,,,ÖP
+2014,686,Eksjö,A,M,C,,,,,,,
+2014,687,Tranås,A,M,C,L/FP,KD,,,,,
+2014,760,Uppvidinge,A,,C,,KD,,,,,
+2014,761,Lessebo,V,,,,,S,,,,
+2014,763,Tingsryd,BL,M,,,,S,,,,
+2014,764,Alvesta,BL,,C,,,S,,MP,,
+2014,765,Älmhult,V,,,,,S,V,MP,,
+2014,767,Markaryd,A,M,C,,KD,,,,,
+2014,780,Växjö,A,M,C,L/FP,KD,,,MP,,
+2014,781,Ljungby,A,M,C,L/FP,,,,,,
+2014,821,Högsby,A,M,C,,KD,,,,,
+2014,834,Torsås,BL,M,,L/FP,KD,S,V,MP,,
+2014,840,Mörbylånga,A,M,C,L/FP,KD,,,MP,,
+2014,860,Hultsfred,A,M,C,L/FP,KD,,,MP,,
+2014,861,Mönsterås,A,M,C,L/FP,KD,,,,,
+2014,862,Emmaboda,V,,,,,S,V,MP,,
+2014,880,Kalmar,BL,,C,,,S,V,,,
+2014,881,Nybro,A,M,C,L/FP,KD,,,,,ÖP
+2014,882,Oskarshamn,BL,,C,,,S,V,MP,,
+2014,883,Västervik,BL,,C,,,S,,,,
+2014,884,Vimmerby,BL,M,,,,S,,,,
+2014,885,Borgholm,V,,,,,S,,,,ÖP
+2014,980,Gotland,V,,,,,S,V,MP,,
+2014,1060,Olofström,V,,,,,S,,,,
+2014,1080,Karlskrona,BL,,C,L/FP,,S,,,,
+2014,1081,Ronneby,A,M,C,L/FP,KD,,,,,ÖP
+2014,1082,Karlshamn,BL,,C,L/FP,,S,,,,
+2014,1083,Sölvesborg,V,,,,,S,V,MP,,
+2014,1214,Svalöv,BL,M,,,,S,,MP,,
+2014,1230,Staffanstorp,A,M,C,L/FP,KD,,,,,
+2014,1231,Burlöv,BL,,C,,,S,V,MP,,
+2014,1233,Vellinge,A,M,,,,,,,,
+2014,1256,Östra Göinge,A,M,C,L/FP,KD,,,MP,,
+2014,1257,Örkelljunga,A,M,C,L/FP,KD,,,,,
+2014,1260,Bjuv,BL,,C,L/FP,,S,V,,,
+2014,1261,Kävlinge,A,M,C,L/FP,KD,,,MP,,
+2014,1262,Lomma,A,M,C,L/FP,KD,,,,,
+2014,1263,Svedala,A,M,C,L/FP,,,,,,ÖP
+2014,1264,Skurup,V,,,,,S,V,MP,,ÖP
+2014,1265,Sjöbo,A,M,C,L/FP,KD,,,,,ÖP
+2014,1266,Hörby,BL,,C,L/FP,KD,S,,MP,,
+2014,1267,Höör,A,M,C,L/FP,KD,,,,,
+2014,1270,Tomelilla,A,M,C,L/FP,KD,,,MP,,ÖP
+2014,1272,Bromölla,V,,,,,S,,,,
+2014,1273,Osby ,V,,,,,S,V,,,
+2014,1275,Perstorp,BL,M,C,,KD,S,,,,
+2014,1276,Klippan,BL,,C,,,S,V,MP,,
+2014,1277,Åstorp,BL,,C,,KD,S,,MP,,
+2014,1278,Båstad,A,,C,,,,,,,ÖP
+2014,1280,Malmö stad,V,,,,,S,V,MP,,
+2014,1281,Lund,V,,,,,S,V,MP,,ÖP
+2014,1282,Landskrona,A,M,,L/FP,,,,MP,,
+2014,1283,Helsingborg,A,M,C,L/FP,KD,,,MP,,
+2014,1284,Höganäs,A,M,C,L/FP,KD,,,,,
+2014,1285,Eslöv,BL,M,,,,S,,,,
+2014,1286,Ystad,BL,,C,,,S,,,,
+2014,1287,Trelleborg,BL,,C,,,S,,MP,,ÖP
+2014,1290,Kristianstad,BL,,C,L/FP,,S,,,,
+2014,1291,Simrishamn,BL,,C,L/FP,,S,,MP,,ÖP
+2014,1292,Ängelholm,BL,,,L/FP,,S,,,,ÖP
+2014,1293,Hässleholm,BL,,C,,,S,V,MP,,
+2014,1315,Hylte,BL,,,L/FP,,S,V,MP,,ÖP
+2014,1380,Halmstad,A,M,C,L/FP,KD,,,MP,,ÖP
+2014,1381,Laholm,A,M,C,L/FP,KD,,,MP,,
+2014,1382,Falkenberg,A,M,C,L/FP,KD,,,MP,,
+2014,1383,Varberg,A,M,C,L/FP,KD,,,,,
+2014,1384,Kungsbacka,A,M,C,,KD,,,MP,,
+2014,1401,Härryda,A,M,C,L/FP,KD,,,,,ÖP
+2014,1402,Partille,A,M,C,L/FP,KD,,,,,
+2014,1407,Öckerö,A,M,,L/FP,KD,,,,,
+2014,1415,Stenungsund,A,M,C,L/FP,KD,,,,,
+2014,1419,Tjörn,A,M,C,L/FP,KD,,,,,
+2014,1421,Orust,BL,,C,,,S,V,MP,,ÖP
+2014,1427,Sotenäs,A,M,C,L/FP,KD,,,,,
+2014,1430,Munkedals ,BL,,C,,,S,,MP,,
+2014,1435,Tanum,A,M,C,L/FP,KD,,,,,
+2014,1438,Dals-Ed,A,M,C,L/FP,KD,,,,,
+2014,1439,Färgelanda,BL,,,L/FP,,S,V,,,
+2014,1440,Ale,V,,,,,S,V,MP,,
+2014,1441,Lerum,BL,,C,L/FP,,S,,MP,,
+2014,1442,Vårgårda,A,M,C,L/FP,KD,,,,,
+2014,1443,Bollebygd,V,,,,,S,V,MP,,
+2014,1444,Grästorp,A,M,C,L/FP,,,,,,
+2014,1445,Essunga,A,M,C,L/FP,KD,,,MP,,
+2014,1446,Karlsborg,BL,M,,,,S,,,,
+2014,1447,Gullspång,BL,,C,,,S,,,,
+2014,1452,Tranemo,BL,M,C,L/FP,KD,S,,,,
+2014,1460,Bengtsfors,BL,,,L/FP,,S,,MP,,
+2014,1461,Mellerud,BL,,C,,,S,,,,
+2014,1462,Lilla Edet,BL,,,L/FP,,S,V,,,
+2014,1463,Mark,A,M,C,L/FP,KD,,,MP,,ÖP
+2014,1465,Svenljunga,BL,,,L/FP,,S,,,,ÖP
+2014,1466,Herrljunga,BL,,,L/FP,,S,,MP,,ÖP
+2014,1470,Vara,V,,,,,S,,,,
+2014,1471,Götene ,V,,,,,S,,,,ÖP
+2014,1472,Tibro,BL,,C,,,S,V,MP,,
+2014,1473,Töreboda,A,M,C,L/FP,,,,MP,,
+2014,1480,Göteborg,V,,,,,S,V,MP,,
+2014,1481,Mölndal,BL,,,,KD,S,V,MP,,
+2014,1482,Kungälv,BL,,,L/FP,,S,V,MP,,ÖP
+2014,1484,Lysekil,BL,M,C,L/FP,,S,,,,
+2014,1485,Uddevalla,V,,,,,S,V,MP,,
+2014,1486,Strömstad,A,,C,L/FP,KD,,,MP,,
+2014,1487,Vänersborg,BL,,C,,,S,,MP,,ÖP
+2014,1488,Trollhättan,V,,,,,S,V,MP,,
+2014,1489,Alingsås,V,,,,,S,V,MP,,
+2014,1490,Borås,V,,,,,S,V,MP,,
+2014,1491,Ulricehamn,V,,,,,S,V,,,
+2014,1492,Åmål,V,,,,,S,V,MP,,
+2014,1493,Mariestad,A,M,C,L/FP,KD,,,,,
+2014,1494,Lidköping,V,,,,,S,V,MP,,
+2014,1495,Skara,BL,,,L/FP,,S,V,MP,,
+2014,1496,Skövde,A,M,C,L/FP,KD,,,,,
+2014,1497,Hjo ,A,M,C,L/FP,KD,,,,,
+2014,1498,Tidaholm,V,,,,,S,,,,
+2014,1499,Falköping,BL,,C,,KD,S,,,,
+2014,1715,Kil,BL,,C,,,S,,,,
+2014,1730,Eda,BL,,C,,KD,,V,,,ÖP
+2014,1737,Torsby,BL,,C,L/FP,,S,,,,
+2014,1760,Storfors,V,,,,,S,V,,,
+2014,1761,Hammarö,BL,,C,,,S,V,,,
+2014,1762,Munkfors,V,,,,,S,,,,
+2014,1763,Forshaga,V,,,,,S,,,,
+2014,1764,Grums,V,,,,,S,,,,
+2014,1765,Årjäng,BL,M,,L/FP,KD,S,,,,
+2014,1766,Sunne,V,,,,,S,V,MP,,ÖP
+2014,1780,Karlstad,A,M,C,L/FP,KD,,,MP,,
+2014,1781,Kristinehamn,V,,,,,S,V,MP,,
+2014,1782,Filipstad,BL,,,,KD,S,V,MP,,
+2014,1783,Hagfors ,V,,,,,S,,,,
+2014,1784,Arvika,V,,,,,S,,,,
+2014,1785,Säffle,A,M,C,L/FP,KD,,,MP,,ÖP
+2014,1814,Lekeberg,A,M,C,L/FP,KD,,,MP,,
+2014,1860,Laxå,A,M,C,L/FP,KD,,,MP,,
+2014,1861,Hallsberg,V,,,,,S,,MP,,
+2014,1862,Degerfors,V,,,,,,V,MP,,
+2014,1863,Hällefors,BL,M,,,,S,,,,ÖP
+2014,1864,Ljusnarsberg,V,,,,,S,V,MP,,
+2014,1880,Örebro,BL,,C,,KD,S,,,,
+2014,1881,Kumla,BL,M,,,,S,,,,
+2014,1882,Askersund,V,,,,,S,V,MP,,
+2014,1883,Karlskoga,BL,,,L/FP,,S,V,,,
+2014,1884,Nora ,V,,,,,S,V,,,
+2014,1885,Lindesberg,BL,,C,,,S,V,,,
+2014,1904,Skinnskatteberg,A,M,C,L/FP,,,,,,
+2014,1907,Surahammar,BL,,C,,,S,,,,
+2014,1960,Kungsör,BL,,,L/FP,,S,V,MP,,
+2014,1961,Hallstahammar,V,,,,,S,V,MP,,
+2014,1962,Norberg,V,,,,,S,,,,
+2014,1980,Västerås,BL,,C,,KD,S,,MP,,
+2014,1981,Sala,A,M,C,L/FP,KD,,,,,ÖP
+2014,1982,Fagersta,V,,,,,S,V,,,
+2014,1983,Köping,V,,,,,S,V,MP,,
+2014,1984,Arboga,BL,,C,,,S,V,,,ÖP
+2014,2021,Vansbro,BL,,C,,,S,,,,
+2014,2023,Malung- Sälen,BL,,C,,,S,V,,,
+2014,2026,Gagnef,V,,,,,S,,,,ÖP
+2014,2029,Leksand,A,M,C,L/FP,KD,,,,,
+2014,2031,Rättvik,A,M,C,L/FP,KD,,,,,
+2014,2034,Orsa,A,M,C,L/FP,KD,,,MP,,
+2014,2039,Älvdalen,V,,,,,S,,MP,,
+2014,2061,Smedjebacken,V,,,,,S,V,MP,,
+2014,2062,Mora,A,M,C,L/FP,KD,,,,,ÖP
+2014,2080,Falun,BL,,C,,,S,,MP,,
+2014,2081,Borlänge,V,,,,,S,V,MP,,ÖP
+2014,2082,Säter,BL,,C,,,S,,,,
+2014,2083,Hedemora,BL,,C,,,S,V,,,
+2014,2084,Avesta,V,,,,,S,V,MP,,
+2014,2085,Ludvika ,V,,,,,S,V,MP,,
+2014,2101,Ockelbo,BL,,C,,,S,,,,
+2014,2104,Hofors ,V,,,,,S,V,,,
+2014,2121,Ovanåker,BL,M,,L/FP,,S,,MP,,
+2014,2132,Nordanstig,BL,,C,,,S,,MP,,
+2014,2161,Ljusdal,BL,M,C,L/FP,KD,,V,,,ÖP
+2014,2180,Gävle,V,,,,,S,V,MP,,
+2014,2181,Sandviken,BL,,C,,,S,,MP,,
+2014,2182,Söderhamn,V,,,,,S,V,MP,,
+2014,2183,Bollnäs,BL,,,L/FP,,S,V,MP,,
+2014,2184,Hudiksvall,V,,,,,S,V,,,
+2014,2260,Ånge,V,,,,,S,,,,
+2014,2262,Timrå,V,,,,,S,V,,,
+2014,2280,Härnösand,V,,,,,S,V,MP,,
+2014,2281,Sundsvall,BL,,C,,,S,V,,,
+2014,2282,Kramfors,V,,,,,S,V,MP,,
+2014,2283,Sollefteå,V,,,,,S,V,,,
+2014,2284,Örnsköldsvik,V,,,,,S,V,,,
+2014,2303,Ragunda,V,,,,,S,,,,
+2014,2305,Bräcke,BL,,,L/FP,,S,V,,,ÖP
+2014,2309,Krokom,A,M,C,,KD,,,MP,,
+2014,2313,Strömsund,V,,,,,S,,,,
+2014,2321,Åre,BL,M,,,,S,,MP,,
+2014,2326,Berg,V,,,,,S,,MP,,
+2014,2361,Härjedalen,V,,,,,S,V,,,ÖP
+2014,2380,Östersund,V,,,,,S,V,MP,,
+2014,2401,Nordmaling,A,,C,,,,,,,
+2014,2403,Bjurholm,A,M,C,L/FP,KD,,,,,
+2014,2404,Vindeln,V,,,,,S,V,,,
+2014,2409,Robertsfors,V,,,,,S,,,,
+2014,2417,Norsjö ,V,,,,,S,,,,
+2014,2418,Malå,V,,,,,S,V,,,
+2014,2421,Storuman,A,M,C,L/FP,KD,,,,,
+2014,2422,Sorsele,BL,M,C,,KD,,V,,,
+2014,2425,Dorotea,Ö,,,,,,,,,ÖP
+2014,2460,Vännäs,V,,,,,S,V,MP,,
+2014,2462,Vilhelmina,V,,,,,S,V,,,ÖP
+2014,2463,Åsele,A,,C,L/FP,,,,,,ÖP
+2014,2480,Umeå,V,,,,,S,,,,
+2014,2481,Lycksele,V,,,,,S,V,,,
+2014,2482,Skellefteå,V,,,,,S,,,,
+2014,2505,Arvidsjaur,V,,,,,S,V,,,
+2014,2506,Arjeplog,V,,,,,S,,,,
+2014,2510,Jokkmokk,V,,,,,S,V,,,
+2014,2513,Överkalix,BL,M,C,L/FP,,,V,MP,,
+2014,2514,Kalix,V,,,,,S,V,MP,,
+2014,2518,Övertorneå,A,M,C,,KD,,,,,ÖP
+2014,2521,Pajala,V,,,,,S,V,,,
+2014,2523,Gällivare,BL,M,,,,,V,MP,,ÖP
+2014,2560,Älvsbyn,V,,,,,S,V,,,
+2014,2580,Luleå,V,,,,,S,,,,
+2014,2581,Piteå,V,,,,,S,V,MP,,
+2014,2582,Boden,BL,,,L/FP,KD,S,,MP,,ÖP
+2014,2583,Haparanda,V,,,,,S,V,,,
+2014,2584,Kiruna,BL,M,,,,S,V,,,ÖP
+2018,114,Upplands Väsby kommun,B,M,C,L,KD,,,,,ÖP
+2018,115,Vallentuna kommun,B,M,C,L,KD,,,,,
+2018,117,Österåkers kommun,B,M,C,L,KD,,,,,
+2018,120,Värmdö kommun,B,M,C,L,KD,,,MP,,
+2018,123,Järfälla kommun,B,M,C,L,KD,,,,,
+2018,125,Ekerö kommun,B,M,C,,KD,,,,,
+2018,126,Huddinge kommun,B,M,C,L,KD,,,,,ÖP
+2018,127,Botkyrka kommun,BL,,C,L,KD,S,,MP,,
+2018,128,Salems kommun,B,M,C,L,KD,,,,,
+2018,136,Haninge kommun,BL,,C,L,KD,S,,,,
+2018,138,Tyresö kommun,BL,,,L,,S,,MP,,
+2018,139,Upplands-Bro kommun,B,M,C,L,KD,,,,,
+2018,140,Nykvarns kommun,B,M,,,,,,MP,,ÖP
+2018,160,Täby kommun,B,M,C,L,KD,,,,,
+2018,162,Danderyds kommun,B,M,,L,KD,,,,,
+2018,163,Sollentuna kommun,B,M,C,L,KD,,,,,
+2018,180,Stockholms stad,B,M,C,L,KD,,,MP,,
+2018,181,Södertälje kommun,BL,,C,,KD,S,,MP,,
+2018,182,Nacka kommun,B,M,C,L,KD,,,,,
+2018,183,Sundbybergs stad,BL,,C,L,,S,,,,
+2018,184,Solna stad,B,M,C,L,KD,,,MP,,
+2018,186,Lidingö stad,B,M,,L,KD,,,,,ÖP
+2018,187,Vaxholms stad,BL,,C,L,,S,,,,
+2018,188,Norrtälje kommun,B,M,C,L,KD,,,,,
+2018,191,Sigtuna kommun,B,M,C,L,KD,,,,,ÖP
+2018,192,Nynäshamns kommun,B,M,C,L,KD,,,,,
+2018,305,Håbo kommun,B,M,C,L,KD,,,MP,,
+2018,319,Älvkarleby kommun,BL,,C,,,S,V,MP,,
+2018,330,Knivsta kommun,BL,M,C,,,S,V,MP,,
+2018,331,Heby kommun,BL,,C,,,S,,,,
+2018,360,Tierps kommun,B,M,C,L,KD,,,MP,,
+2018,380,Uppsala kommun,BL,,,L,,S,,MP,,
+2018,381,Enköpings kommun,B,M,C,L,KD,,,MP,,
+2018,382,Östhammars kommun,BL,,C,,,S,V,,,
+2018,428,Vingåkers kommun,BL,,C,,KD,S,,MP,,
+2018,461,Gnesta kommun,BL,M,,,,S,,,,
+2018,480,Nyköpings kommun,BL,,C,,,S,,MP,,
+2018,481,Oxelösunds kommun,V,,,,,S,V,,,
+2018,482,Flens kommun,V,,,,,S,V,MP,,
+2018,483,Katrineholms kommun,BL,M,,,,S,,,,
+2018,484,Eskilstuna kommun,BL,M,C,,,S,,,,
+2018,486,Strängnäs kommun,BL,M,,,,S,,,,
+2018,488,Trosa kommun,B,M,C,L,KD,,,,,
+2018,509,Ödeshögs kommun,BL,,C,,KD,S,,,,
+2018,512,Ydre kommun,BL,M,C,,,S,,,,
+2018,513,Kinda kommun,BL,,C,L,,S,,,,ÖP
+2018,560,Boxholms kommun,V,,,,,S,,,,
+2018,561,Åtvidabergs kommun,BL,,C,L,,S,V,,,
+2018,562,Finspångs kommun,BL,,C,,KD,S,,,,
+2018,563,Valdemarsviks kommun,BL,,C,,,S,V,,,
+2018,580,Linköpings kommun,B,M,C,L,KD,,,,,
+2018,581,Norrköpings kommun,BL,,C,L,KD,S,,,,
+2018,582,Söderköpings kommun,B,M,C,L,KD,,,,,
+2018,583,Motala kommun,B,M,C,L,KD,,,,,
+2018,584,Vadstena kommun,BL,M,,,,S,,MP,,
+2018,586,Mjölby kommun,BL,,C,L,KD,S,,MP,,
+2018,604,Aneby kommun,B,M,C,L,KD,,,,,
+2018,617,Gnosjö kommun,B,M,C,,KD,,,,,
+2018,642,Mullsjö kommun,BL,,C,L,KD,S,,,,
+2018,643,Habo kommun,B,M,C,L,KD,,,,,
+2018,662,Gislaveds kommun,B,M,C,L,KD,,,,,ÖP
+2018,665,Vaggeryds kommun,B,M,C,L,KD,,,MP,,
+2018,680,Jönköpings kommun,BL,,C,L,,S,,MP,,
+2018,682,Nässjö kommun,BL,,C,,KD,S,,,,
+2018,683,Värnamo kommun,B,M,C,L,KD,,,,,
+2018,684,Sävsjö kommun,BL,,C,,KD,S,,,,
+2018,685,Vetlanda kommun,BL,M,C,,,S,,,,
+2018,686,Eksjö kommun,B,M,C,L,KD,,,,,
+2018,687,Tranås kommun,B,M,C,L,KD,,,,,
+2018,760,Uppvidinge kommun,BL,M,,,,S,V,,,
+2018,761,Lessebo kommun,V,,,,,S,,,,
+2018,763,Tingsryds kommun,BL,M,,,KD,S,,,,
+2018,764,Alvesta kommun,BL,,C,,,S,V,,,
+2018,765,Älmhults kommun,B,M,C,L,KD,,,,,
+2018,767,Markaryds kommun,B,M,C,,KD,,,,,
+2018,780,Växjö kommun,B,M,C,L,KD,,,MP,,
+2018,781,Ljungby kommun,B,M,C,L,KD,,,,,
+2018,821,Högsby kommun,B,M,C,,KD,,,,,
+2018,834,Torsås kommun,BL,M,,L,KD,S,V,,,
+2018,840,Mörbylånga kommun,BL,,C,,,S,V,,,
+2018,860,Hultsfreds kommun,B,M,C,,KD,,,,,
+2018,861,Mönsterås kommun,B,M,C,L,KD,,,,,
+2018,862,Emmaboda kommun,B,M,C,,KD,,,,,ÖP
+2018,880,Kalmar kommun,BL,,C,,,S,V,,,
+2018,881,Nybro kommun,B,M,C,L,KD,,,,,
+2018,882,Oskarshamns kommun,BL,M,,,,S,,,,
+2018,883,Västerviks kommun,BL,,C,,,S,,MP,,
+2018,884,Vimmerby kommun,B,M,C,,KD,,,,,
+2018,885,Borgholms kommun,BL,,C,,,S,V,,,
+2018,980,Region Gotland,B,M,C,L,KD,,,,,
+2018,1060,Olofströms kommun,BL,,,,KD,S,V,,,
+2018,1080,Karlskrona kommun,BL,,C,L,,S,,,,
+2018,1081,Ronneby kommun,B,M,C,L,KD,,,,,
+2018,1082,Karlshamns kommun,BL,,C,,,S,,MP,,
+2018,1083,Sölvesborgs kommun,Ö,M,,,KD,,,,SD,ÖP
+2018,1214,Svalövs kommun,B,M,C,L,KD,,,,,
+2018,1230,Staffanstorps kommun,Ö,M,,,,,,,SD,
+2018,1231,Burlövs kommun,B,M,C,L,,,,,,
+2018,1233,Vellinge kommun,B,M,,,,,,,,
+2018,1256,Östra Göinge kommun,B,M,C,,KD,,,,,
+2018,1257,Örkelljunga kommun,B,M,C,,KD,,,,,
+2018,1260,Bjuvs kommun,BL,,C,L,KD,S,V,,,
+2018,1261,Kävlinge kommun,B,M,C,L,KD,,,,,
+2018,1262,Lomma kommun,B,M,C,L,KD,,,,,
+2018,1263,Svedala kommun,B,M,C,L,KD,,,,,ÖP
+2018,1264,Skurups kommun,B,M,C,,,,,,,ÖP
+2018,1265,Sjöbo kommun,B,M,C,L,,,,MP,,
+2018,1266,Hörby kommun,Ö,,,,,,,,SD,
+2018,1267,Höörs kommun,B,M,C,L,KD,,,,,
+2018,1270,Tomelilla kommun,B,M,C,L,KD,,,,,
+2018,1272,Bromölla kommun,Ö,,,,,,,,SD,
+2018,1273,Osby kommun,B,M,C,L,KD,,,,,
+2018,1275,Perstorps kommun,B,M,C,,KD,,,MP,,ÖP
+2018,1276,Klippans kommun,BL,M,C,,,S,,,,
+2018,1277,Åstorps kommun,BL,,C,,,S,,,,
+2018,1278,Båstads kommun,BL,M,,L,KD,S,,,,
+2018,1280,Malmö stad,BL,,,L,,S,,,,
+2018,1281,Lunds kommun,B,M,C,L,KD,,,,,ÖP
+2018,1282,Landskrona stad,B,M,,L,,,,MP,,
+2018,1283,Helsingborgs stad,B,M,C,L,KD,,,,,
+2018,1284,Höganäs kommun,B,M,C,,KD,,,,,
+2018,1285,Eslövs kommun,BL,M,,L,,S,,,,
+2018,1286,Ystads kommun,B,M,,L,KD,,,,,
+2018,1287,Trelleborgs kommun,B,M,,,KD,,,,,
+2018,1290,Kristianstads kommun,B,M,C,L,KD,,,,,
+2018,1291,Simrishamns kommun,B,M,C,L,KD,,,,,
+2018,1292,Ängelholms kommun,B,M,C,L,KD,,,MP,,
+2018,1293,Hässleholms kommun,B,M,,L,KD,,,,,
+2018,1315,Hylte kommun,BL,,,L,,S,V,,,ÖP
+2018,1380,Halmstads kommun,B,M,C,L,KD,,,,,
+2018,1381,Laholms kommun,B,M,C,L,KD,,,MP,,ÖP
+2018,1382,Falkenbergs kommun,BL,,,L,KD,S,,MP,,
+2018,1383,Varbergs kommun,B,M,C,L,KD,,,,,
+2018,1384,Kungsbacka kommun,B,M,C,L,KD,,,,,
+2018,1401,Härryda kommun,B,M,C,L,KD,,,,,ÖP
+2018,1402,Partille kommun,B,M,C,L,KD,,,,,
+2018,1407,Öckerö kommun,B,M,,L,KD,,,,,
+2018,1415,Stenungsunds kommun,BL,,C,,,S,V,MP,,ÖP
+2018,1419,Tjörns kommun,B,M,C,L,KD,,,MP,,
+2018,1421,Orust kommun,BL,M,,L,,S,,,,ÖP
+2018,1427,Sotenäs kommun,B,M,C,L,KD,,,,,
+2018,1430,Munkedals kommun,B,M,,L,,,,,,
+2018,1435,Tanums kommun,B,M,C,L,KD,,,,,
+2018,1438,Dals-Eds kommun,B,M,C,L,KD,,,,,
+2018,1439,Färgelanda kommun,B,M,C,L,,,,,,
+2018,1440,Ale kommun,B,M,C,L,KD,,,MP,,ÖP
+2018,1441,Lerums kommun,B,M,C,L,KD,,,,,
+2018,1442,Vårgårda kommun,B,M,C,L,KD,,,,,
+2018,1443,Bollebygds kommun,B,M,C,L,KD,,,,,ÖP
+2018,1444,Grästorps kommun,B,M,C,,,,,,,
+2018,1445,Essunga kommun,B,M,C,,KD,,,MP,,
+2018,1446,Karlsborgs kommun,B,M,C,L,KD,,,,,
+2018,1447,Gullspångs kommun,BL,,C,,,S,,,,ÖP
+2018,1452,Tranemo kommun,BL,,,L,KD,S,V,MP,,
+2018,1460,Bengtsfors kommun,B,M,C,,KD,,,,,
+2018,1461,Melleruds kommun,B,M,C,L,KD,,,MP,,ÖP
+2018,1462,Lilla Edets kommun,B,M,C,L,KD,,,MP,,
+2018,1463,Marks kommun,BL,,C,L,,S,,,,
+2018,1465,Svenljunga kommun,BL,,,L,,S,V,,,
+2018,1466,Herrljunga kommun,B,M,C,,KD,,,,,ÖP
+2018,1470,Vara kommun,B,M,C,L,,,,,,
+2018,1471,Götene kommun,B,M,C,L,KD,,,MP,,ÖP
+2018,1472,Tibro kommun,BL,,C,L,,S,,,,
+2018,1473,Töreboda kommun,B,M,C,L,,,,,,
+2018,1480,Göteborgs stad,B,M,C,L,KD,,,,,
+2018,1481,Mölndals stad,B,M,C,L,KD,,,MP,,
+2018,1482,Kungälvs kommun,BL,M,C,,,S,,,,
+2018,1484,Lysekils kommun,BL,,C,L,,S,,MP,,
+2018,1485,Uddevalla kommun,B,M,C,L,KD,,,MP,,ÖP
+2018,1486,Strömstads kommun,BL,,,,KD,S,V,,,ÖP
+2018,1487,Vänersborgs kommun,BL,,C,,,S,,MP,,
+2018,1488,Trollhättans stad,V,,,,,S,V,MP,,
+2018,1489,Alingsås kommun,B,M,C,L,KD,,,,,
+2018,1490,Borås stad,BL,,C,L,,S,,MP,,
+2018,1491,Ulricehamns kommun,B,,C,,,,,,,ÖP
+2018,1492,Åmåls kommun,V,,,,,S,V,MP,,
+2018,1493,Mariestads kommun,B,M,C,L,KD,,,,,
+2018,1494,Lidköpings kommun,BL,,C,,KD,S,,MP,,
+2018,1495,Skara kommun,B,M,C,L,KD,,,,,
+2018,1496,Skövde kommun,B,M,C,L,KD,,,,,
+2018,1497,Hjo kommun,B,M,C,L,KD,,,,,
+2018,1498,Tidaholms kommun,V,,,,,S,V,MP,,
+2018,1499,Falköpings kommun,BL,,C,,KD,S,,,,
+2018,1715,Kils kommun,BL,,C,,,S,,,,
+2018,1730,Eda kommun,BL,,C,,KD,,V,,,ÖP
+2018,1737,Torsby kommun,BL,,C,L,,S,,,,
+2018,1760,Storfors kommun,V,,,,,S,V,,,
+2018,1761,Hammarö kommun,B,M,C,L,KD,,,MP,,
+2018,1762,Munkfors kommun,V,,,,,S,,,,
+2018,1763,Forshaga kommun,BL,,C,,,S,,,,
+2018,1764,Grums kommun,V,,,,,S,,,,
+2018,1765,Årjängs kommun,BL,,C,,,S,,MP,,
+2018,1766,Sunne kommun,BL,,C,,,S,,,,
+2018,1780,Karlstads kommun,B,M,C,L,KD,,,MP,,
+2018,1781,Kristinehamns kommun,B,M,C,L,KD,,,MP,,
+2018,1782,Filipstads kommun,V,,,,,S,V,,,
+2018,1783,Hagfors kommun,Ö,,,,,,,,,ÖP
+2018,1784,Arvika kommun,V,,,,,S,V,MP,,
+2018,1785,Säffle kommun,B,M,C,L,KD,,,,,ÖP
+2018,1814,Lekebergs kommun,BL,,C,,,S,,,,
+2018,1860,Laxå kommun,B,,C,,KD,,,MP,,
+2018,1861,Hallsbergs kommun,V,,,,,S,,,,
+2018,1862,Degerfors kommun,BL,M,C,L,,S,,,,
+2018,1863,Hällefors kommun,V,,,,,S,V,,,
+2018,1864,Ljusnarsbergs kommun,BL,,,L,,S,V,MP,,
+2018,1880,Örebro kommun,BL,,C,,KD,S,,,,
+2018,1881,Kumla kommun,BL,M,,,,S,,,,
+2018,1882,Askersunds kommun,B,M,,L,KD,,,,,
+2018,1883,Karlskoga kommun,B,M,C,L,KD,,,,,
+2018,1884,Nora kommun,BL,M,C,L,KD,S,,,,
+2018,1885,Lindesbergs kommun,BL,,C,,,S,V,,,
+2018,1904,Skinnskattebergs kommun,V,,,,,S,,,,
+2018,1907,Surahammars kommun,BL,,C,,,S,V,,,
+2018,1960,Kungsörs kommun,BL,,,L,,S,V,,,
+2018,1961,Hallstahammars kommun,BL,,C,L,,S,,,,
+2018,1962,Norbergs kommun,V,,,,,S,V,,,
+2018,1980,Västerås stad,BL,,C,L,,S,,MP,,
+2018,1981,Sala kommun,B,M,C,L,KD,,,,,ÖP
+2018,1982,Fagersta kommun,BL,M,,L,,S,,,,ÖP
+2018,1983,Köpings kommun,BL,M,,L,,S,V,,,
+2018,1984,Arboga kommun,BL,M,C,L,KD,,V,MP,,ÖP
+2018,2021,Vansbro kommun,B,M,C,,KD,,,,,ÖP
+2018,2023,Malung-Sälens kommun,BL,,C,L,,S,,,,
+2018,2026,Gagnefs kommun,BL,M,C,,,S,,,,
+2018,2029,Leksands kommun,B,M,C,L,KD,,,,,
+2018,2031,Rättviks kommun,B,M,C,,KD,,,,,
+2018,2034,Orsa kommun,B,,C,,KD,,,MP,,
+2018,2039,Älvdalens kommun,BL,,C,L,,S,,,,
+2018,2061,Smedjebackens kommun,V,,,,,S,V,MP,,
+2018,2062,Mora kommun,B,M,C,,KD,,,,,ÖP
+2018,2080,Falu kommun,B,M,C,L,KD,,,,,ÖP
+2018,2081,Borlänge kommun,BL,,C,L,,S,,MP,,ÖP
+2018,2082,Säters kommun,BL,,C,,,S,,,,
+2018,2083,Hedemora kommun,BL,,C,,,S,V,,,
+2018,2084,Avesta kommun,V,,,,,S,V,,,
+2018,2085,Ludvika kommun,BL,M,,L,KD,S,,,,
+2018,2101,Ockelbo kommun,BL,,C,,,S,,,,
+2018,2104,Hofors kommun,BL,,C,L,,S,,,,
+2018,2121,Ovanåkers kommun,BL,M,,L,,S,,,,
+2018,2132,Nordanstigs kommun,BL,,C,,,S,,,,ÖP
+2018,2161,Ljusdals kommun,BL,,,L,,S,,MP,,
+2018,2180,Gävle kommun,BL,,C,L,,S,,MP,,
+2018,2181,Sandvikens kommun,BL,,C,L,,S,,,,
+2018,2182,Söderhamns kommun,B,M,C,L,KD,,,,,
+2018,2183,Bollnäs kommun,BL,M,,,,S,,MP,,ÖP
+2018,2184,Hudiksvalls kommun,BL,M,,,,S,,MP,,
+2018,2260,Ånge kommun,V,,,,,S,V,,,
+2018,2262,Timrå kommun,V,,,,,S,V,,,
+2018,2280,Härnösands kommun,BL,,,,KD,S,V,MP,,
+2018,2281,Sundsvalls kommun,BL,,C,,,S,V,,,
+2018,2282,Kramfors kommun,V,,,,,S,V,,,
+2018,2283,Sollefteå kommun,BL,,C,,,,V,,,ÖP
+2018,2284,Örnsköldsviks kommun,V,,,,,S,,,,
+2018,2303,Ragunda kommun,B,,C,,KD,,,,,ÖP
+2018,2305,Bräcke kommun,BL,M,,,,S,V,,,
+2018,2309,Krokoms kommun,B,M,C,,KD,,,MP,,
+2018,2313,Strömsunds kommun,V,,,,,S,V,,,
+2018,2321,Åre kommun,B,,C,,KD,,,,,ÖP
+2018,2326,Bergs kommun,BL,,C,,,S,,,,
+2018,2361,Härjedalens kommun,BL,M,C,,,S,,,,
+2018,2380,Östersunds kommun,B,M,C,L,KD,,,,,
+2018,2401,Nordmalings kommun,B,M,C,,KD,,,,,
+2018,2403,Bjurholms kommun,B,M,C,L,KD,,,,,
+2018,2404,Vindelns kommun,BL,,,,KD,S,V,,,
+2018,2409,Robertsfors kommun,V,,,,,S,V,,,
+2018,2417,Norsjö kommun,V,,,,,S,V,,,
+2018,2418,Malå kommun,V,,,,,S,V,,,
+2018,2421,Storumans kommun,B,M,C,L,KD,,,,,
+2018,2422,Sorsele kommun,BL,,C,,,,V,,,
+2018,2425,Dorotea kommun,BL,,C,L,KD,S,V,,,
+2018,2460,Vännäs kommun,BL,M,,,,S,V,MP,,
+2018,2462,Vilhelmina kommun,B,M,C,,KD,,,,,ÖP
+2018,2463,Åsele kommun,V,,,,,S,,,,ÖP
+2018,2480,Umeå kommun,V,,,,,S,,,,
+2018,2481,Lycksele kommun,B,M,C,L,KD,,,,,
+2018,2482,Skellefteå kommun,V,,,,,S,V,,,
+2018,2505,Arvidsjaurs kommun,V,,,,,S,V,,,
+2018,2506,Arjeplogs kommun,V,,,,,S,,,,
+2018,2510,Jokkmokks kommun,V,,,,,S,V,,,
+2018,2513,Överkalix kommun,V,,,,,S,,,,
+2018,2514,Kalix kommun,V,,,,,S,V,MP,,
+2018,2518,Övertorneå kommun,BL,,C,,KD,,V,,,ÖP
+2018,2521,Pajala kommun,BL,,,,KD,S,,,,ÖP
+2018,2523,Gällivare kommun,V,,,,,S,V,MP,,
+2018,2560,Älvsbyns kommun,V,,,,,S,,,,
+2018,2580,Luleå kommun,V,,,,,S,,,,
+2018,2581,Piteå kommun,V,,,,,S,V,MP,,
+2018,2582,Bodens kommun,BL,,C,,,S,,MP,,ÖP
+2018,2583,Haparanda stad,B,M,C,,KD,,,,,ÖP
+2018,2584,Kiruna kommun,B,M,C,,KD,,,,,ÖP
+2022,114,Upplands Väsby kommun,BL,,,L,,S,,,,ÖP
+2022,115,Vallentuna kommun,A,M,C,L,KD,,,,,
+2022,117,Österåkers kommun,A,M,C,L,KD,,,,,
+2022,120,Värmdö kommun,BL,,C,L,,S,,MP,,
+2022,123,Järfälla kommun,BL,,C,,,S,,,,
+2022,125,Ekerö kommun,A,M,C,L,KD,,,,,
+2022,126,Huddinge kommun,BL,,C,,,S,,MP,,ÖP
+2022,127,Botkyrka kommun,BL,,C,L,KD,S,,MP,,
+2022,128,Salems kommun,A,M,C,L,KD,,,,,
+2022,136,Haninge kommun,A,M,,L,KD,,,,,
+2022,138,Tyresö kommun,BL,,,L,,S,,MP,,
+2022,139,Upplands-Bro kommun,A,M,C,L,KD,,,,,
+2022,140,Nykvarns kommun,BL,,C,,,S,,MP,,ÖP
+2022,160,Täby kommun,A,M,C,L,KD,,,,,
+2022,162,Danderyds kommun,A,M,,L,KD,,,,,
+2022,163,Sollentuna kommun,A,M,C,L,KD,,,,,
+2022,180,Stockholms stad,V,,,,,S,V,MP,,
+2022,181,Södertälje kommun,BL,M,,,,S,,MP,,
+2022,182,Nacka kommun,A,M,C,L,KD,,,,,
+2022,183,Sundbybergs stad,BL,,C,,,S,V,MP,,
+2022,184,Solna stad,BL,,C,,,S,V,MP,,
+2022,186,Lidingö stad,A,M,,,,,,,,ÖP
+2022,187,Vaxholms stad,BL,M,,L,KD,S,V,,,
+2022,188,Norrtälje kommun,B,M,,L,KD,,,,SD,
+2022,191,Sigtuna kommun,A,M,C,L,KD,,,,,ÖP
+2022,192,Nynäshamns kommun,A,M,C,L,KD,,,,,
+2022,305,Håbo kommun,A,M,C,,KD,,,,,
+2022,319,Älvkarleby kommun,BL,,C,,,S,V,MP,,ÖP
+2022,330,Knivsta kommun,B,,,,KD,,,,SD,ÖP
+2022,331,Heby kommun,BL,,C,,,S,V,MP,,
+2022,360,Tierps kommun,A,M,C,L,KD,,,,,
+2022,380,Uppsala kommun,V,,,,,S,V,MP,,
+2022,381,Enköpings kommun,BL,M,C,L,KD,,,MP,,ÖP
+2022,382,Östhammars kommun,B,M,,,KD,,,,SD,ÖP
+2022,428,Vingåkers kommun,A,M,C,,KD,,,,,
+2022,461,Gnesta kommun,BL,M,,,,S,,,,
+2022,480,Nyköpings kommun,BL,M,,,,S,,,,
+2022,481,Oxelösunds kommun,B,M,,L,KD,,,,SD,
+2022,482,Flens kommun,BL,,C,,,S,,,,
+2022,483,Katrineholms kommun,BL,M,,,,S,,,,
+2022,484,Eskilstuna kommun,BL,M,,,,S,,,,
+2022,486,Strängnäs kommun,BL,M,,,,S,,,,
+2022,488,Trosa kommun,A,M,C,L,KD,,,,,
+2022,509,Ödeshögs kommun,BL,M,C,,,S,,,,
+2022,512,Ydre kommun,A,M,C,,,,,,,
+2022,513,Kinda kommun,BL,M,,,KD,S,,,,
+2022,560,Boxholms kommun,V,,,,,S,,,,
+2022,561,Åtvidabergs kommun,BL,,C,L,,S,V,MP,,
+2022,562,Finspångs kommun,BL,,C,L,,S,,,,
+2022,563,Valdemarsviks kommun,B,M,,,KD,,,,SD,ÖP
+2022,580,Linköpings kommun,BL,M,,,,S,,,,
+2022,581,Norrköpings kommun,A,M,,L,KD,,,,,
+2022,582,Söderköpings kommun,BL,M,,,KD,S,,,,
+2022,583,Motala kommun,B,M,,,KD,,,,SD,
+2022,584,Vadstena kommun,BL,M,,,,S,,,,
+2022,586,Mjölby kommun,BL,,C,L,KD,S,,MP,,
+2022,604,Aneby kommun,BL,,C,,KD,S,,,,
+2022,617,Gnosjö kommun,A,M,C,,KD,,,,,
+2022,642,Mullsjö kommun,BL,,C,L,KD,S,,,,
+2022,643,Habo kommun,A,M,C,L,KD,,,,,
+2022,662,Gislaveds kommun,BL,M,C,L,,S,,,,ÖP
+2022,665,Vaggeryds kommun,BL,M,,,,S,,,,
+2022,680,Jönköpings kommun,BL,,C,L,,S,,,,
+2022,682,Nässjö kommun,BL,,C,,KD,S,V,,,
+2022,683,Värnamo kommun,A,M,C,L,KD,,,,,
+2022,684,Sävsjö kommun,BL,,C,,KD,S,,,,
+2022,685,Vetlanda kommun,B,M,,,,,,,SD,ÖP
+2022,686,Eksjö kommun,BL,M,,,,S,,,,
+2022,687,Tranås kommun,B,M,,L,KD,,,,SD,
+2022,760,Uppvidinge kommun,B,,C,,KD,,,,SD,ÖP
+2022,761,Lessebo kommun,BL,,C,,,S,V,,,
+2022,763,Tingsryds kommun,A,M,C,,KD,,,,,
+2022,764,Alvesta kommun,BL,,C,,KD,S,,,,
+2022,765,Älmhults kommun,BL,,C,,,S,,,,
+2022,767,Markaryds kommun,A,M,C,,KD,,,,,
+2022,780,Växjö kommun,V,,,,,S,V,MP,,
+2022,781,Ljungby kommun,A,M,C,,KD,,,,,
+2022,821,Högsby kommun,BL,,C,,,S,V,,,
+2022,834,Torsås kommun,BL,M,C,,,S,V,,,
+2022,840,Mörbylånga kommun,BL,,C,,,S,,,,
+2022,860,Hultsfreds kommun,A,M,C,,KD,,,,,
+2022,861,Mönsterås kommun,A,M,C,L,KD,,,,,
+2022,862,Emmaboda kommun,A,M,C,,KD,,,,,
+2022,880,Kalmar kommun,BL,,C,,,S,V,,,
+2022,881,Nybro kommun,BL,,C,,,S,,,,
+2022,882,Oskarshamns kommun,BL,M,,,,S,,,,
+2022,883,Västerviks kommun,A,M,,L,KD,,,,,ÖP
+2022,884,Vimmerby kommun,BL,,C,,,S,V,,,
+2022,885,Borgholms kommun,BL,,C,,,S,V,,,
+2022,980,Region Gotland (kommun),BL,M,,,,S,,,,
+2022,1060,Olofströms kommun,BL,,C,,,S,,,,
+2022,1080,Karlskrona kommun,B,M,,L,KD,,,,SD,
+2022,1081,Ronneby kommun,B,M,,L,KD,,,,SD,
+2022,1082,Karlshamns kommun,B,M,,,KD,,,,SD,
+2022,1083,Sölvesborgs kommun,BL,M,C,,,S,,,,ÖP
+2022,1214,Svalövs kommun,B,M,,,KD,,,,SD,
+2022,1230,Staffanstorps kommun,B,M,,,,,,,SD,
+2022,1231,Burlövs kommun,A,M,C,L,,,,,,
+2022,1233,Vellinge kommun,A,M,,,,,,,,
+2022,1256,Östra Göinge kommun,A,M,C,,KD,,,,,
+2022,1257,Örkelljunga kommun,B,M,,,,,,,SD,
+2022,1260,Bjuvs kommun,B,M,,,,,,,SD,
+2022,1261,Kävlinge kommun,B,M,,,KD,,,,SD,
+2022,1262,Lomma kommun,A,M,C,L,KD,,,,,
+2022,1263,Svedala kommun,A,M,C,L,KD,,,,,ÖP
+2022,1264,Skurups kommun,B,M,,,KD,,,,SD,
+2022,1265,Sjöbo kommun,BL,M,C,L,,S,,,,
+2022,1266,Hörby kommun,B,M,,,,,,,SD,
+2022,1267,Höörs kommun,A,M,C,L,KD,,,,,
+2022,1270,Tomelilla kommun,A,M,C,L,KD,,,,,
+2022,1272,Bromölla kommun,V,,,,,S,V,,,
+2022,1273,Osby kommun,A,M,C,,KD,,,,,
+2022,1275,Perstorps kommun,BL,M,C,,KD,S,,,,ÖP
+2022,1276,Klippans kommun,B,,,,KD,,,,SD,ÖP
+2022,1277,Åstorps kommun,B,M,,,KD,,,,SD,
+2022,1278,Båstads kommun,BL,M,,L,KD,S,,,,
+2022,1280,Malmö stad,BL,,,L,,S,,MP,,
+2022,1281,Lunds kommun,BL,M,,,KD,S,,,,
+2022,1282,Landskrona stad,BL,M,,L,,,,MP,,
+2022,1283,Helsingborgs stad,A,M,,L,KD,,,,,
+2022,1284,Höganäs kommun,BL,M,C,,KD,,,MP,,
+2022,1285,Eslövs kommun,BL,M,,L,,S,,,,
+2022,1286,Ystads kommun,A,M,,L,KD,,,,,
+2022,1287,Trelleborgs kommun,B,M,,L,KD,,,,SD,
+2022,1290,Kristianstads kommun,B,M,,,KD,,,,SD,
+2022,1291,Simrishamns kommun,A,M,C,L,KD,,,,,
+2022,1292,Ängelholms kommun,A,M,C,L,KD,,,,,
+2022,1293,Hässleholms kommun,B,M,,,KD,,,,SD,
+2022,1315,Hylte kommun,BL,,,L,,S,V,,,ÖP
+2022,1380,Halmstads kommun,BL,M,,,KD,S,,,,
+2022,1381,Laholms kommun,A,M,C,L,KD,,,,,
+2022,1382,Falkenbergs kommun,BL,,,L,KD,S,V,MP,,
+2022,1383,Varbergs kommun,B,M,,L,KD,,,,SD,
+2022,1384,Kungsbacka kommun,A,M,C,L,KD,,,,,
+2022,1401,Härryda kommun,A,M,C,L,KD,,,,,ÖP
+2022,1402,Partille kommun,A,M,,L,KD,,,,,
+2022,1407,Öckerö kommun,A,M,,L,KD,,,,,
+2022,1415,Stenungsunds kommun,BL,M,,,,S,,,,
+2022,1419,Tjörns kommun,B,M,C,L,,,,,SD,ÖP
+2022,1421,Orust kommun,BL,M,,L,,S,,,,
+2022,1427,Sotenäs kommun,V,,,,,S,,,,
+2022,1430,Munkedals kommun,B,M,,,KD,,,,SD,
+2022,1435,Tanums kommun,A,M,C,L,KD,,,,,
+2022,1438,Dals-Eds kommun,A,M,C,L,KD,,,,,
+2022,1439,Färgelanda kommun,BL,M,,L,,S,,,,
+2022,1440,Ale kommun,B,M,,,KD,,,,SD,ÖP
+2022,1441,Lerums kommun,BL,M,,,,S,,,,
+2022,1442,Vårgårda kommun,A,M,C,L,KD,,,,,
+2022,1443,Bollebygds kommun,BL,M,,,,S,V,MP,,
+2022,1444,Grästorps kommun,A,M,C,,,,,,,
+2022,1445,Essunga kommun,BL,M,C,,KD,,,MP,,
+2022,1446,Karlsborgs kommun,A,M,C,L,KD,,,,,
+2022,1447,Gullspångs kommun,BL,M,,,KD,,V,,,ÖP
+2022,1452,Tranemo kommun,BL,,C,L,,S,,,,
+2022,1460,Bengtsfors kommun,A,M,C,L,KD,,,,,
+2022,1461,Melleruds kommun,A,M,,,KD,,,,,ÖP
+2022,1462,Lilla Edets kommun,BL,M,C,,,S,,,,
+2022,1463,Marks kommun,BL,,C,,,S,,,,
+2022,1465,Svenljunga kommun,B,M,,,KD,,,,SD,ÖP
+2022,1466,Herrljunga kommun,BL,,C,L,,S,V,,,
+2022,1470,Vara kommun,B,M,,L,KD,,,,SD,
+2022,1471,Götene kommun,BL,M,C,L,KD,,,MP,,ÖP
+2022,1472,Tibro kommun,BL,,C,L,,S,,,,
+2022,1473,Töreboda kommun,A,M,,L,,,,,,
+2022,1480,Göteborgs stad,V,,,,,S,V,MP,,
+2022,1481,Mölndals stad,BL,M,,,,S,,,,
+2022,1482,Kungälvs kommun,BL,M,,,,S,,MP,,
+2022,1484,Lysekils kommun,V,,,,,S,,MP,,
+2022,1485,Uddevalla kommun,B,M,,,KD,,,,SD,ÖP
+2022,1486,Strömstads kommun,BL,M,,,KD,S,V,,,
+2022,1487,Vänersborgs kommun,BL,,C,,KD,S,,MP,,
+2022,1488,Trollhättans stad,A,M,C,,KD,,,,,
+2022,1489,Alingsås kommun,A,M,C,L,,,,,,
+2022,1490,Borås stad,BL,,C,L,,S,,MP,,
+2022,1491,Ulricehamns kommun,A,M,C,L,KD,,,,,
+2022,1492,Åmåls kommun,A,M,C,L,KD,,,,,
+2022,1493,Mariestads kommun,A,M,C,,KD,,,,,
+2022,1494,Lidköpings kommun,BL,M,,L,KD,,V,,,
+2022,1495,Skara kommun,BL,,C,L,,S,,MP,,
+2022,1496,Skövde kommun,BL,M,,,KD,S,,,,
+2022,1497,Hjo kommun,A,M,C,L,KD,,,,,
+2022,1498,Tidaholms kommun,B,M,,L,KD,,,,SD,ÖP
+2022,1499,Falköpings kommun,BL,M,C,L,KD,,V,MP,,
+2022,1715,Kils kommun,BL,,C,,,S,,MP,,
+2022,1730,Eda kommun,BL,M,C,L,KD,,V,,,ÖP
+2022,1737,Torsby kommun,V,,,,,S,,,,
+2022,1760,Storfors kommun,V,,,,,S,,,,
+2022,1761,Hammarö kommun,BL,,C,,,S,V,MP,,
+2022,1762,Munkfors kommun,V,,,,,S,,,,
+2022,1763,Forshaga kommun,BL,,C,,,S,,,,
+2022,1764,Grums kommun,V,,,,,S,V,,,
+2022,1765,Årjängs kommun,A,M,,L,KD,,,,,
+2022,1766,Sunne kommun,A,M,,L,,,,,,ÖP
+2022,1780,Karlstads kommun,BL,,C,,,S,,MP,,
+2022,1781,Kristinehamns kommun,BL,,C,,,S,V,MP,,
+2022,1782,Filipstads kommun,B,M,C,L,,,,,SD,
+2022,1783,Hagfors kommun,Ö,,,,,,,,,ÖP
+2022,1784,Arvika kommun,BL,,C,,,S,V,MP,,
+2022,1785,Säffle kommun,BL,M,C,L,KD,,,MP,,
+2022,1814,Lekebergs kommun,BL,M,,L,KD,,V,,,ÖP
+2022,1860,Laxå kommun,BL,,C,,KD,,V,,,
+2022,1861,Hallsbergs kommun,BL,,C,L,KD,S,,,,
+2022,1862,Degerfors kommun,BL,M,,,,,V,MP,,
+2022,1863,Hällefors kommun,V,,,,,S,,,,
+2022,1864,Ljusnarsbergs kommun,V,,,,,S,V,,,
+2022,1880,Örebro kommun,BL,M,C,,,S,,,,
+2022,1881,Kumla kommun,BL,M,,,,S,,,,
+2022,1882,Askersunds kommun,A,M,,L,KD,,,,,
+2022,1883,Karlskoga kommun,A,M,C,L,KD,,,,,
+2022,1884,Nora kommun,BL,M,,,KD,S,,,,
+2022,1885,Lindesbergs kommun,B,M,,,,,,,SD,
+2022,1904,Skinnskattebergs kommun,B,,C,,,,,,SD,
+2022,1907,Surahammars kommun,BL,M,C,,KD,S,,,,
+2022,1960,Kungsörs kommun,BL,,C,,,S,V,,,
+2022,1961,Hallstahammars kommun,BL,,,L,,S,V,MP,,
+2022,1962,Norbergs kommun,V,,,,,S,,,,ÖP
+2022,1980,Västerås stad,BL,,C,,KD,S,V,,,
+2022,1981,Sala kommun,BL,,C,,,S,V,MP,,
+2022,1982,Fagersta kommun,BL,M,C,L,,S,,,,
+2022,1983,Köpings kommun,BL,,C,,KD,S,V,,,
+2022,1984,Arboga kommun,B,M,,L,KD,,,,SD,
+2022,2021,Vansbro kommun,BL,M,,,,S,,,,
+2022,2023,Malung-Sälens kommun,BL,M,,,,S,,,,
+2022,2026,Gagnefs kommun,BL,M,C,,,S,,,,
+2022,2029,Leksands kommun,BL,M,C,L,,S,,,,
+2022,2031,Rättviks kommun,A,M,C,,KD,,,,,
+2022,2034,Orsa kommun,BL,,C,,,S,,,,
+2022,2039,Älvdalens kommun,BL,,C,,,S,,,,
+2022,2061,Smedjebackens kommun,V,,,,,S,V,,,
+2022,2062,Mora kommun,A,M,C,,KD,,,,,ÖP
+2022,2080,Falu kommun,BL,M,,,,S,,,,
+2022,2081,Borlänge kommun,BL,M,,,,S,,,,
+2022,2082,Säters kommun,BL,,C,,KD,S,,,,
+2022,2083,Hedemora kommun,BL,M,,,,S,,MP,,
+2022,2084,Avesta kommun,BL,,C,,,S,,,,
+2022,2085,Ludvika kommun,BL,M,,,KD,S,,,,
+2022,2101,Ockelbo kommun,V,,,,,S,,,,
+2022,2104,Hofors kommun,BL,,C,L,,S,,,,
+2022,2121,Ovanåkers kommun,BL,,C,,,S,,,,
+2022,2132,Nordanstigs kommun,BL,M,,L,,S,,,,
+2022,2161,Ljusdals kommun,B,M,,L,KD,,,,SD,ÖP
+2022,2180,Gävle kommun,BL,,C,L,KD,S,,MP,,
+2022,2181,Sandvikens kommun,BL,,C,L,,S,,,,
+2022,2182,Söderhamns kommun,A,M,C,L,KD,,,,,
+2022,2183,Bollnäs kommun,BL,M,C,,,S,,,,
+2022,2184,Hudiksvalls kommun,BL,M,,,,S,,MP,,
+2022,2260,Ånge kommun,BL,M,C,,KD,S,,,,
+2022,2262,Timrå kommun,BL,M,,,,S,,,,
+2022,2280,Härnösands kommun,BL,,,,KD,S,V,MP,,
+2022,2281,Sundsvalls kommun,BL,,C,,,S,V,,,
+2022,2282,Kramfors kommun,V,,,,,S,V,,,
+2022,2283,Sollefteå kommun,BL,,C,,,,V,,,ÖP
+2022,2284,Örnsköldsviks kommun,A,M,C,,KD,,,,,
+2022,2303,Ragunda kommun,A,M,C,,KD,,,,,ÖP
+2022,2305,Bräcke kommun,BL,,C,,,S,,,,
+2022,2309,Krokoms kommun,BL,M,,,KD,S,,,,
+2022,2313,Strömsunds kommun,BL,,C,,,S,,,,
+2022,2321,Åre kommun,V,,,,,S,V,,,ÖP
+2022,2326,Bergs kommun,BL,,C,,,S,,,,
+2022,2361,Härjedalens kommun,BL,M,C,,,S,,,,
+2022,2380,Östersunds kommun,BL,,C,,,S,,,,
+2022,2401,Nordmalings kommun,A,M,C,L,KD,,,,,
+2022,2403,Bjurholms kommun,B,M,,L,KD,,,,SD,
+2022,2404,Vindelns kommun,BL,,,,KD,S,,,,
+2022,2409,Robertsfors kommun,V,,,,,S,V,,,
+2022,2417,Norsjö kommun,V,,,,,S,V,,,
+2022,2418,Malå kommun,V,,,,,,V,,,
+2022,2421,Storumans kommun,BL,,C,,KD,S,,,,
+2022,2422,Sorsele kommun,V,,,,,S,V,,,
+2022,2425,Dorotea kommun,BL,,C,L,KD,S,V,,,
+2022,2460,Vännäs kommun,BL,M,,,,S,V,,,
+2022,2462,Vilhelmina kommun,V,,,,,S,,,,
+2022,2463,Åsele kommun,V,,,,,S,,,,ÖP
+2022,2480,Umeå kommun,V,,,,,S,,MP,,
+2022,2481,Lycksele kommun,A,M,C,L,KD,,,,,
+2022,2482,Skellefteå kommun,V,,,,,S,V,,,
+2022,2505,Arvidsjaurs kommun,V,,,,,S,,,,
+2022,2506,Arjeplogs kommun,BL,,,L,,S,,,,
+2022,2510,Jokkmokks kommun,V,,,,,,V,MP,,ÖP
+2022,2513,Överkalix kommun,V,,,,,S,,,,
+2022,2514,Kalix kommun,BL,,C,,,S,,MP,,
+2022,2518,Övertorneå kommun,BL,,C,,KD,,V,,,ÖP
+2022,2521,Pajala kommun,BL,M,C,,KD,S,,,,ÖP
+2022,2523,Gällivare kommun,V,,,,,S,,MP,,
+2022,2560,Älvsbyns kommun,B,M,,L,KD,,,,SD,
+2022,2580,Luleå kommun,V,,,,,S,V,MP,,
+2022,2581,Piteå kommun,BL,,C,,,S,,,,
+2022,2582,Bodens kommun,V,,,,,S,,,,ÖP
+2022,2583,Haparanda stad,V,,,,,S,V,,,
+2022,2584,Kiruna kommun,V,,,,,S,V,,,ÖP
