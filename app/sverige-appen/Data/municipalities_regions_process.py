@@ -18,13 +18,22 @@ def read_file(file_path):
     with open(file_path, 'r') as file:
         return pd.read_csv(file)
     
+def process_population_file(file_path='app/sverige-appen/Data/swedish population 1990-2023.csv'):
+    # Melt the data so that the years are in a single column
+
+    df_population = pd.read_csv(file_path)
+    print(df_population.columns)
+    df_population = pd.melt(df_population, id_vars=['Län'], var_name='År', value_name='Population')
+
+    df_population.to_csv('app/sverige-appen/Data/swedish_population_transposed.csv', index=False)
 
 
 def main():
     df = read_file('app/sverige-appen/Data/Styren Kommuner 1994_csv_modified.csv')
     df.drop(['Kod'], axis=1, inplace=True)
     df.to_csv('app/sverige-appen/Data/Styren_processed.csv', index=False)
-
+    process_population_file()
+    
 
 
 if __name__ == "__main__":
