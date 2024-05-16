@@ -51,9 +51,11 @@ export function updateResult(repo, ln, year, emission, municipality) {
       }
       
     }); 
-    console.log("counties: ")
-    let selected_county_info = repo.counties.find(county => county.name === ln).info.majorities
-    console.log(selected_county_info)
+    let selected_county_majority = repo.counties.find(county => county.name === ln).info.majorities
+    console.log(selected_county_majority)
+    let majority = (selected_county_majority[year] == undefined) ? "NaN" : selected_county_majority[year]
+    let majorities_text = "Styrande partier år " + year + ": " + majority + "\n"
+    
 
     var infoValue = parseFloat(info);
 
@@ -67,7 +69,7 @@ export function updateResult(repo, ln, year, emission, municipality) {
 
 
     var element = document.getElementById("location-text");
-    element.innerText =  info 
+    element.innerText =  majorities_text 
 
 }
 

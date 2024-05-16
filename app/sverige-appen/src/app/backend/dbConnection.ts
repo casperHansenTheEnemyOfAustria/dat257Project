@@ -231,14 +231,14 @@ export class dbConnection {
         var rows = await this.runAll(query);
 
         var styren = new Map<number, string[]>();
-        let valid_years = await this.getEmissionYears();
+        //let valid_years = await this.getEmissionYears();
         rows.forEach((row: any) => {
-            if (valid_years.includes(row.År)) {
-                let year = row.År;
-                let parties = [row.M, row.C, row.L, row.KD, row.S, row.V, row.MP, row.SD, row.ÖP];
-                parties = parties.filter(e => e);
-                styren.set(year, parties);
-            }
+    
+            let year = row.År;
+            let parties = [row.M, row.C, row.L, row.KD, row.S, row.V, row.MP, row.SD, row.ÖP];
+            parties = parties.filter(e => e);
+            styren.set(year, parties);
+        
         });
         return styren;
     }
@@ -250,13 +250,13 @@ export class dbConnection {
         var rows = await this.runAll(query);
 
         var population = new Map<number, number>();
-        let valid_years = await this.getEmissionYears();
+        //let valid_years = await this.getEmissionYears();
         rows.forEach((row: any) => {
-            if (valid_years.includes(row.År)) {
-                let year = row.År;
-                let pop = row.Population;
-                population.set(year, pop);
-            }
+    
+            let year = row.År;
+            let pop = row.Population;
+            population.set(year, pop);
+        
         });
         return population;
     }

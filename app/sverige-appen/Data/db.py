@@ -6,7 +6,7 @@ def main():
     print(os.getcwd())
     df_emissions = pd.read_csv("app/sverige-appen/Data/data.csv",)
     df_styren_kommuner = pd.read_csv("app/sverige-appen/Data/Styren_processed.csv")
-    df_styren_regions = pd.read_csv("app/sverige-appen/Data/Styren Regioner 1994-csv.csv")
+    df_styren_regions = pd.read_csv("app/sverige-appen/Data/Styren_Regioner_processed.csv")
     df_population_counties = pd.read_csv("app/sverige-appen/Data/swedish_population_transposed.csv")
 
     try:

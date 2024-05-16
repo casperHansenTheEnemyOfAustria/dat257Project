@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 
 
@@ -20,15 +21,24 @@ def read_file(file_path):
     
 # TODO: add each year to election data 
 def process_regions_file(file_path='app/sverige-appen/Data/Styren Regioner 1994-csv.csv'):
-    df_regions = read_file(file_path)
-    
+    df_regions = pd.read_csv(file_path)
+    # Define a function to repeat rows
+    def repeat_rows(row):
+        start_year = row['År']
+        end_year = start_year + 4
+        return pd.DataFrame({col: np.repeat(val, 4) if col != 'År' else np.arange(start_year, end_year) for col, val in row.items()})
+
+    # Apply the function to each row
+    all_year_df = pd.concat(df_regions.apply(repeat_rows, axis=1).tolist(), ignore_index=True)
+
+    all_year_df.to_csv('app/sverige-appen/Data/Styren_Regioner_processed.csv', index=False)
+
 
     
 def process_population_file(file_path='app/sverige-appen/Data/swedish population 1990-2023.csv'):
     # Melt the data so that the years are in a single column
 
     df_population = pd.read_csv(file_path)
-    print(df_population.columns)
     df_population = pd.melt(df_population, id_vars=['Län'], var_name='År', value_name='Population')
 
     df_population.to_csv('app/sverige-appen/Data/swedish_population_transposed.csv', index=False)
@@ -39,6 +49,7 @@ def main():
     df.drop(['Kod'], axis=1, inplace=True)
     df.to_csv('app/sverige-appen/Data/Styren_processed.csv', index=False)
     process_population_file()
+    process_regions_file()
     
 
 
