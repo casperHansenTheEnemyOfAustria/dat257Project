@@ -51,11 +51,21 @@ export function updateResult(repo, ln, year, emission, municipality) {
       }
       
     }); 
-    let selected_county_majority = repo.counties.find(county => county.name === ln).info.majorities
-    console.log(selected_county_majority)
+    let selected_county_info = repo.counties.find(county => county.name === ln).info
+
+    let selected_county_majority = selected_county_info.majorities
     let majority = (selected_county_majority[year] == undefined) ? "NaN" : selected_county_majority[year]
-    let majorities_text = "Styrande partier år " + year + ": " + majority + "\n"
+    let majorities_text = "Styrande partier år " + year + ": " + majority + ",\n"
+
+    let selected_county_population = selected_county_info.populations
+    console.log(selected_county_population)
+    let population = (selected_county_population[year] == undefined) ? "NaN" : selected_county_population[year]
+    let population_text = "Befolkning år " + year + ": " + population + " personer.\n"
+
+
     
+
+
 
     var infoValue = parseFloat(info);
 
@@ -69,7 +79,7 @@ export function updateResult(repo, ln, year, emission, municipality) {
 
 
     var element = document.getElementById("location-text");
-    element.innerText =  majorities_text 
+    element.innerText =  majorities_text + population_text
 
 }
 
