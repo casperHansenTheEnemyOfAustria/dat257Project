@@ -54,6 +54,7 @@ export const getServerSideProps = (async () => {
   var counties: any[] = [] // list of counties
   var countyMunicipalityMap = new Map<string, any[]>() // map of county names to list of municipalities
   var municipalitiesArray// map of municipalities but json
+  console.log(await db.getPartiesPerMunicipality("Stockholm"))
   for (var i = 0; i < countyNames.length; i++) {
     var county = await db.getCounty(countyNames[i])
     counties.push(await county.toJSON())

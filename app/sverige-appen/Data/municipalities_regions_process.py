@@ -32,6 +32,10 @@ def process_regions_file(file_path='app/sverige-appen/Data/Styren Regioner 1994-
 
     all_year_df.to_csv('app/sverige-appen/Data/Styren_Regioner_processed.csv', index=False)
 
+def process_municipalities_parties(file_path='app/sverige-appen/Data/Styren Kommuner 1994_csv_modified.csv'):
+    df_municipalities = pd.read_csv(file_path)
+    
+    df_municipalities.to_csv('app/sverige-appen/Data/Styren_processed.csv', index=False)
 
     
 def process_population_file(file_path='app/sverige-appen/Data/swedish population 1990-2023.csv'):
@@ -50,6 +54,7 @@ def main():
     df.to_csv('app/sverige-appen/Data/Styren_processed.csv', index=False)
     process_population_file()
     process_regions_file()
+    process_municipalities_parties()
     
 
 

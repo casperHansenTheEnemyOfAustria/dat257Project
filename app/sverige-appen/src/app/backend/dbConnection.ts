@@ -271,4 +271,37 @@ export class dbConnection {
         return years;
     }
 
+    public async getPopulationPerMunicipality(municipality: string): Promise<Map<number, number>> {
+        var query = `SELECT År, Population FROM population_municipalities WHERE Kommun = ${"'"+municipality+"'"}`;
+        var rows = await this.runAll(query);
+
+        var population = new Map<number, number>();
+        //let valid_years = await this.getEmissionYears();
+        rows.forEach((row: any) => {
+    
+            let year = row.År;
+            let pop = row.Population;
+            population.set(year, pop);
+        
+        });
+        return population;
+    }
+
+    public async getPartiesPerMunicipality(municipality: string): Promise<Map<number, string[]>> {
+        var query = `SELECT År, M, C, L, KD, S, V, MP, SD, ÖP  FROM styren_municipalities WHERE Kommun = ${"'"+municipality+"'"}`;
+        var rows = await this.runAll(query);
+
+        var styren = new Map<number, string[]>();
+        //let valid_years = await this.getEmissionYears();
+        rows.forEach((row: any) => {
+    
+            let year = row.År;
+            let parties = [row.M, row.C, row.L, row.KD, row.S, row.V, row.MP, row.SD, row.ÖP];
+            parties = parties.filter(e => e);
+            styren.set(year, parties);
+        
+        });
+        return styren;
+    }
+
 }
