@@ -18,8 +18,7 @@ def process_file(file_path):
 def read_file(file_path):
     with open(file_path, 'r') as file:
         return pd.read_csv(file)
-    
-# TODO: add each year to election data 
+
 def process_regions_file(file_path='app/sverige-appen/Data/Styren Regioner 1994-csv.csv'):
     df_regions = pd.read_csv(file_path)
     # Define a function to repeat rows
@@ -40,7 +39,8 @@ def process_population_file(file_path='app/sverige-appen/Data/swedish population
 
     df_population = pd.read_csv(file_path)
     df_population = pd.melt(df_population, id_vars=['Län'], var_name='År', value_name='Population')
-
+    df_population_sweden = pd.read_csv('app/sverige-appen/Data/population_sweden.csv')
+    df_population = pd.concat([df_population, df_population_sweden], ignore_index=True)
     df_population.to_csv('app/sverige-appen/Data/swedish_population_transposed.csv', index=False)
 
 
