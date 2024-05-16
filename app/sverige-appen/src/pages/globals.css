@@ -131,17 +131,18 @@ select {
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: -0.01562em;
 }
 
 h2 { /* Search bar */
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: -0.01562em;
+  padding-top: 10%;
 }
 
 .gradient { 
@@ -160,8 +161,8 @@ h2 { /* Search bar */
 
 
 .header {
-  width: 800px;
-  height: 80px;
+  width: 700px;
+  height: 70px;
   background-image: url("./frontend/public/header_light.png");
   background-repeat: no-repeat;
   background-size: 100%;
