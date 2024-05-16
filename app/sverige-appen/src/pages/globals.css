@@ -17,7 +17,7 @@
     --background-end-rgb: 0, 0, 0;
   }
   .header {
-    background-image: url("./frontend/public/header_dark_2.png");
+    filter: invert(100%);
   }
   .dropdown {
     background-color:black;
@@ -41,6 +41,16 @@
   .legend-text > p{
     margin-left: 1vw;
     color: black;
+  }
+
+  .legend-gradient {
+    margin: auto;
+    position: relative;
+    display: flex;
+    background: linear-gradient(to top, #8F7700, #248E0C, #09940F, #06B12A, #00EC60)  ;
+    height:100%;
+    border-radius: 0.5rem;
+    width:50%
   }
   
 }
@@ -152,7 +162,7 @@ h2 { /* Search bar */
 .header {
   width: 800px;
   height: 80px;
-  background-image: url("./frontend/public/header_light_2.png");
+  background-image: url("./frontend/public/header_light.png");
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
@@ -197,7 +207,6 @@ h2 { /* Search bar */
 
 .chart {
   position: relative;
-
 }
 
 .info {
@@ -211,7 +220,7 @@ h2 { /* Search bar */
   margin: auto;
   position: relative;
   display: flex;
-  background: linear-gradient(to bottom, #09cdda, #ff0000)  ;
+  background: linear-gradient(to top, #A0DA39, #4AC16D, #1FA187, #277F8E, #365C8D, #46327E, #440154)  ;
   height:100%;
   border-radius: 0.5rem;
   width:50%
@@ -225,6 +234,8 @@ h2 { /* Search bar */
   margin-top: 65vh;
   height: 20vh;
   border-radius: 0.5rem;
+  position: absolute;
+  z-index: 1000;
 }
 .legend-text{
   display: flex;
@@ -235,7 +246,7 @@ h2 { /* Search bar */
 }
 .legend-text > p{
   margin-left: 1vw;
-  color: white;
+  color: black;
 }
 
 .legend-text>.top{
