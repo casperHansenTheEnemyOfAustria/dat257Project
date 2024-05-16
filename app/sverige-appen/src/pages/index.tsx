@@ -14,6 +14,7 @@ import Dropdown_Year from './frontend/dropdown_year';
 import Dropdown_Mun from './frontend/dropdown_mun';
 import Dropdown_Emission from './frontend/dropdown_emission';
 import Chart from './frontend/chart';
+import {GlobalGoal} from './frontend/globalGoal.js';
 
 import { Header } from './frontend/header';
 import { updateResult } from './frontend/result';
@@ -140,7 +141,9 @@ export default function Home({
           </Grid>
           <Grid item xs={6} className="ChartGrid">
             <div> 
-              <Chart repo ={repo} />
+              <Chart repo ={repo}/>
+
+              <GlobalGoal/>
             </div>
           </Grid>
         </Grid>
