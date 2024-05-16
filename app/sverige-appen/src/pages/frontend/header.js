@@ -12,8 +12,6 @@ import { Grid } from '@material-ui/core';
 export const Header = () => {
 
    return (
-    <Grid item xs={12}> 
       <div className="header"> </div>
-    </Grid>
   );
 } 

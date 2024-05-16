@@ -3,6 +3,7 @@ import React from "react";
 import { Chart as ChartJS } from 'chart.js/auto';
 import { Bar, Line } from 'react-chartjs-2';
 import { useState } from 'react';
+import '../globals.css';
 
 export default function Chart({repo}) {
   const [count, setCount] = useState(0);
@@ -28,14 +29,12 @@ export default function Chart({repo}) {
       if (emissionValue = selectedCounty.emissions[year]) {
         emissionValue = selectedCounty.emissions[year][emission] 
         savedValue = emissionValue
-        emissions.push(emissionValue)
-
-      }
+        emissions.push(emissionValue)} 
       else { 
         emissions.push(null)
   }
-    }
-  }else {
+    }}
+    else {
     console.log("municipality")
     var selectedMunicipality = repo.municipalities[selectedCountyName].find(municipality => municipality.name === selectedMunicipalityName)
     for (var i = 0; i < allYears.length; i++) {
@@ -44,15 +43,12 @@ export default function Chart({repo}) {
       if (emissionValue = selectedMunicipality.emissions[year]) {
         emissionValue = selectedMunicipality.emissions[year][emission] 
         savedValue = emissionValue
-        emissions.push(emissionValue)
-
-      }
+        emissions.push(emissionValue)}
       else { 
         emissions.push(null)
-  }
+      }
     }
   }
-
 
   return (
     <Line
@@ -67,7 +63,19 @@ export default function Chart({repo}) {
 
         }, 
       ],
-    }} onContextMenu={update} id="chart">
+    }} 
+    onContextMenu={update} 
+    id="chart"
+    
+    options={{
+      maintainAspectRatio: true,
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+        },
+      },
+    }}>
     </Line>
   );
 }

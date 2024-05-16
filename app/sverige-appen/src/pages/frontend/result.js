@@ -5,7 +5,7 @@ import { Grid } from '@material-ui/core';
 export default function Resultbox({counties}) {
         {
         return (
-            <Grid item xs={12} className="resultBox">
+            <Grid container spacing={0} item xs={12} className="resultBox">
                 <Grid item xs={12}>
                     <h1 id="location">Plats</h1>
                 </Grid>
@@ -13,7 +13,7 @@ export default function Resultbox({counties}) {
                     <p id="location-text"> Här visas allmän info om platsen du valt att du vill se!</p>
                 </Grid>
                 <Grid item xs={12}>
-                    <h2>Utsläpp</h2>
+                    <h1>Utsläpp</h1>
                 </Grid>
                 <Grid item xs={12}>
                     <p id="result-text">Här visas utsläppen du valt att du vill se, klicka på sök och testa!</p>

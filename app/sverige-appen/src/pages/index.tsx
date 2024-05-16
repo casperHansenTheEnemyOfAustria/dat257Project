@@ -7,10 +7,7 @@ import type {InferGetStaticPropsType, InferGetServerSidePropsType, GetServerSide
 
 import "./globals.css";
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-import Dropdown from './frontend/dropdown';
-import LnNamn_Dropdown from './frontend/dropdown_ln';
 import Resultbox from './frontend/result';
 import Dropdown_Ln from "./frontend/dropdown_ln";
 import Dropdown_Year from './frontend/dropdown_year';
@@ -21,9 +18,7 @@ import Chart from './frontend/chart';
 import { Header } from './frontend/header';
 import { updateResult } from './frontend/result';
 import { Municipality } from "@/app/backend/minicipality";
-import { Container } from "postcss";
 import dynamic from "next/dynamic";
-import { Rectangle } from "react-leaflet/Rectangle";
 import Grid from '@material-ui/core/Grid';
 
 
@@ -106,7 +101,7 @@ export default function Home({
   return (
     
     <main>
-      <Grid container spacing={1}>
+      <Grid container spacing={0}>
       <div className="gradient"></div>
           <Grid item xs={4} className="MapGrid">
             <SwedishMap repo = {repo} />
@@ -143,7 +138,7 @@ export default function Home({
             </div>
           </a>
           </Grid>
-          <Grid item xs={8} className="ChartGrid">
+          <Grid item xs={6} className="ChartGrid">
             <div> 
               <Chart repo ={repo} />
             </div>
