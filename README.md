@@ -5,3 +5,4 @@ We plan to use the national emissions database to visualize countys and regional
 ### The data
 - Nationella Emissionsdatabasen from SMHI (National Emissions Database - Swedish Meteorological and Hydrological Institute) https://nationellaemissionsdatabasen.smhi.se/
 - Styren Kommuner 1994_csv.csv from https://skr.se/skr/tjanster/skrsoppnadata.psidata.html
+- Statistikdatabasen SCB https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/
