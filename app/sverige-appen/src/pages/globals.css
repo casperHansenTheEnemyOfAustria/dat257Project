@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
 /* Dark Mode */
 
 @media (prefers-color-scheme: dark) {
@@ -33,9 +27,8 @@
     contrast(100%);
   }
   .searchButton:hover {
-    border-color: #57585a; /* Gray 300 */
-    background-color: #4d4e50; /* Gray 100 */
-  
+    border-color: #57585a;
+    background-color: #4d4e50;
   }
 
   .legend-text > p{
@@ -52,27 +45,22 @@
     border-radius: 0.5rem;
     width:50%
   }
-  
 }
 
 /* Light Mode and base */
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: space-between; */
   min-height: 100vh;
   padding: 3rem; 
-}
-
-p {
-  font-size: 1.2rem;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.00938em;
-  padding-bottom: 2%;
-
 }
 
 body {
@@ -90,14 +78,13 @@ body {
     text-wrap: balance;
   }
 
-/* Grid CSS currently not connecting (No match found)*/  
-.HeaderGrid {
-  display: grid;
+.gradient { 
+  @apply fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none;
+  position: fixed;
+  z-index: 0;
 }
 
-.MapGrid {
-  display: grid;
-}
+/* Grid settings */
 
 .InfoGrid {
   display: grid;
@@ -109,26 +96,7 @@ body {
   padding-bottom: 5dvh;
 }
 
-.ResultGrid {
-  display: grid;
-  
-}
-
-.ChartGrid {
-  display: grid;
-  
-}
-
-select {
-  appearance: auto;
-  width: 100%;
-  height: 90%;
-  font-size: 1.15rem;
-  padding: 1vh 1vw;
-  border: 1px solid;
-  border-radius: 0.25rem;
-  cursor: pointer;
-}
+/* Text settings */
 
 h1 {
   font-size: 1.8rem;
@@ -145,10 +113,33 @@ h2 { /* Search bar */
   padding-top: 10%;
 }
 
-.gradient { 
-  @apply fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none;
-  position: fixed;
-  z-index: 0;
+p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  padding-bottom: 2%;
+
+}
+
+.info {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  border-radius: 5px;
+}
+
+/* Button settings */
+
+select {
+  appearance: auto;
+  width: 100%;
+  height: 90%;
+  font-size: 1.15rem;
+  padding: 1vh 1vw;
+  border: 1px solid;
+  border-radius: 0.25rem;
+  cursor: pointer;
 }
 
 .selectLabel {
@@ -159,6 +150,7 @@ h2 { /* Search bar */
   padding-top: 5px;
 }
 
+/* Header */
 
 .header {
   width: 700px;
@@ -171,50 +163,12 @@ h2 { /* Search bar */
   background-repeat: no-repeat;
   }
 
+/* Map settings */
+
 .map {
-  /* background-color: turquoise; */
-  /* overflow: contain; */
   height: 90vh;
   width: 50vh;
   position: relative;
-}
-
-
-.buttons {
-  margin-bottom: 8rem;
-  display: grid;
-  text-align: center;
-  max-width: 80rem;
-  max-height: 4rem;
-  margin-bottom: 0.5rem;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 1rem;
-  position: relative;
-}
-
-.searchButton {
-  
-  border: 1px solid transparent;
-  padding: 1.25rem 1.25rem; /* Assuming 1rem = 16px */
-  transition-property: border-color, background-color;
-  transition-duration: 0.2s;
-}
-
-.searchButton:hover {
-  border-color: #D1D5DB; /* Gray 300 */
-  background-color: #F3F4F6; /* Gray 100 */
-
-}
-
-.chart {
-  position: relative;
-}
-
-.info {
-  padding: 6px 8px;
-  font: 14px/16px Arial, Helvetica, sans-serif;
-  background: white;
-  border-radius: 5px;
 }
 
 .legend-gradient {
@@ -256,8 +210,37 @@ h2 { /* Search bar */
 .legend-text>.bottom{
   margin-top: 10vh;
 }
-.show{
-  display:flex;
+
+/* Buttons settings */
+
+.buttons {
+  margin-bottom: 8rem;
+  display: grid;
+  text-align: center;
+  max-width: 80rem;
+  max-height: 4rem;
+  margin-bottom: 0.5rem;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+  position: relative;
 }
 
+.searchButton {
+  border: 1px solid transparent;
+  padding: 1.25rem 1.25rem;
+  transition-property: border-color, background-color;
+  transition-duration: 0.2s;
+}
+
+.searchButton:hover {
+  border-color: #D1D5DB; 
+  background-color: #F3F4F6; 
+
+}
+
+/* Chart settings */
+
+.chart {
+  position: relative;
+}
 }
