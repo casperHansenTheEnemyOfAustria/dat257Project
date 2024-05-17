@@ -23,61 +23,75 @@ export default function Resultbox({counties}) {
     };
     };
 
-
+/**
+ * 
+ * @param {the information repositiory} repo 
+ * @param {a county name} ln 
+ * @param {a number as a year} year 
+ * @param {an index of the sleected emissions type} emission 
+ * @param {a municipality name} municipality 
+ */
 export function updateResult(repo, ln, year, emission, municipality) {
     var info= ""
-    console.log("repo: " + repo.emissionTypes)
-    console.log(emission)
     var emission = repo.emissionTypes.indexOf(emission)
-    console.log("emission: " + emission)
+    let population_text
+    let majorities_text
     repo.counties.forEach((county) => {
-       
-        
       if (county.name == ln && municipality == "Alla") {
         // console.log(county.emissions[year])
-         info = county.emissions[year][emission]
-         console.log("ppeppeppeppe e")
-         var element = document.getElementById("location");
-         element.innerText =ln
+        // Get emissions for the selected year
+        info = county.emissions[year][emission]
+        // Get the location name
+        var element = document.getElementById("location");
+        element.innerText =ln
+
+        // fetching the majority data
+        let selected_county_info = repo.counties.find(county => county.name === ln).info
+        let selected_county_majority = selected_county_info.majorities
+        let majority = (selected_county_majority[year] == undefined) ? "NaN" : selected_county_majority[year]
+        majorities_text = "Styrande partier år " + year + ": " + majority + ",\n"
+
+        // fetching the population data
+        let selected_county_population = selected_county_info.populations
+        let population = (selected_county_population[year] == undefined) ? "NaN" : selected_county_population[year]
+        population_text = "Befolkning år " + year + ": " + population + " personer.\n"
       }else if(county.name == ln && municipality != "Alla"){
+        // Checking though the municipalities in the county
         repo.municipalities[ln].forEach((mInC) => {
-            console.log(mInC.name)
+
             if(mInC.name == municipality){
                 info = mInC.emissions[year][emission]
+                // Get the location name
                 var element = document.getElementById("location");
                 element.innerText =municipality
+
+                // fetching the majority data
+                let selected_municipality_info = mInC.info
+                let selected_municipality_majority = selected_municipality_info.majorities
+                let majority = (selected_municipality_majority[year] == undefined) ? "NaN" : selected_municipality_majority[year]
+                majorities_text = "Styrande partier år " + year + ": " + majority+ ",\n"
+
+                // TODO get this in the db first
+                population_text = "Not available for municipalities"
             }
         })
       }
       
     }); 
-    let selected_county_info = repo.counties.find(county => county.name === ln).info
 
-    let selected_county_majority = selected_county_info.majorities
-    let majority = (selected_county_majority[year] == undefined) ? "NaN" : selected_county_majority[year]
-    let majorities_text = "Styrande partier år " + year + ": " + majority + ",\n"
-
-    let selected_county_population = selected_county_info.populations
-    console.log(selected_county_population)
-    let population = (selected_county_population[year] == undefined) ? "NaN" : selected_county_population[year]
-    let population_text = "Befolkning år " + year + ": " + population + " personer.\n"
 
 
     
 
-
-
+// -- This is the code that was in the original updateResult function
+    // Round the number to 2 decimal places
     var infoValue = parseFloat(info);
-
     infoValue = infoValue.toFixed(2);
-
     info = infoValue.toString();
-
+    // Set the text in the result box
     var element = document.getElementById("result-text"); 
     element.innerText = info +" ton"
-
-
-
+    // Set the text in the location box
     var element = document.getElementById("location-text");
     element.innerText =  majorities_text + population_text
 

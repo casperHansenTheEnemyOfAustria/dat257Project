@@ -7,6 +7,7 @@ import sqlite3
 import processFiles as pf
 import download as dl
 import db as db
+import municipalities_regions_process as mrp
 
 
 if __name__ == "__main__":
@@ -16,4 +17,5 @@ if __name__ == "__main__":
     emission_types = [option.get('value') for option in options]
     dl.download_files(emission_types)
     pf.open_files()
+    mrp.main()
     db.main()

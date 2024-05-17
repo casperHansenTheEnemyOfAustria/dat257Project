@@ -37,11 +37,12 @@ type Repo = {
  
 type municipalityJSONlist = {
   name: string;
-  info: [string, string][];
+  info: {majorities: { [key: number]: string[]; }};
   emissions: {
     [key: number]: number[];
   };
   years: number[];
+
 }[];
 /* ---  fetching from the backend --- */
 /**
