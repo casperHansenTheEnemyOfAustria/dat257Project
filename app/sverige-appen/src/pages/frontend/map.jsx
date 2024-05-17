@@ -193,7 +193,7 @@ class Map extends React.Component {
           
         } else {
             if (feature.properties.name === result_mn) {
-                return { color: '#cb99e6', stroke: false, fillOpacity: 100 }; // Change this to the color you want
+                return { color: '#00ec60', stroke: false, fillOpacity: 100 }; // Change this to the color you want
             } else {
                 return { opacity: 0, fillOpacity: 0 }; // Default color
             }
