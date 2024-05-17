@@ -50,6 +50,9 @@ export default function Chart({repo}) {
     }
   }
 
+  const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const isLightMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+
   return (
     <Line
     className="chart"
@@ -60,6 +63,9 @@ export default function Chart({repo}) {
           label: 'Emissions',
           data: emissions,
           spanGaps: true,
+          backgroundColor: isDarkMode ? '#00EC60': '#ff139f', // Change the color here
+          borderColor: isDarkMode ? '#00EC60' : '#ff139f', // Change the color here
+          borderWidth: 2
 
         }, 
       ],

@@ -45,6 +45,96 @@
     border-radius: 0.5rem;
     width:50%
   }
+
+  #popup-close-button{
+    position: absolute;
+    overflow: hidden;
+
+    border: none;
+    padding: 0;
+    width: 5em; height: 5em;
+    border-radius: 50%;
+    background: transparent;
+    color: #ff139f;
+    font: inherit;
+    text-indent: 100%;
+    cursor: pointer;
+    top: 90%;
+    left: 135%;
+    
+    &:focus {
+      outline: solid 0 transparent;
+      box-shadow: 0 0 0 2px #8ed0f9
+    }
+    
+    &:hover {
+      background: rgba(29, 161, 142, .1)
+    }
+    
+    &:before, &:after {
+      position: absolute;
+      top: 15%; left: calc(50% - .0625em);
+      width: .125em; height: 70%;
+      border-radius: .125em;
+      transform: rotate(45deg);
+      background: currentcolor;
+      content: ''
+    }
+    
+    &:after { transform: rotate(-45deg); }
+  }
+
+  .popup-header{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 1vw;
+    margin-top: 1vh;
+  
+  }
+  
+  .popup-text{
+    color: white;
+    font-size: 1rem;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    overflow-y: scroll;
+    /* margin-bottom: 0; */
+    position: relative;
+  }
+
+
+  .popup-background{
+    display:flex;
+    flex-direction: column;
+    background-color: #323232;
+    height: 70vh;
+    width: 45vw;
+    border: none !important;
+    border-radius: 15px;
+    position: absolute;
+    top: -50%; /* Adjust as needed */
+    left: -20%; /* Adjust as needed */
+ 
+  }
+
+  .popup-open-button{
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
 }
 
 /* Light Mode and base */
@@ -232,6 +322,7 @@ select {
   transition-duration: 0.2s;
 }
 
+
 .searchButton:hover {
   border-color: #D1D5DB; 
   background-color: #F3F4F6; 
@@ -243,4 +334,120 @@ select {
 .chart {
   position: relative;
 }
+
+.popup-background{
+  background-color: #D6DBDC;
+  height: 70vh;
+  width: 45vw;
+  border: none !important;
+  border-radius: 15px;
+  position: absolute;
+  top: -50%; /* Adjust as needed */
+  left: -20%; /* Adjust as needed */
+
+}
+
+.popup-root{
+  opacity: 1;
+  
+}
+
+.popup-header{
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 1vw;
+  margin-top: 1vh;
+
+}
+
+.popup-text{
+  color: black;
+  font-size: 1rem;
+  margin-left: 1vw;
+  margin-top: 1vh;
+}
+
+.popup-text-1{
+  margin-right: 180px;
+}
+
+#popup-1{
+  background-color: transparent;
+  height: 30vh;
+  width: 30vw;
+  border: none !important;
+}
+
+#popup-close-button{
+
+	overflow: hidden;
+	position: absolute; 
+	border: none;
+	padding: 0;
+	width: 5em; height: 5em;
+	border-radius: 50%;
+	background: transparent;
+	color: #bbfeab;
+	font: inherit;
+	text-indent: 100%;
+	cursor: pointer;
+  top: 90%;
+  left: 135%;
+	
+	&:focus {
+		outline: solid 0 transparent;
+		box-shadow: 0 0 0 2px #8ed0f9
+	}
+	
+	&:hover {
+		background: rgba(29, 161, 142, .1)
+	}
+	
+	&:before, &:after {
+		position: absolute;
+		top: 15%; left: calc(50% - .0625em);
+		width: .125em; height: 70%;
+		border-radius: .125em;
+		transform: rotate(45deg);
+		background: currentcolor;
+		content: ''
+	}
+	
+	&:after { transform: rotate(-45deg); }
+}
+
+.popup-image {
+    width: 150px;
+    background-image: url("./frontend/public/E_WEB_Goal_11.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 25%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    left: 80%;
+    top: 5%;
+    height: 150px;
+    }
+
+
+.popup-open-button{
+  background-color: #bbfeab;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 10px 24px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
 }
