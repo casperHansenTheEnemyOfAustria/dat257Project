@@ -1,3 +1,7 @@
+/**
+ * Class that holds the information about the majorities and population of the different regions.
+ * This is just a map and could be replaced by a custom type in the future.
+ */
 export class Info {
     private majorities: Map<number, string[]>;
     private population: Map<number, number>;

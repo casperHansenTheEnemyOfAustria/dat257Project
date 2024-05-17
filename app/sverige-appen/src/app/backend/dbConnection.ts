@@ -230,8 +230,12 @@ export class dbConnection {
         return emissions;
     }
 
-    //Returns a map of election years and the corresponding parties governing in the region
-    //Alla is regeringen (national government)
+    /**
+     * Returns a map of election years and the corresponding parties governing in the region
+    * Alla is regeringen (national government)
+    * @param region name of the region¨
+    * @returns the majority parties in the region per year
+    */
     public async getPartiesPerRegion(region: string): Promise<Map<number, string[]>> {
         var query = `SELECT År, M, C, L, KD, S, V, MP, SD, ÖP  FROM styren_regions WHERE Län = ${"'"+region+"'"}`;
         var rows = await this.runAll(query);
@@ -249,6 +253,11 @@ export class dbConnection {
         return styren;
     }
 
+    /**
+     * petched a lisdt of majority parties over the years for a municipality
+     * @param municipality name of the municipality
+     * @returns 
+     */
     public async getPartiesPerMunicipality(municipality: string): Promise<Map<number, string[]>> {
         var query = `SELECT Valår, M, C, L, KD, S, V, MP, SD, ÖP  FROM styren_kommuner WHERE Kommun = ${"'"+municipality+"'"}`;
         var rows = await this.runAll(query);

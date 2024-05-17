@@ -1,5 +1,8 @@
 import { Info } from "./info";
 
+/**
+ * A class representing the municipality object
+ */
 export class Municipality {
     name: string;
     info: Info;
@@ -14,15 +17,29 @@ export class Municipality {
 
 
 
-    // returns the emissions map of the county
+
+    /**
+     * 
+     * @returns a list of the names of the municipalities in the county
+     */
     getEmissions(): Map<number, number[]> {
         return this.emissions;
     }
 
+    /**
+     * @param n - the year to get the emissions for
+     * @returns a list of the names of the municipalities in the county
+     */
     getEmissionsByYear(n: number): number[] {
         return this.emissions.get(n) as number[];
     }
 
+    /**
+     * 
+     * @param year - the year to get the emissions for
+     * @param gas - the gas to get the emissions for
+     * @returns the emissions for the given year and gas
+     */
     getEmissionsByYearAndGas(year: number, gas: number): number {
         var output = this.emissions.get(year)?.[gas];
         if (output == undefined) {
