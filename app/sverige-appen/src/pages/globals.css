@@ -54,8 +54,9 @@
   }
 
   #popup-close-button{
+    position: absolute;
     overflow: hidden;
-    position: relative; 
+
     border: none;
     padding: 0;
     width: 5em; height: 5em;
@@ -65,8 +66,8 @@
     font: inherit;
     text-indent: 100%;
     cursor: pointer;
-    top: 0px;
-    left: 760px;
+    top: 90%;
+    left: 135%;
     
     &:focus {
       outline: solid 0 transparent;
@@ -104,9 +105,15 @@
     font-size: 1rem;
     margin-left: 1vw;
     margin-top: 1vh;
+    overflow-y: scroll;
+    /* margin-bottom: 0; */
+    position: relative;
   }
 
+
   .popup-background{
+    display:flex;
+    flex-direction: column;
     background-color: #323232;
     height: 70vh;
     width: 45vw;
@@ -115,7 +122,7 @@
     position: absolute;
     top: -50%; /* Adjust as needed */
     left: -20%; /* Adjust as needed */
-  
+ 
   }
 
   .popup-open-button{
@@ -387,8 +394,9 @@ h2 { /* Search bar */
 }
 
 #popup-close-button{
+
 	overflow: hidden;
-	position: relative; 
+	position: absolute; 
 	border: none;
 	padding: 0;
 	width: 5em; height: 5em;
@@ -398,8 +406,8 @@ h2 { /* Search bar */
 	font: inherit;
 	text-indent: 100%;
 	cursor: pointer;
-  top: 0px;
-  left: 760px;
+  top: 90%;
+  left: 135%;
 	
 	&:focus {
 		outline: solid 0 transparent;
@@ -432,8 +440,9 @@ h2 { /* Search bar */
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
-    left: 685px;
+    left: 125%;
     top: 5%;
+    height: 150px;
     }
 
 
