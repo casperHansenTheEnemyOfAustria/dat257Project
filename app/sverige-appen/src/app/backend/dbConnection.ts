@@ -139,8 +139,14 @@ export class dbConnection {
             else {                
                 emissions.set(row.År, [row.Value]);
             }
+
         });
-        let output = new Municipality(name, emissions);
+        var majorities = await this.getPartiesPerMunicipality(name);
+        var population_information = new Map<number, number>();
+
+        var info = new Info(majorities, population_information);
+
+        let output = new Municipality(name, emissions,info );
         return output;
     }
     /**
@@ -242,6 +248,25 @@ export class dbConnection {
         });
         return styren;
     }
+
+    public async getPartiesPerMunicipality(municipality: string): Promise<Map<number, string[]>> {
+        var query = `SELECT Valår, M, C, L, KD, S, V, MP, SD, ÖP  FROM styren_kommuner WHERE Kommun = ${"'"+municipality+"'"}`;
+        var rows = await this.runAll(query);
+
+        var styren = new Map<number, string[]>();
+        //let valid_years = await this.getEmissionYears();
+        rows.forEach((row: any) => {
+    
+            let year = row.Valår;
+
+            let parties = [row.M, row.C, row.L, row.KD, row.S, row.V, row.MP, row.SD, row.ÖP];
+            parties = parties.filter(e => e);
+            styren.set(year, parties);
+        
+        });
+        return styren;
+    }
+
 
 
     // Returns the population of a region per year

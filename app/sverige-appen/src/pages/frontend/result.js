@@ -30,37 +30,44 @@ export function updateResult(repo, ln, year, emission, municipality) {
     console.log(emission)
     var emission = repo.emissionTypes.indexOf(emission)
     console.log("emission: " + emission)
+    let population_text
+    let majorities_text
     repo.counties.forEach((county) => {
        
         
       if (county.name == ln && municipality == "Alla") {
         // console.log(county.emissions[year])
-         info = county.emissions[year][emission]
-         console.log("ppeppeppeppe e")
-         var element = document.getElementById("location");
-         element.innerText =ln
+        info = county.emissions[year][emission]
+        var element = document.getElementById("location");
+        element.innerText =ln
+
+        let selected_county_info = repo.counties.find(county => county.name === ln).info
+
+        let selected_county_majority = selected_county_info.majorities
+        let majority = (selected_county_majority[year] == undefined) ? "NaN" : selected_county_majority[year]
+        majorities_text = "Styrande partier år " + year + ": " + majority + ",\n"
+        console.log(selected_county_info)
+        let selected_county_population = selected_county_info.populations
+        let population = (selected_county_population[year] == undefined) ? "NaN" : selected_county_population[year]
+        population_text = "Befolkning år " + year + ": " + population + " personer.\n"
       }else if(county.name == ln && municipality != "Alla"){
         repo.municipalities[ln].forEach((mInC) => {
-            console.log(mInC.name)
             if(mInC.name == municipality){
                 info = mInC.emissions[year][emission]
                 var element = document.getElementById("location");
                 element.innerText =municipality
+
+                let selected_municipality_info = mInC.info
+                
+                let selected_municipality_majority = selected_municipality_info.majorities
+                majorities_text = "Styrande partier år " + year + ": " + selected_municipality_majority[year] + ",\n"
+                population_text = "Not available for municipalities"
             }
         })
       }
       
     }); 
-    let selected_county_info = repo.counties.find(county => county.name === ln).info
 
-    let selected_county_majority = selected_county_info.majorities
-    let majority = (selected_county_majority[year] == undefined) ? "NaN" : selected_county_majority[year]
-    let majorities_text = "Styrande partier år " + year + ": " + majority + ",\n"
-
-    let selected_county_population = selected_county_info.populations
-    console.log(selected_county_population)
-    let population = (selected_county_population[year] == undefined) ? "NaN" : selected_county_population[year]
-    let population_text = "Befolkning år " + year + ": " + population + " personer.\n"
 
 
     

@@ -1,19 +1,18 @@
+import { Info } from "./info";
+
 export class Municipality {
     name: string;
-    info: Map<string, string>;
+    info: Info;
     emissions: Map<number, number[]>;
 
-    constructor(name: string, emissions: Map<number, number[]>){
+
+    constructor(name: string, emissions: Map<number, number[]>, info: Info){
         this.name = name;
-        this.info = new Map<string, string>(); // TODO fetch from db
+        this.info = info; // Fetching is done in getServerSideProps
         this.emissions = emissions; // TODO fetch from db
     }
 
 
-    // returns the info map of the county
-    getInfo(): Map<string, string> {
-        return this.info;
-    }
 
     // returns the emissions map of the county
     getEmissions(): Map<number, number[]> {
@@ -39,15 +38,27 @@ export class Municipality {
         return this.name;
     }
 
+
     toJSON() {
         return {
             name: this.name,
-            info: Array.from(this.info.entries()),
+        
             emissions: Array.from(this.emissions.entries()).reduce((obj, [key, value]) => {
                 obj[key] = value;
                 return obj;
             }, {} as { [key: number]: number[] }),
-            years: Array.from(this.emissions.keys())
+            years: Array.from(this.emissions.keys()),
+            info: {
+                majorities: Array.from(this.info.getMajorities().entries()).reduce((obj, [key, value]) => {
+                    obj[key] = value;
+                    return obj;
+                }, {} as { [key: number]: string[] }),
+                populations: Array.from(this.info.getPopulation().entries()).reduce((obj, [key, value]) => {
+                    obj[key] = value;
+                    return obj;
+                }, {} as { [key: number]: number }) 
+            },
+
         };
     }
 
