@@ -5,6 +5,7 @@ import { Bar, Line } from 'react-chartjs-2';
 import { useState } from 'react';
 import '../globals.css';
 
+
 export default function Chart({repo}) {
   const [count, setCount] = useState(0);
   const update= () => {
@@ -50,8 +51,8 @@ export default function Chart({repo}) {
     }
   }
 
-  const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const isLightMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+  // const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  // const isLightMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
 
   return (
     <Line
@@ -63,8 +64,8 @@ export default function Chart({repo}) {
           label: 'Emissions',
           data: emissions,
           spanGaps: true,
-          backgroundColor: isDarkMode ? '#00EC60': '#ff139f', // Change the color here
-          borderColor: isDarkMode ? '#00EC60' : '#ff139f', // Change the color here
+          backgroundColor:  '#00EC60',// Change the color here
+          borderColor: '#00EC60', // Change the color here
           borderWidth: 2
 
         }, 

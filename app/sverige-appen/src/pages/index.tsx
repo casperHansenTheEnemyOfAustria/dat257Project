@@ -100,7 +100,6 @@ export default function Home({
 }: InferGetServerSidePropsType<typeof getServerSideProps>)  {
 
   return (
-    
     <main>
       <Grid container spacing={0}>
       <div className="gradient"></div>
