@@ -440,7 +440,7 @@ h2 { /* Search bar */
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
-    left: 125%;
+    left: 80%;
     top: 5%;
     height: 150px;
     }
