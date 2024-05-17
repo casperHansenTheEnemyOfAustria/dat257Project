@@ -16,7 +16,7 @@ def process_file(file_path):
             
 
 def read_file(file_path):
-    with open(file_path, 'r') as file:
+    with open(file_path, 'rb') as file:
         return pd.read_csv(file)
 
 def process_regions_file(file_path='app/sverige-appen/Data/Styren Regioner 1994-csv.csv'):
@@ -43,8 +43,20 @@ def process_population_file(file_path='app/sverige-appen/Data/swedish population
     df_population = pd.concat([df_population, df_population_sweden], ignore_index=True)
     df_population.to_csv('app/sverige-appen/Data/swedish_population_transposed.csv', index=False)
 
+def process_municipalities_file(file_path='app/sverige-appen/Data/Styren Kommuner 1994_csv_modified.csv'):
+    df = pd.read_csv(file_path)
+    correctMunicipalityNames = pd.read_csv('app/sverige-appen/Data/data.csv')['Kommun'].unique()
+    for i in range(len(correctMunicipalityNames)):
+        for d in df[df['Kommun'].str.contains(correctMunicipalityNames[i])]['Kommun']: 
+            df.replace (d , correctMunicipalityNames[i], inplace=True)
+    print(df)
+        # output._append(df[(df['Kommun'].str.contains(correctMunicipalityNames.iloc(i)))])
+    df.to_csv('app/sverige-appen/Data/Styren Kommuner 1994_csv_modified.csv', index=False)
+                
+        
 
 def main():
+    process_municipalities_file()
     df = read_file('app/sverige-appen/Data/Styren Kommuner 1994_csv_modified.csv')
     df.drop(['Kod'], axis=1, inplace=True)
     df.to_csv('app/sverige-appen/Data/Styren_processed.csv', index=False)
