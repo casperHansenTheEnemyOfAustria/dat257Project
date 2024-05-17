@@ -60,7 +60,8 @@ export function updateResult(repo, ln, year, emission, municipality) {
                 let selected_municipality_info = mInC.info
                 
                 let selected_municipality_majority = selected_municipality_info.majorities
-                majorities_text = "Styrande partier år " + year + ": " + selected_municipality_majority[year] + ",\n"
+                let majority = (selected_municipality_majority[year] == undefined) ? "NaN" : selected_municipality_majority[year]
+                majorities_text = "Styrande partier år " + year + ": " + majority+ ",\n"
                 population_text = "Not available for municipalities"
             }
         })

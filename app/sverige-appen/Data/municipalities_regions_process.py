@@ -47,7 +47,9 @@ def process_municipalities_file(file_path='app/sverige-appen/Data/Styren Kommune
     def repeat_rows(row):
         start_year = row['Valår']
         end_year = start_year + 4
-        return pd.DataFrame({col: np.repeat(val, 4) if col != 'Valår' else np.arange(start_year, end_year) for col, val in row.items()})
+        output = pd.DataFrame({col: np.repeat(val, 4) if col != 'Valår' else np.arange(start_year, end_year) for col, val in row.items()})
+        # print(output)
+        return output
     df = pd.read_csv(file_path)
     correctMunicipalityNames = pd.read_csv('app/sverige-appen/Data/data.csv')['Kommun'].unique()
     for i in range(len(correctMunicipalityNames)):
@@ -55,9 +57,10 @@ def process_municipalities_file(file_path='app/sverige-appen/Data/Styren Kommune
             if d in correctMunicipalityNames:
                 continue
             df.replace(d , correctMunicipalityNames[i], inplace=True)
+    print(df.apply(repeat_rows, axis=1).tolist())
     all_year_df = pd.concat(df.apply(repeat_rows, axis=1).tolist(), ignore_index=True)
-    print(all_year_df)
-    df.to_csv('app/sverige-appen/Data/Styren Kommuner 1994_csv_modified_modified.csv', index=False)
+    # print(all_year_df)
+    all_year_df.to_csv('app/sverige-appen/Data/Styren Kommuner 1994_csv_modified_modified.csv', index=False)
                 
         
 
