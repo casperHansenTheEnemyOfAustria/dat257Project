@@ -1,12 +1,14 @@
+'use client'
 import React from 'react';
 
-import { MapContainer, GeoJSON, useMap } from "react-leaflet";
-import counties from "./public/geography/counties.json";
-import municipalities from "./public/geography/municipalities.json";
-import '../globals.css';
+import {MapContainer, GeoJSON, useMap } from "react-leaflet";
+import counties from "../pages/frontend/public/geography/counties.json";
+import municipalities from "../pages/frontend/public/geography/municipalities.json";
+import '../pages/globals.css';
 import "leaflet/dist/leaflet.css";
-import Legend from './Legend.js';
-
+import Legend from '../pages/frontend/Legend.js';
+import { useEffect } from 'react';
+const isSsr = typeof window === "undefined";
 
 
 import colorGradient from 'javascript-color-gradient';
@@ -60,6 +62,7 @@ class Map extends React.Component {
         var new_result_ln = result_ln.replace('s län', '');
         var new_result_ln = new_result_ln.replace(' län', '');
         var new_result_ln = new_result_ln.replace('Örebro', 'Orebro');
+        // eslint-disable-next-line react-hooks/rules-of-hooks
         this.map = useMap();
 
         if (new_result_ln == 'Alla') {
@@ -125,7 +128,7 @@ class Map extends React.Component {
 
 
 
-        
+        // eslint-disable-next-line react-hooks/rules-of-hooks
         this.map = useMap();
         try{
             this.map.fitBounds(bounds);
@@ -202,8 +205,10 @@ class Map extends React.Component {
         
     }
     render() {
+
+        
         return (
-           
+  
             <MapContainer key={this.state.mapKey}  center={[62.0, 15.0]} scrollWheelZoom={false} zoom={5} attributionControl={false} className={'map'} id={'mapid'} mapRef={this.ref}>
                 <GeoJSON data={counties.features} onEachFeature={this.onEachFeature.bind(this)} style={this.getStyle.bind(this) } />
                 <GeoJSON data={municipalities.features} onEachFeature={this.onEachFeatureMuni.bind(this)} style={this.getStyleMuni.bind(this)} />
@@ -213,6 +218,7 @@ class Map extends React.Component {
             
             
         );
+
     }
 }
 

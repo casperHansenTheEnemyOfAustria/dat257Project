@@ -1,5 +1,7 @@
+'use client'
+
 import React from 'react';
-import '../globals.css';
+import '../pages/globals.css';
 import { Grid } from '@material-ui/core';
 
 export default function Resultbox({counties}) {

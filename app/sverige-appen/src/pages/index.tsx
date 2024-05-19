@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 
 import {dbConnection} from "@/app/backend/dbConnection";
@@ -8,24 +10,24 @@ import type {InferGetStaticPropsType, InferGetServerSidePropsType, GetServerSide
 import "./globals.css";
 import React from 'react';
 
-import Resultbox from './frontend/result';
-import Dropdown_Ln from "./frontend/dropdown_ln";
-import Dropdown_Year from './frontend/dropdown_year';
-import Dropdown_Mun from './frontend/dropdown_mun';
-import Dropdown_Emission from './frontend/dropdown_emission';
-import Chart from './frontend/chart';
-import {GlobalGoal} from './frontend/globalGoal.js';
+import Resultbox from '../lib/result';
+import Dropdown_Ln from "../lib/dropdown_ln";
+import Dropdown_Year from '../lib/dropdown_year';
+import Dropdown_Mun from '../lib/dropdown_mun';
+import Dropdown_Emission from '../lib/dropdown_emission';
+import Chart from '../lib/chart';
+import GlobalGoal from './frontend/globalGoal.js';
 
-import { Header } from './frontend/header';
-import { updateResult } from './frontend/result';
+import { Header } from '../lib/header';
+import { updateResult } from '../lib/result';
 import { Municipality } from "@/app/backend/minicipality";
 import dynamic from "next/dynamic";
 import Grid from '@material-ui/core/Grid';
 
 
 
-const SwedishMap = dynamic(() => import('./frontend/map.jsx'), { ssr: false })
-const LineChart = dynamic(() => import('./frontend/chart.js'), { ssr: false })
+const SwedishMap = dynamic(() => import('../lib/map.jsx'), { ssr: false })
+const LineChart = dynamic(() => import('../lib/chart.js'), { ssr: false })
 
 
 type Repo = {
@@ -99,7 +101,14 @@ export const getServerSideProps = (async () => {
 export default function Home({
   repo,
 }: InferGetServerSidePropsType<typeof getServerSideProps>)  {
-
+  if (repo == undefined || !repo.counties || !repo.municipalities || !repo.emissionTypes || !repo.currentSearch) {
+    return {
+      counties : [],
+      municipalities: [],
+      emissionTypes: [],
+      currentSearch: {county: "Alla", year: 1990, emission: "", municipality: "Alla"}
+    }
+  }
   return (
     <main>
       <Grid container spacing={0}>

@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react';
 import dynamic from 'next/dynamic'
 //importing globals
@@ -40,3 +42,5 @@ export const GlobalGoal = () => {
       </div>
     );
   } 
+
+  export default GlobalGoal;
