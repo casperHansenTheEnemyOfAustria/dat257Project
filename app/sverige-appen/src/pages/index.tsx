@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import {dbConnection} from "@/app/backend/dbConnection";
 
-import { ThemeProvider } from "@material-ui/core";
+// import { ThemeProvider } from "@mui/core/styles";
 import type {InferGetStaticPropsType, InferGetServerSidePropsType, GetServerSideProps, GetStaticProps } from 'next'
 
 import "./globals.css";
@@ -22,7 +22,7 @@ import { Header } from '../lib/header';
 import { updateResult } from '../lib/result';
 import { Municipality } from "@/app/backend/minicipality";
 import dynamic from "next/dynamic";
-import Grid from '@material-ui/core/Grid';
+import Grid from '@mui/material/Grid';
 
 
 

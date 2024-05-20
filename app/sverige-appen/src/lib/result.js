@@ -2,7 +2,7 @@
 
 import React from 'react';
 import '../pages/globals.css';
-import { Grid } from '@material-ui/core';
+import { Grid } from '@mui/material';
 
 export default function Resultbox({counties}) {
         {
