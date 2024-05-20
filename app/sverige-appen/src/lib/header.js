@@ -1,10 +1,11 @@
 
+'use client'
 
 import React from 'react';
 import dynamic from 'next/dynamic'
 //importing globals
-import '../globals.css';
-import { Grid } from '@material-ui/core';
+import '../pages/globals.css';
+import { Grid } from '@mui/material';
 
 
 //importing components
