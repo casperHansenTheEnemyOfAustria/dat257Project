@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import {dbConnection} from "@/app/backend/dbConnection";
 
-
+import { ThemeProvider } from "@material-ui/core";
 import type {InferGetStaticPropsType, InferGetServerSidePropsType, GetServerSideProps, GetStaticProps } from 'next'
 
 import "./globals.css";
