@@ -18,7 +18,7 @@ import Dropdown_Emission from '../lib/dropdown_emission';
 import Chart from '../lib/chart';
 import GlobalGoal from './frontend/globalGoal.js';
 
-import { Header } from '../lib/header';
+import Header  from './header';
 import { updateResult } from '../lib/result';
 import dynamic from "next/dynamic";
 import Grid from '@mui/material/Grid';
