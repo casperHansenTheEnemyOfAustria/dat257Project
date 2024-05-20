@@ -20,7 +20,6 @@ import GlobalGoal from './frontend/globalGoal.js';
 
 import { Header } from '../lib/header';
 import { updateResult } from '../lib/result';
-import { Municipality } from "@/app/backend/minicipality";
 import dynamic from "next/dynamic";
 import Grid from '@mui/material/Grid';
 
