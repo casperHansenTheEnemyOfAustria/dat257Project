@@ -171,8 +171,13 @@ class Map extends React.Component {
 
 
             var current_emission_index = this.props.repo.emissionTypes.indexOf(result_emission);
-
-            var emissionForAllCounties =  munies[0].emissions[result_year][current_emission_index];
+            var indexOfAlla = munies.findIndex(function (muni) {
+                return muni.name == 'Alla';
+            });
+            var currentCounty = this.props.repo.counties.find(function (county) {
+                return county.name == currentSearchCounty;} );
+            
+            var emissionForAllCounties =  currentCounty.emissions[result_year][current_emission_index];
 
             for (var i = 0; i < munies.length; i++) {
                 var new_result_ln = munies[i].name;
@@ -181,8 +186,8 @@ class Map extends React.Component {
                 if (new_result_ln == feature.properties.name) {
 
                     var emissionNum = munies[i].emissions[result_year][current_emission_index];
-                    var emissionPercentage = emissionNum / emissionForAllCounties;
-             
+                    var emissionPercentage = emissionNum*100/ emissionForAllCounties;
+                   
 
                     color = gradient.getColor(emissionPercentage);
         
